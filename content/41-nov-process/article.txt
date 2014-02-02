@@ -1,0 +1,52 @@
+Title: Posts on Process – November 2012
+----
+Date: 11/13/2012
+----
+Hero: process.png
+----
+Text: 
+
+From Frank Chimero’s _(link:http://www.shapeofdesignbook.com/ text:The Shape of Design)_:
+
+> “We can get closer to the wisdom of other people by having them explain their decisions – not just in How they were executed, but Why they were made…  Asking Why unlocks a new form of beauty by making choices observable so they can be discussed and considered.”
+
+(imgslide: process-in0.jpg)
+
+I’m constantly trying to improve the content on The Why Axis and I’m realizing the best way to do that is to get more voices involved. Not everyone can commit to being a regular contributor  (though I’m always open to it) so what I’ve decided to do is go out and interview the designers behind the visualizations to get answers to both the “why” and “how” questions that come up during every design process.
+
+My hope is that this kind of post will be extremely useful for anyone who makes or uses modern data visualization. I’ve been seeing some evidence of this in some other blog posts published recently. The following are posts that go behind the scenes and expose the process of creating complex and beautiful visualizations. They reveal practical insights which I hope to be able to bring you from future articles published here.
+
+--
+
+
+## National Infographic – Charting Weather Disasters
+
+(imgslide: process-in1.jpg link:http://juanvelascoblog.com/2012/11/12/charting-weather-disasters/ )
+
+Juan Velasco is the Art Director at (link:http://juanvelascoblog.com/ text:National Geographic) and his new blog is called National Infographic. In his recent post he talks about “(link:http://juanvelascoblog.com/2012/11/12/charting-weather-disasters/ text:Charting Weather Disasters)” an infographic published in the print edition of the magazine and then redesigned for the iPad edition. He walks us through the iterative design process showing early versions and explaining design decisions. (link:http://juanvelascoblog.com/2012/11/12/charting-weather-disasters/ text:The finished piece) has a unique look and effectively tells the story of mounting damages incurred by frequent sever weather events.
+
+
+--
+
+## Mapbox Blog – How we built USA Today’s Election Night Maps
+
+(imgslide:process-in2.jpg link:http://mapbox.com/blog/election-mapping-usatoday/)
+
+For the geospatially minded, Mapbox has written up an (link:http://mapbox.com/blog/election-mapping-usatoday/ text:excellent explanation of their technical process) for creating a maps application for USA Today. The article doesn’t talk much about the visual design but there is lots of beautiful efficiency, stability and scalability to be found here. There's nothing like building great visualizations on a rock solid platform.
+
+--
+
+## Source – The NYT’s Visual Election Outcome Explorer
+
+(imgslide: whitehouse-in2.jpg link:http://source.mozillaopennews.org/en-US/articles/nyts-512-paths-white-house/ )
+
+Shan Carter and Mike Bostock do a write up of their NYT published 512 Paths to the White House, my favorite visualization of the year. The article has enough technical detail for coders and enough practical insight for any visualization enthusiast. Plus there’s a Easter egg of sorts revealed if you read the article.
+
+## The Ask
+
+Are you a practitioner who would like to help the visualization community by talking about your process? Or is there a visualization you’re dying to know the secrets behind? Either way, don’t hesitate to get in touch with @thewhyaxis on twitter or through the contact page.
+
+----
+related:
+- whitehouse
+- visually

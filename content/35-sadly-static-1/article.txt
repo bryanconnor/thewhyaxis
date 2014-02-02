@@ -1,0 +1,43 @@
+Title: Sadly Static: Hurricanes Since 1851
+----
+Date: 8/27/2012
+----
+Hero: ss-hurricane-feature.jpg
+----
+Text: 
+
+In the first installment of Sadly Static we look at a gigantic graphic created by (twitter:@johnnelsonIDV). John works at (link:http://www.idvsolutions.com/ text:IDV Solutions), a producer of sophisticated geospatial visualizations, interactive and otherwise.
+
+(imgslide: ss-hurricane-in1.jpg link:ss-hurricane-in1.jpg)
+
+John seems to have taken this on in his spare time noting in (link:http://uxblog.idvsolutions.com/2012/08/hurricanes-since-1851.html text:his blog post):
+
+> “The best part about this process was finding a map projection that would be both cool looking and show the circuitous structure of the data.”
+
+--
+
+John definitely hit the cool looking requirement needed to (link:http://www.zazzle.com/hurricanes_since_1851_print-228175179016726689 text:sell this graphic as a poster) but as a resident of the western hemisphere I wonder if he plays down the importance of geography too much when trying to show the “circuitous structure.” This projection shows the supposed macro hurricane but makes geographic orientation pretty tough. It takes me a while to find the equator which is an important factor given that hurricanes don’t form at all in the region. Some of the other projections he tried and a few from (link:http://en.wikipedia.org/wiki/Tropical_cyclone text:Wikipedia show this much more clearly.
+
+(imgslide: ss-hurricane-in2.jpg link:http://en.wikipedia.org/wiki/Tropical_cyclone)
+
+--
+
+In any case, the pure density of data here begs to be set free as an interactive graphic. I’d love to be able to separate out tropical storms and just see the hurricanes or only show the category 5 hurricanes.
+
+(imgslide: ss-hurricane-in4.jpg)
+
+Perhaps more importantly, John has plotted data since 1851, long before hurricanes were being tracked in all hemispheres by satellite. To me, the graphic partially suggests that the data represents all hurricanes since 1851, which isn’t true. He’s provided a smaller graph in the bottom right to help explain this but here too, things would be more obvious if this graph were also an interactive range selector that would filter the storms being plotted on the map.
+
+This is a fascinating data set and a beautifully detailed representation. It would really come to life in an interactive format. If you like it too you should buy a poster and perhaps John can use the proceeds to justify spending time on an interactive version.
+
+--
+
+_Edit: Stamen’s (link:http://stamen.com/studio/mike text:Michal Migurski) left a comment that brought my attention back to a (link:http://www.msnbc.msn.com/id/30072578#.UDzxZGie49X text:visualization they produced for MSNBC) which tracks historical hurricanes (in the Atlantic) with some great interactivity. Take a look._  
+
+(imgslide: ss-suplement2.jpg link:http://www.msnbc.msn.com/id/30072578#.UDzxZGie49X)
+
+
+----
+related:
+- weather
+- hurricane

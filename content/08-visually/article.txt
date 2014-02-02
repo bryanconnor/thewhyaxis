@@ -1,0 +1,27 @@
+Title: Thoughts on the Launch of Visual.ly
+----
+Date: 7/15/2011
+----
+Hero: visually-yellow.jpg
+----
+Text: (link:http://visual.ly/ text:Visual.ly popup:yes) is a wildly successful startup promising to connect the public to publishers, designers and data. (link:http://twitter.com/slangille text:Stewart Langille popup:yes), the CEO behind it all, (link:http://telegraphjournal.canadaeast.com/rss/article/1420352 text:launched the company popup:yes) in April and already has a serious roster of (link:http://visual.ly/partners text:partnerships popup:yes) with major media producers. Visually has received a good deal of (link:http://visual.ly/about/investors/ text:funding popup:yes),  65,000 signups for access and has about 18000 (link:http://twitter.com/visually text: twitter followers popup:yes). It’s success proved a little overwhelming during launch when the amount of traffic brought down the site several times over.
+
+(youtube: https://www.youtube.com/watch?v=AiVKfNeRbPQ class: graphic)
+
+While the current Visual.ly is still only a beta version of what the fully launched site will be, it does give off some strong signals about how it will operate as a community in the data visualization / infographics space. In the future it plans to make one of its main features (link:http://eagereyes.org/blog/2011/visually-the-future-of-data-based-infographics text:a visualization engine popup:yes) that automates a good deal of the process of designing infographics. There isn’t much detail on this yet but it is another in a growing trend of site’s “democratizing” and automating the creation if data visualization (see the upcoming launch of (link:http://vizualize.me/ text:visualize.me popup:yes))
+
+For the initial launch the site focuses on indexing infographics from  its many media partners including (link:http://visual.ly/user/56 text:GOOD popup:yes), (link:http://visual.ly/user/92 text:National Geographic popup:yes), and (link:http://visual.ly/users/atlantic text:The Atlantic popup:yes). The site will also index visualizations from users who want to add content to the site and have their work seen. Visual.ly already boasts over 2000 indexed visualizations making it the largest community for infographics at its launch. As some folks pointed out on twitter, the one thing to keep and eye on is Visually’s terms of service. The (link:http://visual.ly/terms text:terms popup:yes) used some interesting language visualized by Periscopic (link:http://twitter.com/#!/Periscopic/status/91207997325451264 text:here popup:yes). The ability the service “fully exploit user submissions” makes the site feel less like it’s indexing visualizations for search and more like it’s consuming them for re-distribution.
+--
+
+(imgslide: visually-thumbs.jpg link: visually-thumbs.jpg)
+
+There have also been concerns over the initial lack of visualizations with interactive elements and those displaying large amounts of data. Since the launch the data visualization community has been discussing the new site while a broader audience was (link:http://visual.ly/twitter text:twitterizing popup:yes) themselves and posting the results to Facebook. Many of the visualizations listed so far look to me like products of what Enrico Bertini calls “(link:http://fellinlovewithdata.com/reflections/visualization-consumerism text:visualization consumerism. popup:yes)“
+
+(link:http://twitter.com/EagerEyes text:Robert Kosara popup:yes) of (link:http://eagereyes.org/ text:eagereyes popup:yes) is on the advisory board and says the site obviously has a lot of plans to expand and include a more diverse base of visualizations. (link:http://visual.ly/about/team/ text:Looking at the company popup:yes) itself, however, it’s easy to see where the social media / marketing influence the site displays originates from.
+
+It’s has only been a day since the launch of the site and clearly its influence and role in the data visualization community will continue to be defined by its users, staff and by the technology it produces. The data visualization community as well as infographics lovers everywhere will pay close attention to brand in the future.
+
+----
+related:
+- feltron
+- sotu

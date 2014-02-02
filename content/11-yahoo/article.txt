@@ -1,0 +1,46 @@
+Title: Visualizing Yahoo Mail in Near Realtime
+----
+Date: 10/18/2011
+----
+Hero: yahoo-featureyellow.jpg
+----
+Text: For every email you get in your Yahoo account, 4 spam emails get blocked. With 300 million users around the world there’s some interesting data being generated every second. Yahoo and (link:http://periscopic.com/ text:Periscopic popup:yes) have joined forces to (link:http://visualize.yahoo.com/ text:visualize popup:yes) the traffic for the number one email provider in America in near realtime.
+
+(imgslide: yahoo-in11.jpg link: yahoo-in11.jpg)
+
+--
+
+(link:http://visualize.yahoo.com/ text:The visualization popup:yes), completely built in HTML5, features some smooth animation and fun sound effects, both as the visualization is loading and throughout the interactions within it. The layout and design of the visualization work well with obvious buttons to reveal blocked spam near the timeline and to reveal trending keywords along the lefthand side. Trending keywords are shown as an animated stream-graph, a visualization form made popular by (link:http://lastgraph.aeracode.org/ text:Lastgraph popup:yes) and the (link:http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html text:NYT popup:yes) but improved drastically here with animation and interactivity.
+
+(imgslide: yahoo-in21.jpg link: yahoo-in21.jpg)
+
+
+--
+
+Being able to click and expand individual streams make this graph a lot more manageable. The way the keywords are displayed is very readable despite quick animation. It’s aslo entertaining in a way when there seems to be a tug of war between keywords. Revealing spam in the stream makes comparison easy and it’s interesting to see when keywords appear in both spam and non-spam streams.
+
+(imgslide: yahoo-in31.jpg link: yahoo-in31.jpg)
+
+
+--
+
+The map area is zoom-able and drag-able as you might expect. Location is less important when thinking about email so the map doesn’t get too fine-grained. Users can zoom in on a continent and drag the screen to snap to another but can’t zoom into the map further than that and rightly so. The timeline along the bottom also zooms at the same time, showing the last 5 minutes of activity in greater detail.
+
+(imgslide: yahoo-in41.jpg link: yahoo-in41.jpg)
+
+--
+
+The circle visualizations on the map show email frequency well but it’s almost impossible to get useful information out of their size even with a key. By clicking on any of the circles the visualization zooms to a third level, no longer map related. After a short animation we see a series of circles that represent individual emails undergoing Yahoo’s email verification process. The animation continues to a new sample of emails and runs through the same process.
+
+(imgslide: yahoo-in51.jpg link: yahoo-in51.jpg)
+
+This view is very much an abstraction of what’s taking place on the map but does reveal some more detail about the process. Each circle shows the verification process of 5 tests when the user hovers over it. Clicking on these circles again does something different than you might expect. Instead of zooming to another level of detail, the circles fall away to reveal a random illustration in a series of infographic slides. These simple visualizations try to give the user a sense of context and scale. For the huge numbers Yahoo works with, doing this is almost impossible. It is fantastic that each of the slides links to the source of that information. More visualizations should do this for the sweeping statistics they include.
+
+(link:http://visualize.yahoo.com/ text:The Yahoo Mail visualization popup:yes) encourages users to explore and it educates them about the service along the way. I think there are some issues with  the map zooming metaphor and the information it shows but the visualization is never hard to use. I’d like to see more exploration with the bottom timeline, showing email volume trends over larger periods of time. Having a 30 minute view by default looks a little static compared to the activity on the map. The 5 minute view is much better suited for the initial visualization and does a better job of showing near realtime fluctuations.
+
+The piece is somewhere between an enlightening visualization and a promotional piece for Yahoo Mail but as a whole it’s a good case study in data interaction and display for other near realtime visualizations. The folks at (link:http://periscopic.com/ text:Periscopic popup:yes), as always, have done a nice job of balancing data display, interaction and the needs of the client to create a well rounded visualization.
+
+----
+related:
+- emotion
+- music

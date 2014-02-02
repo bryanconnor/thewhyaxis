@@ -1,0 +1,42 @@
+Title: Understanding Scale in Radiation Dosage Charts
+----
+Date: 4/3/2011
+----
+Hero: fukushima-thumb.jpg
+----
+Text: We see more and more that major news events around the world generate infographics and data visualizations as a form of journalism. However, in the case of the Fukushima meltdowns the visualizations popped up (link:http://www.abc.net.au/news/stories/2011/03/31/3178263.htm text:in response to journalism popup:yes) about radiations levels in Japan and the Western United States. Several prominent figures in the world of infographics came up with radiation charts aimed at putting the events at Fukushima in perspective and quelling some fears in the public.
+
+The first of these comes from (link: http://xkcd.com/ text:XKCD popup: yes )‘s Randall Munroe. In a recognizable but reserved style, the visualization stacks and juxtaposes color blocks representing different dosages. Parts of the chart change scale and “zoom out” to larger and larger dosages.  Fukushima is referenced on the first chart area mid-way down, with one day’s exposure equaling less than a dental x-ray.
+
+(imgslide: xkcd.jpg link: xkcd.jpg)
+
+Randall’s “(link:http://blog.xkcd.com/2011/03/19/radiation-chart/ text:Radiation Dose Chart popup:yes)” does a great job of illustrating scale and proportion in a two dimensional static graphic. The transitions in scale showing the combination of all previous elements makes visual sense and helps the viewer compare any two dosages on the graphic. The chart responds to alarm expressed by news sources with a scientific explanation of radiation doses in the context of every day occurrences.
+
+On the whole, the visual design and readability of the chart could be improved by adding layers of typographic hierarchy and some whitespace. The aesthetics aren’t something I respond to but nothing about it gets in the way of the content. The portions that read “All the doses in the previous chart combined”  could be treated more importantly since they form the conceptual structure of the piece. This convention of a changing scale suggests a certain kind of interactivity noted by the fantastic designer and developer (link:http://desandro.com/ text:David Desandro popup:yes) of (link:http://nclud.com/ text:nclud popup:yes):
+
+> (twitter:@desandro): Call to the community: Re-make (link:http://xkcd.com/radiation/ text:http://xkcd.com/radiation/) in HTML / CSS. Use CSS scale transforms to zoom in / out.)
+
+--
+
+Another developer by the name of Jake Lear ((twitter:@jakelear)) courageously answered the call and created his own interactive radiation dose chart.
+
+(iframeslide: http://jacoblear.com/rads/ class: graphic)
+
+The (link:http://jacoblear.com/rads/ text:chart popup:yes) Jake created doesn’t have the same level of detail but you still get a sense of scale from the relatable dosages presented. Scrolling adds a different physical and visual component to the information and demonstrates the changes in scale much more clearly. It’s is a great example of adding simple interactivity to bring a visualization to life.
+
+Jake informed me that his chart is a work in progress and that he’ll be adding more information to it in future. Something else for him to consider would be further clarifications of scale and position. Making all of the squares on the site relate to each other on the same scale would reduce time spent deciphering the relationship between the size of the small and large squares of each color. Since the XKCD graphic is in response to Fukushima, it would be good to see radiation levels from the event plotted in this graphic somehow. Another possible addition would be some sort of permanent navigation that also served as an indication of scale based on your scroll position. (link:http://ohemilylove.us/emories/ text:Emories popup:yes) by Jonah Goldstien employs this general notion by having navigation next to the scrollbar. Follow (twitter: @jakelear) for updates to the graphic.
+--
+
+The final radiation chart in this series is the work of (link:http://www.davidmccandless.com/ text:David McCandless popup:yes), the famous visualizer of (link:http://www.informationisbeautiful.net/ text:Information is Beautiful popup:yes). David’s (link:http://www.informationisbeautiful.net/visualizations/radiation-dosage-chart/ text:radiation dosage chart popup:yes) is no exception to his trend of aesthetically beautiful work.
+
+(imgslide: triangle.jpg link: triangle.jpg)
+
+The large dynamic shape and bold colors certainly grab the eye and immediately illustrate a scale or comparison chart. The example dosages in this graphic are mostly the same as those in the XKCD chart presented here in a completely different way. The inclusion of Fukushima on the chart does a good job of relating its radiation levels to everyday experiences and starts to suggest what an appropriate cause for alarm should be.
+
+However, as noted on the chart itself, the triangle is purely illustrative and doesn’t represent any data or proportion of dosages noted. In essence this makes the graphic a textual list of dosages with a triangle gradient background. More than that, the triangle does suggest that some data is being visualized and may actually mislead viewers in interpreting scale relationships between items.
+
+Finding a way to visualize changes in logarithmic scale in any context is a challenge in two dimensions. Each chart visualizes the same basic information but each has a vastly different approach, some more effective than others. Which do you think was the most successful in making radiation doses understandable and why?
+----
+related:
+- bubble-tree
+- college

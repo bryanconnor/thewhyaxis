@@ -1,0 +1,51 @@
+Title: Finding Potential in the Pitfalls of Google Databoard
+----
+Date: 8/11/2013
+----
+Hero: databoard.jpg
+----
+Text:
+
+(link:http://think.withgoogle.com/databoard/ text:Google Databoard), the latest in a (link:http://thewhyaxis.info/zeitgeist/ text:series of data presentation tools) from the company, is focused on sharing the contents of its research reports. Google teamed up with (link:http://www.bynd.com/ text:Beyond) to make Databoard a reality on desktop, tablet and mobile devices. 
+
+(imgslide: databoard1.jpg link:http://think.withgoogle.com/databoard/)
+
+On (link:http://www.bynd.com/work/google-databoard/ text:Beyond's project page) they describe the objective:
+
+> "Google's goal was to find a way to enable the marketing community, and in particular its advertisers, to explore, read and share information from its wide ranging research reports."
+
+Their solution? Break down research reports into bite-sized pieces of information and display them using the visual language of infographics. Visua.ly's Drew Skau calls it "(link:http://blog.visual.ly/the-infographicization-of-data-google-databoard/  text:The Infographicization of Data)," seeing Databoard as Google's affirmation of the power of infographics for data presentation. He rightly points out that 
+
+> "Google’s mission is to organize the world’s information and make it universally accessible and useful" 
+
+but, to me, Beyond's approach with Databoard doesn't fit the bill. 
+
+--
+
+(imgslide: databoard2.jpg)
+
+Google Databoard has the same feel as many infographics -  a shiny veneer without much substance. The visualizations here are so limited in scope that they feel elementary and they're presented in such isolation that it's difficult to connect them.
+
+--
+
+The product also seems to have a tendency to mis-represent itself. The (link:http://googleresearch.blogspot.com/2013/07/google-databoard-new-way-to-explore.html text:announcement on the Google Research blog) touts its responsive design yet Databoard only works in landscape mode on mobile devices and even then is poorly formatted. 
+
+(imgslide: databoard3.jpg)
+
+--
+
+In addition, many of the headlines about Databoard mention creating custom infographics with the tool. The truth depends on how you define 'custom.' In practice you can combine multiple snippets from inside Google's reports into one larger infographic, change the introductory text, and share it. Astoundingly, each snippet is formatted as an image and doesn't link back to its original location within a report. The sources listed under each segment also don't link to any deeper information. Users viewing a shared infographic need to explore Databoard from scratch. 
+
+(imgslide: databoard4.jpg)
+
+--
+
+The integrity of Databoard is further tarnished by sub-par data representation techniques. It features a mix of overlapping triangular bar graphs and more standard vertical bars that raises questions about their coexistence. Many single percentage values are represented as simple donut pie charts while any set of 2 or more percentages are represented in the nautilus-looking pie/bar combination. There are also several different styles of horizontal bar charts scattered throughout the report. The visual forms themselves are fairly simple but still manage to feel inconsistent.
+
+(imgslide: databoard5.jpg)
+
+Research reports are broken in the age of the web. If Google can keep from axing the tool for long enough Databoard certainly has some potential. Despite a shaky execution, the conceptual foundation is sound.  Databoard's biggest success comes in making the contents of its reports public and accessible on the web. Each additional feature beyond that seems to cloud the information's usefulness. Nonetheless, Google could very well be paving a path towards research reports that are HTML based, approachable, modular, open and shareable - all good qualities for spreading the world's information. 
+
+----
+related:
+- zeitgeist

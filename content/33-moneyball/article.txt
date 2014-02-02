@@ -1,0 +1,105 @@
+Title: Moneyball or Hairball? The Political Donor Visualization from WSJ
+----
+Date: 7/26/2012
+----
+Hero: moneyball-yellow.jpg
+----
+Text: 
+
+With a slightly less literal outer-space metaphor than the (link:http://thewhyaxis.info/universe/ text:MotherJones piece we looked at previously), Political Moneyball is a robust interactive tool for visualizing the complex universe of political spending. Developed by the Wall Street Journal, (link:http://graphics.wsj.com/political-moneyball/# text:Political Moneyball) seems to present for exploration nearly every available piece of political spending data.
+
+(imgslide: moneyball-in1.jpg link: http://graphics.wsj.com/political-moneyball/#)
+
+In what’s undoubtedly an impressive visual and quantitative display, the visualization’s real purpose is to show relationships between entities in this microcosm of money.
+
+From the Moneyball methodology page:
+
+> All the money in politics starts with donors — either individuals or groups like companies and unions. Their donations go to Political Action Committees (which represent the interests of companies or groups) or candidate or party committees (which finance campaigns and other political spending). These committees often send money to one another, which tells us a lot about who their friends are.
+
+--
+
+The methodology also mentions the data was analyzed with “(link:http://tulip.labri.fr/TulipDrupal/ text:social network software)” which is quite revealing. The rules governing these political bodies are essentially those of a network of friends but dictated by money and power. When money flows between two nodes they are drawn towards each other. When one organization donates more heavily towards one end of the political spectrum it is drawn in that direction. You can see the flow of funds by clicking on an individual node.
+
+(imgslide: moneyball-in2.jpg link:moneyball-in2.jpg)
+
+--
+
+(imgslide: rumor-in6.jpg link:rumor-in6.jpg)
+
+The result looks a lot like a visualization designed specifically for social networks – (link:https://plus.google.com/ripples/details?activityid=z133d5b4azfgevixd04cc52oev35ujlal3w text:Google Ripples). There’s directionality, scaling, and influence, though obviously with more temporal emphasis.
+
+The Political Moneyball visualization is incredibly complex so let’s try to break it down into its component layers.
+
+
+--
+
+## Instructional Layer
+
+(imgslide: moneyball-in0.jpg link:moneyball-in0.jpg)
+
+As Andy Kirk noted in (link:http://www.visualisingdata.com/index.php/2012/07/wsjs-new-project-political-moneyball/ text:his post about this piece), the creators of this visualization at WSJ, (link:http://www.chartball.com/ text:Andrew Garcia Phillips) and (link:http://sarahslobin.com/ text:Sarah Slobin), have gone through a lot of extra effort to ensure that the people using the visualization understand how it works. There are a series of explanatory screens before the visualization loads and, if you’re not a fan of reading, they’ve produced a lovely video tutorial.
+
+--
+
+## Annotation & Context Layer
+
+(imgslide: moneyball-in3.jpg link:moneyball-in3.jpg)
+
+By necessity the designers have added a contextual layer by pulling out individual ‘stories’ within the incredibly large feidl of possibilities presented. If you’re not well versed in the world of political spending you really don’t know what to look for. The majority of the WSJ’s audience falls into this camp and so the “see some examples” sidebar is very important.
+
+--
+
+Almost any view in the visualization is accompanied by a grey panel that clearly annotates what you’re seeing. The sentence structure of the panel makes complete intuitive sense. As a result it’s easy to tell the direction money is flowing.
+
+(imgslide: moneyball-in4.jpg link: moneyball-in4.jpg)
+
+The Wall Street Journal also has good examples of important sub-segments embedded in (link:http://blogs.wsj.com/washwire/2012/07/25/political-moneyball-mapping-the-universe-of-cash/ text:their blog post about Moneyball) and plan to add more of these as time goes on.
+
+--
+
+## Social Layer
+
+(imgslide: moneyball-in11.jpg  link:moneyball-in11.jpg)
+
+That embedding feature is potentially significant, especially in a modern, self-respecting visualization with social and political importance. Users need to be able to share what they’re seeing outside of the siloed app. The use-case for preserving this as a research tool for data journalism is also powerful. Having the ability to share a specific view as a link on Twitter or Facebook is definitely important and, as far as I’m concerned, should be standard for almost any contemporary visualization. Political Moneyball allows you to share on Twitter and Facebook but doesn’t include the custom generated URL of your view, only the link to the larger piece. This seems like a missed opportunity to drive people to share stories without embedding it somewhere first.
+
+--
+
+## The Core
+
+(imgslide: moneyball-in5.jpg link: moneyball-in5.jpg)
+
+The core of the app is built around the relationships between the notes, visualized by connected lines. The thickness of the line is mapped to the amount of money given to or from an organization. Line thickness is a tough variable to work with but in Political Moneyball it’s usually proportional to the size of the fund’s total assets and is less of an issue. If the Wall Street Journal expects users to pick up on it and gain insight from it they may be disappointed. People already familiar with network visualizations might assume that most lines are a uniform width or narrow as they approach their destination. While this isn’t always true of network diagrams it’s certainly more common then a variable width line being assigned to an important quantitative value.
+
+--
+
+My absolute favorite detail about this piece is the way the individual donors are visually separated from groups and committees. They are set back in a lighter tone, almost as a watermark, until they are called to the front by the key. This was probably a near requirement in order to make this digestible but the way the layers were separated actually enhances the piece. The lighter watermark of the individual donors illustrates where the money all starts. It bubbles up to the top layer, most directly to the groups and SuperPACs that individual donors are closest too.
+
+(imgslide: moneyball-in6.jpg link:moneyball-in6.jpg)
+
+--
+
+Exploring these small segments of the Moneyball field presents more difficulties. The use of (link:http://cartodb.com/ text:Cartodb) is valid and probably solves a lot of technical issues but from an interaction perspective it’s just hard to work with. Zooming slowly loads individual “map” tiles but this visualization looks like a forced direction field of independent nodes. This gap between visual metaphor and behavior is jarring. Whether it’s a limitation of (link:http://cartodb.com/ text:Cartodb) or an intentional design choice, the way new tiles load on zoom is strange and possibly confusing. The old tiles scale up as you would expect and new tiles are loaded on top. The problem is that the circles in the new tiles are the same size they were before. This results in a temporary overlap with the old tiles that makes it seem as though the scale has been changed.
+
+(imgslide: moneyball-in71.jpg link:moneyball-in71.jpg)
+
+The other issue is that the individual donors layer is loaded before the old tiles are removed, amplifying the overlap problem. It ends up being a slow process to explore, and during this process it’s easy to lose your place and difficult to predict how the interface will behave. The other layers of the app are really well executed but to core is just off the mark enough to be a hindrance.
+
+--
+
+## Questions
+
+(imgslide: moneyball-in1.jpg link:moneyball-in1.jpg)
+
+Like any good visualization, this one leaves me with questions.
+
+In the politically charged climate that Political Moneyball visualizes I question whether accessibility to the data itself is somewhat of a requirement. The Wall Street Journal lists the main source for their data ((link:http://fec.gov/ text:FEC)) but as any practitioner knows, the WSJ probably had to do a lot of work to get the data to a usable state. If the WSJ wanted to encourage openness and transparency they would release this data-set and ideally offer subsets of it based on particular views on the page.
+
+The big question that looms for me isn’t actually about technical implementation or data display but rather about the longevity of this piece. How does this function in the long term of the political season and beyond? I’m concerned because the execution is so good and the concept is so strong that it begs to be re-used for future political cycles and donation maps of different scales; Senate, congressional or local elections.
+
+Political Moneyball shows us a snapshot of political spending at one point in time. The app is updated with new data monthly but what happens to the old data? Is the previous state preserved somewhere? This periodic data update suggests a potential temporal aspect to this visualization. I wouldn’t want to complicate it any more but the way these values and relationships change over time is potentially very important.
+
+----
+related:
+- rumors
+- universe

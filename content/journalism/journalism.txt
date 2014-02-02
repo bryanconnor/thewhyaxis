@@ -1,0 +1,105 @@
+Title: Data Journalism
+----
+
+Text: 
+
+<div class="messaging"><p>Visualizations that tackle major news stories and make them accessible and understandable for the general public.</p></div>
+
+<ul class="collections">
+
+<li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/black-budget" ><img src="http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif" alt="black-budget" /></a></div>
+
+	<a  href="http://thewhyaxis.info/black-budget">Behind The Black Budget</a>
+
+	<p class="excerpt">The following is an interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. What was the goal for this visualization? We thought about this graphic in the same way we…</p>
+
+	<p class="date">Sep 23 2013</p>
+
+	<div class="space"></div>
+
+</li>
+
+
+<li class="post section">
+   				 		
+    <div class="cover"><a href="http://thewhyaxis.info/tesla" ><img src="http://thewhyaxis.info/content/43-tesla/tesla-5.jpg" alt="tesla-feature" /></a></div>
+	
+	<a  href="http://thewhyaxis.info/tesla">The New York Times and Tesla Motors Engage in Chart Warfare</a>
+
+	<p class="excerpt">Tesla, the car maker named after the famed electrical engineer, has been attempting to revive the dream of the electric car with its powerful Model S. The company’s latest PR nightmare comes after NYT writer John Broder published an account of his test drive experience. The piece includes a…</p>
+
+	<p class="date">Feb 16 2013</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+
+	<div class="cover"><a href="http://thewhyaxis.info/whitehouse" ><img src="http://thewhyaxis.info/content/40-whitehouse/whitehouse-in2.jpg" alt="whitehouse" /></a></div>
+
+	<a  href="http://thewhyaxis.info/whitehouse">Oh The Political Possibilities: 512 Paths to the White House</a>
+	<p class="excerpt">With the outcomes of presidential ballot battles in 80% of U.S. states seemingly decided, all attention is focused on the remaining battlegrounds. Candidates are spending vast amounts of money and time to sway just a few supposedly undecided voters in just a few states. In such an uncertain climate…</p>
+
+	<p class="date">Nov 5 2012</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+
+	<div class="cover"><a href="http://thewhyaxis.info/jobs" ><img src="http://thewhyaxis.info/content/31-jobs/jobs-in3.jpg" alt="jobs-yellow" /></a></div>
+
+	<a  href="http://thewhyaxis.info/jobs">U.S. Job Market Shrinkage Visualized in a Sprawling Interactive</a>
+	<p class="excerpt">Jobs data is perhaps the most oft-cited data in the U.S. in times of a recovering economy leading up to election season. Numbers quoted by politicians seem to directly conflict with each other. As with polling data, jobs data is probably best explored by an individual with an interactive tool…</p>
+
+	<p class="date">Jul 18 2012</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+	   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/pollster" ><img src="http://thewhyaxis.info/content/30-pollster/Pollster-in4.jpg" alt="Pollster-yellow" /></a></div>
+
+	<a  href="http://thewhyaxis.info/pollster">A Bird&rsquo;s Eye View of the Political Landscape from the Pollster API</a>
+	<p class="excerpt">In the next few months there is going to be an ever increasing stream of statistics, polls, infographics and visualizations headed your way, all with the same subject: The US Presidential Election. In a politically charged environment it’s hard to know which media outlets to trust. What’s more,…</p>
+
+	<p class="date">Jul 5 2012</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/primaries" ><img src="http://thewhyaxis.info/content/17-primaries/primary-in7.jpg" alt="primary-yellow-feature" /></a></div>
+
+	<a  href="http://thewhyaxis.info/primaries">The 2012 Political Visualization Race &ndash; New Hampshire Primaries Edition</a>
+	<p class="excerpt">This political season all major news and media outlets will be competing in the dynamic visualization race. We’re only at the New Hampshire Primaries and already the LA Times, CNN, The New York Times, MSNBC, The Washington Post, The Chicago Tribune, Fox News, Google, and even The Guardian all…</p>
+
+	<p class="date">Jan 11 2012</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/protest" ><img src="http://thewhyaxis.info/content/03-protest/unrest-large.jpg" /></a></div>
+
+	<a  href="http://thewhyaxis.info/protest">The Path of Protest &ndash; A Living Timeline from The Guardian</a>
+
+	<p class="excerpt">The ripple effects of unrest, protest and regime change have been echoing around the Mid-East since before the beginning of the new year, each seeming to start a new chain of events. The Guardian, one of the UK’s leading news-sources, has been steadily doing excellent reporting throughout with…</p>
+
+	<p class="date">Mar 30 2011</p>
+	
+	<div class="space"></div>
+
+</li>
+
+
+
+
+
+
+</ul>

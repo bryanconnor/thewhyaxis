@@ -1,0 +1,35 @@
+Title: The Startup Universe: Design Process 
+----
+Date: 9/17/2013
+----
+Hero: startup.jpg
+----
+Text:
+
+> Read the (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:original post on the Visual.ly blog). 
+
+(link:http://visual.ly/vizbox/startup-universe/ text:The Startup Universe) is an visualization created by (link:http://visual.ly/ text:Visual.ly) in partnership with (link:http://www.accurat.it/ text:Accurat) and (link:http://lifeindata.site50.net/ text:Ben Willers). It provides access to TechCrunch's (link:http://www.crunchbase.com/ text:ChrunchBase) of startups and their funding networks. 
+
+(imgslide: startup1.jpg)
+
+(link: http://giorgialupi.net/ text:Giorgia Lupi) of Accurat helped put together (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:the post on the design process for the visual.ly blog). Along with early sketches and mockups she writes: 
+
+> The Startup Universe was not only my first opportunity to collaborate with other designers on a large project, it was also my first experience working on an interactive. While working on my own projects I am constantly making efforts to remove as much nonessential information as possible to avoid clutter, or as Tufte would put it, “chartjunk,” to ensure data remains the primary focus. Here, though, with so many great ideas for additional elements coming from all members of the team, it became increasingly challenging to retain the clean, minimal aesthetic from our early designs, while also allowing the piece to be as informative and useful as possible. Drawing the eye to the center of the display and moving additional information towards the sides helps keep the reading experience as pleasurable as possible, while using a consistent visual aesthetic throughout prevents these from feeling disconnected.
+
+The piece channels your attention towards the center column focused on startups. Additional columns on the left and right add context about the startup's funding sources and founders. The visualization could further focus the user's attention by hiding the top and bottom sections when not in use. This would free up a lot of breathing room for the main visualization. 
+
+I do applaud the team for keeping the visualization centered around relationships of the network members. In some earlier sketches they played with geography and trends over time. These elements could be be added later but the visualization has been kept simple for the time being, much to its benefit. 
+
+--
+
+(imgslide: startup2.jpg)
+
+Being able to explore the CrunchBase data in this way is enlightening. Trends and outliers emerge, especially when you look at the more prolific VC firms. The visualization uses the (link:http://developer.crunchbase.com/ text:CruchBase API) to get fresh data every night and as Giorgia told me:
+  
+> "We noticed that once the visualization was launched, quite a lot of startups added information on their profile, which is interesting because it seems the piece could have incited them to complete their infos, to be part of it!"
+
+To me, this is a clear indication that the visualization has gotten the attention of founders everywhere and is set up to capture the continual formation of the startup universe.
+
+----
+related:
+- nov-process

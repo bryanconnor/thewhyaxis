@@ -1,0 +1,36 @@
+Title: Marimekko Chart Shows the Makeup of Healthcare in the US
+----
+Date: 8/29/2012
+----
+Hero: marimekko-featured.jpg
+----
+Text: 
+
+What do you get when you cross a tree map and a bar chart (kind of)? A Marimekko chart, of course. The California HealthCare Foundation (CHCF) has used this uncommon chart type to (link:http://www.chcf.org/publications/2012/08/data-viz-hcc-national text:visualize U.S. Healthcare data). It’s the first of its kind I’ve seen in an interactive format and it’s well designed and implemented with (link:http://raphaeljs.com/ text:Raphael.js).
+
+(imgslide: marimekko.gif link:http://www.chcf.org/publications/2012/08/data-viz-hcc-national)
+
+In case a verbal explanation is any clearer than the chart, the horizontal bars are made up of funding sources for types of healthcare. The vertical height of the bar is determined by the percentage of overall healthcare that segment represents.
+
+--
+
+Marimekko charts are, at their most basic, hard to understand. Perceptually we have a hard time digesting and comparing the relative widths and heights. It also shares a design flaw with stacked area charts in that any segment not on a baseline is very hard to interpret.  John Peltier pointed out some flaws in his post “(link:http://peltiertech.com/WordPress/the-problem-with-marimekkos/ text:The Problem with Marimekkos)” and added to (link:http://www.perceptualedge.com/example13.php text:a possible design fix proposed by Steven Few) on Perceptual Edge. However, these are all problems for static Marimekko charts. The CHCF chart has some nice interactivity that goes a long way to explaining the meaning of each segment and  how to read the chart.
+
+(imgslide: marimekko-in2.jpg link: marimekko-in2.jpg caption: <a href="http://peltiertech.com/WordPress/the-problem-with-marimekkos/">Proposed redesign</a> of Marimekko charts by John Peltier )
+
+--
+
+The piece animates automatically when you come to the page. It can be tough to track the changes but you can roll it back at any point or step through the animation year by year. Jumping between decades gives you an idea of how things have shifted over time. Most importantly, hovering over any segment gives you the breakdown for its funding sources.
+
+(imgslide: marimekko-in3.jpg link: marimekko-in3.jpg )
+
+Is having tooltips and seeing the Marimekko chart animate enough to make this chart type useful and readable? I’d argue it’s still in the realm meant for specialists to decipher it. It does, however, illustrate nicely how simple interactivity can start removing barriers to graphical literacy. Can we design interactions that actually teach the viewer how to read a particular chart? We assume people have a certain level of comfort reading charts and graphs but that may not be true. Laura Newman of (link:http://schoolofdata.org/ text:SchoolofData.org)  returned from India with (link:http://schoolofdata.org/2012/08/23/school-of-data-live-in-india/ text:an enlightening anecdote):
+
+> … the more we travelled in India, the more it was reported to us that many (or even most) people find it difficult to interpret visually-represented data – even when this is displayed in relatively simple bar charts and line graphs. Learning how to decode visually represented information is a skill that needs to be developed like any other.
+
+The CHCF data may not have been meant for an international audience but even within the Californian Government I’m sure there are plenty of people who’d be perplexed by this visualization type. This isn’t a piece meant for the broad audience of the New York Times but that’s no excuse for a lack of clarity. The way you choose to communicate anything, ideas, sentiments, data, makes all the difference.
+
+----
+related:
+- medviz
+- bubble-tree

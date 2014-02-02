@@ -1,0 +1,45 @@
+Title: The Ups and Downs of Gravity from Disqus
+----
+Date: 7/14/2013
+----
+Hero: gravity.jpg
+----
+Text:
+
+The popular commenting platform (link:http://disqus.com/ text:Disqus) has released (link:http://disqus.com/gravity/ text:Gravity), a bubbly visualization of trending conversations happening in real time across 500 of its communities. 
+
+(imgslide: gravity-1.jpg link:http://disqus.com/gravity/)
+
+Built with (link:http://d3js.org/ text:D3), the visualization groups the top 60 trending stories into topics and bubbles new ones up as they experience a spike in commenting volume (rather than a spike views or clicks).  
+
+In (link:http://blog.disqus.com/post/50029992486/designing-disqus-gravity text:his process post for Gravity), Vince Lane outlines the design goals: 
+
+> We wanted to highlight the unique range of communities and content on Disqus.
+> We wanted visitors to begin to think about the platform as something more than an isolated commenting experience (a notion our D12 demo only reinforces).
+> We also wanted to hint at potential future Disqus products.
+
+And in (link:http://blog.disqus.com/post/49221647726/disqus-gravity-picturing-the-web-of-discussion text:another post) Sam Parker mentions: 
+
+> "We plan to make [Gravity] a centerpiece of Disqus.com, so visitors can easily find Disqus sites and click back out to join discussions, which in turn shares traffic with publishers."
+
+With such an prominent future location and a lofty goals, this visualization deserves some scrutiny. 
+
+--
+
+(imgslide: gravity-2.jpg link:gravity-2.jpg) 
+
+To me, Gravity reads as a fancy homepage feature meant to wow visitors. In its current state it doesn't offer much 'discovery' utility. The communities shown are limited and the interactions are a bit inefficient to comb through the range of discussions. The 'real-time' factor does add some interest but I'd be curious to learn what the click through rates are like from this page. 
+
+What's more, I can't find any correlation between bubble size and the number of comments on a story. If this is really meant to be a visualization and not an unordered list dressed up in javascript then Disqus needs to clearly tie commenting data to these visual variables.
+
+--
+
+(imgslide: gravity-3.jpg link:gravity-3.jpg)
+
+Gravity really falls flat by emphasizing the stories far above the discussions. Stories are currently the main element of the visualization while single comments appear in a pull-quote style entirely out of context. I can imagine an alternate version, something more like the Wall Street Journal's (link:http://thewhyaxis.info/moneyball/ text:Political Moneyball), where some small circles are actually new comments bubbling up for you to skim through. I feel this format would also lend itself better to discovery with more zooming, more detail, and more to explore. 
+
+Gravity is a valuable first attempt but I feel there are some kinks to work out and depth to be added before this can become a serious homepage feature or useful discovery tool for the Disqus platform. 
+
+----
+related:
+- moneyball

@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'twa';
+	src:url('../fonts/twa.eot');
+	src:url('../fonts/twa.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/twa.svg#twa') format('svg'),
+		url('../fonts/twa.woff') format('woff'),
+		url('../fonts/twa.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+.twa-icoarrow-up:before, .twa-icoarrow-down:before, .twa-icotwitter:before, .twa-icotriangle:before, .twa-icorss:before, .twa-icoprev:before, .twa-iconext:before, .twa-icomenu:before, .twa-icoimage:before, .twa-icocomment:before {
+	font-family: 'twa';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.twa-icoarrow-up:before {
+	content: "\5b";
+}
+.twa-icoarrow-down:before {
+	content: "\5d";
+}
+.twa-icotwitter:before {
+	content: "\40";
+}
+.twa-icotriangle:before {
+	content: "\5e";
+}
+.twa-icorss:before {
+	content: "\24";
+}
+.twa-icoprev:before {
+	content: "\6b";
+}
+.twa-iconext:before {
+	content: "\6a";
+}
+.twa-icomenu:before {
+	content: "\23";
+}
+.twa-icoimage:before {
+	content: "\21";
+}
+.twa-icocomment:before {
+	content: "\25";
+}
+
+
+nav #connect a .twa-icocomment{
+	font-size: 30px;
+}
+
+nav #connect a .twa-icotwitter{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+nav #connect a .twa-icorss{
+	font-size: 28px;
+}
+

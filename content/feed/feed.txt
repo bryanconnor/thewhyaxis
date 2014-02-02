@@ -1,0 +1,4 @@
+Title: The Why Axis RSS Feed
+----
+Description: The latest updates from The Why Axis - a collection of in-depth writing about the visualizations that deserve your attention. 
+---- 

@@ -1,0 +1,43 @@
+Title: CFO Outlook Survey; Visualizing Qualitative Information
+----
+Date: 3/28/2011
+----
+Hero: cfo-yellow.gif
+----
+Text: From forming a partnership with (link: http://visualizing.org/ text: Visualizing.org popup: yes) and sponsoring their recent 24 hour (link: http://www.visualizing.org/marathon2010 text: Visualizing Marathon popup: yes) to working with (link: http://www.tedmed.com/what text: TEDMED popup: yes) to visualize publich health, GE has made a name for itself as a supporter of the data visualization community. They’ve also produced visualizations, some better than others, as a part of their own (link: http://visualization.geblogs.com/ecomagination/ text: ecomagination popup: yes) and (link: http://visualization.geblogs.com/healthymagination/ text: healthymagination popup: yes) initiatives. The most visually striking of these is the (link: http://visualization.geblogs.com/visualization/cfo_survey/ text: CFO Economic Outlook Survey popup: yes) deigned by (link: http://pentagram.com/ text: Lisa Strausfield popup: yes) and her team at Pentagram.
+
+(imgslide: cfolarge.jpg link: cfolarge.jpg)
+
+In the survey, GE collected responses from 530 “middle-market” companies across seven major industries in order to assess their outlook on the economic recovery and today’s business environment. To build a comparative data set (and visualization) the sample was surveyed in the first and third quarter of 2010 and will again be surveyed every other quarter.
+
+Taking the results of the survey, the Pentagram team set out to visualize a snapshot of the results so that the viewer could see the overarching sentiment across industries. By drilling down, the viewer can see individual questions asked, most of which are qualitative (“What best describes the business phase your company will be in for the next 1-3 years?”). From (link: http://www.fastcodesign.com/1662801/infographic-of-the-day-do-execs-believe-the-economy-is-recovering text: an article on Fast Company popup: yes), Lisa Strausfield is quoted as saying:
+
+> We wanted a big picture view, representing how these 530 CFOs were feeling about their company’s position in this economy.The breakthrough was when Hilla lined up the answers to all the questions on a continuous pessimistic to optimistic axis.
+
+--
+The team, consisting of Lisa Strausfield, Hilla Katki (data architecht), and Adam Suharja (developer), arranged the responses along this emotional axis resulting in an engaging and effective way to plot the results and compare them to one another. Some questions have followups (“Find Out More”) which can be displayed in more granular detail, showing responses across industries as a series of stacked bar charts.
+
+(imgslide: cfo-in2.jpg link: cfo-in2.jpg)
+
+The core utility of the visualization lies in its interactivity which is intuitively introduced as the page is loaded and suggests immediately how it should be used. The industry average, presented in grey,  lines up closely when compared with an individual industry on hover.
+
+When clicking into sections like “Today’s Views” for more detail we can see individual questions and that each has its own unique values assessed on the pessimistic – optimistic scale. When multiple industries are shown, the overlapping colored-filled areas become irrelevant and the information is only readable through the color coded dots that appear along the axis. The colored areas do a good job of showing the overall trend but become muddled when more than two industries are shown.
+--
+There is a similar readability problem when it comes to the question detail screen with the stacked bar charts. With similar issues to any stacked bar chart, this one is useful for seeing change in the number of responses for each answer but beyond the first two or three stacked industries it becomes difficult to compare since they don’t rest on the same baseline.
+
+(imgslide: cfoin1.jpg link: cfoin1.jpg)
+--
+The visualization is averaging a great number of values to present the data. Taking the average sentiment of the answers inherently loses some detail of the results and risks oversimplifying. What might be more telling of the full range of answers would be a different kind of stacked bar chart of pessimistic, indifferent  optimistic values for each question. By centering the bar chart, the viewer would get an added layer of detail that might reveal a slightly different picture of CFO outlook. A quick simulation of this type of chart (without actual values) might look something like this:
+
+(imgslide: cfo-example.jpg link: cfo-example.jpg caption:This is my attempt to mock up a visualization illustrating the full range of answers to any given question in the survey.)
+--
+
+On a purely aesthetic level the color fills are beautiful and add a lot of visual interest but don’t do much to represent data. Essentially what they show is the shift in optimism from question to question. The only issue is that the questions are for the most part unrelated to each other.
+
+(imgslide: cfolarge.jpg link: cfolarge.jpg)
+
+Since the same visualization will be used to compare responses for future quarters, there are some alterations that would make it more effective. The ability to see the change between quarters might be the most useful of these changes. In navigating the visualization, a fair amount of clicking has to be done to see the actual text of all the questions. Since the visualization exists on the web it would be useful to have a function to expand all sections from the home screen, stretching out the visualization and revealing questions. Finally if there were a way to reveal both optimistic and pessimistic results together, instead of averaging them, the visualization would gain a new level of clarity and depth.
+----
+Related: 
+- jobs
+- occupy

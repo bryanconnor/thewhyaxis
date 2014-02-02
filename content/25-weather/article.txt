@@ -1,0 +1,22 @@
+Title: The Graph Lover’s Weather App
+----
+Date: 5/24/2012
+----
+Hero: hrly-yellow.jpg
+----
+Text: 
+
+(link:http://itunes.apple.com/us/app/the-hourly-forecast/id435312179 text:Your Hourly Forecast) is the most useful weather app I’ve ever come across. It’s also a nice little piece of data visualization for your iPhone or iPad.
+
+(imgslide: hrly-in1.jpg link: http://itunes.apple.com/us/app/the-hourly-forecast/id435312179)
+
+(link:http://itunes.apple.com/us/app/the-hourly-forecast/id435312179 text:This free app) gives you a variety of weather metrics for any of the next 36 hours with a simple tap of the horizontal axis. Presenting basic weather information in graph form is already more useful than most apps but in addition to temperature and chance of precipitation the app also tells you the amount of precipitation in inches, cumulative precipitation, wind speed and cloud cover making for truly informed wardrobe decisions.
+
+The app does have a few drawbacks to the design and interaction. The first issue is labels. The graphs are labelled pretty well but the time frame they cover is assumed to be the 36hours from when the data was loaded. It’s never quite clear when the information refreshes if you check this multiple times a day. You can also see the data for 36 – 72 hours from the current time but it gets hard to keep track of which day you’re looking at. Additionally, the lag time between tapping an hour and seeing the data show up is a relatively long and makes the feedback loop for selecting the desired hour quite clumsy.
+
+For me, the supremely useful display of data wins out over the undercooked user experience. Highly recommended.
+
+----
+related:
+- hurricane
+- pollster

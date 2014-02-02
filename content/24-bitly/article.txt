@@ -1,0 +1,51 @@
+Title: Brightly Colored Bitly Map Gets Users Lost
+----
+Date: 5/17/2012
+----
+Hero: mediamap-yellow.jpg
+----
+Text: 
+
+This brightly colored (link:http://www.guardian.co.uk/news/datablog/interactive/2012/may/16/twitter-news-map-britain text:choropleth map from The Guardian) tries to connect a region in the UK with its preferred news source in a simple interactive map.
+
+(imgslide: mediamap-in1.jpg link: http://www.guardian.co.uk/news/datablog/interactive/2012/may/16/twitter-news-map-britain)
+
+--
+
+The piece maps how links from bit.ly are shared by showing the sites the short links reference and the locations where they were clicked. However, the map runs into some trouble with the coloration. The pallet is pulled from one commonly used by the Guardian and reflects the spectrum brand they’ve built for themselves but without the labels I'd guess this was a map of candy preference. There are just too many different colors for the human brain to accurately match throughout the map. The colors are easy enough to discern in the larger areas but the smaller portions of the map, especially around London, are extremely hard to read. The population is the most dense and diverse there so it seems like we’re missing a lot of rich data because of scale.
+
+(imgslide: mediamap-in2.jpg link: mediamap-in2.jpg)
+
+--
+
+Color problems continue when you click into a particular news source and the chromatic scale changes dramatically. The dark to light values work fairly well but as you’ll see in the case of the economist, the colors can be confused with those still listed for other news sources in the sidebar. Additionally, where a lighter color, like yellow, was dominant on a section of the overall map, clicking into that news source changes the color of that area so that it’s now the darkest on the new map. The difference is momentarily confusing on first read and still takes a while to decode that you’re now supposed to pay attention to a color scale along the bottom.
+
+(imgslide: mediamap-in3.jpg link: mediamap-in3.jpg)
+
+--
+
+The (link:http://www.guardian.co.uk/news/datablog/2012/may/16/bitly-news-map-britain-data text:article accompanying this interactive) notes that it was inspired by this (link:http://www.forbes.com/special-report/2012/media-map.html text:similar bitly map of the US). I would say the map of the US is more effective (though rendered in even less pleasing colors).
+
+(imgslide: mediamap-in4.jpg link: mediamap-in4.jpg)
+
+It uses mostly the same strategies to show the data but it introduces you to the concept better. You still get a conglomerated overall view of the most popular source for each state but hovering over a news source isolates the corresponding map areas. It’s also easier to read because the sections of the map are larger and fewer in number which of course is just a factor of the geography.
+
+
+--
+
+What’s slightly less effective about this map is that the hover state distracts from the fact that you can click on the news sources to get a fully colored map of the US.
+
+(imgslide: mediamap-in5.jpg link: mediamap-in5.jpg)
+
+I would almost prefer it if this level of detail and granularity was missing from the piece. It raises more questions than it answers. Why is the Onion’s map not shaded darkest in the states where it’s featured on the overall view? How are the maps of news sources with asterisks (WSJ, Forbes, Bloomberg) shaded if they’re a representation of a different kind of data as the notation states?
+
+--
+
+(imgslide: mediamap-in6.jpg link: mediamap-in6.jpg)
+
+Neither map really satisfies my curiosity about the distribution of news readership state by state and neither communicates the limited data effectively. Colors and maps are tricky elements to work with but both of these executions have gone off the trail.
+
+----
+related:
+- census
+- emotion

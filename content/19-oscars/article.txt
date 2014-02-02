@@ -1,0 +1,40 @@
+Title: LA Times’ Senti-meter Inches Towards Oscar Predictions via Twitter
+----
+Date: 2/23/2012
+----
+Hero: oscars-yellow-feature.gif
+----
+Text: Combining visualization with massive data-producing social networks like Twitter has the potential to be really powerful. We haven’t reached the point where this massive amount of data can reliably be used to predict anything but the LA Times, in partnership with IBM and (link:http://www.annenberglab.com/ text:USC Annenberg Inovation Lab), has taken a first step with the (link:http://graphics.latimes.com/senti-meter/ text:Senti-meter).
+
+(imgslide: oscars-in1.jpg link: oscars-in1.jpg)
+
+The team built an algorithm and a (link:http://graphics.latimes.com/senti-meter/ text:visualization) to analyze the sentiment of tweets around the timely and popular topic of the Oscars. The ultimate goal is to see how well the public’s sentiment matches up with the results of awards night. The interactive peice allows users to explore a timeline of tweets about movies and actors which are visualized by volume and sentiment of tweets.
+
+--
+
+(imgslide: oscars-in2.jpg link: oscars-in2.jpg)
+
+I’m glad the visualization keeps things organized in a grid and doesn’t mind some overlapping circles. Visualizing this same data as a scatter plot would actually make it much harder to read. It also does a good job of showing top level information about a particular actor or movie on any given day. You can quickly see who’s the most talked about and generally whether there was more positive or negative talk.
+
+Arranging things in terms of a more positive or more negative sentiment is nice for generalization but it’s not all that useful without a neutral category for tweets. Most everything ends up averaging out to a middle range, somewhere in between positive and negative but that’s only part of the picture. Without seeing how many tweets are positive, negative or neutral we can’t tell if people are really polarized about a movie or actress of if people tweet a lot but are mostly indifferent.
+
+--
+
+(imgslide: oscars-in3.jpg link: oscars-in3.jpg)
+
+We also can’t really see how sentiment changes over time with this visualization. Seeing a snapshot of a day is useful for Oscar nominations night and the Goldon Globe awards night but how a particiular actress or movie is performing on a given day isn’t nearly as interesting as how volume and sentiments about a nominee have changed over time.
+
+There’s still some interesting data in the daily view but with almost 60 days to choose from there’s no indication of what day might be more interesting to examine. You could easily denote important days by adding a low profile graph of the volume of tweets that spans the timeline slider. You’d then be able to see which days have a big sample of tweets to visualize.
+
+One other feature I’d love to see would be “associted nodes” – if the user hovered over The Girl With the Dragon Tattoo in the movie section, the associated actors on the left would also be highlighted – useful for those who didn’t see every Oscar nominated film.
+
+The LA Times has been making moves in the interactive direction, seemingly in order to better compete with the likes of The New York Times. While I encourage their efforts I don’t think this product up to par. The USC institutional partnership is valuable but the effort seems frivoulous for a topic as unimportant and attention-seeking as the Oscars. Being able to analyze the sentiment of Oscar tweets isn’t terribly valuable and the tool the LA Times built isn’t all that useful for achieving that.
+
+There’s a lot of potential for sentiment analysis and for harnessing the power of Twitter through visualization. This feels like a very tentative first step towards that but for now it’s a step that just gets the LA Times some more pageviews.
+
+Further reading: (twitter:@sethgrimes), a consultant who seems to have some expertise in sentiment analysis, has also (link:http://breakthroughanalysis.com/2012/02/21/movie-sentiment-in-the-twitterverse-via-the-oscar-senti-meter/ text:penned some thoughts) and feature requests for the Senti-meter.
+
+----
+related:
+- rumors
+- zeitgeist

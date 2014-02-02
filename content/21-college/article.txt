@@ -1,0 +1,92 @@
+Title: The Chronicle’s College Completion Site Gets Valedictorian
+----
+Date: 5/3/2012
+----
+Hero: chronicle-yellow.jpg
+----
+Text: 
+
+(imgslide: chronicle-in1.jpg link: http://collegecompletion.chronicle.com/)
+
+It’s damn near perfect. (link:http://collegecompletion.chronicle.com/ text:The Chronicle of Higher Education’s College Completion) is a superb case study of how organizations should be presenting data to the public. Beyond delivering on the immediate goal of educating readers, this site contributes a sense of trust and authority to (link:http://chronicle.com/section/Home/5 text:The Chronicle‘s brand). It proves its worth by giving users a number of lenses to learn more about the data and the topic in general. It’s easy for users to get an overview of the issue, understand the data, put it in context, do simple analysis and exploration as well as take the conversation further. We’ll take a look at each of these strategies in turn.
+
+--
+
+## Getting an Overview
+
+The College completion site has quite a complex hierarchy but they start users out by giving them a sort of executive summary. This is a good way to grab the viewer’s attention and get them interested. Here, this is accomplished with a complex tree-map visualization.
+
+(imgslide: chronicle-in2.jpg link: chronicle-in2.jpg)
+
+Most of its utility comes from the clear visualizations of the proportions of public, community, private, and for-profit institutions. It’s somewhat interesting to hover over the larger schools in each category, but this tree-map wasn’t meant as a navigational tool.
+
+--
+
+(imgslide: chronicle-in3.jpg link: chronicle-in3.jpg)
+
+In a piece of interaction that I wish was more prominent, you can click a next button to change the first tree-map and reveal the total population being discussed. This “slide” is really interesting because it gives the user context and also explains some of the trouble with the data they are presenting; it’s incomplete. It also delivers a pretty strong graphical message about the sheer number of people who don’t officially graduate.
+
+--
+
+(imgslide: chronicle-in4.jpg link: chronicle-in4.jpg)
+
+The map on the third slide starts to become less useful. I can see the distribution of institutions on the East Coast but the 3D vertical bars aren’t working well. They don’t really communicate the volume of graduates and much of the data is hidden by bars that are further south. The filtering mechanism on the left certainly helps but this visualization doesn’t add much to the overall story being told.
+
+--
+
+(imgslide: chronicle-in5.jpg link: chronicle-in5.jpg)
+
+Intelligently, slide 4 recognizes the user’s current location and presents some top level graduation rate data about their state. Just like in an interactive census visualization, users are very likely to explore data from their own state with the most depth. The user’s state is also added to the main navigation for quick access from anywhere on the site.
+
+--
+
+## Understanding The Data
+
+(imgslide: chronicle-in6.jpg link: chronicle-in6.jpg)
+
+The real meat of this tool is on the page for (link:http://collegecompletion.chronicle.com/institution/#id=162928 text: individual colleges and universities). The tool lets users cut the data by year, gender and race as well as see change over time. All of the charts are dynamic and shift as the user makes selections, making it simple to see changes. These report pages don’t get too complex and use farly simple line and bar charts to get their point across. They are organized in an intuitive way that leads people through the data, stating with top level information that gets more specific and then branches out to comparisons. Charts are accompanied by explanatory text that doesn’t get in the way or overwhelm. The information is well organized and there is clear visual hierarchy. I could go on, but let’s keep moving.
+
+--
+
+## Data in Context
+
+(imgslide: chronicle-in7.jpg link: chronicle-in7.jpg)
+
+As a part of any school’s report page there is a section called “In Context.” It very clearly compares the current school to a much broader average of schools in the same category. Further context is provided by the ability to compare the school to its peers in the same geographical region. The user also has the option to change the set of schools being compared. There is a clear story being presented which can be changed and modified by how the user interacts with the site.
+
+--
+
+## Analyzing and Exploring The Data
+
+(imgslide: chronicle-in8.jpg link: chronicle-in8.jpg)
+
+The data can also be explored by state. These report pages give you an overview for a whole state and can also be cut by the type of institution in tabs across the top. They also have some specialized visualizations for showing the state’s schools in context of each other and for comparing states to one another. All interactive, all clearly labeled and explained, all straightforward visualizations.
+
+--
+
+## Continuing the Conversation
+
+(imgslide: chronicle-in9.jpg link: chronicle-in9.jpg)
+
+One of my favorite things about this site is that you can also skip all the visualization and go right for the table view. You can sort and filter this table a hundred different ways to find what you’re looking for. There is also a prominent call to action in the upper right to download the source data for all colleges. This is a smart move by The Chronicle. It shows their transparency and shows that they encourage people to make derivative works based on the data they have collected and parsed. In addition, on every state and school report page there are options for downloading refined sets of data. This opens up opportunities for visualizers, data journalists and amateurs to have access to the data that’s important to them and perhaps generate visualizations from it.
+
+Since not all users are the data-nerd type the site also offers other great ways to continue the conversation. Almost every page has a comment form (though few seem to be used) and there’s a whole section of the site dedicated to the follow-up discussion these reports have generated.
+
+The site is also exceedingly shareable. Each chart on each page can be linked to and printed individually. A user can find a chart about their school, send it to all the alumni in their class and say “We made it!” Graphs may not be as shareable as cat videos right now but as understanding data through visualization becomes even more ubiquitous I think we’ll see these features used a lot more.
+
+--
+
+## Interaction and Visual Design
+
+As if that weren’t enough, this site is well supported by the professionally executed interaction and visual design.
+
+(imgslide: chronicle-in10.jpg link: chronicle-in10.jpg)
+
+Scrolling navigation, tabs, filters, help buttons and smart interactive charts really enhance the experience and make the site memorable and ridiculously useful.
+
+The user and the data have been put on an equal playing field and the tool has been designed with both of them in mind. The College Completion site doesn’t need to invent new chart types to grab people’s attention. It is a resource because it houses really useful data and presents it exceedingly well. The Chronicle is now further positioned as a resource on education and the tool is its crowning jewel.
+
+----
+related:
+- oecd
+- zeitgeist

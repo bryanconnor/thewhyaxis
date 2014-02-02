@@ -1,0 +1,38 @@
+Title: Sigma.js Cleans up Hairball Network Visualizations
+----
+Date: 6/25/2012
+----
+Hero: sigma-yellow.jpg
+----
+Text: 
+
+Network visualization is a topic as complex as many of the (link:http://visualcomplexity.com/ text:hairballs) it produces but (link:http://sigmajs.org/ text:Sigma.JS) is designed to break through the clutter and graph networks that are more readable and user-friendly.
+
+(imgslide: sigma-in1.jpg link: http://sigmajs.org/)
+
+It’s creator, (link:https://twitter.com/jacomyal text:Alexis Jacomy), has really pushed the practice of network visualization forward with this tool. He has combined elements of existing examples in new ways that seem to work better together. Especially worth noting are the ‘(link:http://sigmajs.org/examples/hidden_nodes.html text:hide node)‘ and ‘(link:http://sigmajs.org/examples/a_plugin_example_advanced.html text:fish-eye)‘ examples.
+
+--
+
+(imgslide: sigma-in2.jpg link: sigma-in2.jpg)
+
+His hard work really pays off in the speed and responsiveness of the tool. The quick interactions, snappy hover events, fast loading data and quick drawing graph all combine to make the user feel more in control of the network itself. And since it runs in the browser with JS it can be used on almost any site. The library has already been used to visualize (link:http://noduslabs.com/socialplayer/smmrussia/ text:Facebook connections in the Russian SSM community) and (link:http://wikiproject.oii.ox.ac.uk/networks/ text:Wikipedia co-editing patterns).
+
+--
+
+(imgslide: sigma-in3.jpg link: http://moebio.com/datavisnetwork)
+
+Interestingly, (link:http://moebio.com/ text:Santiago Ortiz) developed (link:http://moebio.com/datavisnetwork text: a network visualization of data driven resources) that uses a lot of the same principles. I think it’s worth noting the differences between this tool and Sigma.js. The fish-eye effect is quite extreme here and perhaps as a result it’s more difficult to target a specific node with the mouse. Showing related nodes is accomplished with a change in scale and animation but this actually adds to the visual noise of the piece and doesn’t make the connection visually stronger like dimming the unconnected nodes would. Re-visualizing this data with sigma.js might make it easier for users to navigate the network and discover new visualization resources.
+
+--
+
+(imgslide: sigma-in4.jpg link: https://gimmebar.com/collection/4fe53a42aac422e010000000/visualizations-on-github)
+
+The Sigma.js code is open to contributors, hosted on Github and ready for people to use. It’s another in a what I hope is a trend of complex visualization types ported to open web languages and made public for people to use and improve. I first saw this with Gregor Aisch’s (link:http://thewhyaxis.info/bubble-tree/ text:Bubble Tree visualization) which I wrote about earlier. To keep up I’ve started (link:https://gimmebar.com/collection/4fe53a42aac422e010000000/visualizations-on-github text:a collection of visualization projects hosted on Github) so if you’ve used any good ones you should (link:https://twitter.com/#!/thewhyaxis text:let me know on twitter) or post it in the comments below.
+
+
+
+----
+related:
+- occupy
+- visually

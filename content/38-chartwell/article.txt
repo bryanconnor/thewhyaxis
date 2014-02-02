@@ -1,0 +1,85 @@
+Title: FF Chartwell Comes to the Web
+----
+Date: 9/26/2012
+----
+Hero: chartwell.gif
+----
+Text: 
+
+_I’ve created a number of example charts (link:http://thewhyaxis.info/chartwelldemo/ text:using FF Chartwell here)._
+
+FontFont has released (link:http://www.tktype.com/chartwell.php text:Travis Kochel’s Chartwell) as a web font. If you weren’t familiar with the font before, it employs a clever use of the OpenType system and has been lauded as “disruptive” and “a graphing tool for the rest of us” by blogs across the web.
+
+(vimeo: http://vimeo.com/41772735 class: graphic)
+
+--
+
+(link:https://www.fontfont.com/how-to-use-ff-chartwell#intro text:FF Chartwell) has been available for purchase for some time but its recent release in (link:https://www.fontfont.com/how-to-use-ff-chartwell#chartwell-web text:web font form) exponentially increases its potential uses and audiences. While relatively straightforward to work with as a desktop font, manipulating numerical values and the design of the chart is even easier with the web font form. You just need to be able to work with simple HTML and CSS.
+
+(imgslide: chartwell-in1.gif link: chartwell-in1.gif caption: For a much longer explanation take a look at Travis Kockel's <a href="http://tktype.tumblr.com/post/4343344341/a-not-so-brief-explanation-of-chartwell">post about this font</a>.)
+
+--
+
+Instead of replacing number sets with glyphs using OpenType, FF Chartwell for the web abstracts the idea of a “font” again and renders the charts using a series of javascript libraries. FF Chartwell includes seven different stylistic sets for different chart types, some more useful than others.
+
+(imgslide: chartwell-in2.gif link: chartwell-in2.gif)
+
+--
+
+The vertical bars in FF Chartwell web are straightforward and useful, though it would be nice to be able to condense the space between bars to form  more of a histogram. I tried to achieve this effect by layering multiple charts in my (link:http://thewhyaxis.info/chartwelldemo/ text:FF Chartwell demo page). To create a bar chat with negative values I created a second graph and rotate it so it aligned correctly.
+
+(imgslide: chartwell-in3.gif link: chartwell-in3.gif)
+
+--
+
+FF Chartwell Lines, though perhaps more accurately labeled as area charts, are also rendered simply. I’m not sure why you’d want to individually color each segment but the font gives you that ability. The (link:https://www.fontfont.com/staticcontent/downloads/FF_Chartwell-UserManual.pdf text:Chartwell User Manual )also shows stacked area diagrams, though you need to layer and offset the values manually as I’ve attempted to do (link:http://thewhyaxis.info/chartwelldemo/ text:in the demo).
+
+(imgslide: chartwell-in4.gif link: chartwell-in4.gif)
+
+--
+
+Pie charts, at their best, can only hold a few segments before they become unwieldy, but in FF Chartwell Pies you have the option to add up to 100 segments. The donut chart variation makes perception even more difficult and especially requires restraint with the number of segments used. Originally FF Chartwell Pies would create a new chart if its cumulative values exceeded 100 but on the web it seems to just overlap additional segments on top of old ones. Limiting the pie to 100 forced you to chart segments in terms of a percent and avoided any confusion with how to use a pie chart. The overlapping issue in the web font is particularly dangerous because it’s so hard to notice once it’s happened.
+
+(imgslide: chartwell-in5.gif link: chartwell-in5.gif)
+
+
+--
+
+Chartwell’s horizontal bars add a margin of error to the way people perceive the comparative lengths. It employs a sort of isometric or dimensional diamond design that seems to represent the need to make bar charts “pop” in a lot of infographics. Despite this trendy shape I actually think it does a good job when used to show parts of a whole (or a simple stacked bar chart, depending on how you look at it).
+
+(imgslide: chartwell-in6.gif link: chartwell-in6.gif)
+
+
+--
+
+FF Chartwell Rose, like (link:http://en.wikipedia.org/wiki/File:Nightingale-mortality.jpg text:Florence Nightingale’s original visualization), is really best suited for visualizing cyclical data. Unfortunately it gets used a lot in infographics as a cool variation on the pie chart and I fear the visual appeal of this chart type will see it abused further in FF Chartwell.
+
+(imgslide: chartwell-in61.gif link: chartwell-in61.gif)
+
+
+--
+
+The radar style of Chartwell also has lots of potential for misuse and is often hard to read no matter how simply it is rendered. Comparison is only really possible when radars are layered on top of each other as I’ve done (link:http://thewhyaxis.info/chartwelldemo/ text:in the demo). The number and visibility of axis in the radar are also important to be aware of. They're the only aid to comprehension in this graph type.
+
+(imgslide: chartwell-in7.gif link: chartwell-in7.gif)
+
+--
+
+FF Chartwell Rings seems like the chart type with the least utility. This representation of data is no where near as easy to read as a simple bar chart. There are very few instances where this design enhances the dat. Because of that there’s a very small likelihood that this chart font will be used for more than decoration.
+
+(imgslide: chartwell-in8.gif link: chartwell-in8.gif)
+
+--
+
+There’s no doubt that FF Chartwell breaks down a lot of the barriers for someone to create their first chart but I’d argue that their first chart probably shouldn’t use Chartwell Rose or Radar. Travis mentions that Rose, Radar and Rings are a more experimental set for Chartwell but they’re also very eye catching. Like a yo-yo that lights up and makes noise but breaks if you use it the wrong way.
+
+(imgslide: chartwell-in2.gif link: chartwell-in2.gif)
+
+I’m all for the democratization of chart creation and design but I think part of that process has to be education. What I’d propose is that a field guide or instructional manual come with the purchased fonts that explains not just how to use the chart types but why you’d use them.
+
+Travis clearly knows a lot about graphing and visualization. All of his examples use appropriate data for the chart type chosen and it takes a passionate person to put together a tool like this. He used cyclical data for FF Chartwell Rose and even colored the first segment to indicate a starting position. But the importance of this is never communicated to the font purchaser. I’ve used the demo page to start to put together (link:http://thewhyaxis.info/chartwelldemo/ text:a little guide for using FF Chartwell). Leave a comment and help me improve it for the Chartwell users of the world.
+
+----
+related:
+- france
+- feltron

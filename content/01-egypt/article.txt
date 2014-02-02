@@ -1,0 +1,34 @@
+Title: Infographic Record of 2011 Egyptian Revolution from Chartbeat
+----
+Date: 3/25/2011
+----
+Hero: egypt-yellow.gif
+----
+Text: Half a world away we tried to keep up with the latest news out of Egypt, often filtered through tight security and language translation. During the course of the 18 day Egyptian revolution, as it is now understood, the world turned to cutting edge communication mediums like Twitter as well as alternative online news sources like (link: http://english.aljazeera.net/ text: Al Jazeera popup: yes).
+
+(link: http://chartbeat.com/ text: Chartbeat popup: yes), a real-time web statistics tool, is used by Al Jazeera and captured all activity for (link: http://english.aljazeera.net/ text: nglish.aljazeera.net popup: yes) during the 18 day revolution. Designer (link: http://www.mattbango.com/ text: Matt Bango popup: yes) at Chartbeat took this data and used it to create (link: http://chartbeat.com/infographics/2011-egyptian-revolution text: “2011 Egyptian Revolution,” popup: yes) a timeline of major news events paralleled with relative site-use data as recorded by the tool.
+
+(imgslide: egypt-full.jpg link: egypt-full.jpg)
+
+Matt came up with the idea for the graphic after looking at Al Jazeera’s traffic on the day Mubarak stepped down and told me he took on the visualization as a weekend project.
+
+> We knew Al Jazeera was relying heavily on chartbeat to make some big decisions while the events were happening, but looking back on it as a 30-day view really made us realize how big of an impact there actually was.
+ 
+ 
+The resulting infographic is simple, direct and informative, free of gimmicky illustrations of protesters or cracked “revolution” lettering. With its chronological bar charts it shows a direct relationship between major news events and traffic to (link: http://english.aljazeera.net/ text: nglish.aljazeera.net popup: yes), positioning the network as a major news-source for the events unfolding in the middle east. The vertical timeline setup also lends itself well to reading on the web and provides a useful overview while individual traffic graphs break out on a horizontal axis. Created after Mubarak’s resignation, “2011 Egyptian Revolution,” serves as a single document that will live on after the news stories are off of the front page.
+--
+There are, however, some missed opportunities for this graphic, especially in terms of linking the data points (like Mubarak’s resignation) to actual news stories on english.aljazeera.net. Since it is built with HTML it seems like a logical extension of the infographic’s utility. Anyone viewing it could then be caught up on the entire story with the infographic as an organized starting point.
+
+(imgslide: egypt-in1.jpg link: egypt-in1.jpg)
+
+In terms of reading the actual graphs of traffic, I think they do a great job of showing relative trends throughout the course of the day but the values of the bars aren’t labeled, limiting their usefulness for comparing across days and between traffic spikes. Even if the values for the peak and trough values on each day were labeled, the viewer could get a better sense of not only the sheer number of people on the site but how that changes over the 18 days.
+
+Additionally, the bar chart is arranged on a 24 hour scale starting at 12am but it is unclear what time zone we’re viewing the data in. Local time in Egypt would make the most sense but given the international nature of the story as well as the graphic having been created from a U.S. perspective there is some room for confusion.
+
+“2011 Egyptian Revolution,” like any other infographic for a major news story, has the potential to create new understanding of the events. By connecting data points to news stories a narrative could become more clear and supported. Adding explicit values would give the viewer the ability to understand the scale and importance of each smaller event. The infographic, as it is published, is nonetheless an extremely useful document and does an effective job of detailing the saga of events from a unique perspective in a visually engaging way. Kudos to (link: http://www.mattbango.com/ text: Matt Bango popup: yes) and the (link: http://chartbeat.com/ text: Chartbeat popup: yes) team for using their application to capture and share historically important and engaging data with the world.
+
+----
+Related: 
+
+- protest
+- oscars

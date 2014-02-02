@@ -1,0 +1,54 @@
+Title: The New York Times and Tesla Motors Engage in Chart Warfare
+----
+Date: 2/16/2013
+----
+Hero: tesla-feature.jpg
+----
+Text: 
+
+Tesla, the car maker named after the (link:http://en.wikipedia.org/wiki/Nikola_Tesla text:famed electrical engineer), has been attempting to (link:http://www.whokilledtheelectriccar.com/ text:revive the dream of the electric car) with its powerful Model S. The company’s latest PR nightmare comes after NYT writer John Broder published (link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:an account of his test drive experience). The piece includes (link:http://www.nytimes.com/imagepages/2013/02/10/automobiles/10tesla-map.html?ref=automobiles text:a graphic) depicting the trip, annotating recharges and the eventual breakdown along the way.
+
+(imgslide: tesla-in1.jpg link:http://www.nytimes.com/imagepages/2013/02/10/automobiles/10tesla-map.html?ref=automobiles)
+
+Graphics produced by The New York Times come with certain expectations of quality and this annotated map fails to measure up to them. It’s an extremely unclear way to communicate information about distance traveled and expected range and ends up confusing the Time’s readership more than enlightening them.
+
+--
+
+(link:https://twitter.com/elonmusk text:Elon Musk), Tesla’s founder, has been firing back, most recently (link:http://www.teslamotors.com/blog/most-peculiar-test-drive text:publishing the logged data) from the test drive in a series of charts.
+
+(imgslide: tesla-in2.jpg link: http://www.teslamotors.com/blog/most-peculiar-test-drive)
+
+These charts haven’t silenced the critics quite the way Elon hoped they would. Instead the’ve added fuel to the fire after being (link:http://www.theatlanticwire.com/technology/2013/02/elon-musks-data-doesnt-back-his-claims-new-york-times-fakery/62149/ text:further analyzed and compared) to Broder’s story.
+
+--
+
+But all the back and forth on small details clouds the big picture. Each side ignores some of the larger points which I’ve tried to illuminate in this graphic.
+
+(imgslide: tesla-in3.png link: tesla-in3.png)
+
+First, there is definitely a significant drop in expected range when the car is parked overnight in Groton. This is visible in (link:http://www.teslamotors.com/blog/most-peculiar-test-drive text:Elon’s charts) and in (link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Broder’s report) when he needs to make the trip to Norwich to refuel.
+
+Second, the Tesla always reached its destination when the range indicated it could do so. The only instance in which the car fell short of its destination was when the range indicated it could only make it 50% of the way. Even then it ran for an additional 20 miles while the range read 0.
+
+--
+
+Beyond that, it’s almost impossible to tell with any detail whether the range indicator is over-optimistic in communicating to the driver. There remain discrepancies in the speed and conditions of the car as it traveled which probably won’t be solved by warring charts and graphs. However, it could be said that having 4 numbers representing your range in miles has the potential to confuse. (image from (link:http://www.freshdialogues.com/2012/09/05/getting-a-handle-on-the-tesla-model-s-video-and-review/ text:Fresh Dialogues))
+
+(imgslide: tesla-in4.jpg link: tesla-in4.jpg)
+
+No matter how you spin it, this is a lot of bad press for Tesla motors and, in this case, the bad press may not be better than no press at all. The electric car has already had (link:http://www.whokilledtheelectriccar.com/ text:its share of trouble) and with a leader like Elon Musk at the helm, Tesla should be the one to do it.
+
+## Background Reading
+
+(link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Original NYT Article)
+
+(link:http://www.teslamotors.com/blog/most-peculiar-test-drive text:Musk's Rebuttal and data)
+
+(link:http://www.theatlanticwire.com/technology/2013/02/elon-musks-data-doesnt-back-his-claims-new-york-times-fakery/62149/ text:The Atlantic Chart Analysis)
+
+(link:http://money.cnn.com/2013/02/15/autos/tesla-model-s/ text:CNN's Tesla Test Drive) (spoiler, they made it)
+
+----
+related:
+- whitehouse
+- visually

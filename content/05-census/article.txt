@@ -1,0 +1,43 @@
+Title: Better Census Maps with Dot-density
+----
+Date: 4/3/2011
+----
+Hero: census-yellow.jpg
+----
+Text:In the data visualization community of the U.S. it’s (link:http://www.census.gov/ text:Census season popup:yes) and that means we have (link:http://googlemapsmania.blogspot.com/2011/03/data-journalism-2010-census.html text:maps for days popup:yes). How we understand census data has evolved immensely since (link:http://en.wikipedia.org/wiki/United_States_Census text:its inception in 1790 popup:yes). Today, the importance of digitizing and releasing aggregate data publicly can’t be denied but efforts from independent visualizers have changed the way we access and learn from the census. Our ability to display massive amounts of data on one map is impressive, but now is the time to step back and examine the visual design of these maps and how they effect our understanding.
+
+This year, a particular series of maps made me stop and marvel at just how much data we can show today and how complex visuals can retain clarity and impact. That series is “(link:http://www.flickr.com/photos/walkingsf/sets/72157626354149574/ text: Race and ethnicity 2010 popup:yes)” from programmer and self-proclaimed map geek (link: http://twitter.com/enf text:Eric Fischer popup:yes). Eric visualized 94 of the most populous cities in America according to their demographic breakup but unlike many census maps they don’t feature the hard-edged census tract areas. Instead the city maps are filled with dots representing 25 people colored according to their race and ethnicity: red is White, blue is Black, green is Asian, orange is Hispanic, yellow is Other.
+
+(imgslide: census-in1.jpg link: census-in2.jpg)
+
+The amount of data visualized may be exactly the same as the block-separated maps but these dot-density maps feel infinitely more detailed and certainly have a greater visual impact. In terms of utility they actually do a better job of showing the true demographics of a region because of their almost pointillist appearance. In areas where ethnicities are mixed, a new color emerges from the proximity of two differing ones. The miraculous thing about them is that they are more complex but are also more understandable. You can scan the broad color areas or look closely to see blurry boundaries and distributions you wouldn’t expect.
+
+I talked to Eric a bit about some of the compromises made in visualizing such a large amount of data. With any map, scale can be incredibly important and this hold true on Eric’s maps:
+
+> “The different sizes and different densities of different cities meant that some would have made more sense with a different map scale or a different number of people to correspond to each dot, but it seemed important to keep these consistent between maps for cross-comparison.”
+
+In some of his maps we can see evidence of this scale becoming a problem where populations are particularly dense and diverse. Since the dots are solid colors there is data lost when they directly overlap the same or different color. The colors of the dots work in most cases but in the end colors like blue and red will have a stronger visual prominence than yellow and orange and will be easier to distinguish. The map base itself is very light and minimal, a choice I can respect, but it leaves something to be desired for viewers unfamiliar with a particular city. Overall I enjoy the lack of typography on the visualization but wish a simple color key was included in each.
+
+As static graphics they communicate a tremendous amount of insight about cities and their hidden boundaries. Adding some simple interactivity could bring them to a whole new level. I talked to Eric about an easy way to compare his 2010 maps to his 2000 maps of race and ethnicity. I would advocate for doing it very simply; adding the ability to jump between the two maps lined up at the same scale. Transitioning with an opacity slider would begin to simulate the 10 years in between and would suggest some movement and change. Transparency might also be of use on the dots themselves to illuminate some more densely populated areas that share ethnic demographics, blending colors where they overlap.
+--
+After some research I cam across several other census maps that employ this method for visualizing race and ethnicity distributions. The most prominent these maps is from (link:http://www.nytimes.com/ text:The New York Times popup:yes) which adds a color dot for Native Americans and employs Google maps interactivity.
+
+(imgslide: census-in2.jpg link: census-in2.jpg)
+
+There are obvious differences between The New York Time’s maps and Eric’s. A clear key and statistics about the area you’re viewing are visible at all times and the (link:http://maps.google.com/ text: Google maps popup:yes) interface lets you navigate between cities and zoom quickly. Up close you can see this map does employ transparency for the data points, making densely populated areas more clear. The map base is also much closer to google maps and employs many of the same conventions, though it has been refined. Sometimes the place labels are helpful for explaining certain population patterns but the typography actually obscures quite a lot of data in the end. The data displayed when you hover over a particular census tract is helpful but the window’s constant presence quickly becomes annoying.
+--
+Also from (link:http://www.nytimes.com/ text:The New York Times popup:yes) is a map that displays the largest ethnic group in a color coded census tract. This is a much more common way to view census data but as you can see a great deal of detail is lost by averaging all the groups together.
+
+(imgslide: census-in3.jpg)
+--
+A final (link:http://md.censusmaps2010.com/ text:example popup:yes) from (link:http://www.moonshadowmobile.com/data-visualization/census-data/ text:Moonshadow Mobile popup:yes) uses a more pixelated method of representing the same data. Instead of randomly placing dots in census tracts, this map uses squares and arranges them in a grid over a similar Google maps interface.
+
+(imgslide: census-in4.jpg)
+
+The squares are completely opaque and actually sit over the map itself, covering street names and all other labels at some zoom levels. The base map is the default from Google and hasn’t been simplified in any way. The end result is a map showing the same data that looks completely different from the previous two and, to me, is much harder to read and understand.
+
+By changing map substrates we can change our understandings of the layout and infrastructure of the cities we live in. By changing the way we visualize the data on top of this map we can make new insights about our own cities and the implicit boundaries or lack there of created by racial and ethnic groups. The census can help us collect all this data but it’s up to us to display it in the most honest and transparent way.
+----
+related:
+- bitly
+- college

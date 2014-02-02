@@ -1,0 +1,38 @@
+Title: Bloomberg's Guided Tour of The October Jobs Report 
+----
+Date: 12/2/2013
+----
+Hero: bloomberg-jobs.gif
+----
+Text:
+
+(imgslide: bloomberg-jobs-1.gif)
+
+The (link:http://www.bloomberg.com/visual-data text:Bloomberg Visual Data team) and (link:http://www.bloomberg.com/view/bios/matthew-klein/ text:Matthew C. Klein) have released (link: http://www.bloomberg.com/dataview/2013-11-08/what-the-jobs-report-really-means.html text:an interactive walkthrough) of the October 2013 job numbers. Matthew (link: http://www.bloomberg.com/news/2013-11-08/diving-into-today-s-rosy-jobs-report-.html text:writes) that: 
+
+> No single data release probably affects markets more than the monthly jobs report published by the U.S. Bureau of Labor Statistics, which today noted that the economy added 204,000 workers in October. This focus is overblown because the changes are statistically insignificant and "noisy." Even so, studying longer-term job trends buried in the report is revealing.
+
+(link:http://www.bloomberg.com/dataview/2013-11-08/what-the-jobs-report-really-means.html text:The piece is a full screen presentation) that walks through several annotated charts in sequence. The light text on dark background feels authoritative and follows a trend set by Bloomberg's other 'interactive data products.' With smooth transitions, an intuitive interface and clear annotations, Bloomberg has created a delightful way to explain a concept with a series of interactive charts.
+
+--
+
+(imgslide: bloomberg-jobs-2.gif)
+
+Some slides feature annotations with bolded phrases and lines drawn to segments of the graph. Others utilize (link:http://blog.visual.ly/good-presentation-technique-layering/ text:Jon Schawbish's layering technique), breaking down complicated graphs into multiple slides. The XY coordinate labeling of the cursor position also makes you feel like you're going through the data with a fine-toothed comb. 
+
+--
+
+(imgslide: bloomberg-jobs-3.gif)
+
+The stacked horizon graph is a risky way to display data but the annotation helps get the major points across. Distinct colors and a limited number of segments keep it fairly readable. The next slide clearly isolates the steadiest sector (health and education) but the following slide isolates the manufacturing and construction sector to appear more volatile than it actually is (as a result of the stacking). I think an option to see each sector unstacked on its own line would be the ideal way to present this data. 
+
+--
+
+(imgslide: bloomberg-jobs-4.gif)
+
+Despite a somewhat abrupt ending I think this format very effectively explains and editorializes the complicated data at hand. This is the type of project that would be amazing to see open-sourced, improved by contributors and used across the visualization community by everyone from non-profits to news outlets. 
+
+
+----
+related:
+- black-budget

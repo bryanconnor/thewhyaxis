@@ -1,0 +1,49 @@
+Title: Feltron Annual Reports Start to Feel Like Annual Reports
+----
+Date: 2/28/2012
+----
+Hero: feltron-yellow-feature.gif
+----
+Text: I should say that I am a big fan of (link:http://feltron.com/ text:Nick) and (link:http://theofficeof.feltron.com/ text:his work) and I appreciate what he has done to bring together the design and data visualization communities. People are genuinely excited when a new report drops and that’s a great thing. However, along with praise, we shouldn’t forget to apply a critical eye to the work being published. I think (link:http://thewhyaxis.info/ text:The Why Axis) is a good place for that.
+
+(imgslide: feltron-in1.gif link: http://feltron.com/ar11_01.html)
+
+The design community sees Feltron as the infographics guy and the data visualization community sees him as the design guy. His annual reports have always been a bit more about aesthetics than data.  The visual quality of (link:http://feltron.com/ar11_01.html text:his 2010 / 2011 report) is more important than having every data-point readable. After all he is the true audience for the report right?
+
+Maybe not. I would argue he’s trying to communicate details about his own life to everyone who follows his work. Having produced similar reports for several years they should now be equally good examples of beautiful design and effective data visualization.
+
+--
+
+(imgslide: feltron-in2.jpg link: feltron-in2.jpg)
+
+The charts present within the report are an excercise in minimalism. Units and labels for axis are omitted, line, bar and pie charts are stripped down to the bare minimum. Nick also swings to the other end of the spectrum with complicated maps that seem to plot his mental geography of a place, leaving the viewer wondering why certain places are connected, why certain areas are isolated. I think many of the charts would be more interesting if they had more detail. Omitting elements tends to make the data fuzzier, a bit more like real life, but also moves it closer to information art than data visualization.
+
+--
+
+(imgslide: feltron-in3.jpg link: feltron-in3.jpg)
+
+Over the years the reports have made more conceptual leaps than aesthetic ones. 2010′s report about Nick’s father was a welcome personal progression of the annual tradition. But I think this year’s report, while being the first Biennial, doesn’t present us with a new evolution in design or concept.
+
+--
+
+(imgslide: feltron-in4.jpg link: feltron-in4.jpg)
+
+In the biennial the two years presented are color coded and data from both are displayed in some of the charts. This is interesting but they way it’s done doesn’t reveal too many insights about the difference between the two years. Since all of the comparison is done in context of individual people in Nick’s life we dont get a sense of time any more than we would in a normal annaul report. It’s just an extended sample. Information is silohed and sectioned of between years and people and categories within that. It seems pretty difficult to compare the difference between 2010 and 2011 and the difference between the data presented for Olga and the data presented for Nick’s Mom.
+
+I can easily envision a version of the report where the people featured are layered on top of eachother to reveal the differences. It would be really interesting to see everyeone plotted on the same “Time Together” chart for the 7 days of the week.
+
+--
+
+(imgslide: feltron-in5.jpg link: feltron-in5.jpg)
+
+This layering is done very subtly in the back and front of the report where the alternate year appears as a white-filled line graph behind the dominant color bars for each month. I don’t know if this is explained in small type somewhere but it took me flipping back and forth several times to figure it out.
+
+A better way to achieve this, and what to me is the next logical step for the annual reports, would be to make the whole thing interactive and available on the web. The print version of the report has a certain appeal both for Nick and for the people paying for a copy but adding interactivity would take the reports to an entirely new level.
+
+I, like (link:http://flowingdata.com/2012/02/27/feltron-report-20102011-is-out/ text:Nathan Yau), was concerned there might not be any more annual reports since (link:http://www.fastcodesign.com/1663718/facebook-hires-infographic-gurus-nicholas-felton-and-ryan-case text:Nick was picked up by Facebook). Thankfully we were wrong but I am worried that full time work took some of the potential out of this Biennial. Repetition and complacency will make these reports start to feel expected and safe. Hopefully Nick will continue to push these reports to be excellent aesthetically and conceptually and continue to be the prophet for the combination of design and data visualization.
+
+
+----
+related:
+- cfo-outlook
+- visually

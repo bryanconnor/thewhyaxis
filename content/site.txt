@@ -1,0 +1,9 @@
+Title: The Why Axis
+----
+Author: Bryan Connor
+----
+Description: The Why Axis is a collection of in depth writing about the visualizations that deserve your attention.
+----
+Keywords: data, data visualization, infographic, critique, writing, critical, viz, data viz, dataviz, visualization, commentary 
+----
+Copyright: © 2011-(date: Year) (link: http://bryanconnor.com text: Bryan Connor)

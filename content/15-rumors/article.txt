@@ -1,0 +1,52 @@
+Title: Seeing The Spread of (Mis)information on Twitter
+----
+Date: 12/8/2011
+----
+Hero: rumor-yellow-feature.jpg
+----
+Text:
+
+Rumors tend to run rampant on twitter and (link:http://www.guardian.co.uk/ text:The Guardian) just published a (link:http://www.guardian.co.uk/uk/interactive/2011/dec/07/london-riots-twitter text:visualization) to illustrate how these rumors evolve and are corrected in the context of the London riots. The stories featured are framed as either myths or truths and each section takes you through an individual timline of that event.
+
+(imgslide: rumor-in1.jpg link: rumor-in1.jpg)
+
+Designed by the (link:http://www.guardian.co.uk/profile/guardian-interactive-department text:interactive team) at the Guardian, led by (link:https://twitter.com/ajdant text:Alastair Dant), this visualization is functionally advanced and richly detailed in the data it presents. The tools uses a custom physics engine for the twitter circles as well as custom renderers depending on the browser. Read more about the behind the scenes in (link:http://www.guardian.co.uk/news/datablog/2011/dec/08/twitter-riots-interactive text:this post on the Guardian data blog).
+
+> It took four and a half people about three weeks to build - design/development - with data analysis by academic partners – (twitter:@ajdant)
+
+--
+
+In essence, the tool graphs tweets per hour across the top in a navigational timeline. In different places along the timeline key events are highlighted and explained in the left sidebar. The team then plotted influential tweets and retweets of related stories in an abstract space below, color coding them by the sentiment of the tweet. With much more subtlety, the ‘originating’ tweet is highlighted in blue to match the vertical bar that appears in the timeline.
+
+(imgslide: rumor-in2.jpg link: rumor-in2.jpg )
+
+Users can explore the events in more detail by hovering over individual bubbles to read the contents of a tweet. Doing so replaces the key along the bottom with the tweet while clicking keeps a tweet visible as you move about the piece.
+
+--
+
+The general interface of this tool is functional and makes sense but I think it breaks a lot of the conventions set by similar visualizations from the same team like “(link:http://www.guardian.co.uk/media/interactive/2011/jul/13/news-of-the-world-phone-hacking-twitter text:How Twitter tracked the News of the World scandal.)“
+
+(imgslide: rumor-in3.jpg link: rumor-in3.jpg )
+
+The timeline too seems more thought out in the earlier twitter visualization. The London riots timeline has 4 different types of vertical lines on it, all with a fair amount of contrast and the labels for the dates are awkwardly placed. I do like that there is a stepper in this visualization that snaps to different points on the timeline but its tricky at different points to figure out which blue line the information below is referring to. It may be nit-picky but the rendering of the blue lines is inconsistent and blurry at times, effecting readability.
+
+--
+
+(imgslide: rumor-in5.jpg link: rumor-in5.jpg )
+
+The circles themselves, the crux of the visualization, give you a sense of the volume of tweets as well as a loose grouping but you have to do some digging to determining where reports or events originated. The tweet bubbles are scaled by their influence (twitter followers) and generally get smaller over time which makes sense to me. However it seems the originating tweet follows the same rules and isn’t given any extra importance in terms of scale for being the first of its kind. The blue circle around the originating tweet isn’t explained in the key and it takes some decoding of the tweet’s text to see what it means. It’s also difficult to track changes over time. There’s no quick way to see which tweets are newer and which are older. This could be done with opacity or perhaps their horizontal position in space.
+
+--
+
+(imgslide: rumor-in6.jpg link: rumor-in6.jpg )
+
+It’s easy to draw parallels to a different visualization of sharing that primarily utilizes circles – (link:http://googleblog.blogspot.com/2011/10/google-popular-posts-eye-catching.html text:Google+ Ripples). Obviously the Guardian can’t rip off the interface or functionality but there are useful concepts to reference. I think Google+ Ripples does a great job of showing influence, volume, and directionality of information over time. That’s no easy feat and I think the Guardian piece does most of this but doesn’t effectively communicate the directional flow of information. Grouping the tweets together partially accomplishes this but you can tell tweets in different groups have very similar structures but you can’t determine which came first without reading.
+
+Admittedly twitter presents a much greater challenge when visualizing the flow of information in comparison a network like Google+. Twitter users can change text, shorten links, retweet in different ways, paraphrase and do any number of things to cloud the path of sharing. Not to mention the order of events matters a bit more. This difficulty is why I have yet to see a visualization of conversations on twitter as effective as Google+ Ripples despite the dozens of them that exist. I think twitter suggests a different visual structure than a Google+ post. The London Riots is an impressive visualization of a small subset of twitter data for a complex issue. I don’t think they hit the nail on the head for visualizing twitter data, nor were they trying to. Despite all that exist I think there’s room for one very very excellent visualization tool for twitter that shows conversations and is useful for analytics.
+
+Who wants to start working on it?
+
+----
+related:
+- egypt
+- occupy

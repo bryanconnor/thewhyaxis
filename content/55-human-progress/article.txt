@@ -1,0 +1,44 @@
+Title: Human Progress Pushes Today's Big Issues Forward
+
+----
+Date: 11/4/2013
+----
+Hero: progress.jpg
+----
+Text:
+
+When a website has an (link: http://www.cato.org/events/inauguration-humanprogressorg text: inauguration event) it's a pretty good sign you should pay attention.
+
+(imgslide: humanprogress1.jpg) 
+
+(link:http://humanprogress.org/ text:HumanProgress.org) is a new research tool from the (link:htt://cato.org text:CATO Institute) exploring changes in human well-being across the globe. With a focus on quality data display, responsive design and accessible data, this tool has all the elements of a truly modern visualization. 
+
+
+<iframe src="http://www.cato.org/longtail-iframe/node/49151/field_longtail_player/0" width="450" height="235" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+
+
+At the event (link:http://www.cato.org/people/marian-tupy text:Marian Tupy from the Cato Institute) and (link:https://twitter.com/since1968 text:Marc Garrett) of (link:http://www.intridea.com/ text:Intridea) introduced the site, walked through its features and discussed the design process which was lead by Intridea.
+
+--
+
+(imgslide: humanprogress2.jpg)
+
+The tool's goal is to provide access to data from over 500 sources. This required sophisticated analysis to makes sense of it all. The team built what they call a 'correlation quilt' to help them find values that are highly correlated in order to extract specific stories from the data. Several of these stories are featured on the homepage and allow for deeper exploration. Others are pulled out in static pages, offering a snapshot of a particular issue in a region.
+
+--
+
+(imgslide: humanprogress3.jpg)
+
+Pages dedicated to richer datasets feature a choropleth map of the world which can often be animated over time. There is some subtlety in animation and the same could be said for the color scale. (link:rsimmon text:Robert Simmon), author of the 6 part series "(link:http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/ text:The Subtleties of Color)," said of this scale: 
+
+> It's perceptual, but the contrast is a little low between the highest and lowest values. I also think introducing some change in hue would help reduce simultaneous contrast, which makes it hard to precisely determine values of countries that aren't adjacent.
+
+It could be argued that a choropleth map isn't the best approach for some of this data but HumanProgress also features 4 other modes of analysis for many of the data sets. The first allows you to compare data from countries and regions on a line graph. The second helps find correlations between the selected dataset and the World Economic Freedom Index, also on a line graph. The third line graph helps you find correlations between any two datasets on Humanprogress.org. The fourth allows you to see changes relative to $1000 of income per person between two years in a dataset. 
+
+
+HumanProgress.org follows an increasingly familiar pattern in modern visualization. Besides straightforward and effective data display, the site puts accessibility front and center in several ways. The tool is responsive to its core, working equally well across devices to be available to the widest possible audience. HumanProgress also focuses on giving users access to its underlying data without barriers. In the long run, the tool is meant to make these 500 sources of data more accessible by surfacing their attributes for policy workers and visualizers to discover and extend. It joins the ranks of (link:http://thewhyaxis.info/oecd/ text:OECD Better Life Index), (link:http://thewhyaxis.info/wide/ text:WIDE), and (link:http://thewhyaxis.info/college/ text:College Completion) in a league of modern visualization sites tackling big issues with accessibility and sustainability in their DNA.
+
+
+----
+related:
+- wide

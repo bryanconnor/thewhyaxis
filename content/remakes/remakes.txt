@@ -1,0 +1,90 @@
+Title: Chart Remakes
+----
+
+Text: 
+
+<div class="messaging"><p>Articles on The Why Axis that offer partial redesign suggestions to existing visualizations</p>
+</div>
+
+<ul class="collections">
+
+ <li class="post section">
+   				 		
+    <div class="cover"><a href="http://thewhyaxis.info/gap-remake" ><img src="http://thewhyaxis.info/content/46-gap-remake/regap-in2.jpg" alt="regap" /></a></div>
+	
+	<a  href="http://thewhyaxis.info/gap-remake">Mind the Gap - An Economic Chart Remake</a>
+
+	<p class="excerpt">Guest author Jon Schwabish is an economist with the U.S. federal government and creator of policy-relevant data visualizations. His website, policyviz.com, contains details about his one-day workshops on visualizing and presenting data for people in public policy. You can reach him at…</p>
+
+	<p class="date">Apr 9 2013</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+   				 		
+    <div class="cover"><a href="http://thewhyaxis.info/life-expectancy" ><img src="http://thewhyaxis.info/content/45-life-expectancy/expectancy-7.gif" alt="expectancy-feature" /></a></div>
+	
+	<a  href="http://thewhyaxis.info/life-expectancy">The Washington Post Plots Quality and Quantity of Life</a>
+
+	<p class="excerpt">In December the Washington Post published a visualization which attempts to answer the question asked directly in its title - "How long will we live - and how well?" This interactive scatterplot was created in four days to support this article about the release of the Global Burden of Disease…</p>
+
+	<p class="date">Mar 21 2013</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+   				 		
+    <div class="cover"><a href="http://thewhyaxis.info/tesla" ><img src="http://thewhyaxis.info/content/43-tesla/tesla-5.jpg" alt="tesla-feature" /></a></div>
+	
+	<a  href="http://thewhyaxis.info/tesla">The New York Times and Tesla Motors Engage in Chart Warfare</a>
+
+	<p class="excerpt">Tesla, the car maker named after the famed electrical engineer, has been attempting to revive the dream of the electric car with its powerful Model S. The company’s latest PR nightmare comes after NYT writer John Broder published an account of his test drive experience. The piece includes a…</p>
+
+	<p class="date">Feb 16 2013</p>
+
+	<div class="space"></div>
+</li>
+
+<li class="post section">
+   				 		
+    <div class="cover"><a href="http://thewhyaxis.info/defaults" ><img src="http://thewhyaxis.info/content/42-defaults/bls-in2.gif" alt="bsl" /></a></div>
+	
+	<a  href="http://thewhyaxis.info/defaults">Breaking Excel Defaults &ndash; A Government Chart Remake</a>
+
+	<p class="excerpt">Guest author Jon Schwabish – an economist with the U.S. federal government and creator of policy-relevant data visualizations. You can reach him at jschwabish@gmail.com or by following him on Twitter…</p>
+	<p class="date">Jan 29 2013</p>
+	<div class="space"></div>
+</li>s
+
+<li class="post section">
+
+	<div class="cover"><a href="http://thewhyaxis.info/reuters" ><img src="http://thewhyaxis.info/content/26-reuters/greece-in1.jpg" alt="greece-yellow" /></a></div>
+
+	<a  href="http://thewhyaxis.info/reuters">The Reuters Macroscope Visualization You Need a Microscope to Read</a>
+
+	<p class="excerpt">For a news source in the top 250 global websites (source: Alexa), Reuters is lacking quality data driven journalism and critical thinking about interactive visualizations for their audience. This Greek election tracker from their Macroscope blog is displayed on its own page yet doesn’t take…</p>
+
+	<p class="date">May 30 2012</p>
+
+	<div class="space"></div>
+
+</li>
+
+<li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/rainbow" ><img src="http://thewhyaxis.info/content/23-rainbow/rainbow-7.jpg" alt="rainbow-yellow" /></a></div>
+
+	<a  href="http://thewhyaxis.info/rainbow">The Guardian&rsquo;s Gay Rights Rainbow Graph</a>
+
+	<p class="excerpt">The Guardian published this state-by-state visualization of gay rights laws in the US and while it certainly captures the user’s attention and encourages them to share, I fear the message gets lost in an overwrought design. To start, the circle visualization is visually overwhelming and takes…</p>
+
+	<p class="date">May 9 2012</p>
+	
+	<div class="space"></div>
+</li>
+
+
+
+</ul>

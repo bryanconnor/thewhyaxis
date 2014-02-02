@@ -1,0 +1,50 @@
+Title: The Endangered Languages Project and Emotional Data Visualization
+----
+Date: 7/2/2012
+----
+Hero: language-yellow.jpg
+----
+Text: 
+
+(link:http://www.endangeredlanguages.com/ text:Endangered Languages) is a brand new community of people across the world who care about the preservation of the knowledge and culture contained in language. The site allows them to collect samples and research about endangered languages in an accessible place on the web.
+
+(imgslide: language-in1.jpg link: http://www.endangeredlanguages.com/)
+
+The project is a collaboration between several organizations and companies including Google, the University of Hawaii and The Linguist List. The main feature of the site is an interactive map of all the endangered languages which you can explore on the homepage.
+
+--
+
+(imgslide: language-in2.jpg link: language-in2.jpg)
+
+Rendered in a blue very much associated with Google, the map plots the languages color coded for varying degrees of vitality worldwide. Densely packed areas are grouped into dark circles with a count of the languages in that area. Some are quite staggering. In the top left, the filter mechanism lends some handy functionality for showing different sub-groups of the data including languages with less than 100 speakers.
+
+--
+
+(imgslide: language-in3.jpg link: language-in3.jpg)
+
+The map achieves its goal of drawing people into the data but I feel there are some missed opportunities here.
+
+From a data perspective you can filter to see the most endangered languages but clicking on an individual point just shows the name of the language. It’s not until you’re on an individual language page that you see just how endangered it is and how few speakers remain. I wish this type of information were accessible from the map and visualized in a way that illustrates just how low the number of speakers is.
+
+--
+
+(imgslide: language-in4.jpg link: language-in4.jpg)
+
+Beyond how the information is visualized I think there is a missed opportunity for emotional impact through design here. Languages are endangered because their native speakers are dying. The site is headlined “The World Through 3054 Lenses” because this is exactly what languages are. The importance of each language is a difficult concept to communicate online but I don’t think this project really attempts to achieve that. Right now the most interesting parts of the site, aside from the map, are video samples of some of the languages. Emotion isn’t something we usually associate with data visualization but it can be a powerful catalyst and call to action.
+
+--
+
+This is a video produced by (link:http://vimeo.com/everynone text:Everynone) in association with the fantastic podcast (link:http://www.radiolab.org/ text:RadioLab). Take a look.
+
+(vimeo:http://vimeo.com/13768695 class: graphic)
+
+In 3 minutes the video begins to scratch the surface of the importance and emotional impact language has. The EL Project site feels like it was designed by engineers and really lacks that emotional piece. I think if this had been a design goal from the beginning of the project we’d see a very different site. The Endangered Languages project utilizes a truly significant dataset which makes communicating the knowledge it contains all the more important
+
+If you’re as fascinated with the idea of language as I am then you’ll enjoy this (link:http://www.radiolab.org/ text:Radiolab) Episode entitled “(link:http://www.radiolab.org/2010/aug/09/ text:Words).” Even the first segment gives new meaning to the Endangered Languages project.
+
+<iframe frameborder="0" src="http://www.radiolab.org/widgets/ondemand_player/#file=%2Faudio%2Fxspf%2F91725%2F;containerClass=radiolab" width="300" height="54"></iframe>
+
+----
+related:
+- census
+- bitly

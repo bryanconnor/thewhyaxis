@@ -1,0 +1,30 @@
+Title: Oh The Political Possibilities: 512 Paths to the White House
+----
+Date: 11/5/2012
+----
+Hero: whitehouse.png
+----
+Text: 
+
+With the outcomes of presidential ballot battles in 80% of U.S. states seemingly decided, all attention is focused on the remaining battlegrounds. Candidates are spending vast amounts of money and time to sway just a few supposedly undecided voters in just a few states.
+
+In such an uncertain climate The New York Times has published one of their final visualizations of the presidential race and I think :it’s their finest.
+
+(imgslide: whitehouse-in1.png link:http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
+
+(link:http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html text:512 Paths to the White House) maps all the possibilities for each candidate to make their way to the oval office. Built on top of a mountain of political analysis and number crunching, this graphic simplifies it all and presents the information in a format that anyone can understand.
+
+--
+
+As you hover over graphic the interactions are very intuitive and the sentence structure that’s revealed as you cascade down the tree makes perfect sense. The buttons across the top make the visualization more accessible for touch users and help you narrow down the possibilities in case you miss the fact that double clicking isolates your current selection.
+
+(imgslide: whitehouse-in2.jpg link: whitehouse-in2.jpg)
+
+The graphic clearly illustrates just how important Florida and Ohio are in this election and helps explain why candidates spend and outsized amount of time there. I’m not sure what happens to this tree if there’s a major upset in one of the seemingly “decided” states but the visualization includes Nevada and North Carolina in with states much tougher to call, perhaps to hedge against this situation.
+
+To me, this is the perfect visualization to have up on election night as the results are rolling in. I’ll be on the edge of my seat, feverishly clicking this decision tree along with news coverage on Tuesday night. The NYT graphics department has had a stellar political season of data driven journalism and delightful visualizations. Congratulations to them for creating a visualizations that’s both addictively fun to play with and vitally important.
+
+----
+related:
+- pollster
+- france

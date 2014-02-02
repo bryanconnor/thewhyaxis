@@ -1,0 +1,29 @@
+Title: Twitter Analytics Platform Gives Data Back to Users
+----
+Date: 6/18/2013
+----
+Hero: tw-analytics.jpg
+----
+Text:
+
+Previously reserved for advertising partners, (link:https://analytics.twitter.com/accounts text:Twitter Analytics) now shows all users an overview of their timeline activity, reveals more detailed information about their followers and lets them download it all as a CSV. 
+
+(imgslide: tw-analytics-1.jpg link:https://analytics.twitter.com/accounts )
+
+Presented in a month-long timeline of activity, Twitter Analytics visualizes mentions, follows and something previously much harder to track: unfollows. Even this additional context makes Twitter Analyticsa useful tool for any user. 
+
+The tool also lists out a complete record of your tweets with a few helpful columns added on; Favorites, Retweets and Replies. As you scroll, the timeline up top becomes fixed to the top of the browser and you can see the relationship between the content of a tweet and the response it got (if it happened in the last 30 days). 
+
+Embedded within the tweets column are some additional metrics detailing the number of clicks on links and some callouts highlighting extended reach of individual tweets. Unsurprisingly, this feed oriented analytics interface reminds me of the ideas in Anil Dash's (link:http://dashes.com/anil/2013/01/all-dashboards-should-be-feeds.html text:Dashboards Should be Feeds). It certainly works well here 
+
+--
+
+(imgslide: tw-analytics-2.jpg link:tw-analytics-2.jpg) 
+
+The Followers page presents you with a range of information on the make-up of your audience. A line graph illustrates the growth of your followers over the life of your account (though it doesn't show unfollows). Gender is broken down in a simple stacked bar, while Location is curiously visualized as a treemap in the center of the page. It seems like care has been taken to try to avoid some common pitfalls of treemaps (by clearly showing the parent and child elements) but I'd be very surprised if the average user of the platform gets much information out of this visualization. For the most part I think they'd be much better off with a map or even a bar chart. 
+
+The Twitter Analytics platform seems like a good first step for the social network. There's just enough information presented here - no way to get lost in endless Google Analytics sub-navigation. At the same time, I think these analytics do make you hungry for more. Twitter is starting to quench the thirst of users hungry for more information about their activity instead of having them reach out to third party services. If you are working on a Twitter analytics service I'd be prepared for more heat from Twitter in the near future. In the mean time, though, go to (link:https://analytics.twitter.com/accounts text:analytics.twitter.com), explore your activity and even download it all as a CSV. 
+
+----
+related:
+- bitly

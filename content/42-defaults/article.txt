@@ -1,0 +1,125 @@
+Title: Breaking Excel Defaults – A Government Chart Remake
+----
+Date: 1/29/2013
+----
+Hero: bsl.gif
+----
+Text: 
+
+> Guest author Jon Schwabish – an economist with the U.S. federal government and creator of policy-relevant data visualizations. You can reach him at (email:jschwabish@gmail.com) or by following him on Twitter (twitter:@jschwabish). 
+
+> To download the excel file for this post (data tables and charts) just (file:BLS_remake_1_30_2013.xlsx text: click here).
+
+I spend a lot of time looking at different visualizations produced by government agencies, universities, think tanks, and other policy shops. Unfortunately, many of those graphics fail to convey a clear, visual story. I can generally group those shortcomings into two groups:
+
+- Visualizations that fail to follow best data visualization practices such as avoiding exploding pie charts or 3D column charts; and
+- Visualizations that use appropriate types of visualizations, but use software defaults such that the graphic does not tell the whole story, is not clear, or is not visually appealing.
+
+In that vein, a recent graph by the (link:http://bls.gov/ text:Bureau of Labor Statistics) (BLS) struck me, not because it did not use the appropriate chart type, but because it used default Excel design and colors. More importantly, the graph does not convey the story BLS was trying to tell.
+
+The purpose of this post is to walk you through my thought and design process as I revise this simple chart, a set of revisions that I hope will result in a graph that does a better job telling the story. I use Excel throughout the redesign process of this graph because, as you’ll see, it’s clearly the tool BLS used. Further, I want to demonstrate that by avoiding default settings, analysts can make high quality graphics using a relatively basic tool like Excel. My revisions could, however, be made in R, Tableau, or other graphics tools. I suspect, however, that it would be more difficult in packages such as Stata or SAS, which are used by many government analysts.
+
+I don’t claim to have come up with the “correct” answer, but my hope is that more discussion of this sort will encourage government agencies to make better visualizations and thus tell their stories and share their data in better ways.
+
+## Job Openings in November 2012
+
+In early January, as part of its “The Editor’s Desk” (TED) publication series, the BLS published (link:http://bls.gov/opub/ted/2013/ted_20130111.htm text:this bar chart) of job openings by industry. There are two tabs on the screen shot; one tab has the chart and the other tab has the chart data in a simple table.
+
+(imgslide:bls-in11.gif link:http://bls.gov/opub/ted/2013/ted_20130111.htm)
+
+Let me start with the text that sits below the actual chart. In case it’s not clear in the screen shot, here it is:
+
+> From November 2011 to November 2012, job openings increased most in retail trade (144,000, within the trade, transportation and utilities industry) and health care and social assistance (91,000, within the education and health services industry).
+> Government job openings increased the least, by 6,000.
+> These data are from the Job Openings and Labor Turnover Survey. Data for the most recent month are preliminary and subject to revision. For additional information, see Job Openings and Labor Turnover — November 2012” (HTML) (PDF), news release USDL-13-0015. More charts featuring data on job openings, hires, and employment separations can be found in Job Openings and Labor Turnover Survey Highlights: November 2012 (PDF).
+
+Notice how BLS discusses the change in job openings between November 2011 and November 2012. Although the October 2012 values are presumably important because they illustrate the month-over-month change, they are not mentioned in the text. Does that mean BLS does not find those values important? If not, why are they included in the chart at all? And if the October 2012 value is not important and the change between November 2011 and November 2012 is the central story, why not just show that change? For the moment, let those questions marinate a bit as we look more closely at the chart.
+
+Okay, onto the chart. The chart itself is quite simple: it’s a horizontal bar chart of job openings (in thousands) for 7 different industries in 3 different months. Relative to a lot of visualizations I’m sure you have seen, here is what I liked:
+
+- **Horizontal orientation**. This orientation means that industry labels are not rotated or vertical or in some other alignment that makes it difficult to read as some might do in a vertical column chart.
+- **Values measured in thousands**. This results in the (appropriate) omission of a lot of zeros in the axis labels.
+- **Legend order matches the bars**. For example, November 2012 is at the top of both the legend and the set of bars.
+- **Title is left-aligned**. The title stands out from the rest of the chart and is descriptive. This is a simple chart and all of the pertinent information is contained in that simple, descriptive title.
+- **Lightened vertical gridlines**. This helps emphasize the data (although I would also lighten the x-axis line).
+- **Source**. The source is clear and placed at the bottom of the chart.
+
+Now, here are things I think can be improved:
+
+- Text. As mentioned, the content of the chart does not match the text.
+- **Vertical axis tick marks.** Bar/column charts generally do not need tick marks because the column labels serve to separate the groups; in this case, the tick marks are just unnecessary lines in the chart (so-called chartjunk).
+- **Legend.** They legend forces the reader to scan back and forth between the chart content and the legend; a better strategy is to weave the two together (although this strategy doesn’t always work as I’ll demonstrate in the redesigns below).
+- **Order of the industries.** The order of the industries seems completely arbitrary; they are not sorted alphabetically, which is usually also unnecessary but is at least a common strategy. Bar and column charts that use categorical data (as opposed to time series data) are generally best served by sorting the data in some way.
+- **Order of the bars.** It seems to me that November 2012 should be the last/bottom bar since it is the most recent value. If this was a vertical column chart, November 2012 would appear on the right side; in the horizontal layout, putting the most recent value at the top seems counterintuitive.
+- **Spacing.** Another possible issue is that the three bars are not spaced in a way that accurately reflects the gap in time; that is, the first data point is November 2011 should be much further from the other two bars. This doesn’t bother me as much in the original chart because the point is to show the year-over-year and month-over-month comparisons and not a complete time series. If BLS wants to show the monthly time series, they can easily do so.
+- **Defaults.** They use default Excel colors and the default font (Calibri). You don’t need to be a graphic designer to make better color choices than the defaults Excel provides. (Note also that many people with color blindness often cannot distinguish between red and green).
+
+--
+
+## Redesigning the Chart
+
+When I first started thinking about redesigning this chart, I started simple: So what if BLS didn’t mention October 2012 in the text? There’s a whole report that accompanies the graphic and this graph is supposed to act as the teaser. Fine. So, for this exercise, I started by fixing the basic things in my above list: drop the y-axis tick marks, move the legend onto the chart, sort the industries (descending by the November 2012 value), and change the colors and font (lately, I’ve been into the sans serif Cabin font, which is (link:http://www.fontsquirrel.com/fonts/cabin text:available for free here)).
+
+(imgslide:bls-in2.gif link: bls-in2.gif)
+
+Two quick notes about this approach:
+
+- You don’t need fancy color schemes to make basic charts—I used a basic blue color scheme here and made the darkest color the most recent value (which is also now on the bottom). The consistent color scheme makes the chart more cohesive and the darkest color helps the reader focus on the most recent value, which I think is the most important.
+- _Excel note:_ For those who are interested, the date labels are inserted to the chart by using three different scatterplot points (an approach similar to that often used by Jon Peltier at (link:www.peltiertech.com text:www.peltiertech.com)).
+
+I like this chart. Simple. Clear. Follows good data visualization practices. And uses all the data provided by BLS (naturally, I would probably revise the text to accompany this chart as well). But I don’t love the way the time series is shown vertically. I am accustomed to seeing time series data plotted horizontally. Some of the long industry labels are potentially a problem, but we can let them run on 2 or 3 lines if necessary. So let’s rotate the figure.
+
+--
+
+(imgslide: bls-in3.gif link: bls-in3.gif)
+
+Ah, feels more intuitive. Notice a key change here: I’ve kept the legend and placed it at the top-left of the chart. Because the time series runs from left to right for each category in this approach, if I keep the legend in the same order and lay it out horizontally, it’s more intuitive than having a vertically stacked legend as in the original chart. In addition, moving the labels directly onto this chart ends up looking cluttered, so the legend works better. I’ve also integrated what is now the y-axis label “(Thousands of jobs)” into the title; this avoids having rotated text along the y-axis. The descending sorting (based on the most recent November 2012 data point) and blue color scheme continues to give the chart a more intuitive look and feel. I’ve also added the data labels, which could have been done in the original bar chart as well. Because the data are a quick click away, including them in the chart may not be necessary.
+
+Okay, so this is good. But I want a bit more. The columns are really using a lot of space to show only three data points for each industry. Roughly speaking, the blue columns account for about half of the total area in the graph. That’s not necessarily a bad thing (think of Tufte’s data-ink ratio), but I’m distracted by all the vertical bars and think the reader would be helped by having a clearer visual cue to the top of the bars. That said, let’s give the chart some air and change it to a line chart (well, 7 separate line charts).
+
+--
+
+(imgslide: bls-in4.gif link: bls-in4.gif)
+
+That’s a little better; more breathing room. I’ve directly labeled three of the dots here with the dates, but an alternative would be to color-code the points as in the column chart and add a legend at the top. Once that’s done and because there’s so much less ink than in the column chart, I can now label the data values and it shouldn’t be too distracting.
+
+--
+
+(imgslide: bls-in5.gif link: bls-in5.gif)
+
+Lovely. Lighter still, plus it includes the data and the color scheme is softer than the Excel red-green-blue default. (I could also color-code the data labels, but am not going to do so here.) But, I still want more. The original BLS text emphasized the change from November 2011 to November 2012, so let’s add that as a set of columns at the bottom of the chart. I’ll also move the legend closer to the top-left of the graph since that’s where most people will start reading.
+
+--
+
+(imgslide: bls-in6.gif link: bls-in6.gif)
+
+_Excel notes:_ For those that are interested, just a few points about the Excel work involved here.
+
+- I first plotted the three values for each industry as scatterplots and then added the difference series as a column chart.
+- The legend is also three separate scatterplots with the series name used as the data labels
+- The “Difference: Nov2011-Nov2012” label is based off a single point; another point is plotted at the elbow of the connector line—the two orange lines are vertical and horizontal error bars.
+
+One other note: Instead of sorting by the value in November 2012, I could have sorted on the change, but the dots then look sort of odd because they don’t descend in the same way.
+
+--
+
+I mentioned earlier that in the original bar chart the spacing between columns does not accurately reflect the gap between months. This is probably even more of an issue in the line chart, but one that can be easily fixed. I’ve also made the difference columns a bit wider so the graph looks more balanced. (For labeling purposes, I centered the orange columns, but they could be lined up below the November 2012 data points.)
+
+(imgslide: bls-in8.gif link: bls-in8.gif)
+
+_Excel note:_ For those who are interested, creating this graph simply required moving the data into a monthly layout. To make the orange “Difference” columns a bit fatter than in the previous graph, I added three bars (with no gap width) instead of one column.
+
+To sum up, I moved from the original horizontal BLS chart that probably took about 3 minutes to make, to a blue-colored vertical bar chart that probably took about 6 minutes to make, to a more complicated chart that probably took about 15 minutes to make (not including a few minutes to get the data in the proper format). But I think this graph has more information, has a better color scheme and layout, and (hopefully) tells the story in a more cohesive way.
+
+Is it worth it? Should BLS pursue such a graphic approach?  I’m not sure they need to go all the way to create new graphic approaches for each TED chart they release, but at the very least, I hope they start to think a bit harder about the basics: color, font, and good data visualization practice.
+
+One final set of questions. Does any of this matter? So what if one little chart on the BLS website uses default Excel colors and fonts? The story is (mainly) still there, isn’t it? I think that if BLS could improve this chart by using good data visualization practices and strategies, their readers might be better able to understand their data, their analysis, and their stories. In general, if government agencies can improve how they tell visual stories with data—be it about job openings, unemployment rates, farming subsidies, poverty rates, border security, or what have you—then perhaps our understanding of the nation’s public policy challenges will improve as well.
+
+What do you think?
+
+_Update: You can now (file:BLS_remake_1_30_2013.xlsx text:download the excel file) (data tables and charts) used in this post._ 
+
+----
+related:
+- whitehouse
+- visually

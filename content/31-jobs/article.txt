@@ -1,0 +1,38 @@
+Title: U.S. Job Market Shrinkage Visualized in a Sprawling Interactive
+----
+Date: 7/18/2012
+----
+Hero: jobs-yellow.jpg
+----
+Text: 
+
+Jobs data is perhaps the most oft-cited data in the U.S. in times of a recovering economy leading up to election season. Numbers quoted by politicians seem to directly conflict with each other. As with (link:http://thewhyaxis.info/pollster/ text:polling data), jobs data is probably best explored by an individual with an interactive tool published by a trusted news source e.g. (link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:this visualization) from The Guardian.
+
+(imgslide: jobs-in1.jpg link: http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0)
+
+This piece from the (link:http://www.guardian.co.uk/profile/guardian-in-america-interactive-team text:Guardian in America Interactive team) visualizes the job market broken down by industry. In the same way you zoom to your town on a census map, here you’re probably most interested in the industries that you and your friends work in.
+
+--
+
+(imgslide: jobs-in2.jpg link: jobs-in2.jpg)
+
+About halfway down the page we see the first representations  of data. To me, the circular display of this information is not intuitive at all. A timeline doesn’t make sense as a semi circle and the data is “plotted” with time moving counter-clockwise. These circles attempt to show the size of an industry and its relative change over time with red shrinking and green growing the circle. This idea doesn’t come across clearly though since the values aren’t extreme enough to illustrate what’s really happening to any one of the industries.
+
+--
+
+(imgslide: jobs-in3.jpg link: jobs-in3.jpg)
+
+The stacked horizon time series below makes it a lot more clear what’s happened to an industry by showing data month by month. The Guardian team did a good job limiting the color values to 3 on either side of the spectrum and the graphs are easy to read (as long as you’ve come across a graph like this before.) Unfortunately these graphs don’t illustrate the big picture well. They seem very different from their circular counterparts above. It might help if the industries were ordered by largest gains overall instead of just the largest gain in the last month since this isn’t a very telling piece of information. It’s much easier to see the size and overall change in a market from the top circles but I think rather than separating these pieces of information into different sections they need to be brought together in a more sophisticated representation. It might be as simple as adding the ability to change the area chart from month-by-month to year-by-year or showing a singular line that illustrates the trend for the whole period (similar to what the circles seem to do.)
+
+--
+
+(imgslide: jobs-in4.jpg link: jobs-in4.jpg)
+
+The drop-down menu at the top is an important piece of navigation but is completely separate from the data display. Using the drop-down you can change the focus of the charts below to give you a detailed picture of smaller segments of an individual industry. These charts are so far away (especially when the menu is expanded) that its difficult to see what information has changed on first glance. You really have to read the labels to see that you’re in a (link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/2 text:sub-segment of Education and Health Services). You also lose the overall circle and horizon chart for that parent industry which would be useful for reference.
+
+The piece is so tall it starts to feel like a tower infographic that happens to be somewhat interactive. The elements of the visualization aren’t working together as best they could to communicate the data and allow users to explore. The navigation is separated and the larger message being communicated is out of the context of the smaller monthly changes. Ideally, all these elements would be incorporated in a more sophisticated visualization, however, this isn’t always possible for organizations working on a fast news cycle. It feels like this piece may have been under time constraints and the elements are separated to keep it uncomplicated to develop. The byproduct is that the implementation is less than intuitive to use and this barrier potentially keeps people from gaining new insights from this exploratory tool. The visualization could answer more complex questions: What do the fluctuations in the market look like when you change the time scale from month-by-month to years? Which sub-sections contributed to the gains or losses of the overall industry?
+
+----
+related:
+- sotu
+- occupy

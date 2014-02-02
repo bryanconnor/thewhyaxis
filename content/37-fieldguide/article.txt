@@ -1,0 +1,37 @@
+Title: The Map of Life, A Field Guide For The Future
+----
+Date: 9/12/2012
+----
+Hero: mapoflife-feature.jpg
+----
+Text: 
+
+(link:http://www.mappinglife.org/ text:The Map of Life) plans to plot every species on the planet when it is complete. Talk about big data. For now it’s in a beta version and visualizes ranges and observations for 25,000 species compiled from a variety of data sources.
+
+(imgslide: mapoflife-in1.jpg link:http://www.mappinglife.org/)
+
+Eventually there will be a set of Wikipedia-like functionality added to the map including the addition of user-generated data sets and flagging / editing distribution data. The map will also be able to provide more sophisticated filters, calculations and displays of patters within data and make it all available for download and analysis.
+
+In its current state the map does a lot of things well. Google maps is a familiar platform and the surrounding interface provides you with enough options to visualize almost exactly what you’re looking for. The search is quite powerful though the focus on scientific names is somewhat intimidating to non-experts like myself.
+
+--
+
+For the map I think a lot more cartographic finess could be applied to the way things are rendering. Perhaps a future iteration using (link:http://mapbox.com/ text:Mapbox) and (link:http://mapbox.com/tilemill/ text:tilemill) could reduce issues of contrast and overlap. My personal favorite amongst the map options along the bottom is the pure terrain map with the political boundaries toggled off. There’s something to be said for the pure power of Earth’s geography without the complications of borders. I think part of the goal with a project like this, as we saw with (link:http://thewhyaxis.info/emotion/ text:Google’s Endangered Languages map), is to make people care, whether they’re experts or not.
+
+(imgslide: mapoflife-in2.jpg link: mapoflife-in2.jpg)
+
+Something else that might aid in both emotional impact and scientific progress would be the inclusion of photos for species listed in the search results. It would sure help me with choosing which species of sloth to map! And I think it would be of use to scientists as well. It also wouldn’t hurt if I could share specific URLs with friends and colleagues, pointing them to a specific version of the map I’ve created, telling a short story about a specific species.
+
+--
+
+(imgslide: mapoflife-in3.jpg link: mapoflife-in3.jpg)
+
+When it comes to the interface I think there are a lot of simplifications to be made that would improve the situation. Many of the menu items surrounding the map (on almost all sides) could be removed in a streamlined iteration. For the search and results I’d rather have a dedicated sidebar than a hovering modal box I have to worry about closing to see a full map. In general the interface just gets in the way of the map experience. Each interaction seems to call up a new window over the map. In future iterations I hope the interface gets out of the user’s way as much as possible so they can be immersed in an enjoyable cartographic experience.
+
+With sponsors and partners including (link:http://www.yale.edu/jetz/ text:Yale), (link:http://www.nasa.gov/ text:NASA), (link:http://www.nsf.gov/ text:The National Science Foundation) and more I am hopeful to see the project continue to develop. I do worry for the complexity of the experience at present and how fast progress can be made with the amount of coordination that must need to occur between agencies. As much as possible I think the group should open source parts of the project. Adopt a model that allows people to generate different map styles, edit the data and renderings, and generally enrich the community and experience of what could potentially be a truly significant digital map of the world’s biodiversity.
+
+_Edit: (link:http://vizzuality.com/ text:Visuallity), run by (twitter:@Saleiva), has (link:http://thenextweb.com/eu/2013/01/07/vizzuality-gets-392k-in-eu-funding-to-map-biodiversity-and-endangered-species-with-cartodb/ text:received funding) to develop CartoDB in the context of mapping biodiversity. CartoDB is the foundation for The Map of Life and any infrastructure improvements will directly benefit it._ 
+
+----
+related:
+- emotion

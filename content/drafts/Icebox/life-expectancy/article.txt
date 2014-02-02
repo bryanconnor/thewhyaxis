@@ -1,0 +1,79 @@
+Title: Life Expectancy from Washington Post
+----
+Date: 3/21/2013
+----
+Hero: expectancy-feature.jpg
+----
+Text:
+
+In December the Washington Post published a visualization which attempts to answer the question asked directly in its title - "(link:http://www.washingtonpost.com/wp-srv/special/health/healthy-life-expectancy/ text:How long will we live - and how well?)" This interactive scatterplot was created in 7 days to support (link:http://www.washingtonpost.com/national/health-science/burden-of-disease-study-shows-a-world-living-longer-and-with-more-disability/2012/12/13/9d1e5278-4320-11e2-8061-253bccfc7532_story.html text:an article about the release of the Global Burden of Disease Study). 
+
+(imgslide: expectancy-in1.jpg link:)
+
+I talked to (link:https://twitter.com/eschow/ text:Emily Chow) from the (link:https://twitter.com/PostGraphics text:Post Graphics team) who told me the team's goal with this visualization was: 
+
+> to illustrate how healthy life expectancy has changed since 1990. 
+
+Every news organization should have a good scatter plot in their tool belt. The Washington Post makes good use of this one to show a broad distribution of worldwide data. The addition of some faster filtering and more intuitive point selection would help make it even more of a workhorse for future visualizations. This particular incarnation animates to reflect choices made by the user (selecting Men / Women and 1990 / 2010).
+
+> The angle that we found interesting was the fact that life expectancy is generally longer than it was 20 years ago, but that doesn't mean that we are actually living healthier lives… The percentage of the percentage of years that are considered healthy has actually decreased overall. 
+
+Emily and the Washington Post team decided to show this by plotting life expectancy against the percentage of those years lived in good heath. Though this is a slight abstraction of raw healthy years, the real question to me is whether or not this animated scatter plot effectively demonstrates that a smaller percentage of healthy years are lived over time. 
+
+Because the chart simultaneously plots the multitude of points on two axes and then animates them over time, it ends up being extremely difficult for me to see the overall trend represented with this type of chart. 
+
+--
+
+The team did explore several other chart types in their process, some of which had very promising aspects. My favorite was this set of parallel coordinates which quickly shows some dramatic outliers that are difficult to pick out in the animated scatter plot. The team encoded the years of unhealthy life as the thickness of the bars and planned to taper the thickness to show direction from 1990 to 2010 in later iterations.
+
+(imgslide: expectancy-in2.jpg link: expectancy-in2.jpg)
+
+In the end they decided to moved away from this version.  
+
+> The chart bordered on not being able to fit on one screen, which would affect comprehensibility, and I personally found the amount of overlap in Africa to be overwhelming, to the point in which the patterns are harder to draw out.
+
+--
+
+(imgslide: expectancy-in3.jpg link: expectancy-in3.jpg)
+
+They also tried a mirrored bar graph that looks a bit like a population pyramid. It seems they were playing with bar thicknesses here as well but in the end: 
+
+> The bar chart didn't go far. The graphic was just too deep. It's hard to compare Afghanistan with Zambia and was fairly one dimensional. It's easier to understand the number of years lost to disability, but the strengths pretty much stop there.
+
+--
+Scatterplots were on the table as an option from the beginning of the process. The original studies the team was provided with contained a number of them. We saw something similar happen when the (link:http://thewhyaxis.info/wide/ text:WIDE visualization) extended precedents set in the original tableau charts created by UNESCO. 
+
+(imgslide: expectancy-in4.jpg link: expectancy-in4.jpg)
+
+Emily and the team tried a number of iterations using the scatter plot form: 
+
+> If we overlay the years much like Institute of Health Metrics and Evaluation did, the scatterplot tells more of a story but also gets hairy and cluttered in the middle where most countries are positioned. We also considered building out smaller multiples laid out in a grid, but the points became too small to interact with.	
+
+--
+
+(imgslide: expectancy-in5.jpg link: expectancy-in5.jpg)
+
+She also drew inspiration from an earlier (link:http://www.washingtonpost.com/wp-srv/special/health/weight-of-the-world-bmi/ text:Washington Post graphic published by Wilson Andrews) giving a global look at body mass index and diabetes. Here the labels help the chart tremendously and there are even trails for the individual points over time which are revealed individually, cleaning up any hairball that might result from displaying them all. 
+
+However, in the case of the Life Expectancy chart, I don't think trails and labels would solve the ultimate problem of showing the smaller percentage of healthy years in 2010. 
+
+--
+
+To remedy this I would suggest the team revisit the parallel coordinates option. Here I've come up with a sketch that addresses the concerns that led the team away from this type originally (space and visual noise). 	
+
+(imgslide: expectancy-chart-the-why-axis-01.png link: expectancy-chart-the-why-axis-01.png)
+
+The chart separates life expectancy from healthy years and displays the trends independently. Basic filtering and hover states make comparison much easier. Showing all countries would get quite complicated but I believe it would still show the overall trends and outliers. Not to mention showing all data points simultaneously is not necessarily the goal of visualizing this data. 
+
+--
+
+While the scatterplot displays all the data efficiently it doesn't communicate that ultimate insight that the team discovered. I would encourage Emily and the team, and all visualization teams to make decisions based on the winning form and then solve for practical or technical concerns. Issues of visual space and filtering can be solved much easier than trying to transmit understanding through the wrong lens. 
+
+----
+
+related:
+- wide
+
+
+
+

@@ -1,0 +1,67 @@
+Title: Infographics for America – Displaying Data in the State of the Union
+----
+Date: 1/25/2012
+----
+Hero: sotu-yellow-feature.jpg
+----
+Text:
+
+If you were one of the 2 million people that caught the State of the Union (or (link:https://twitter.com/search?q=%23sotu text:#sotu)) last night on the White House website you had the option to watch the “enhanced broadcast” which included contextual information and visualizations along with the speech. Anyone who didn’t watch it can now (link:http://www.youtube.com/watch?v=Zgfi7wnGZlE text:see the whole thing on Youtube).
+
+(youtube:http://www.youtube.com/watch?v=Zgfi7wnGZlE class:graphic)
+
+--
+
+The (link:http://www.youtube.com/watch?v=kl2g40GoRxg text:2011 State of the Union) included similar visualizations alongside the President’s speech. Most were pretty straightforward, some suffered from issues common to visualization, (link:http://blog.fastfedora.com/2011/01/2011-state-of-the-union-visualizations.html text:as pointed out) by Fast Fedora blogger, Trevor Lohrbeer.
+
+(imgslide: sotu-in0.jpg link: sotu-in0.jpg)
+
+--
+
+This year the graphics were again heavily leveraged to drive home the oratory points in a visual way. These images were seen by millions of Americans and coming from the White House they deserve some scrutiny. While no display of data is completely unbiased, some do a better job at presenting information in a straightforward way. Let’s see how the President’s data and design team did this year.
+
+(imgslide: sotu-in1.jpg link: sotu-in1.jpg)
+
+The first visualization put up in the enhanced section of the screen seems simple enough but when you read the fine print, the bar graphs represent “_percent of households with annual income within 50% of the median_“. This is a complex and confusing metric to show and I think the bar graphs oversimplify it. You understand quickly what the graphic is trying to convey: the middle class is shrinking. What you miss is the definition of that ‘median’ and what the full spectrum of annual income looks like.
+
+--
+
+(imgslide: sotu-in2.jpg link: sotu-in2.jpg)
+
+
+Next up there was a graphic that looks remarkably like one popularized by (link:http://motherjones.com/politics/2011/02/income-inequality-in-america-chart-graph text:MotherJones) in reference to the (link:occupy text:Occupy Wall Street movement). The MotherJones graphic is a bit clearer since it has a line that represents each segment of income earners instead of just the top 1% and middle 60%.
+
+--
+
+(imgslide: sotu-in3.jpg link: sotu-in3.jpg)
+
+Of course the economic crisis was a major talking point. The wall street graph associated with this portion of the talk is worth mentioning. The message is quite striking but there are some murky elements here. The fact that the red area fades out as it goes back in time makes me curious about what data is being hidden. The other strange thing is the x axis. The time scale is incredibly hard to read here but extremely important to interpreting the visualization.
+
+--
+
+(imgslide: sotu-in4.jpg link: sotu-in4.jpg)
+
+In reference to job creation, the President showed this image, very similar to the controversial graphic previously created and promoted by the administration. There is now a campaign encouraging voters to send postcards to friends with this visualization on it. It’s hard to really tell what the State of the Union graph is showing. There are few labels and the scale of time on the x axis is non existent. Other critics have questioned whether this is showing the change in unemployment or total unemployment figures.
+
+--
+
+(imgslide: sotu-in5.jpg link: sotu-in5.jpg)
+
+A chart very similar to this one was scaled incorrectly in the 2011 State of the Union. Last time the circle representing tax cuts for people with incomes over $1million was too small. That problem seems to have been addressed in this iteration of the bubble chart. It’s difficult to tell but they may have even over-corrected a bit.
+
+--
+
+(imgslide: sotu-in6.jpg link: sotu-in6.jpg)
+
+Many of the other graphics were straightforward bar graphs, simple pie charts with the occasional piece of chart junk thrown in. Out of the 102 ‘slides’ in the enhanced broadcast, about 1/4 (26) of the slides visualized data or used an associated convention.
+
+It’s great to see data visualization taking the spotlight on the national stage. The exposure ensures that visual literacy for data visualization will continue to become more important and mainstream. Each of the graphics were only up on the screen for a few seconds but being on a national stage means they deserve to be examined and critiqued. It’s difficult to eliminate all bias but the tendency should be toward open and honest display of data.
+
+Data visualization is powerful and has been adapted by marketers and politicians for their own gains. It’s up to data visualization practitioners to guide the use of this form of communication in the right direction and to call for more sophisticated and honest products of visualization to be released to the public.
+
+There’s definitely room for the bar to be raised in the use of data visualization in a official capacity. In a perfect world the White House would create interactive visualizations and release them to the public along with documentation about the data sources and process used to create the tool.
+
+----
+related:
+- pollster
+- france

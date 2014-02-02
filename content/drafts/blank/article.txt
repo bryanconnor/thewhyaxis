@@ -1,0 +1,22 @@
+Title: 
+----
+Date: 12/17/2013
+----
+Hero: 
+----
+Text:
+
+(imgslide: img1.jpg)
+
+--
+
+(imgslide: img2.jpg)
+
+----
+
+related:
+- article
+
+
+
+

@@ -1,0 +1,38 @@
+Title: Add Raw to Your Roster of Visualization Tools
+
+----
+Date: 3/21/2013
+----
+Hero: dd-raw.gif
+----
+Text:
+
+(link: http://raw.densitydesign.org/ text:Raw) is a new web-based visualization tool developed by (link:http://www.densitydesign.org/ text:Density Design). It was born out of their daily studio practice and has now been released to the masses. Raw has identified a common pain point in the data visualization process and strives to fill the gap between spreadsheets and vector graphics.
+
+(imgslide: dd-raw1.jpg)
+
+Featuring drag and drop functionality with live reload, Raw is immediately more intuitive that most applications that handle data. It beats Excel in terms of usability and aesthetics and its creators (link:http://www.densitydesign.org/2013/10/raw-the-missing-link-between-spreadsheets-and-vector-graphics/ text:highlight) that: 
+
+> "It is not intended to be a full “visualization tool” like Tableau or other similar products: as the name suggests it is a sketch tool, useful for quick and preliminary data explorations as well as for generating editable visualizations."
+
+--
+
+(imgslide: dd-raw1.gif)
+
+In addition to pasting in your own data, Raw smartly includes some sets of sample data. Each set is structured differently to work better with some of the layouts included in raw but discovering which fits best is less than intuitive for the average user. The labels on the datasets help but Raw could go a step further to recommend specific layouts that suit the data or select smart layout defaults for each sample.
+
+It's also worth noting that these layouts aren't your average bar or pie chart. They are fairly specialized visualization types that are certainly useful but don't strike me as representative of the most widely used chart types. It's difficult to guess how Density Design decided to start with these layouts but one potential explanation is their pure visual appeal. It seems like one of the goals of Raw is to help you create beautiful visualizations and these chart types are all quite aesthetically pleasing by default.
+
+--
+
+(imgslide: dd-raw3.gif)
+
+Raw's inclusion of some less common visualization types and sample data means there's an opportunity for users learn more about visualization by playing with the tool. The 'sketch' feel of the app is already a good learning environment that could be bolstered by stronger help and guidance along the way.
+
+More layouts are already in the works for the the tool (link:https://github.com/densitydesign/raw/wiki/Layouts text:https://github.com/densitydesign/raw/wiki/Layouts) and since the project is hosted on Github, any D3 developer can contribute new layouts.
+
+What layouts and chart types would you like to see added to Raw next? Are simpler chart types important or are they covered well enough by existing software? 
+
+----
+related:
+- databoard

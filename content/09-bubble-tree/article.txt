@@ -1,0 +1,43 @@
+Title: Visualize Hierarchical Data with a Bubble Tree
+----
+Date: 9/29/2011
+----
+Hero: bubble-yellow.gif
+----
+Text: If this visualization looks familiar to you it’s because you follow the career of (link:http://www.davidmccandless.com/ text:David McCandless popup:yes) far too closely. It is, in fact, based on (link:http://www.flickr.com/photos/okfn/4624235722/in/set-72157623975681301/ text:his design popup:yes) for (link:http://wheredoesmymoneygo.org/dashboard/ text:Where Does My Money Go? popup:yes) (WDMMG) but has been re-imagined by (link:http://twitter.com/driven_by_data text:Gregor Aisch popup:yes). Gregor is the designer and visualization architect for the (link:http://openspending.org/ text:OpenSpending Project popup:yes). He’s also the brain behind the beautiful and useful visualizations on (link:http://driven-by-data.net/ text:driven-by-data.net popup:yes).
+
+(imgslide: tree-in1.gif link: tree-in1.gif caption: Caption, my <a href="#">caption</a>)
+
+Both WDMMG and the OpenSpending project are initiatives of the (link:http://okfn.org/ text:Open Knowledge Foundation popup:yes) meant to promote government spending transparency and educate citizens through the visualization of data. Gregor’s bubble tree, designed for the OpenSpending project, takes this mission one step further by developing an open source tool to flexibly visualize data sets with a similar hierarchical structure.
+
+So far he’s produced bubble trees for the UK, Berlin, Uganda and more but with a data architecture based on a simple JSON tree structure and continually improving (link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:open source files and documentation popup:yes), this bubble tree tool can help almost anyone visualize hierarchical data. Gregor told me a little bit more about future plans for the bubble tree project:
+
+> The bubble tree is going to be integrated inside (link:http://openspending.org/ text:OpenSpending.org) and thus will become an open tool for everyone to easily explore all the data sets on OpenSpending. Users will be able to customize the bubble tree, select year and dimensions to display, share certain views with others and stuff like that.)
+--
+(imgslide: bubblein2.gif link: bubblein2.gif)
+
+
+Gregor’s bubble tree makes several significant improvements on the working version of McCandless’ WDMMG, chief among them being the navigation through the piece. Instead of making the parent object into a literal back button in the (link:http://wheredoesmymoneygo.org/dashboard/#year=2009&focus=10-10.2&view=uk-bubble-chart text:top left of the screen popup:yes) the OpenSpending visualizations keep everything in context, literally zooming in while keeping the parent object along the left edge of the screen to keep you oriented. The visualization also keeps the adjacent nodes visible on the screen so you can navigate around the same level of heirarchy. The addition of a cloropleth map on some of these visualizations adds a geographic context to the spending data and allows users to draw more complex conclusions by exploring.
+--
+
+(imgslide:bubblein3.gif link:bubblein3.gif)
+
+In addition to the nice visual design, colors and illustrations where applicable, the UK version does a good job with the little details. The dotted line on the interior of most of the circles, although somewhat subtle, indicates that you can click to drill down on that sector and reveal more information. Circles without this dotted line have no child nodes. In the Uganda version (still under development), Gregor has elegantly added another level of complexity by showing where percentages of the budget originate from. Functionally, Gregor adds a nice touch by having every state of the visualization tied to a URL hash so you can link directly to different views and zoom levels as well as hit back in the browser to re-trace your steps.
+
+--
+
+As a system for displaying a diverse data sets I think the bubble tree has some room for improvement. When a newly selected node causes the visualization to drastically change scales the animation can become distracting and disorienting. Because of the animation and scaling I think it’s difficult for the visualization type to work well past 3 or 4 levels of hierarchy. When the values get too small, the functionality breaks down a bit. There are some scenarios in which the difference in scale between the active node and the parent node is so great that the parent node is outside the current view leaving the user no way to zoom out besides using the back button in the browser. One possible augmentation might be a sort of breadcrumb feature to keep you oriented in a different way for edge cases or zooming back out multiple levels. For example here’s a quick sketch:
+
+(imgslide: bubblein4.gif link: bubblein4.gif)
+--
+
+The UK version does a good job of accounting for edge cases in terms of how the labels, values and illustrations are integrated into the visualization but I think there’s an issue when illustrations replace the dollar values inside of the circles. When a label doesn’t fit inside of a circle it’s placed outside but when a dollar amount doesn’t fit it is relegated to the hover state instead of being placed below as well. To me the illustrations should only be present when the circle can accommodate a dollar amount too. Relying on hover for certain functionality works fine for the web but for the percentage of time it’s viewed on touch devices, those values won’t be visible until after the node is clicked.
+
+(imgslide: bubblein5.gif link: bubblein5.gif)
+
+All in all though Gregor’s done a good job of developing an interactive visualization that can be used for a variety of situations and since it’s open source it can be used by pretty much anyone. He’s written a (link:http://vis4.net/blog/en/posts/tutorial-bubble-tree/ text:tutorial popup:yes) on using the code and is actively improving and editing (link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:source files on bitbucket popup:yes). I think more visualization practitioners should consider working this way and develop more open systems for interactive visualization that can then be tailored for specific tasks, audiences, and data sets. A defined collection of visualization types wrapped up in a piece of software is one thing but I think the idea of a diverse and expanding marketplace of open source interactive visualizations is something to get really excited about.
+
+----
+related:
+- universe
+- bitly

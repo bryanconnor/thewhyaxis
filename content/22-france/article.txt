@@ -1,0 +1,118 @@
+Title: The Role of Data Visualization in the 2012 French Presidential Race
+----
+Author: Jérome Cukier
+----
+Date: 5/3/2012
+----
+Hero: france-yellow.jpg
+----
+Text: 
+
+> (image: JeromeCukier-thewhyaxis.jpg) The following is a guest article written by Jérôme Cukier ((twitter:@jcukier)), a talented visualization consultant from Paris, France.
+
+Government data can be used to inform citizens and is never more relevant than when they are called to express the ultimate political choice. With data, citizens can determine whether they agree with one policy or another, whether they subscribe to one social model or not, and if one proposition is in line with their priorities.
+
+Interestingly, the French presidential campaign launched soon after the release of (link:http://data.gouv.fr/ text:data.gouv.fr), the French public data portal. In its current state it’s a repository of almost every data set previously made available by the central administration, or around 350,000 files. So there is indeed a major amount of data to tap into.
+
+(imgslide: france-in1.jpg link: http://www.data.gouv.fr/)
+
+--
+
+And about a year and a half ago, leading left-wing economists Camille Landais, Thomas Piketty and Emmanuel Saez put online (link:http://www.revolution-fiscale.fr/ text:http://www.revolution-fiscale.fr/), a proposition for an alternative tax system complete with a (link:http://www.revolution-fiscale.fr/simuler/irpp/ text:simulator) which lets users try different combinations and let them know their impact on public finance and inequalities.
+
+In that context, I was very much looking forward to see data finally put to good use and use data and visualization to convince voters. Most unfortunately, that did not happen and the use of data has been marginal at best.
+
+(imgslide: france-in2.gif link: http://www.data.gouv.fr/)
+
+--
+
+(link:http://www.parti-socialiste.fr/bilan-sarkozy/ text:Le dépôt de bilan de Sarkozy) represents the acme of the Parti Socialiste efforts on visualization. It is an interactive compilation of their previous infographic work on (link:http://www.parti-socialiste.fr/riposte/infographies text:http://www.parti-socialiste.fr/riposte/infographies).
+
+(imgslide: france-in2.jpg link: france-in2.jpg)
+
+--
+
+Their opponents, Union pour un Mouvement Populaire (UMP), have released (link:http://www.lafranceforte.fr/medias/infographies text:a comparable number of infographics) but their ultimate tool is this (link:http://www.lafranceforte.fr/comparer-programme text:interactive program comparator).
+
+(imgslide: france-in4.jpg link: france-in4.jpg)
+
+So let’s start with the good. Infographics from both side are very sleek and professionally designed. The choice of fonts and color is bold in both cases and consistent with the image the candidates want to project of themselves: the soft raspberry red and the friendly “(link:http://www.parti-socialiste.fr/logo text:Jaurès)” font convey a sense of safety and protection, while the incumbent chose very frank reds and blues, and a wild-west slab font, to suggest determination and courage.
+
+On the (link:http://www.parti-socialiste.fr/bilan-sarkozy/ text:animated visualization), the Parti Socialiste infographics makes good use of transitions (with (link:http://raphaeljs.com/ text:raphael.js) technology). Each individual chart first appears without data, then animations take them from that initial state to the final infographics in one or several steps. Each step takes between 3 and 5 seconds which is appropriate to keep the user engaged while maintaining the impression of movement. The choice of the transitions is appropriate: bars grow from the axis, numbers roll as on a pinball score wheel, icons that represent a value grow or shrink. I have reservations for line charts that rise from the bottom as opposed to unroll from the left which would suggest evolution more appropriately. But I applaud the fact that the designers have resisted the temptation to create something ridiculously spectacular.
+
+And that’s about it for the good.
+
+--
+
+Now the less good.
+
+(imgslide: france-in5.jpg link: france-in5.jpg)
+
+Almost every bar chart scale starts from a value higher than 0. The same goes for area charts and single-series line charts. This is a cardinal sin in chart design and shows a clear intention to misrepresent. Before the eye gets a chance to read the label on the scale, it will compare the heights of bars and transmit that information to the brain. If the height of one bar is one fifth of that of another bar, we infer that the difference of value between the two variables is as much. And unfortunately for both parties, this practice is the rule rather than the exception. On 25 charts where the scale should have started at 0, this has been the case only 6 times.
+
+--
+
+In the same order of thought, when icons are sized according to a variable, it is their radius and not their area which is made proportional to the value, so differences are grossly exaggerated.
+
+(imgslide: france-in7.jpg link: france-in7.jpg)
+
+--
+
+I do not think that any of the line charts of the UMP infographics brings any value. I personally never draw more than 3 series for one line chart, although I admit this limit is subjective. But here, virtually all line charts show 5 to 7 series with a thick stroke, which end up as being very difficult to read. What’s more, France isn’t given prominence on these charts although they are made to compare it with other countries.
+
+(imgslide: france-in8.jpg link: france-in8.jpg)
+
+
+--
+
+Another problem is the sourcing. Accurate sourcing has two important functions. We’ll come back to the second one later, but at the very least it allows someone to retrieve the underlying data of a chart. But when sources are presented as, for instance: “unemployment: INSEE, 2011″ it’s not very helpful. As of this writing, (link:http://data.gouv.fr/) has 293826 INSEE data sets. In this time and age it is possible to point the reader to exactly where the data has been taken and there is no excuse not to do so.
+
+(imgslide: france-in9.jpg link: france-in9.jpg)
+
+--
+
+## The Problem
+
+None of these charts, none of these infographics has been created to convince voters. There never was an attempt to appeal to their reason and intellect to decide for themselves which is the best choice.
+
+The infographics chose one topic and present figure after figure in isolation. The numbers presented out of context, which makes them difficult to interpret especially as some are rather exotic indicators well beyond the grasp of a profane (I’m looking in your general direction, general government gross financial liabilities). But more significantly, what is shown has no relationship to an actual political decision
+
+(imgslide: france-in2.jpg link: france-in2.jpg)
+
+On each topic, the infographics from the Parti Socialiste try to depict an apocalyptic situation while those on the UMP side argue that things are looking good. But neither side shows that a specific choice from the incumbent president had a positive or a negative impact.
+
+For instance, no one disputes that debt increased over the last presidential term. But was this because of reckless tax breaks as the Parti Socialiste suggests or because of the largest financial crisis of the last 50 years? So let’s assume that this was the consequence of a faulty policy. Then, it should be possible to point out the erroneous choice, then show (with data) the immediate implications of this decision, then their consequences… until it can be established that this was a mistake.
+
+President Sarkozy said time and time again that left-wing policies have failed everywhere they have been applied. Why wouldn’t his team attempt to show this with data? That would be an interesting infographic. I can already see a map of Europe… with the legend box conveniently located over the Scandinavian countries.
+
+## The Solution
+
+It is entirely possible to convince with data. To do so, one organization must take its disbelieving readers through a scenario where they get an irrefutable proof that what they thought right is not supported by data. That’s the second reason why accurate sourcing is important – readers should be able to get to the data and do the maths themselves if they are not convinced by the presented interpretation.
+
+For example, let’s assume that you are a right-wing party who wants to establish that reducing the number of hours worked has no positive impact on unemployment.
+
+- Propose your readers to see the impact of labour duration on unemployment.
+- Show that this solution is ineffective as unemployment actually rises. But let your readers try and test your assumption against your data.
+- Next, show them an alternative scenario with a different measure, for instance reducing the cost of labour. Your readers assume this won’t work.
+- Use your data to show that countries who have mastered their cost of labour are less affected by unemployment.
+
+At the end of the process, your readers will be more receptive to the idea that there are other ways to solve a problem and that the policies which they thought were best could be ineffective.
+
+And of course, unemployment vs hours worked is just one random example among many. Every policy that ends up in a political platform is there for a reason (hopefully), and if there is data, which will increasingly be the case as the availability of public data rapidly improves, it should be possible to argue for it – with data.
+
+To do that there are two requirements.
+
+First, interactivity. This is a process that you need to take your readers through. But interactivity comes cheap in the digital age. What is also necessary is immediate visual feedback. You want to keep readers engaged and not lose them.
+
+Second, an objective tone. The problem of political communication in France (and in most other countries) is that it is written by and for activists. However, data and visualization allow one to argue a position even to one who do not share your views. But if you assume that your audience already agrees with you and state, straight away, the conclusion you want them to take home before letting them go through the process, you are losing them too.
+
+The program comparator proposed by UMP is built on a good idea: depending on your personal situation, show why Nicolas Sarkozy is a better candidate. So they have the first part right, the interactivity, the immediateness, the task to challenge the assumption that François Hollande is the better choice. However they fail miserably in the objectiveness department. For instance, the tool will ask you who you voted for in the first round, and if you choose François Hollande it will resort to irony and ad hominem attacks – although there are people who do change sides between two rounds.
+
+The tax simulator proposed by economists close to the Parti Socialiste is built on state-of-the-art economic reasearch with the best available data. It comes out as objective and reliable. Unfortunately, it is neither visual nor immediate – it can take up to 20 seconds to compute the outcome of a simulation. But if there had been a stronger front-end, possibly with many pre-computed scenarios which could be brought up instantly, and a visual interface, it would have been an invaluable asset in the campaign.
+
+So while data had no impact on the 2012 French presidential race, I am confident that data visualization will be put to good use for political campaigning in the near future.
+
+----
+related:
+- oecd
+- zeitgeist

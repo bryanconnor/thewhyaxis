@@ -1,0 +1,57 @@
+Title: Make Your Own Better Life Index
+----
+Date: 6/20/2011
+----
+Hero: yellow-OECD.jpg
+----
+Text: Hundreds of list posts and rankings are published every day across the Internet. Designers of “infographics” have picked up on this trend and now are creating what amount to (link:http://www.coolinfographics.com/blog/2011/5/25/apple-approves-500000-appsand-counting.html text:visual lists popup:yes) at an alarming rate. In this sea of mediocrity and bullet points the (link:http://www.oecdbetterlifeindex.org/ text:OECD Better Life Index popup:yes) shines like a summer star. The visualization, produced by (link:http://well-formed-data.net/ text:Moritz Stefaner popup:yes), (link:http://www.jeromecukier.net/ text:Jerome Cukier popup:yes) and the design firm (link:http://www.raureif.net/ text:Raureif popup:yes), allows for comparison between 34 countries across 11 metrics determined by the OECD to be essential to living conditions and the quality of life. Instead of listing a rank for each country, the index can be adjusted according to the perceived importance of certain metrics. Users choose these importance levels and by doing so create their own Better Life Index, generating their own ranking of countries. (link:http://www.oecdbetterlifeindex.org/ text:Give it a try popup:yes) yourself if you haven’t already.
+
+(imgslide: OECD-in1.jpg link: OECD-in1.jpg)
+
+The Better Life Index (BLI) has received (link:http://infosthetics.com/archives/2011/05/oecd_better_life_index_comparing_the_national_well-being_by_flowers.html text:some popup:yes) (link:http://fellinlovewithdata.com/reviews/review-better-life-index text:great popup:yes) (link:http://flowingdata.com/2011/05/24/better-life-index-measures-well-being-across-countries/ text:press popup:yes) so far and deservedly so. It has many hallmarks of an effective visualization: an informative welcome screen with good copy writing, intuitive interactions and interfaces, clear visual hierarchy and typography and, of course, an effective display of data.
+--
+
+The visualization and the site as a whole really come to life when you dive deeper, beyond the homepage visualization and start looking at individual countries and the rational behind their scores. The amount of supporting text and explanations add a tremendous amount of depth to the site and with 34 countries and 11 scores for each, content management was crucial to this project. The bulk of the site runs on WordPress though I’m sure many customizations and improvements were made.
+
+On individual country pages there is a great set of bar charts that immediately give you a more detailed impression of where the country sits in all categories when each metric is weighted equally. Some simple but smart interactivity allows the user to hover over these small bars to get a feel for where other countries stand and even compare two countries quickly with an easy drop-down menu. There’s a lot of text on each page but the hierarchy is brilliantly clear and the detailed explanations add a lot of substance to the overall visualization, something missing from many similar projects published on the web.
+
+(imgslide: OECD-in2.jpg link: OECD-in2.jpg)
+--
+
+There are also pages for individual measures like (link:http://www.oecdbetterlifeindex.org/topics/housing/ text:housing popup:yes) and (link:http://www.oecdbetterlifeindex.org/topics/income/ text:income popup:yes). These pages provide another great cross section of the data from a different angle. Here you can examine one topic directly across all 34 countries and discover the indicators that generate the rankings. Jerome Cukier, project manager for the index (link:http://www.jeromecukier.net/blog/2011/05/25/better-life-index-a-post-mortem/ text:explains why popup:yes) overall rankings are so minimal in the site:
+
+> Eventually, we came up with an idea. A ranking, yes, but not one definitive list established by experts. Rather, it would be a user’s index, where said user would get their own index, tailored to their preferences. Still, the idea of publishing such an index encountered some resistance, some countries did not like the idea of being ranked. But at some point in 2010 those reserves were overcome and the idea was generally accepted.
+
+(imgslide: oecd-measures.gif link: oecd-measures.gif)
+
+--
+
+Users can still see overall rankings for countries but visually they are not treated with importance. As a result, users pay more attention to the creation of their own ranking system by prioritizing certain topics visualized by the flowers. This prioritization is actually a challenge, however, seeing as the OECD has determined that each of the metrics are essential to quality of life. The user ends up just changing priorities to see the results on the country flowers. In addition, the idea of ranking all the countries was minimized a little too much and for a first time user the “display countries by rank” option is not an easy one to find (in the bottom right of the chart).
+
+(imgslide: OECD-in3.jpg link: OECD-in3.jpg)
+
+--
+
+The BLI makes heavy use of the flower icon for visualizations across the site as well as branding for the index itself, (link:http://www.youtube.com/watch?v=sUOVi6IiMjY&feature=player_embedded text:marketing materials popup:yes) and even (link:http://well-formed-data.net/archives/618/oecd-better-life-index text:environmental decoration popup:yes). It’s one of the only visualization projects I’ve seen where the display of data is so closely tied to the branding and it makes for a memorable experience. The Berlin based creative consultancy (link:http://www.raureif.net/ text:Raureif popup:yes) was responsible for the branding (as well as the site’s design and production) and worked closely with Moritz and Jerome to evolve the branding in tandem with the visualization. Moritz shared some alternate branding concepts Raureif explored with the team, each tied closely to an alternate way to visualize the data.
+
+(imgslide: OECD-in4.jpg link: OECD-in4.jpg)
+
+--
+
+As a visualization form, the flower serves as a useful tool for representing multidimensional data in one icon and does a good job of giving a general impression of the state of each country. It’s easy to compare differences in petals within the same country, however, comparing flowers and petal shapes between countries is much more difficult. The BLI helps where it can by organizing all the countries by their current rank and keeping the color key visible but even when country flowers sit next to each other it can be difficult to see differences and determine why one ranks higher than the next.
+
+(imgslide: OECD-in5.jpg link: OECD-in5.jpg)
+
+--
+
+I believe this difficulty is in part a result of the complex shape of the petals as well as a result of the pure difficulty of processing and comprehending such a large amount of data in such a small space. The team has gone to great lengths to make this process easier for the user and went with the flower after a thorough exploration and prototyping process. The best visualizations are made up of compromises in service of the audience or overall goal. Moritz was also kind enough to share some of the team’s working process and alternate prototypes on vimeo.
+
+(vimeo: http://vimeo.com/24609043 class:graphic youtube)
+
+Although it’s not nearly as elegant as the flower solution, I am partial to the visualization style shown at the very beginning of the video. It looks like the panel on the right controls the importance of the 11 metrics (displayed as height) and the stacked bars for each country reflect that importance in their respective color bar heights. The width of the bars come from the scores each country received on a particular topic and in combination with the user’s level of importance it is calculated how high or low to place the collection of bars. I’m guessing where there are multiple bars of the same color it means that these are actually the scores for the different indicators that lead up to the overall metric. Being able to line up the bars along a central axis creates a more readable profile and makes countries somewhat easier to compare.
+
+Since these initial version the team has obviously made a tremendous amount of iterations and refinements. The final outcome speaks for itself a represents a great case study in the marriage between data visualization, branding and user experience design.  Hopefully this holistic approach to visualization will replace the visual list as a standard form for communicating data and become the new normal.
+----
+related:
+- college
+- bubble-tree

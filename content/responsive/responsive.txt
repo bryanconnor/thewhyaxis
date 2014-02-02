@@ -1,0 +1,28 @@
+Title: Responsive Visualizations
+----
+
+Text: 
+
+<div class="messaging">A collection of in depth writing about the visualizations that deserve your attention.
+
+Looking for guest contributors - email: <hello@thewhyaxis.info></div>
+
+<ul>
+
+ <li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/black-budget" ><img src="http://thewhyaxis.info/content/53-black-budget/black-budget.gif" alt="black-budget" /></a></div>
+
+	<a  href="http://thewhyaxis.info/black-budget">Behind The Black Budget</a>
+
+	<p class="excerpt">The following is an interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. What was the goal for this visualization? We thought about this graphic in the same way we…</p>
+
+	<p class="date">Sep 23 2013</p>
+
+	<div class="space"></div>
+</li>
+
+
+
+
+</ul>

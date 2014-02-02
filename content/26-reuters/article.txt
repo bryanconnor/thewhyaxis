@@ -1,0 +1,34 @@
+Title: The Reuters Macroscope Visualization You Need a Microscope to Read
+----
+Date: 5/30/2012
+----
+Hero: greece-yellow.jpg
+----
+Text: 
+
+For a news source in the top 250 global websites (source: (link:http://www.alexa.com/siteinfo/reuters.com text:Alexa)), (link:http://www.reuters.com/ text:Reuters) is lacking quality data driven journalism and critical thinking about interactive visualizations for their audience.
+
+(imgslide: greece-in1.jpg link: http://graphics.thomsonreuters.com/12/05/GR_GreecePolls.html)
+
+This (link:http://graphics.thomsonreuters.com/12/05/GR_GreecePolls.html text:Greek election tracker) from their Macroscope blog is displayed on its own page yet doesn’t take advantage of the extra space to give the graph more breathing room. The whole visualization takes about 1/4 of the page and the main chart is only a portion of that. (link:http://blogs.reuters.com/macroscope/2012/05/22/greek-political-poll-tracker/ text:Here’s the short article) associated with it (complete with outdated screenshot which includes a pie chart).
+
+As a method of visualizing the percentage of polls going to each party I disagree with the selection of the line chart. Stacking all the lines on top of each other doesn’t display a breakdown of the whole electorate very well and makes it difficult to see when the loss of confidence in one party contributes to gains in another. This particular representation is also tough to read because of the large, bold circles and the light grey lines connecting them. Any time lines are crossed the reader is likely to get confused.
+
+Data doesn’t always support an immediate visual conclusion but this graph doesn’t communicate any macro trends or larger messages at first glance. The user has to spend time learning how to read the graph before the can understand what it’s trying to tell them.
+
+The mini-fied version of the line chart along the timeline doesn’t add much to the visualization. The slider for the timeline itself is helpful in isolating a particular time frame but the interaction is buggy enough to make it hard to use.
+
+--
+
+How could this data be displayed in a way that’s easier to read in an interface that’s easier to use? I’d argue for a representation of each party’s graph separated with some simple interactivity baked in.
+
+(imgslide: greece-in3.jpg link: greece-in3.jpg)
+
+In this format the user can see more data more immediately and more simply. The hover effect on the chart snaps to the data points and displays the percentages for each party as well as the date and poll name at the top. The average poll for each party over the span of time shown is presented to the right of each graph. I didn’t think the ability to select a shorter span of days added much to the visualization so it has been left out here. The end result is much easier to read, decipher and derive insight from.
+
+Is this a good alternative to the original graph? How would you change or augment the display of data to make it more readable and useful?
+
+----
+related:
+- pollster
+- primaries

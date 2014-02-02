@@ -1,0 +1,109 @@
+Title: DataViva, Built in Brazil, Available to All
+----
+Date: 12/17/2013
+----
+Hero: dataviva.jpg
+----
+Text:
+
+(imgslide: dataviva-1.jpg)
+
+Make no mistake, (link:http://dataviva.info/ text:DataViva) was created for the Brazilian state government of (link:http://en.wikipedia.org/wiki/Minas_Gerais text:Minas Gerais), but it's just one possible implementation of this completely (link:https://github.com/alexandersimoes/dataviva text:open source tool). Built with (link:https://github.com/alexandersimoes/d3plus text:D3plus) and a host of other (link:https://github.com/alexandersimoes/dataviva/wiki/_pages text:well documented) web technologies, DataViva serves as a model that could be adopted in any sufficiently transparent government across the globe.
+
+DataViva features a set of tools designed to help explore and visualize complicated government data. Labelled as "apps," these configurable visualization formats include the **tree map, stacked area, geo map, network, rings, scatter, compare and occugrid**.
+
+--
+
+## Highlights
+
+(imgslide: dataviva-2.jpg)
+
+Each visualization type defaults to an appropriately structured data, making it difficult for users to create nonsensical pairings of data and form. Most have intelligent filters that allow users to hide or isolate groups for a more focused experience. Where possible, data can also be shown and animated over time. Best of all, related visualization are programmatically generated for just about every data element on the site, making exploration through topics feel natural. 
+
+--
+
+## Tree Map
+
+(imgslide: dataviva-3.jpg)
+
+The (link:http://dataviva.info/apps/builder/tree_map/ text:tree map) is fairly straightforward but really shines when you change the coloration to something more binary such as annual growth rate or growth value over 5 years. Then the landscape really begins to take shape and the colors go beyond arbitrary categorization and reveal gains and losses.  
+
+--
+
+## Stacked
+
+(imgslide: dataviva-4.jpg)
+
+The (link:http://dataviva.info/apps/builder/stacked/ text:stacked area chart) best displays data spanning a number of years. It's also extremely helpful that the chart can display absolute values or market share (out of 100%). These configuration options in combination with the filters make this stacked area chart more usable and digestible than most on the web. 
+--
+
+## Geo Map
+
+(imgslide: dataviva-5.jpg)
+
+The (link:http://dataviva.info/apps/builder/geo_map/ text:Geo Map) is a fairly straightforward choropleth map that allows you to focus on a particular area with a click. When an area is focused its coloration is reduced to an outline and the value is color coded in the infobox to the right. The only potential improvement would come with using a slightly less distracting base map ((link:https://www.mapbox.com/ text:Mapbox) perhaps?). 
+
+--
+
+## Network
+
+(imgslide: dataviva-6.jpg)
+
+The (link:http://dataviva.info/apps/builder/network/ text:network visualization) is designed to show strong and weak relationships between products and industries. The product space turns into a bit of the hairball but the industry network reveals groupings that make sense. Zooming and resets make perfect sense for this visualization. The supplementary information is also nicely presented in a sidebar to not get in your way as you hover and explore the network. 
+
+The intended insights of the visualization are a bit murky to me but I believe it's that more connected industries are more likely to be successful. 
+
+
+--
+
+## Rings
+
+(imgslide: dataviva-7.jpg)
+
+The (link:http://dataviva.info/apps/builder/rings/ text:Rings app) is essentially an alternate view of the network, visualizing connected industries and products. Rings focuses on one item at a time and never shows the full picture but I don't think the differences between the two are great enough to warrant both on the same platform. They're useful to loosely explore topics and find related apps but these visualizations don't impart much information themselves. 
+
+--
+
+## Scatter
+
+(imgslide: dataviva-8.jpg)
+
+The (link:http://dataviva.info/apps/builder/scatter/ text:scatterplot) visualizes exports of different product sectors from Minas Gerais. It runs the risk of encoding one too many visual variables with the pie charts. Reading X and Y position along with the color and size of each element is enough without deciphering the meaning of pie chart. 
+
+--
+
+## Compare
+
+(imgslide: dataviva-9.jpg)
+
+(link:http://dataviva.info/apps/builder/compare/ text:Compare) displays data similarly to the scatter app but focuses on comparing two locations on the x and y axes. The 45 degree line helps emphasize this point and the grid lines call your attention to the fact that the scale is logarithmic by default. All options are presented in an intuitive way that allows the user to shape the graph to their liking. 
+
+--
+
+## Occugrid 
+
+(imgslide: dataviva-10.jpg)
+
+Another in the series of circular chart types, (link:http://dataviva.info/apps/builder/occugrid/ text:Occugrid) focuses on showing the recommended workforce for industries in a location. It is reminiscent of (link:http://www.theguardian.com/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:this Guardian interactive) on the growth of job markets. Here too the pie segmentation isn't encoded very clearly but size and coloration make sense. Occupations can also be nicely grouped by sector.
+
+--  
+
+(imgslide: dataviva-11.jpg)
+
+Many national and local governments have released their data online but this doesn't mean the data is accessible to the public. For that you need intuitive interfaces and useful visualizations. DataViva delivers on both, making it the (link:http://www.socrata.com/ text:Socrata) of South America. I expect it to spread quite rapidly as governments clamor for solutions to data overload. Being (link:https://github.com/alexandersimoes/dataviva text:open source) makes DataViva a contender to power the future of open government. 
+
+## If DataViva was used to deliver your government's data, what improvements would you make to the platform and why?  
+
+
+
+
+
+
+----
+
+related:
+- wide
+
+
+
+

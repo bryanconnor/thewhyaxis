@@ -1,0 +1,54 @@
+Title: A Movement of Numbers: Occupy Wall Street
+----
+Date: 10/27/2011
+----
+Hero: occupy-featureyellow.jpg
+----
+Text: Occupy Wall Street is a movement about numbers, from the 99% to the 1%. Conversation is becoming a war of statistics about unemployment rates, taxation, corporate profits, average income and much more. It’s no surprise data visualization has become a central medium for communication in the midst of all these numbers.
+
+Communicating core issues and educating the public can add members to a movement and make real progress. Data visualization can be harnessed as a tool for education and recruitment by visually presenting issues to a broader audience. If you want to get up to speed on the movement, the best place to go is a graph. Let’s examine some of the more effective and complex visualizations coming out of the movement.
+
+Business Insider put together a collection of charts spelling out “(link:http://www.businessinsider.com/what-wall-street-protesters-are-so-angry-about-2011-10?op=1 text: What the Wall Street Protesters Are So Angry About popup:yes)”. In about 40 charts and images they explain the tug of war between labor and capital.
+
+(imgslide: occupy-in1.gif link: occupy-in1.gif)
+
+Most of the graphs are sourced from the (link:http://research.stlouisfed.org/ text:Federal Reserve Bank of St. Louis popup:yes) and while they could use some interactivity to prompt further exploration, they communicate the crucial issues clearly and effectively.
+
+--
+
+Mother Jones has also become a leading news source around the Occupy Wall Street movement and has been churning out a multitude of articles since it began. One post breaks down (link:http://motherjones.com/mojo/2011/10/one-percent-income-inequality-OWS text:the makeup of the 1% popup:yes) in simple graphical form while another collects visualizations about (link:http://motherjones.com/politics/2011/02/income-inequality-in-america-chart-graph text: income inequality popup:yes), some more effective than others.
+
+(imgslide: occupy-in2.jpg link: occupy-in2.jpg)
+
+
+--
+
+The social media optimization company (link:http://www.socialflow.com/ text: SocialFlow popup:yes) has been posting about Occupy Wall Street on its blog and has recently included some interesting (link:http://blog.socialflow.com/post/7120244404/occupywallstreet-origin-and-spread-visualized text:visualizations about influence on twitter popup:yes) in spreading the movement.
+
+(imgslide: occupy-in3.jpg link: occupy-in3.jpg)
+
+The complex network diagrams, generated at different times, form a narrative about the spread of information about the movement on twitter. It’s fascinating to see the origins of the hash-tag and movement online and its rapid spread through the community. The map from October is extremely complex, showing how the movement shifted to media outlets as the information sources. Since small screenshots don’t do it justice, the SocialFlow blog posted this (link:http://blog.socialflow.com/wp-content/uploads/2011/10/cleanup_flow_vec2.pdf text:link to a full size PDF popup:yes) of the most recent rendering.
+
+--
+
+(link:http://www.recordedfuture.com/ text:Recorded Future) is tool for aggregating, analyzing and exploring web data and their blog has also featured some in depth (link:http://blog.recordedfuture.com/2011/10/09/occupy-wall/ text:analysis of the Occupy Wall Street movement) that shows off the tool nicely.
+
+(imgslide: occupy-in5.jpg link: occupy-in5.jpg)
+
+The powerful interactive tool allows you to (link:https://www.recordedfuture.com/rf/s/6KcMzA text:explore the data) they’ve harnessed around the movement in several interesting and useful ways. Most simply they show a timeline which can be filtered and enhanced to pull from more specific subsets of data. 
+
+
+--
+
+(imgslide: occupy-in6.jpg link: occupy-in6.jpg)
+
+They also have a complex influencer tree map that allows you to explore some really interesting data about news and information sources.
+
+Most of the data is focused around events occurring since September 1st but in their (link:http://blog.recordedfuture.com/2011/10/09/occupy-wall/ text:blog post about this visualization) there are screenshots of earlier influencer maps that show an evolution similar to that of SocialFlow. There are seemingly limitless ways to filter the data presented by the Recorded Future tool. It is much more about exploration and discovery than communicating a concrete idea like some of the other visualizations mentioned. It becomes very valuable when you consider the rapid evolution of the movement. Having a real-time data visualization of momentum and events is important for staying on top of the Occupy Wall Street movement and the Recorded Future tool begins to satisfy this need.
+
+Protesters certainly have bigger concerns than how their data is presented but visualization has the potential to be a key factor in the success of this movement. I hope major media outlets start producing comprehensive visualizations about Occupy Wall Street that continue to reveal insights about the origins, progress and future of the movement.
+
+----
+related:
+- hairball
+- jobs

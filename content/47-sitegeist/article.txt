@@ -1,0 +1,31 @@
+Title: Sitegeist App is Your Mobile Census Tour Guide 
+----
+Date: 5/29/2013
+----
+Hero: sitegeist-yellow.jpg
+----
+Text:
+
+(link:http://sitegeist.sunlightfoundation.com/ text:Sitegeist) is a free mobile app designed by (link:http://www.ideo.com/ text:IDEO) and backed by the (link:http://sunlightfoundation.com/ text:Sunlight Foundation). It's the latest in their series (link:http://sunlightfoundation.com/issues/national-data-apps/ text:National Data Apps) that help deliver federal data directly to the public. Sitegeist is a delivery vehicle for US Census data in combination with other APIs from Yelp, Foursquare and others.
+
+(imgslide: sitegeist-1.jpg link: http://sitegeist.sunlightfoundation.com/)
+
+--
+
+Sitegeist correctly assumes that you mostly care about data that relates to you and starts at your current location. You can also reset the location at any time by dropping a new pin on the map. 
+
+Once you set a location you are presented with several screens of simple charts and data points that help describe your particular census tract. The screens span the people, housing, fun, environment and history of where you live or where you are. Sitegeist mixes big typography, icons and bold colors with some well chosen charts to generate a simple yet engaging report of your location. I'd say the population pyramid is a lot more engaging to me than the political seesaw but the app walks the line between the visual language of infographics and more traditional statistical charts.  
+
+(imgslide: sitegeist-2.jpg)
+
+--
+
+The app also lets you share out a screenshot of a report via email or twitter in order to help spread public access to federal data (as well as to encourage more app downloads). The one downside to this being a native app is that these links don't contain any location data so the person on the other end can't easily explore the same location as you. A mobile optimized web app would make Sitegeist much more flexible. 
+
+(imgslide: sitegeist-3.jpg)
+
+Does Sitegeist reveal anything surprising about your neighborhood? It correctly revealed that my neighborhood has a startling amount of females in their 20's (due to the art school next-door). What will US census data mashed up with public APIs reveal about your favorite places? 
+
+----
+related:
+- bitlyq
