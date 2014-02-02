@@ -1,4 +1,4 @@
-Title: Behind the Black Budget
+Title: Behind The Black Budget
 ----
 Date: 9/23/2013
 ----
@@ -73,6 +73,9 @@ It was a hugely collaborative effort between Todd and I. I did some sketches for
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/eagereyes">@eagereyes</a> Really like the idea of using the same space for progressively more broken-down charts here.</p>&mdash; Bryan Connor (@thewhyaxis) <a href="https://twitter.com/thewhyaxis/statuses/373212280215076864">August 29, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/thewhyaxis">@thewhyaxis</a> The nature of the story prevented that kind of workflow. Video can make it difficult to make quick edits, needed for this story.</p>&mdash; Wilson Andrews (@wilsonandrews) <a href="https://twitter.com/wilsonandrews/statuses/382915736231878656">September 25, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

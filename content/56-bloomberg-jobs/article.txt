@@ -1,6 +1,6 @@
-Title: Bloomberg's Guided Tour of The October Jobs Report 
+Title: Bloomberg's Guided Tour of the October Jobs Report 
 ----
-Date: 12/2/2013
+Date: 12/3/2013
 ----
 Hero: bloomberg-jobs.gif
 ----
@@ -18,7 +18,7 @@ The (link:http://www.bloomberg.com/visual-data text:Bloomberg Visual Data team) 
 
 (imgslide: bloomberg-jobs-2.gif)
 
-Some slides feature annotations with bolded phrases and lines drawn to segments of the graph. Others utilize (link:http://blog.visual.ly/good-presentation-technique-layering/ text:Jon Schawbish's layering technique), breaking down complicated graphs into multiple slides. The XY coordinate labeling of the cursor position also makes you feel like you're going through the data with a fine-toothed comb. 
+Some slides feature annotations with bolded phrases and lines drawn to segments of the graph. Others utilize (link:http://blog.visual.ly/good-presentation-technique-layering/ text:Jon Schwabish's layering technique), breaking down complicated graphs into multiple slides. The XY coordinate labeling of the cursor position also makes you feel like you're going through the data with a fine-toothed comb. 
 
 --
 

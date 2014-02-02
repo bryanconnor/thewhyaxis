@@ -1,0 +1,108 @@
+Title: Designing Rasmussen's Career Scatter Plot
+----
+Date: 8/27/2013
+----
+Hero: rasmussen.gif
+----
+Text: 
+
+Rasmussen has published an (link:http://www.rasmussen.edu/resources/what-career-should-i-choose/ text:interactive scatter plot) aimed at students with the help of (link:http://www.distilled.net/ text:Distilled). I talked to (link:https://twitter.com/epicgraphic text:Mark Johnstone) about the design process behind this visualization. He defines the goal:  
+
+> We wanted to provide a novel way of allowing prospective students and career changers to explore career options.
+
+By focusing on occupations that employ at least 10,000 people and have a median salary of at least $40,000 the visualization mostly represents jobs that require a degree. 
+
+(imgslide: rasmussen1.gif link:http://www.rasmussen.edu/resources/what-career-should-i-choose/)
+
+## Data Display
+
+Before landing on an interactive scatter plot the team floated some other concepts. 
+
+> One of the ideas at the early stages of the project was to plot employment and salary figures on a map of the United States, with a possible addition of time as a variable to show how employment and salary for different professions have changed over the past 10-20 years.
+
+But this approach focused too much on **location** and didn't allow users to easily compare salaries and number of people employed. The idea of showing change over **time** came up again:
+
+> There was also a suggestion of showing a line graph of salary over time when you click through, but [we] thought the resulting lines suffered from 2 weaknesses:
+- Difficult for the user to know what to take from them
+- Many of them just showed the general change in the economy
+
+The scatter plot seemed to provide the most utility for communicating the visualization's simple message. There were, of course, further iterations to find out how to best utilize the scatter plot's properties.
+
+When it came to the use of **color**: 
+
+> We considered using a continuous scale for growth, but actually thought being able to simply see which were declining and inclining was more important than distinguishing between subtle differences in hue.
+
+They also considered using **area** to communicate growth instead of color-coding the points. In practice, scaling the points made it harder to determine their position, hurting readability: 
+
+> We really wanted the main two eye-catching variables to be represented by position, and that way we could reveal the patterns.
+
+--
+
+The team considered **grouping** points together to simplify things, however: 
+
+> numerous iterations of cluster analysis didn't yield any groupings that would be meaningful both conceptually and statistically.
+
+(imgslide: rasmussen6.jpg)
+
+They instead used the medians of the values on each axis to divide the scatter plot into conceptual quadrants: _Elite Players, Top Performers, A Good Bet, and A Matter of Taste._ 
+
+To contend with the outliers present in the data the team enlisted the help of the D3 community on StackOverflow and Twitter. (link:https://twitter.com/Biff_Bruise text:@Biff_Bruise) helped them solve the problem by suggesting a zooming axis, present in the final design. 
+
+--
+
+
+## Layout & Interactivity
+
+> The design was refined and simplified with each iteration to optimize the use of the pixel width we were working with and to juggle the numerous functions.
+
+The team had to contend with the placement of detailed information for each job, the quadrant labels, the category selector, and the color key as they worked through different layouts for the piece. Each element was important to the graph's functionality and the user's ability to comprehend it.
+
+(imgslide: rasmussen7.gif)
+
+Most crucial was the detailed information for each of the jobs visualized. The information panel started out as a hover state located beneath the graph but: 
+> We ran the risk of it dropping below the fold and being missed by those viewing it on smaller screens.  For this reason we integrated the on-hover info panel inside the graph area, ensuring that it would always be visible to the user.  
+
+--
+
+(imgslide: rasmussen8.gif)
+
+The quadrant labels were also important for comprehension. These went through many incarnations: 
+
+> The challenge was really working out how to incorporate them in a way that added as little clutter as possible, given there was already quite a lot going on in and around the graph. We felt the quadrant annotations were important to really help people understand what to take from the graph.
+
+--
+
+Originally the team had two drop-down menus to allow users to directly compare two jobs, however:  
+
+> We changed this so that there was only one drop down to select category/s of interest and we displayed all categories not selected on default in light grey.  This simplified usability while still allowing the user to compare selected industries of interest to all other categories.
+
+(imgslide: rasmussen2.png)
+
+The category selector also overlapped the graph in earlier versions but:
+> In the final version it pushes the graph down to allow the user to continue to engage with the graph while being able to select and deselect different fields of interest. 
+
+--
+
+## Feedback
+
+(imgslide: rasmussen1.gif)
+
+In its finished state, this visualization really effectively keeps the message simple and understandable for its users by leaving out the unnecessary. Relevant information is revealed as users explore. The layout has been optimized for the scatter plot itself rather than surrounding UI. With so few elements it's even more important to have them finely tuned. I can suggest a few small improvements. 
+
+Being more explicit about how the visualization defines growth would be helpful. I could imagine the key showing growth in terms of salary or the number of people employed but the reality isn't crystal clear to me. 
+
+Zooming axes might be a little foreign to some users despite solving problems with showing outliers. There's some redundancy built in with the zoom buttons in the top right but they are frequently covered up by the info panels. 
+
+The quadrants do so much to make things clearer but I think their labels could be persistent instead of fading in and out as you hover over individual points. It creates a flashing effect that makes the visualization feel somewhat touchy. 
+
+The team is interested in feedback from the rest of visualization community on their design decisions and final execution of the interactive scatter plot. What do you think? Did they make the right choices along the way? Does the final visualization fulfill their goal? 
+
+> _Creative Lead: Mark Johnstone
+Data Journalist: Volodymyr Kupriyanov
+Design: Matt Mitchell-Camp
+Development: Richard Westenra_
+
+----
+
+related: 
+- life-expectancy	

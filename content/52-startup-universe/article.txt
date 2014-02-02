@@ -12,7 +12,7 @@ Text:
 
 (imgslide: startup1.jpg)
 
-(link: http://giorgialupi.net/ text:Giorgia Lupi) of Accurat helped put together (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:the post on the design process for the visual.ly blog). Along with early sketches and mockups she writes: 
+(link: http://giorgialupi.net/ text:Giorgia Lupi) of Accurat helped put together (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:the post on the design process for the visual.ly blog) alongside Ben Willers who talked about his experience working on this project: 
 
 > The Startup Universe was not only my first opportunity to collaborate with other designers on a large project, it was also my first experience working on an interactive. While working on my own projects I am constantly making efforts to remove as much nonessential information as possible to avoid clutter, or as Tufte would put it, “chartjunk,” to ensure data remains the primary focus. Here, though, with so many great ideas for additional elements coming from all members of the team, it became increasingly challenging to retain the clean, minimal aesthetic from our early designs, while also allowing the piece to be as informative and useful as possible. Drawing the eye to the center of the display and moving additional information towards the sides helps keep the reading experience as pleasurable as possible, while using a consistent visual aesthetic throughout prevents these from feeling disconnected.
 
