@@ -125,5 +125,9 @@ Text:
 	<a href="http://well-formed-data.net/archives/972/where-the-wild-bees-are">Where The Wild Bees Are</a>
 </li>
 
+<li class="external">
+	<a href="https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/">HOW WE MADE “BEHIND THE BLOODSHED”</a>
+</li>
+
 
 </ul>
