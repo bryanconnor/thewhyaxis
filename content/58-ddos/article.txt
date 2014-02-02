@@ -1,0 +1,41 @@
+Title: Google's Digital Attack Map
+----
+Date: 1/21/2014
+----
+Hero: ddos.gif
+----
+Text:
+
+The (link:http://digitalattackmap.com text:Digital Attack Map) is a collaboration between (link:http://www.google.com/ideas/projects/digital-attack-map/ text:Google Ideas) and (link:http://www.arbornetworks.com text:Arbor Networks). It is the visual centerpiece for an important Google initiative, (link:http://www.google.com/ideas/projects/project-shield/ text:Project Shield), protecting vulnerable websites from DDoS attack. The project allows sites serving media, elections and human rights related content to be protected from DDoS attack by Google's technological infrastructure. The map visualizes why this protection is important. Without it free speech on the internet is 	under attack. 
+
+(imgslide: ddos-1.gif)
+
+(link:http://digitalattackmap.com text:The map) is kept current with new data every hour and shows historical data back to June of 2013. Scrolling through the timeline adjusts the visualization of attacks and also shows related news about DDoS attacks reported on that date below. 
+
+--
+
+(imgslide: ddos-2.gif)
+
+The selected date is represented as a dot on all country-specific graphs which can be used to filter the timeline and visualization. Clicking on countries on the map also filters the timeline to reveal dates when these countries were active. These features combined make the attack map very easy to explore.
+
+--
+
+(imgslide: ddos-3.gif)
+
+Each day on the timeline can be specifically (link:http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&time=16065&view=map text:linked to), making the (link:http://www.digitalattackmap.com/gallery/ text:gallery of important attacks possible). They reveal some fascinating patterns of attack that span the globe. The visual representation of the attacks make sense for the most part. The directionality is intuitive and the shapes of attacks are easily explained with the key. The bar at the bottom of the map for attacks of unknown source and destination is the only strange element. It feels like an afterthought because of its placement but it is an important element, illustrating the complex and obscure nature of the data. 
+
+Google's initiative gives credibility to the "(link:http://en.wikipedia.org/wiki/Don't_be_evil text:Don't Be Evil)" motto and the attack map supports their goal of convincing site owners  to seek protection and reduce the threat of digital attacks.
+
+**Related: Video Visualizations of DDoS Attacks**
+
+- (link:https://www.youtube.com/watch?v=hNjdBSoIa8k text:DDOS on the VideoLAN downloads infrastructure)
+- (link:http://www.youtube.com/watch?v=Hi231ER6SfE text:An Actual 160 Gbps DDoS Attack Being Mitigated by Prolexic's Global Network)
+- (link:http://www.youtube.com/watch?v=3u5u5A8_SE0 text: Daedalus Cyber-attack alert system)
+- (link:http://www.youtube.com/watch?v=asemvKgkib4 text: Technology for visualizing and analyzing network attacks)
+- (link:http://vimeo.com/19997906 text:Visualizing a cyber attack on a VOIP server)
+
+**Update:** "(link:http://qz.com/168264/this-start-up-turned-hackers-greatest-trick-around-on-the-to-make-botnets-obsolete/ text:The first-ever botwall could change the economics of hacking forever)" - Shape Security releases a "botwall" hardware product to protect servers from DDoS attacks and make hacking a human endeavor again. 
+
+----
+related:
+- yahoo
