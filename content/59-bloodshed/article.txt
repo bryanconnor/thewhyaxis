@@ -1,6 +1,7 @@
-Title: Lessons From Behind The Bloodshed
+Title: 
+Lessons From “Behind The Bloodshed”
 ----
-Date: 2/3/2014
+Date: 2/4/2014
 ----
 Hero: bloodshed.jpg
 ----
@@ -12,7 +13,7 @@ Text:
 
 The (link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/  text:entire interview) with Anthony DeBarros is definitely worth a read but here are some highlights and commentary. 
 
-## On Building the Dataset
+## Building a Dataset
 
 > "Right off the bat, there was a general thought about getting a database online showing the history of mass killings in America, and USA Today’s database team started the painstaking process of building a data set."
 
@@ -39,11 +40,11 @@ The timeline is the clear winner and Twitter chatter helped confirm this for the
 
 > One of the most helpful things we did, about a month before we launched, was put the app in front of a user test panel via our information architecture team.
 
-We don't hear enough about user testing for interactive data visualizations. USA Today proves its possible on a short news cycle and a tight budget. 
+We don't hear enough about user testing for interactive data visualizations. The USA Today proves its possible on a short news cycle and a tight budget. 
 
 > One [thing we learned] was that people really got the data visualizations, they got the design, and they found the content compelling. But occasionally, they told us a headline wasn’t clear, so we rewrote one or two. The second was that our navigation wasn’t the best.
 
-Making information understood visually isn't always the hardest part of creating an interactive visualization. Everything from the navigation to the narrative glue has to be spot on to make a successful piece. The USA Today has certainly accomplished this with (link:http://usatoday30.usatoday.com/news/nation/mass-killings/index.html text:Behind the Bloodshed).
+Visualizing data isn't always the hardest part of creating an interactive experience like this. Everything from the navigation to the narrative glue has to be spot on to make a successful piece. The USA Today has certainly accomplished this with (link:http://usatoday30.usatoday.com/news/nation/mass-killings/index.html text:Behind the Bloodshed).
 
 ----
 
