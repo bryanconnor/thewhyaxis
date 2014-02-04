@@ -1,0 +1,55 @@
+Title: Lessons From Behind The Bloodshed
+----
+Date: 2/3/2014
+----
+Hero: bloodshed.jpg
+----
+Text:
+
+(link: https://source.opennews.org/en-US/ text:Source) has published a fantastic (link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/ text:interview with the makers of Behind The Bloodshed), a visual narrative about mass killings produced by USA Today. 
+
+(imgslide: bloodshed-1.jpg)
+
+The (link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/  text:entire interview) with Anthony DeBarros is definitely worth a read but here are some highlights and commentary. 
+
+## On Building the Dataset
+
+> "Right off the bat, there was a general thought about getting a database online showing the history of mass killings in America, and USA Today’s database team started the painstaking process of building a data set."
+
+I like the idea of news organizations building data sets to fit their needs but I haven't seen many made publicly available. If they're going through the trouble of maintaining it daily then others should have the opportunity to derive value from it. 
+
+> "[The team's] data journey was still early, because their initial analysis showed that the FBI’s data was limited and often inaccurate and didn’t include any narratives of the cases.
+
+The lack of quality FBI data seemed to be a major stumbling block, so much so that it made its way into (link:http://usatoday30.usatoday.com/news/nation/mass-killings/index.html#frequency text:the final narrative) about mass shootings. I'm not sure if a general audience needs to know about the inner workings of the FBI database but it was interesting to data visualization practitioners like myself. 
+
+## Distilling Ideas
+
+> We played around with how to best highlight patterns, at that point just thinking of these as standalone charts. That early exploration boiled down to three main ideas:
+• A filtered data table and map that would show the mass killings by type of weapon, by how victims died, number of victims, or by filtering text strings;
+• An interactive histogram of the victims by age and by how they were killed;
+• A timeline of the killings that would show both frequency and year-by-year trends.
+
+An initial exploratory phase was distilled down to three great ideas but these ideas are placed amongst 20 or so other slides, potentially dampening their impact. 
+
+> We used the timeline first because it immediately communicates the frequency and severity of mass killings over the last eight years. People on Twitter have probably responded to that one more than any other, because they can see right away just how pervasive the events are.
+
+The timeline is the clear winner and Twitter chatter helped confirm this for the team.
+
+## Getting Feedback
+
+> One of the most helpful things we did, about a month before we launched, was put the app in front of a user test panel via our information architecture team.
+
+We don't hear enough about user testing for interactive data visualizations. USA Today proves its possible on a short news cycle and a tight budget. 
+
+> One [thing we learned] was that people really got the data visualizations, they got the design, and they found the content compelling. But occasionally, they told us a headline wasn’t clear, so we rewrote one or two. The second was that our navigation wasn’t the best.
+
+Making information understood visually isn't always the hardest part of creating an interactive visualization. Everything from the navigation to the narrative glue has to be spot on to make a successful piece. The USA Today has certainly accomplished this with (link:http://usatoday30.usatoday.com/news/nation/mass-killings/index.html text:Behind the Bloodshed).
+
+----
+
+related:
+- black-budget
+
+
+
+
