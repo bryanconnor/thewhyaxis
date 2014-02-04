@@ -112,6 +112,19 @@ Text:
 	<div class="space"></div>
 </li>
 
+<li class="post section">
+   				 		
+	<div class="cover"><a href="http://thewhyaxis.info/bloodshed/" ><img src="http://thewhyaxis.info/content/59-bloodshed/bloodshed-1.jpg" alt="Bloodshed" /></a></div>
+
+	<a  href="http://thewhyaxis.info/bloodshed/">Lessons From “Behind The Bloodshed”</a>
+	<p class="excerpt">Source has published a fantastic interview with the makers of Behind The Bloodshed, a visual narrative about mass killings produced by USA Today. The entire interview with Anthony DeBarros is definitely worth a read but here are some highlights and commentary. Building a Dataset "Right off the bat,…</p>
+
+	<p class="date">Feb 4 2014</p>
+
+	<div class="space"></div>
+
+</li>
+
 <li class="external">
 	<a href="http://blog.heapanalytics.com/line-graph-redesign/">Redesigning Interactive Line Graphs at Heap</a>
 </li>
