@@ -2,7 +2,16 @@
 
 $(window).load(function() {
 
-  $("article a[href^='http://']").attr("target","_blank");
+//  $("article a[href^='http://']").attr("target","_blank");
+  
+  $.expr[':'].external = function(obj){
+      return !obj.href.match(/^mailto\:/)
+             && (obj.hostname != location.hostname)
+             && !obj.href.match(/^javascript\:/)
+             && !obj.href.match(/^$/)
+  };
+  
+  $('a:external').attr('target', '_blank');
 
 $('#PageRefresh').click(function() {
  
@@ -40,10 +49,27 @@ $('#PageRefresh').click(function() {
   })
 
   $('#commentcount').click(function(){
-  $.scrollTo( '#comments', 500, { easing:'swing' });
-  return false;
-});
+  	$.scrollTo( '#comments', 500, { easing:'swing' });
+  	return false;
+  });
 
+
+$('.popup').click(function(event) {
+    var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = this.href,
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+    
+    window.open(url, 'twitter', opts);
+ 
+    return false;
+  });
 
 
 });
@@ -83,31 +109,31 @@ $('#post-1').addClass('currentpost');
 $('#post-2').addClass('nextpost');
 
 
+ var $sections = $('.section');
 
-$(window).scroll(function() {
+  var handleWindowScroll = _.debounce(function() {
 
-   
-   		$('.section').each(function(){
-   			
-   			if(isScrolledIntoView(this)) { 
-        		$(this).addClass('currentpost');
-        		$(this).children('.graphic').fadeIn(350);
-        		$('#post-1').removeClass('nextpost');
-				$(this).prev('.post').addClass('prevpost');
-				$(this).next('.post').addClass('nextpost');
-				$(this).children()
-				
-        	} else {
-        		$(this).removeClass('currentpost');
-        		$(this).children('.graphic').fadeOut(350);
-        		$(this).prev('.post').removeClass('prevpost');
-				$(this).next('.post').removeClass('nextpost');
-        	}
-   			
-   		});
- 
-   		    
-});
+    $sections.each(function(){
+
+      if(isScrolledIntoView(this)) {
+        $(this).addClass('currentpost');
+        $(this).children('.graphic').fadeIn(250);
+        $('#post-1').removeClass('nextpost');
+        $(this).prev('.post').addClass('prevpost');
+        $(this).next('.post').addClass('nextpost');
+        $(this).children();
+      } else {
+        $(this).removeClass('currentpost');
+        $(this).children('.graphic').fadeOut(250);
+        $(this).prev('.post').removeClass('prevpost');
+        $(this).next('.post').removeClass('nextpost');
+      }
+
+    });
+
+  }, 5);
+
+  $(window).on('scroll', handleWindowScroll);
 
 
 
