@@ -1,0 +1,55 @@
+Title: The Landscape of Climate Finance
+----
+Date: 2/25/2014
+----
+Hero: climate-finance.jpg
+----
+Text:
+To coincide with my Visualizing.org gallery, "(link:http://visualizing.org/galleries/making-climate-change-visual text:Making Climate Change Visual)," I wanted to feature about a project that I couldn't include (since it hasn't been uploaded to the site). 
+
+(link: http://www.climatefinancelandscape.org/ text:The Landscape of Climate Finance) is a web-based slide deck built by  (link: http://www.vizzuality.com/ text:Vizzuality) to promote the 2013 report from the (link:http://climatepolicyinitiative.org/ text:Climate Policy Initiative). 
+
+(imgslide: climate-finance-1.jpg)
+
+The slides examine climate change through the lens of money rather than the latest scientific study.This brass tax approach to climate change is unique and interesting but clashes with the more emotional presentation style reminiscent of "(link:http://en.wikipedia.org/wiki/An_Inconvenient_Truth text:An Inconvenient Truth)."
+
+
+
+--
+
+(imgslide: climate-finance-2.jpg)
+
+The six main slides feature simple messages and visualizations overlaid on photographic backgrounds. Many have orange click points to prompt readers to interact. When clicked these reveal scale changes and show proportions nicely. Simple animation and minimal interactivity helps the reader pay more attention to each slide. 
+
+
+
+--
+
+(imgslide: climate-finance-3.jpg)
+
+The last slide points readers toward a Sankey diagram of (link:http://www.climatefinancelandscape.org/flows-diagram/ text:financial flows) and a map of the (link:http://www.climatefinancelandscape.org/map/ text:destinations of climate finance). Because these aren't included in the narrative of the main report they feel somewhat marginalized. They don't match the visual style of the main report or benefit from context set by previous slides.
+
+--
+
+(imgslide: climate-finance-4.jpg)
+
+Similarly, hidden away on the report download page, there is a (link:http://climatepolicyinitiative.org/publication/global-landscape-of-climate-finance-2013/ text:graphics library) that houses several other useful visualizations from the report. These tree maps stand in contrast to the simple pie charts and bubbles used in the web presentation. They do reveal other interesting aspects not discussed in the main presentation such as the uses of climate finance. 
+
+It's difficult to strike a balance between simplifying things for readers and under-informing them. The Landscape of Climate Finance does a good job but I'd encourage them to go a step further an integrate the full contents of the report into an interactive format. They'd be in good company with (link:http://collegecompletion.chronicle.com/ text:The Chronicle of Higher Education) and the (link:http://www.oecdbetterlifeindex.org/ text:OECD) in creating comprehensive reports for consumption on the web. I see it as a trend that will become the norm in the not so distant future. 
+
+--
+
+(imgslide: climate-finance-5.jpg)
+
+## Seeking Examples of Climate Change Visualizations
+
+While creating the gallery for Visualizing.org I found myself choose amongst a few examples of climate change visualizations. I'd like to create a collection of quality visualizations that tackle some aspect of climate change. If you can think of any please leave them in the comments below or send them to (link:https://twitter.com/thewhyaxis text:@thewhyaxis) on Twitter. 
+
+----
+
+related:
+- fieldguide
+
+
+
+
