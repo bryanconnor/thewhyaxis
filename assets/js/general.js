@@ -109,31 +109,56 @@ $('#post-1').addClass('currentpost');
 $('#post-2').addClass('nextpost');
 
 
- var $sections = $('.section');
+ // var $sections = $('.section');
 
-  var handleWindowScroll = _.debounce(function() {
+ //  var handleWindowScroll = _.debounce(function() {
 
-    $sections.each(function(){
+ //    $sections.each(function(){
 
-      if(isScrolledIntoView(this)) {
-        $(this).addClass('currentpost');
-        $(this).children('.graphic').fadeIn(250);
-        $('#post-1').removeClass('nextpost');
+ //      if(isScrolledIntoView(this)) {
+ //        $(this).addClass('currentpost');
+ //        $(this).children('.graphic').fadeIn(250);
+ //        $('#post-1').removeClass('nextpost');
+ //        $(this).prev('.post').addClass('prevpost');
+ //        $(this).next('.post').addClass('nextpost');
+ //        $(this).children();
+ //      } else {
+ //        $(this).removeClass('currentpost');
+ //        $(this).children('.graphic').fadeOut(250);
+ //        $(this).prev('.post').removeClass('prevpost');
+ //        $(this).next('.post').removeClass('nextpost');
+ //      }
+
+ //    });
+
+ //  }, 5);
+
+ //  $(window).on('scroll', handleWindowScroll);
+
+ $(window).scroll(function() {
+
+   
+      $('.section').each(function(){
+        
+        if(isScrolledIntoView(this)) { 
+            $(this).addClass('currentpost');
+            $(this).children('.graphic').fadeIn(150);
+            $('#post-1').removeClass('nextpost');
         $(this).prev('.post').addClass('prevpost');
         $(this).next('.post').addClass('nextpost');
-        $(this).children();
-      } else {
-        $(this).removeClass('currentpost');
-        $(this).children('.graphic').fadeOut(250);
-        $(this).prev('.post').removeClass('prevpost');
+        $(this).children()
+        
+          } else {
+            $(this).removeClass('currentpost');
+            $(this).children('.graphic').fadeOut(150);
+            $(this).prev('.post').removeClass('prevpost');
         $(this).next('.post').removeClass('nextpost');
-      }
-
-    });
-
-  }, 5);
-
-  $(window).on('scroll', handleWindowScroll);
+          }
+        
+      });
+ 
+          
+});
 
 
 
