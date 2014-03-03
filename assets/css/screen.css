@@ -896,17 +896,29 @@ article h2 {
 
   /* line 798, ../sass/screen.scss */
   .index ul li {
-    margin-bottom: 3em; } }
+    margin-bottom: 3em; }
+
+  /* line 802, ../sass/screen.scss */
+  .categories {
+    margin-top: 0px; }
+
+  /* line 806, ../sass/screen.scss */
+  .categories.colhalf {
+    width: 100% !important; }
+
+  /* line 810, ../sass/screen.scss */
+  .categories li {
+    margin-bottom: 1em !important; } }
 @media screen and (max-width: 545px) {
-  /* line 808, ../sass/screen.scss */
+  /* line 820, ../sass/screen.scss */
   .index {
     width: 85%; }
 
-  /* line 812, ../sass/screen.scss */
+  /* line 824, ../sass/screen.scss */
   article h1, .index ul li a {
     font-size: 1.5em; }
 
-  /* line 816, ../sass/screen.scss */
+  /* line 828, ../sass/screen.scss */
   nav {
     width: 100%;
     position: relative;
@@ -927,19 +939,19 @@ article h2 {
     -moz-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in; }
-    /* line 826, ../sass/screen.scss */
+    /* line 838, ../sass/screen.scss */
     nav:hover {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1;
       z-index: 10; }
-    /* line 830, ../sass/screen.scss */
+    /* line 842, ../sass/screen.scss */
     nav h1 {
       margin-left: 28px; }
-    /* line 833, ../sass/screen.scss */
+    /* line 845, ../sass/screen.scss */
     nav a {
       display: block;
       float: left; }
-    /* line 837, ../sass/screen.scss */
+    /* line 849, ../sass/screen.scss */
     nav #connect {
       position: relative;
       padding-right: 20px;
@@ -948,20 +960,20 @@ article h2 {
       margin-left: 0px;
       display: block;
       float: right; }
-      /* line 845, ../sass/screen.scss */
+      /* line 857, ../sass/screen.scss */
       nav #connect li {
         float: right; }
-        /* line 847, ../sass/screen.scss */
+        /* line 859, ../sass/screen.scss */
         nav #connect li a {
           margin-top: 5px; }
-    /* line 854, ../sass/screen.scss */
+    /* line 866, ../sass/screen.scss */
     nav #connect .twa-icocomment {
       top: 8px;
       margin-left: 12px; }
-      /* line 857, ../sass/screen.scss */
+      /* line 869, ../sass/screen.scss */
       nav #connect .twa-icocomment a {
         padding-top: 7px; }
-    /* line 863, ../sass/screen.scss */
+    /* line 875, ../sass/screen.scss */
     nav .label {
       background: #f2f2f2;
       font-size: .8em;
@@ -977,24 +989,24 @@ article h2 {
       position: absolute;
       margin-left: 85px; }
 
-  /* line 880, ../sass/screen.scss */
+  /* line 892, ../sass/screen.scss */
   .share a {
     margin-bottom: 10px; }
 
-  /* line 884, ../sass/screen.scss */
+  /* line 896, ../sass/screen.scss */
   #comments ul.relatedcontent {
     margin-top: 40px; }
-    /* line 886, ../sass/screen.scss */
+    /* line 898, ../sass/screen.scss */
     #comments ul.relatedcontent li {
       width: 100%; }
-      /* line 888, ../sass/screen.scss */
+      /* line 900, ../sass/screen.scss */
       #comments ul.relatedcontent li h2 {
         width: 100%; }
 
-  /* line 902, ../sass/screen.scss */
+  /* line 914, ../sass/screen.scss */
   #container {
     padding-left: 7%; }
 
-  /* line 906, ../sass/screen.scss */
+  /* line 918, ../sass/screen.scss */
   article {
     width: 90%; } }
