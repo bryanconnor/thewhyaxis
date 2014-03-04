@@ -327,19 +327,22 @@ article .section.currentpost{
 	img{
 		width: 99%;
 		height: auto;
-		margin-bottom: 100px;
+		// margin-bottom: 100px;
 		-webkit-box-shadow: 0px 0px 80px 0px #D6D6D6;
 		border-radius: 4px;
 		border: 1px solid #FFF;
 	}
 	a:hover{
-		cursor: -webkit-zoom-in;
-		cursor: -moz-zoom-in;
+		//cursor: -webkit-zoom-in;
+		//cursor: -moz-zoom-in;
 	}
 	p.caption{
 		padding-top: 12px;
 		font-style: italic;
 		font-size: 0.8em;
+	}
+	p.blockquote{
+		font-weight: bold;
 	}
 }
 
@@ -532,6 +535,13 @@ article h2{
 	font-weight: bold;
 	line-height: 105%;
 	padding-bottom: 14px;
+}
+
+.index ul li p a{
+	font-size: 1em;
+	font-weight: normal;
+	display: inline;
+	text-decoration: underline;
 }
 
 .index ul li a:hover{

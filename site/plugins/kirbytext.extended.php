@@ -59,6 +59,7 @@ class kirbytextExtended extends kirbytext {
     $caption  = @$params['caption'];
     $blockquote  = @$params['blockquote'];
 
+
     // alt is just an alternative for text
     if(!empty($text)) $alt = $text;
 
@@ -75,7 +76,7 @@ class kirbytextExtended extends kirbytext {
     if(empty($alt))    $alt   = $site->title();
 
     if(!empty($caption)) $caption = '<p class="caption">' . $caption . '</p>';
-    if(!empty($blockquote)) $blockquote = '<p class="blockquote">' . html($blockquote) . '</p>';
+    if(!empty($blockquote)) $blockquote = '<p class="blockquote">' . ($blockquote) . '</p>';
 
             
     $image = '<img src="' . $this->url($url) . '"' . $w . $h . $class . $title . ' alt="' . html($alt) . '" />';

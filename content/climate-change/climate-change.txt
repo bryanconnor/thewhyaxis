@@ -13,69 +13,90 @@ Text:
 
 	<a  href="http://thewhyaxis.info/climate-finance">The Landscape of Climate Finance</a>
 
-	<p class="excerpt">To coincide with my Visualizing.org gallery, "Making Climate Change Visual," I wanted to feature about a project that I couldn't include (since it hasn't been uploaded to the site). The Landscape of Climate Finance is a web-based slide deck built by Vizzuality to promote the 2013 report from the…</p>
+	<p class="date">Published Feb 25, 2014</p>
 
-	<p class="date">Feb 25, 2014</p>
+	<p class="excerpt">The Landscape of Climate Finance is a web-based slide deck built by Vizzuality to promote the 2013 report from the Climate Policy Initiative. The slides examine climate change through the lens of money rather than the latest scientific study. This brass tacks approach...</p>
+
+	
 
 	<div class="space"></div>
 </li>
 
 <li class="post section">
    				 		
-    <div class="cover"><a href="http://thewhyaxis.info/human-progress" ><img src="content/climate-change/climate-change-1.jpg" alt="climate change" /></a></div>
+    <div class="cover"><a href="http://infographics.pbl.nl/website/globalco2/" ><img src="content/climate-change/climate-change-1.jpg" alt="climate change" /></a></div>
 
-	<a  href="http://thewhyaxis.info/human-progress">Trends in global CO2 emissions</a>
+	<a  href="http://infographics.pbl.nl/website/globalco2/">Trends in global CO2 emissions</a>
 
-	<p class="excerpt"></p>
+	<p class="date">External Link</p>
 
-	<p class="date">Nov 19 2013</p>
+	<p class="excerpt">This interactive presentation of a report from PBL Netherlands Environmental Assessment Agency answers the question "Are global CO2 emissions still rising? </p>
+
+	
 
 	<div class="space"></div>
 </li>
 
  <li class="post section">
    				 		
-    <div class="cover"><a href="http://thewhyaxis.info/raw" ><img src="http://thewhyaxis.info/content/54-raw/dd-raw3.gif" alt="dd-raw" /></a></div>
+    <div class="cover"><a href="http://www.thepolicyclimate.org/" ><img src="content/climate-change/climate-change-2.jpg" alt="dd-raw" /></a></div>
 	
-	<a  href="http://thewhyaxis.info/raw">RAW</a>
+	<a  href="http://www.thepolicyclimate.org/">Climate Policy Initiative Yearly Report</a>
 
-	<p class="excerpt">Raw is a new web-based tool developed by Density Design. It was born out of their daily studio practice and has now been released to the masses. The team hopes Raw will solve a common problem for a large number of visualizers by filling the gap between spreadsheets and vector…</p>
+	<p class="date">External Link</p>
 
-	<p class="date">Nov 5 2013</p>
+	<p class="excerpt">Vizzuality worked closely with the Climate Policy Initiative to build an online version of their yearly report, presenting three decades of evidence on emissions trends, emissions drivers, and policy activity from key global economies. Read about <a href="http://www.vizzuality.com/projects/thepolicyclimate">their process</a>.</p>
+
+	
 
 	<div class="space"></div>
 </li>
 
 <li class="post section">
    				 		
-    <div class="cover"><a href="http://thewhyaxis.info/hairball" ><img src="http://thewhyaxis.info/content/27-hairball/sigma-in2.jpg" alt="sigma-yellow" /></a></div>
+    <div class="cover"><a href="http://www.theguardian.com/environment/interactive/2013/may/10/climate-warming-gas-carbon-dioxide-levels-interactive" ><img src="content/climate-change/climate-change-3.jpg" alt="sigma-yellow" /></a></div>
 
-	<a  href="http://thewhyaxis.info/hairball">Sigma.js</a>
+	<a  href="http://www.theguardian.com/environment/interactive/2013/may/10/climate-warming-gas-carbon-dioxide-levels-interactive">Keeling Curve</a>
 
-	<p class="excerpt">Network visualization is a topic as complex as many of the hairballs it produces but Sigma.JS is designed to break through the clutter and graph networks that are more readable and user-friendly. It’s creator, Alexis Jacomy, has really pushed the practice of network visualization forward…</p>
+	<p class="date">External Link</p>
 
-	<p class="date">Jun 25 2012</p>
 
+	<p class="excerpt">An interactive explainer putting 400ppm CO2 in context. Designed by Kiln.it and published by the Guardian.</p>
+
+	
 	<div class="space"></div>
 </li>
 
 <li class="post section">
    				 		
-    <div class="cover"><a href="http://thewhyaxis.info/bubble-tree" ><img src="http://thewhyaxis.info/content/09-bubble-tree/tree-in1.gif" alt="bubble-yellow" /></a></div>
+    <div class="cover"><a href="http://ssrf.climatecentral.org/#state=New+Jersey&level=5&category=Population_highSV&geo=County&pt=p&target=&p=S&folder=Socioeconomy" ><img src="content/climate-change/climate-change-4.jpg" alt="bubble-yellow" /></a></div>
 
-	<a  href="http://thewhyaxis.info/bubble-tree">Bubble Tree</a>
+	<a  href="http://ssrf.climatecentral.org/#state=New+Jersey&level=5&category=Population_highSV&geo=County&pt=p&target=&p=S&folder=Socioeconomy">Climate Central Surging Seas Risk Finder</a>
 
-	<p class="excerpt">If this visualization looks familiar to you it’s because you follow the career of David McCandless far too closely. It is, in fact, based on his design for Where Does My Money Go? (WDMMG) but has been re-imagined by Gregor Aisch. Gregor is the designer and visualization architect for the…</p>
+	<p class="date">External Link</p>
 
-	<p class="date">Sep 29 2011</p>
+	<p class="excerpt">Bocoup teamed up with Climate Central to create SSRF, a tool that would allow for displaying the risk of sea level rise across geographies over time. SSRF compares that risk with its impact on critical areas such as infrastructure and education. Read about <a href="http://weblog.bocoup.com/launching-ssrf/">their process</a>.</p>
+
+	
 	
 	<div class="space"></div>
 </li>
 
-<li class="external">
-	<a href="http://www.planet-labs.com/">planet-labs.com</a> 
-	<p>Open data about our changing planet.</p>
+<li class="post section">
+   				 		
+    <div class="cover"><a href="http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth" ><img src="content/climate-change/climate-change-5.jpg" alt="bubble-yellow" /></a></div>
+
+	<a  href="http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth">This Pulsing Earth</a>
+
+	<p class="date">External Link</p>
+
+	<p class="excerpt">Covered <a href="http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth">here</a> on NPR, This Pulsing Earth was created by cartographer and designer John Nelson. It shows us something we intuitively know, that the planet's ice comes and goes with the seasons, but does so in a way that's somehow new. Read about <a href="http://uxblog.idvsolutions.com/2013/07/a-breathing-earth.html">John's process</a>.</p>
+
+	
+	
+	<div class="space"></div>
 </li>
+
 
 
 </ul>
