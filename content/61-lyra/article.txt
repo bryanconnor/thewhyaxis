@@ -55,6 +55,33 @@ Jim goes on to say:
 
 Jim has started the ball rolling with his tutorial. I'll be adding new resources and reviews of Lyra here as I come across them
 
+--
+
+## Other Demonstrations
+
+- (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=playfair text:Wheat v. Wages by William Playfair - reconstructed with Lyra)
+- (link:http://idl.cs.washington.edu/projects/lyra/app/#?example=driving text:Driving Shifts into Reverse by The New York Times - reconstructed with Lyra)
+- (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=bertin text:Hotel Analysis by Jaques Bertin - reconstructed with Lyra)
+- (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=napoleon text:Napoleon's March to Moscow by Charles Minard - reconstructed with Lyra)
+- (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=les-mis text:Les Mis Character Co-occurence constructed with Lyra)
+
+## Reactions
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/thewhyaxis">@thewhyaxis</a> also thanks for the comparison to Tableau. I had a suspicion that it might be a competitor - but have no Tableau experience...</p>&mdash; Jim Vallandingham (@vlandham) <a href="https://twitter.com/vlandham/statuses/440899570323578880">March 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/vlandham">@vlandham</a> <a href="https://twitter.com/thewhyaxis">@thewhyaxis</a> I asked Arvind about Tableau - Jeff Heer worked there for a bit, so may be some drag-and-drop influence.</p>&mdash; Lynn Cherny (@arnicas) <a href="https://twitter.com/arnicas/statuses/440905508871221248">March 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/vlandham">@vlandham</a> <a href="https://twitter.com/thewhyaxis">@thewhyaxis</a> Also, Arvind said they were working on this before Bret Victor&#39;s video came out.</p>&mdash; Lynn Cherny (@arnicas) <a href="https://twitter.com/arnicas/statuses/440906587444875264">March 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vlandham">@vlandham</a> <a href="https://twitter.com/thewhyaxis">@thewhyaxis</a> yeah, very much so. but since bv doesn&#39;t seem to release anything, i&#39;m glad for the parallels!</p>&mdash; Lynn Cherny (@arnicas) <a href="https://twitter.com/arnicas/statuses/440909282616569856">March 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p>I don&#39;t know about you, but we can&#39;t wait to see Lyra (<a href="http://t.co/2Sivq675rf">http://t.co/2Sivq675rf</a>) live on stage. Thanks <a href="https://twitter.com/arvindsatya1">@arvindsatya1</a> for joining is!</p>&mdash; OpenVis Conf (@OpenVisConf) <a href="https://twitter.com/OpenVisConf/statuses/438338939515318273">February 25, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ----
 
 related:
