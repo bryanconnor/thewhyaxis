@@ -6,7 +6,7 @@ Hero: lyra.gif
 ----
 Text:
 
-Before the demo session even began, (link:http://www.tapestryconference.com/ text:Tapestry) was humming	 with talk of "Lyra." A group gathered around (link:https://twitter.com/arvindsatya1 text:Arvind Satyanarayan) as he took us for a spin around the tool he helped developed at (link:http://idl.cs.washington.edu/ text:UW Interactive Data Lab.)
+Before the demo session even began, (link:http://www.tapestryconference.com/ text:Tapestry) was humming	 with talk of "(link:http://idl.cs.washington.edu/projects/lyra/ text:Lyra)." A group gathered around (link:https://twitter.com/arvindsatya1 text:Arvind Satyanarayan) as he took us for a spin around the tool he helped developed at (link:http://idl.cs.washington.edu/ text:UW Interactive Data Lab.)
 
 It's just a few day later and the tool's open source code is (link:https://github.com/uwdata/lyra text:up on Github). You can (link:http://idl.cs.washington.edu/projects/lyra/app/ text:run the app) yourself in the browser and now (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:the first tutorial about Lyra) has been written. 
 
