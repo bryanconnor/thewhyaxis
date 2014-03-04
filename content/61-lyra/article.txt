@@ -59,6 +59,8 @@ Jim has started the ball rolling with his tutorial. I'll be adding new resources
 
 ## Other Demonstrations
 
+(imgslide: lyra-4.gif)
+
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=playfair text:Wheat v. Wages by William Playfair - reconstructed with Lyra)
 - (link:http://idl.cs.washington.edu/projects/lyra/app/#?example=driving text:Driving Shifts into Reverse by The New York Times - reconstructed with Lyra)
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=bertin text:Hotel Analysis by Jaques Bertin - reconstructed with Lyra)
