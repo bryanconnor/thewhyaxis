@@ -1,0 +1,309 @@
+/* line 17, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: 'twa';
+  src: url("../fonts/twa.eot");
+  src: url("../fonts/twa.eot?#iefix") format("embedded-opentype"), url("../fonts/twa.svg#twa") format("svg"), url("../fonts/twa.woff") format("woff"), url("../fonts/twa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/* line 13, ../sass/_fonts.scss */
+.twa-icoarrow-up:before, .twa-icoarrow-down:before, .twa-icotwitter:before, .twa-icotriangle:before, .twa-icorss:before, .twa-icoprev:before, .twa-iconext:before, .twa-icomenu:before, .twa-icoimage:before, .twa-icocomment:before {
+  font-family: 'twa';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 21, ../sass/_fonts.scss */
+.twa-icoarrow-up:before {
+  content: "\5b"; }
+
+/* line 24, ../sass/_fonts.scss */
+.twa-icoarrow-down:before {
+  content: "\5d"; }
+
+/* line 27, ../sass/_fonts.scss */
+.twa-icotwitter:before {
+  content: "\40"; }
+
+/* line 30, ../sass/_fonts.scss */
+.twa-icotriangle:before {
+  content: "\5e"; }
+
+/* line 33, ../sass/_fonts.scss */
+.twa-icorss:before {
+  content: "\24"; }
+
+/* line 36, ../sass/_fonts.scss */
+.twa-icoprev:before {
+  content: "\6b"; }
+
+/* line 39, ../sass/_fonts.scss */
+.twa-iconext:before {
+  content: "\6a"; }
+
+/* line 42, ../sass/_fonts.scss */
+.twa-icomenu:before {
+  content: "\23"; }
+
+/* line 45, ../sass/_fonts.scss */
+.twa-icoimage:before {
+  content: "\21"; }
+
+/* line 48, ../sass/_fonts.scss */
+.twa-icocomment:before {
+  content: "\25"; }
+
+/* line 53, ../sass/_fonts.scss */
+nav #connect a .twa-icocomment {
+  font-size: 30px; }
+
+/* line 57, ../sass/_fonts.scss */
+nav #connect a .twa-icotwitter {
+  font-size: 32px;
+  margin-bottom: 20px; }
+
+/* line 62, ../sass/_fonts.scss */
+nav #connect a .twa-icorss {
+  font-size: 28px; }
+
+/* line 6, ../sass/style.scss */
+body {
+  background: #f4f4f4;
+  font-family: "proxima-nova-1","proxima-nova-2", Hevetica, sans-serif; }
+
+/* line 11, ../sass/style.scss */
+::-moz-selection {
+  background: #FEEDB0;
+  color: #000;
+  text-shadow: none; }
+
+/* line 12, ../sass/style.scss */
+::selection {
+  background: #FEEDB0;
+  color: #000;
+  text-shadow: none; }
+
+/* line 14, ../sass/style.scss */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+/* line 19, ../sass/style.scss */
+.content {
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px; }
+
+/* line 25, ../sass/style.scss */
+.nav ul li ul {
+  display: none; }
+
+/* line 29, ../sass/style.scss */
+.nav {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+  /* line 32, ../sass/style.scss */
+  .nav h1 {
+    display: inline-block;
+    font-size: 1.25em; }
+    /* line 35, ../sass/style.scss */
+    .nav h1 .gem {
+      background: url("../images/thewhyaxis.png");
+      background-size: 35px 30px;
+      display: block;
+      width: 35px;
+      height: 30px;
+      float: left;
+      margin-top: -6px;
+      margin-right: 4px; }
+    /* line 45, ../sass/style.scss */
+    .nav h1 a {
+      text-decoration: none;
+      color: #333; }
+  /* line 50, ../sass/style.scss */
+  .nav ul {
+    float: right;
+    display: inline-block; }
+    /* line 53, ../sass/style.scss */
+    .nav ul li {
+      display: inline-block; }
+      /* line 55, ../sass/style.scss */
+      .nav ul li a {
+        text-decoration: none;
+        color: #999;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 5px; }
+        /* line 62, ../sass/style.scss */
+        .nav ul li a:hover {
+          color: #333; }
+    /* line 67, ../sass/style.scss */
+    .nav ul:after {
+      clear: both;
+      content: ".";
+      visibility: hidden;
+      height: 0; }
+
+/* line 77, ../sass/style.scss */
+ul.articles li {
+  overflow: auto;
+  zoom: 1;
+  display: block;
+  padding-bottom: 40px; }
+  /* line 82, ../sass/style.scss */
+  ul.articles li .hero {
+    width: 50%;
+    float: left; }
+    /* line 85, ../sass/style.scss */
+    ul.articles li .hero img {
+      width: 100%; }
+  /* line 89, ../sass/style.scss */
+  ul.articles li .listing {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 20px; }
+    /* line 94, ../sass/style.scss */
+    ul.articles li .listing a {
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.75em;
+      color: #333;
+      border-bottom: 1px solid #e8b64e; }
+    /* line 101, ../sass/style.scss */
+    ul.articles li .listing .date {
+      font-weight: bold;
+      color: #ccc;
+      margin-top: 14px;
+      margin-bottom: 25px;
+      font-size: .91em; }
+    /* line 108, ../sass/style.scss */
+    ul.articles li .listing .excerpt {
+      line-height: 150%;
+      margin-top: 25px; }
+
+/* line 116, ../sass/style.scss */
+.article {
+  position: relative; }
+  /* line 118, ../sass/style.scss */
+  .article h1 {
+    font-weight: bold;
+    font-size: 2em;
+    width: 50%;
+    margin-bottom: 20px;
+    line-height: 120%; }
+  /* line 125, ../sass/style.scss */
+  .article .timestamp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    color: #ccc;
+    font-size: .91em; }
+  /* line 133, ../sass/style.scss */
+  .article h2 {
+    font-size: 1.45em;
+    font-weight: bold;
+    margin-bottom: 1em; }
+  /* line 138, ../sass/style.scss */
+  .article .section {
+    display: block;
+    padding-bottom: 80px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 2%; }
+    /* line 144, ../sass/style.scss */
+    .article .section:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    /* line 151, ../sass/style.scss */
+    .article .section p {
+      line-height: 145%;
+      margin-bottom: 1.25em;
+      color: #222;
+      font-size: 1.1em; }
+      /* line 156, ../sass/style.scss */
+      .article .section p a {
+        border-bottom: 1px solid #e8b64e;
+        color: #000;
+        text-decoration: none; }
+        /* line 160, ../sass/style.scss */
+        .article .section p a:hover {
+          background: #FEF9E3; }
+    /* line 171, ../sass/style.scss */
+    .article .section .graphic {
+      width: 100%;
+      float: right;
+      margin-right: -108%;
+      padding-top: 5px; }
+      /* line 176, ../sass/style.scss */
+      .article .section .graphic img {
+        width: 100%; }

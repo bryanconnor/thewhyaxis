@@ -2,15 +2,16 @@ Title: Lyra Gets its First Visualization Tutorial
 ----
 Date: 3/4/2014
 ----
-Hero: lyra.gif
+Hero: lyra-1.png
 ----
 Text:
+
+(imgslide: lyra-1.png)
 
 Before the demo session even began, (link:http://www.tapestryconference.com/ text:Tapestry) was humming	 with talk of "(link:http://idl.cs.washington.edu/projects/lyra/ text:Lyra)." A group gathered around (link:https://twitter.com/arvindsatya1 text:Arvind Satyanarayan) as he took us for a spin around the tool he helped developed at (link:http://idl.cs.washington.edu/ text:UW Interactive Data Lab.)
 
 It's just a few day later and the tool's open source code is (link:https://github.com/uwdata/lyra text:up on Github). You can (link:http://idl.cs.washington.edu/projects/lyra/app/ text:run the app) yourself in the browser and now (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:the first tutorial about Lyra) has been written. 
 
-(imgslide: lyra-1.png)
 
 Jim Vallandingham's (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:Lyra tutorial) is naturally a tentative investigation of an app that is in early alpha. It does a fantastic job of teasing apart the current features of Lyra and making predictions about how it can be used in the future. Some sections are highlighted below. 
 
@@ -33,9 +34,9 @@ Using the example data in Lyra, Jim takes us step by step through creating a sim
 
 ## Comparisons
 
-> Lyra’s binding capabilities allow for comparisons to some of what is featured in (link:http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum text:Bret Victor’s Drawing Dynamic Visualizations) tool. If his tool is released, it will be interesting to compare further.
-
 (imgslide: lyra-3.png blockquote: <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalk">Watch Bret's full talk</a> or <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum">read the notes</a>)
+
+> Lyra’s binding capabilities allow for comparisons to some of what is featured in (link:http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum text:Bret Victor’s Drawing Dynamic Visualizations) tool. If his tool is released, it will be interesting to compare further.
 
 I heard comparisons to Bret Victor's proposed tool at Tapestry as well. Lyra seems like the distillation of several needs felt by the visualization community and undoubtedly has lots of potential. 
 
@@ -43,9 +44,9 @@ I heard comparisons to Bret Victor's proposed tool at Tapestry as well. Lyra see
 
 ## Finding its place
 
-> It has some overlap with (link:http://densitydesign.org/ text:Density Design’s) wonderful (link:http://raw.densitydesign.org/ text:RAW) app. While RAW is more polished, I think Lyra might ultimately provide a more powerful feature set for those interested in learning the tool.
-
 (imgslide: dd-raw1.gif blockquote: <a href="http://thewhyaxis.info/raw">Read the review of RAW on The Why Axis</a>)
+
+> It has some overlap with (link:http://densitydesign.org/ text:Density Design’s) wonderful (link:http://raw.densitydesign.org/ text:RAW) app. While RAW is more polished, I think Lyra might ultimately provide a more powerful feature set for those interested in learning the tool.
 
 I think Lyra is a stronger challenge to (link:http://www.tableausoftware.com/ text:Tableau) than RAW. While incredibly early in its life, Lyra is positioned well to be adopted and improved by the data visualization community in a way that Tableau can't match. Every gripe about Tableau will stay a gripe while power-users can actively improve Lyra by contributing to the open source project. 
 

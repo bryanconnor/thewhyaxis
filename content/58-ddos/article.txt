@@ -2,7 +2,7 @@ Title: Google's Digital Attack Map
 ----
 Date: 1/21/2014
 ----
-Hero: ddos.gif
+Hero: ddos-1.gif
 ----
 Text:
 
