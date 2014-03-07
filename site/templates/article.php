@@ -32,30 +32,11 @@
 			<?php echo kirbytext($section) ?>
 		</div>
 		<?php endforeach ?>
-      </div>	
-    </div>
+      </div>
+<!--       <a href="http://thewhyaxis.info/feed" id="subscribebtn"><span aria-hidden="true" class="twa-icorss"></span> If you've read this far, your should subscribe to RSS</a>	
+ -->    </div>
     <div class="footnotes">
     	<a name="comments"></a>
-
-		<div class="share">		    		
-    		<a href="https://twitter.com/share?related=thewhyaxis&via=thewhyaxis&text=<?php echo html($page->title() ) ?>" class="twitter popup" data-related="thewhyaxis" data-count="none" data-text=""><span aria-hidden="true" class="twa-icotwitter"> Tweet this article</a>
-    		<a href="http://thewhyaxis.info/feed" id="subscribebtn"><span aria-hidden="true" class="twa-icorss"></span> Subscribe to RSS</a>	
-    	</div>
-
-
-    	<ul class="relatedcontent">
-		<p>Read This Next <span class="twa-icotriangle"></span></p>
-		<?php foreach(related($page->related()) as $related): ?>
-	 		<li>
-<!-- 			  	<?php if($related->hero() !='' && $related->hero() !='0'): ?>
-		<?php $image = $related->images()->find( html($related->hero()) ) ?>
-				<img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" />
-		<?php endif ?> -->
-	  			<h2><a href="<?php echo $related->url() ?>"><?php echo html($related->title()) ?></a></h2>
-	  		</li>
-	 	<?php endforeach ?>
-		</ul>
-
 
 	    <div id="disqus_thread"></div>
 	    <script type="text/javascript">
@@ -71,7 +52,38 @@
 	    </script>
 	    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
+    	</div>
+
+    	<div class="article-meta">
+    		<?php if($page->people() != '' or $page->organizations() != '' or $page->collections() != ''):?>
+    		<ul>
+	    		<?php if($page->people() != ''): ?>
+	    		<li><span class="meta-label">People: </span><span class="meta-items"><?php echo ($page->people()) ?></span></li>
+	    		<?php endif ?>
+	    		<?php if($page->organizations() != ''): ?>
+	    		<li><span class="meta-label">Organizations: </span><span class="meta-items"><?php echo ($page->organizations()) ?></span></li>
+	    		<?php endif ?>
+	    		<?php if($page->collections() != ''): ?>
+	    		<li><span class="meta-label">Collections: </span><span class="meta-items"><?php echo ($page->collections()) ?></span></li>
+	    		<?php endif ?>
+    		</ul>
+    		<?php endif ?>
+    	</div>
+
+    	<ul class="relatedcontent">
+		<p class="readnext">Read This Next:</p>
+		<?php foreach(related($page->related()) as $related): ?>
+	 		<li>
+	 			<h2><a href="<?php echo $related->url() ?>"><?php echo html($related->title()) ?></a></h2>
+ 			  	<?php if($related->hero() !='' && $related->hero() !='0'): ?>
+		<?php $image = $related->images()->find( html($related->hero()) ) ?>
+				<a href="<?php echo $related->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+		<?php endif ?> 
+	  			
+	  		</li>
+	 	<?php endforeach ?>
+		</ul>
+
   </div>
 
 	

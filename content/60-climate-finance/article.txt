@@ -4,12 +4,19 @@ Date: 2/25/2014
 ----
 Hero: climate-finance-1.jpg
 ----
+Organizations: <a href="http://www.vizzuality.com/">Vizzuality</a>, <a href="http://climatepolicyinitiative.org/">Climate Policy Initiative</a>
+----
+Collections: <a href="http://thewhyaxis.info/climate-change">Climate Change</a>
+----
 Text:
+
+(imgslide: climate-finance-1.jpg)
+
 To coincide with my Visualizing.org gallery, "(link:http://visualizing.org/galleries/making-climate-change-visual text:Making Climate Change Visual)," I wanted to feature about a project that I couldn't include (since it hasn't been uploaded to the site). 
 
 (link: http://www.climatefinancelandscape.org/ text:The Landscape of Climate Finance) is a web-based slide deck built by  (link: http://www.vizzuality.com/ text:Vizzuality) to promote the 2013 report from the (link:http://climatepolicyinitiative.org/ text:Climate Policy Initiative). 
 
-(imgslide: climate-finance-1.jpg)
+
 
 The slides examine climate change through the lens of money rather than the latest scientific study. This brass tacks approach to climate change is unique and interesting but clashes with the more emotional presentation style reminiscent of "(link:http://en.wikipedia.org/wiki/An_Inconvenient_Truth text:An Inconvenient Truth)."
 

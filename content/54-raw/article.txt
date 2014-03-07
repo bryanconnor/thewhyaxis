@@ -3,7 +3,7 @@ Title: Add Raw to Your Roster of Visualization Tools
 ----
 Date: 11/5/2013
 ----
-Hero: dd-raw.gif
+Hero: dd-raw3.gif
 ----
 Text:
 

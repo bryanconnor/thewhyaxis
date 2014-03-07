@@ -4,6 +4,12 @@ Date: 3/4/2014
 ----
 Hero: lyra-1.png
 ----
+People: <a href="http://vallandingham.me">Jim Vallandingham</a>, <a href="https://twitter.com/arvindsatya1">Arvind Satyanarayan</a>
+----
+Organizations: <a href="http://idl.cs.washington.edu/">UW Interactive Data Lab</a>
+----
+Collections: <a href="http://thewhyaxis.info/tools">Tools of the Trade</a>
+----
 Text:
 
 (imgslide: lyra-1.png)

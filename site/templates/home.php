@@ -4,7 +4,7 @@
 
   <div class="wrapper">
     <div class="nav">
-      <h1><a href="http://thewhyaxis.info" id="thewhyaxis" >The Why Axis</a></h1>
+      <h1><span class="gem"></span><a href="http://thewhyaxis.info" id="thewhyaxis" >The Why Axis</a></h1>
       <ul>
         <li><a href="#">Collections</a>
           <ul>

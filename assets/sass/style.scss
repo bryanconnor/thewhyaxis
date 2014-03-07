@@ -20,6 +20,9 @@ body{
 	background: #FFFFFF;
 	@include box-sizing(border-box);
 	padding: 40px;
+	padding-bottom: 0px;
+	position: relative;
+	z-index: 2;
 }
 
 .nav ul li ul{
@@ -34,13 +37,13 @@ body{
 		font-size: 1.25em;
 		.gem{
 			background: url('../images/thewhyaxis.png');
-			background-size: 35px 30px;
+			background-size: 29px 25px;
 			display: block;
-			width: 35px;
-			height: 30px;
+			width: 29px;
+			height: 25px;
 			float: left;
-			margin-top: -6px;
-			margin-right: 4px;
+			margin-top: -4px;
+			margin-right: 5px;
 		}
 		a{
 			text-decoration: none;
@@ -78,36 +81,42 @@ ul.articles{
 		overflow: auto;
   		zoom: 1;
 		display: block;
-		padding-bottom: 40px;
+		padding-bottom: 60px;
 		.hero{
-			width: 50%;
+			width: 30%;
 			float: left;
 			img{
 				width: 100%;
 			}
 		}
 		.listing{
-			width: 50%;
+			width: 70%;
 			float: left;
 			@include box-sizing(border-box);
-			padding: 0px 0px 0px 20px;
+			padding: 0px 0px 0px 30px;
 			a{
 				font-weight: bold;
 				text-decoration: none;
 				font-size: 1.75em;
 				color: #333;
-				border-bottom: 1px solid #e8b64e;
+				border-bottom: 1px solid #FFF;
+				line-height: 140%;
+				margin-top: -8px;
+				display: inline-block;
+				&:hover{
+					border-bottom: 1px solid #e8b64e;
+				}
 			}
 			.date{
 				font-weight: bold;
 				color: #ccc;
-				margin-top: 14px;
+				margin-top: 10px;
 				margin-bottom: 25px;
 				font-size: .91em;
 			}
 			.excerpt{
 				line-height: 150%;
-				margin-top: 25px;
+				margin-top: 10px;
 			}
 		}
 	}
@@ -119,13 +128,13 @@ ul.articles{
 		font-weight: bold;
 		font-size: 2em;
 		width: 50%;
-		margin-bottom: 20px;
-		line-height: 120%;
+		margin-bottom: 40px;
+		line-height: 115%;
 	}
 	.timestamp{
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: 2px;
 		font-weight: bold;
 		color: #ccc;
 		font-size: .91em;
@@ -162,7 +171,30 @@ ul.articles{
 				}
 			}
 		}
+		ul{
+			list-style: disc;
+			padding-left: 25px;
+			padding-right: 10px;
+			margin-bottom: 1.25em;
+			li{
+				padding-bottom: 12px;
+				line-height: 145%;
+				a{
+					border-bottom: 1px solid #e8b64e;
+					color: #000;
+					text-decoration: none;
+					&:hover{
+						background: #FEF9E3;
+					}
+				}
+			}
+		}
 		blockquote{
+			p{
+				background: #FCF4D5;
+				padding: 20px;
+				margin-bottom:.65em;
+			}
 			//padding-left: 20px;
 			//padding-top: 20px;	
 			//padding-bottom: 1px;	
@@ -177,6 +209,129 @@ ul.articles{
 				width: 100%;
 				
 				// max-width: 600px;
+			}
+		}
+	}
+}
+
+#subscribebtn{
+	background: #e6e7e8;
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 12px 14px 12px 14px;
+	@include border-radius(2px);
+	width: 45%;
+	display: block;
+	margin-top: -25px;
+	position: relative;
+	z-index: 5;
+	&:hover{
+		background: #e8b64e;
+		color: #FFF;
+	}
+	span{
+		margin-right: 4px;
+	}
+
+}
+
+#disqus_thread{
+	width: 50%;
+	padding-left: 40px;
+	padding-right: 60px;
+	padding-top:40px;
+	padding-bottom: 300px;
+	float: left;
+	@include box-sizing(border-box);
+	font-family: "proxima-nova-1","proxima-nova-2", Hevetica, sans-serif !important;
+	a{
+		color: #e8b64e;
+	}
+}
+
+.article-meta{
+	width: 50%;
+	float: right;
+	@include box-sizing(border-box);
+	padding-right: 40px;
+	padding-left: 18px;
+	//margin-top: 40px;
+	position: relative;
+	z-index: 1;
+	ul{
+		background: #E8EAEC;
+		padding: 12px 20px 20px 20px;
+		@include border-radius(0px 0px 3px 3px);
+		border-top: 2px solid #D1D2D4;
+		li{
+			color: #a6a8ab;
+			font-weight: bold;
+			padding-top: 14px;
+			.meta-label{
+				//width: 135px;
+				display: inline-block;
+				padding-right: 8px;
+			}
+			a{
+				color: #444;
+				&:hover{
+					color: #111;
+				}
+
+			}
+		}
+	}
+}
+
+.relatedcontent{
+	width: 50%;
+	float: right;
+	padding-top: 40px;
+	padding-right: 40px;
+	@include box-sizing(border-box);
+	padding-left: 18px;
+	.readnext{
+		font-weight: bold;
+		border-bottom: 2px solid #E1E3E5;
+		padding-bottom: 12px;
+		padding-top: 12px;
+		margin-bottom: 22px; 
+		color: #3f4549;
+	}
+	li{
+		background: #FFF;
+		@include box-sizing(border-box);
+		padding: 20px;
+		@include border-radius(3px);
+		margin-bottom: 16px;
+		&:after{
+				content: ".";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+			}
+		img{
+			width: 100%;
+			//float: left;
+		}
+		h2{
+			width: 100%;
+			//float: left;
+			@include box-sizing(border-box);
+			//padding-left: 15px;
+			margin-bottom:12px;
+			a{
+				text-decoration: none;
+				font-weight: bold;
+				color: #444;
+				// border-bottom: 1px solid #e8b64e;
+				line-height: 115%;
+				font-size: 1.35em;
+				&:hover{
+					color: #f2bb4c;
+				}
 			}
 		}
 	}
