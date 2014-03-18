@@ -2,33 +2,35 @@ Title: A Bird’s Eye View of the Political Landscape from the Pollster API
 ----
 Date: 7/5/2012
 ----
-Hero: Pollster-yellow.jpg
+Hero: Pollster-in1.jpg
 ----
-Text: 
+Text:
+
+(imgslide: Pollster-in1.jpg link: http://elections.huffingtonpost.com/pollster) 
 
 In the next few months there is going to be an ever increasing stream of statistics, polls, infographics and visualizations headed your way, all with the same subject: The US Presidential Election. In a politically charged environment it’s hard to know which media outlets to trust. What’s more, the public will continually look to data as an unbiased source of information, whether or not that is always the case.
 
 In a move that bolsters their trustworthiness in my eyes, (link:http://www.huffingtonpost.com/ text:The Huffington Post) has come out with the (link:http://elections.huffingtonpost.com/pollster/api text:Pollster API) which aggregates the many election-related polls put out by a plethora of media organizations and packages them in a tidy API. What’s more they’ve taken the initiative to (link:http://elections.huffingtonpost.com/pollster text:visualize much of this data) to provide a true bird’s eye view of political polling.
 
-(imgslide: Pollster-in1.jpg link: http://elections.huffingtonpost.com/pollster)
 
 --
+<iframe src="http://elections.huffingtonpost.com/pollster/embed/2012-general-election-romney-vs-obama#!maxdate=2013-02-24&estimate=official" width=580 height=400 scrolling="no" frameborder="0" class="graphic"></iframe>
+
 
 These visualizations live amongst some of the Huffington Post’s other data-driven election pieces including a (link:http://elections.huffingtonpost.com/2012/romney-vs-obama-electoral-map text:detailed election map) and (link:http://elections.huffingtonpost.com/2012/primaries text:interactive primary results). The Pollster visualizations themselves are actually plotting the results of all the polls HuffPo collects through their API, and there are quite a few. Each row scrolls to the right to reveal aggregate polls for individual states on many issues. Let’s take a look at the first chart as a case study, embedded here.
 
-<iframe src="http://elections.huffingtonpost.com/pollster/embed/2012-general-election-romney-vs-obama#!maxdate=2013-02-24&estimate=official" width=580 height=400 scrolling="no" frameborder="0" class="graphic"></iframe>
 
 --
+(imgslide: Pollster-in3.jpg link: Pollster-in3.jpg)
 
 Including trend lines is very helpful since there are too many individual polls to form an interpretation of a trend. The vertical line and info box showing you the values at any point along the line is a really useful interaction. The trend lines seem to mirror each other which makes perfect sense when you realize a single poll is represented by multiple dots on this chart. This is a bit of a tricky concept to grasp since the two data points aren’t visually connected in any way. The only way to confirm this is by finding the poll points with matching labels.
 
-(imgslide: Pollster-in3.jpg link: Pollster-in3.jpg)
 
 --
+(imgslide: Pollster-in4.jpg link: Pollster-in4.jpg)
 
 A great detail they’ve added, and I think one that’s pretty crucial, is the ability to actually click on any individual point to reveal the connected polls over time. These are all the points on the graph that belong to the same poll. Unfortunately this functionality isn’t easy to discover since any motion of the mouse produces a hover state with fine grained data. It’s difficult to expect a user to know there’s another layer of data available with a click.
 
-(imgslide: Pollster-in4.jpg link: Pollster-in4.jpg)
 
 The graphs presented along with the Pollster API aren’t necessarily designed to be used as communication devices or shown in the context of a particular piece of journalism but they do have their own audience and will inform how developers graph data from the Pollster API. With that said I think it’s fair to question whether or not this is the best way to represent the data.
 

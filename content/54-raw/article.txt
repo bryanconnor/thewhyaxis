@@ -7,9 +7,9 @@ Hero: dd-raw3.gif
 ----
 Text:
 
-(link: http://raw.densitydesign.org/ text:Raw) is a new web-based tool developed by (link:http://www.densitydesign.org/ text:Density Design). It was born out of their daily studio practice and has now been released to the masses. The team hopes Raw will solve a common problem for a large number of visualizers by filling the gap between spreadsheets and vector graphics.
-
 (imgslide: dd-raw1.jpg)
+
+(link: http://raw.densitydesign.org/ text:Raw) is a new web-based tool developed by (link:http://www.densitydesign.org/ text:Density Design). It was born out of their daily studio practice and has now been released to the masses. The team hopes Raw will solve a common problem for a large number of visualizers by filling the gap between spreadsheets and vector graphics.
 
 Featuring drag and drop functionality with live reload, Raw is immediately more intuitive than most data handling applications. It easily trumps Excel in both usability and aesthetics. Its creators (link:http://www.densitydesign.org/2013/10/raw-the-missing-link-between-spreadsheets-and-vector-graphics/ text:highlight) that: 
 
@@ -25,11 +25,13 @@ Don't have data on hand? Raw has you covered with some sample data sets. Each is
 
 <a name="update"></a>
 
+(imgslide: dd-raw3.gif)
+
 It's also worth noting that these layouts aren't your average bar or pie. They're fairly specialized visualization types that are certainly useful but don't strike me as the most widely used. So how did Density Design chose to focus on this set?
 
 > "Many of the layouts come from works we have done in the last years (e.g. “(link:http://www.flickr.com/photos/densitydesign/sets/72157624265861504/ text:Design Research Map)”, “(link:http://www.flickr.com/photos/densitydesign/sets/72157626950476895/ text:Link#10: Decode or die)”, or the works we did for “(link:http://www.flickr.com/photos/densitydesign/sets/72157629041140561/ text:La Lettura Corriere della Sera)”). These layouts allow us to perform a series of visual analysis that are not possible with other techniques already available in softwares such as Microsoft Excel or Adobe Illustrator. Some others (e.g. dendrograms or sunbursts) come directly from d3.js (or its community) and we decided to include them as well, also to test how difficult it could be to add new layouts in Raw. We avoided “simple layouts” like bar charts or pie charts just because there are plenty of tools that allow you to create them in simple and effective ways.
 
-(imgslide: dd-raw3.gif)
+
 
 (link:ink:https://github.com/densitydesign/raw/wiki/Layouts text:https://github.com/densitydesign/raw/wiki/ text:More layouts are already in the works) for the the tool and since the project is (link:https://github.com/densitydesign/raw/ text:hosted on Github), any D3 developer can contribute new layouts.
 

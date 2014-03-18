@@ -2,11 +2,14 @@ Title: The Path of Protest – A Living Timeline from The Guardian
 ----
 Date: 3/30/2011
 ----
-Hero: unrest-yellow.gif
+Hero: unrest-large.jpg
 ----
-Text: The ripple effects of unrest, protest and regime change have been echoing around the Mid-East since before the beginning of the new year, each seeming to start a new chain of events. (link: http://www.guardian.co.uk text: The Guardian popup: yes), one of the UK’s leading news-sources, has been steadily doing excellent reporting throughout with live-blogging, social media integration, and generally solid writing. To summarize and centralize the multitude of events across countries, Garry Blight and Sheila Pulham of The Guardain created “(link: http://www.guardian.co.uk/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text: The Path to Protest popup: yes)” – an interactive timeline plotting major news events across countries, updated daily.
+Text: 
 
 (imgslide: unrest-large.jpg link: unrest-large.jpg)
+
+The ripple effects of unrest, protest and regime change have been echoing around the Mid-East since before the beginning of the new year, each seeming to start a new chain of events. (link: http://www.guardian.co.uk text: The Guardian popup: yes), one of the UK’s leading news-sources, has been steadily doing excellent reporting throughout with live-blogging, social media integration, and generally solid writing. To summarize and centralize the multitude of events across countries, Garry Blight and Sheila Pulham of The Guardain created “(link: http://www.guardian.co.uk/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text: The Path to Protest popup: yes)” – an interactive timeline plotting major news events across countries, updated daily.
+
 
 When the page loads we get a nice introductory animation that gives a quick overview of the timeline of events and very clearly suggests functionality. Last to load are the navigational elements, suggesting how we should explore the timeline.
 
@@ -27,9 +30,11 @@ and from (link: http://twitter.com/macartisan text:@macartisan popup: yes)
 
 --
 
+(imgslide: unrest-in1.jpg link: unrest-in1.jpg)
+
+
 I had similar reactions to the navigation but didn’t think it got it the way of the content as some commenters suggested. The giant arrow on the timeline does to some degree suggest that it clicks and drags, something a lot of users tried to do, myself included. The dates in the scroller across the top are somewhat irrelevant since they don’t quite match up with the news stories closest to the user on the timeline. This interaction doesn’t need to be accurate though since it’s mostly meant for exploring the content. (link: http://twitter.com/wrbeard text:@wrbeard popup: yes)‘s comment about a previous / next event also makes a lot of sense; the stories are broken up by week on the timeline so being able to click through the weeks would offer a good alternative to the two, somewhat redundant, scrolling mechanisms.
 
-(imgslide: unrest-in1.jpg link: unrest-in1.jpg)
 
 From an accessibility standpoint (link: http://twitter.com/macartisan text:@macartisan popup: yes)‘s point reveals the graphic’s utility as limited to web audiences. The other point to make about the hover state is it hides the “navigation stick” from view until the user moves somewhere else. Obviously the cursor couldn’t be in two places at once but it feels strange to hide a major navigational item to display more data.
 
@@ -39,5 +44,4 @@ The graphic has been shared across the web and praised for its striking visuals 
 
 ----
 Related:
-- occupt
-- egypt
+- occupy

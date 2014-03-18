@@ -1,0 +1,63 @@
+Title: Chart Remakes
+----
+Hero: content/remakes/hero2.jpg
+----
+Description: Articles on The Why Axis that offer partial redesign suggestions to existing visualizations
+----
+
+Text: 
+
+(image: http://thewhyaxis.info/content/46-gap-remake/regap-in2.jpg)
+## Mind the Gap - An Economic Chart Remake
+
+Guest author Jon Schwabish walks us through the redesign of a chart used in a post by Catherine Rampell on the New York Times’ Economix blog using Excel and Illustrator. 
+
+(link: http://thewhyaxis.info/gap-remake text:Read the walkthrough on The Why Axis )
+(link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget)
+
+--
+
+(image: http://thewhyaxis.info/content/45-life-expectancy/expectancy-7.gif)
+## The Washington Post Plots Quality and Quantity of Life
+
+I talked to Emily Chow from the Post Graphics team about a visualization which attempts to answer the question "How long will we live - and how well?" She tells us about the team's design process and I suggest a redesign.
+
+(link: http://thewhyaxis.info/life-expectancy" text:Read the interview on The Why Axis )
+(link:http://www.washingtonpost.com/wp-srv/special/health/healthy-life-expectancy/ text:View "How long will we live - and how well?")
+
+--
+
+(image:http://thewhyaxis.info/content/43-tesla/tesla-5.jpg)
+## The New York Times and Tesla Motors Engage in Chart Warfare
+
+New York Times writer John Broder published an account of his test drive experience. The piece includes a somewhat flawed graphic depicting the trip, which I endeavor to improve.
+
+(link:http://thewhyaxis.info/tesla text:Read the article on The Why Axis )
+(link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Read The New York Times article)
+
+--
+
+(image:http://thewhyaxis.info/content/42-defaults/bls-in2.gif)
+## Breaking Excel Defaults &ndash; A Government Chart Remake
+
+Guest author Jon Schwabish makes simple revisions to a chart from the BLS and explains why avoiding Excel defaults can make your graphs better. 
+
+(link:http://thewhyaxis.info/defaults text:Read the tutorial on The Why Axis)
+
+--
+
+(image:http://thewhyaxis.info/content/26-reuters/greece-in1.jpg)
+## The Reuters Macroscope Visualization You Need a Microscope to Read
+
+For a news source in the top 250 global websites (source: Alexa), Reuters is lacking quality data driven journalism and critical thinking about interactive visualizations for their audience.
+
+(link:http://thewhyaxis.info/reuters text:Read the article on The Why Axis)
+
+--
+
+(image:http://thewhyaxis.info/content/23-rainbow/rainbow-7.jpg)
+## The Guardian&rsquo;s Gay Rights Rainbow Graph
+
+The Guardian published this state-by-state visualization of gay rights laws in the US and while it certainly captures the user’s attention and encourages them to share, I fear the message gets lost in an overwrought design.
+
+(link:http://thewhyaxis.info/rainbow text:Read the article on The Why Axis)

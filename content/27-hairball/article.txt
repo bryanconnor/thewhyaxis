@@ -2,13 +2,14 @@ Title: Sigma.js Cleans up Hairball Network Visualizations
 ----
 Date: 6/25/2012
 ----
-Hero: sigma-yellow.jpg
+Hero: sigma-in1.jpg
 ----
 Text: 
 
+(imgslide: sigma-in1.jpg link: http://sigmajs.org/)
+
 Network visualization is a topic as complex as many of the (link:http://visualcomplexity.com/ text:hairballs) it produces but (link:http://sigmajs.org/ text:Sigma.JS) is designed to break through the clutter and graph networks that are more readable and user-friendly.
 
-(imgslide: sigma-in1.jpg link: http://sigmajs.org/)
 
 It’s creator, (link:https://twitter.com/jacomyal text:Alexis Jacomy), has really pushed the practice of network visualization forward with this tool. He has combined elements of existing examples in new ways that seem to work better together. Especially worth noting are the ‘(link:http://sigmajs.org/examples/hidden_nodes.html text:hide node)‘ and ‘(link:http://sigmajs.org/examples/a_plugin_example_advanced.html text:fish-eye)‘ examples.
 
@@ -29,8 +30,6 @@ Interestingly, (link:http://moebio.com/ text:Santiago Ortiz) developed (link:htt
 (imgslide: sigma-in4.jpg link: https://gimmebar.com/collection/4fe53a42aac422e010000000/visualizations-on-github)
 
 The Sigma.js code is open to contributors, hosted on Github and ready for people to use. It’s another in a what I hope is a trend of complex visualization types ported to open web languages and made public for people to use and improve. I first saw this with Gregor Aisch’s (link:http://thewhyaxis.info/bubble-tree/ text:Bubble Tree visualization) which I wrote about earlier. To keep up I’ve started (link:https://gimmebar.com/collection/4fe53a42aac422e010000000/visualizations-on-github text:a collection of visualization projects hosted on Github) so if you’ve used any good ones you should (link:https://twitter.com/#!/thewhyaxis text:let me know on twitter) or post it in the comments below.
-
-
 
 ----
 related:

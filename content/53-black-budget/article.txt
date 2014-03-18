@@ -2,13 +2,15 @@ Title: Behind The Black Budget
 ----
 Date: 9/23/2013
 ----
-Hero: black-budget.gif
+Hero: black-budget-1.gif
 ----
 Text:
 
+(imgslide: black-budget-1.gif link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/)
+
 > The following is an interview with (link:http://www.wilsonmarkandrews.com/ text:Wilson Andrews) of (link:http://www.washingtonpost.com/ text:The Washington Post) about the creation of (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:The Black Budget) which visualizes never before seen data about secret funds for national intelligence agencies. 
 
-(imgslide: black-budget-1.gif link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/)
+
 
 ## What was the goal for this visualization?
 
@@ -26,9 +28,11 @@ My colleague (link:https://twitter.com/toddlindeman text:Todd Lindeman) combed t
 
 ## Were there any alternative designs you considered? 
 
+(imgslide: black-budget-2.jpg link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/project-files/black-budget-doubletruck-web.pdf)
+
 We started with two main ideas. One was represented in (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/project-files/black-budget-doubletruck-web.pdf text:the final form of the print graphic [PDF]). I tried to make something similar work online using little squares. It started joined together as one rectangle, and each step of the animation unpacked into the different groupings. This version had a nice cohesive animation, but once it exploded to show each expense, it was unmanageable for web, reaching down several screens worth of the page so that the connections were lost.
 
-(imgslide: black-budget-2.jpg link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/project-files/black-budget-doubletruck-web.pdf)
+
 
 I then started experimenting with the modified stacked bar / tree map layout that is in the published version. I tried doing it both stuck to the bottom of page and also in the entire browser size, so it was all in a single visualization and moved around based on which section was selected. This helped me get the base of the code into place, but it really didn't work for this graphic. It left little room to annotate the graphic, which was important with this complex subject. It also provided little flexibility to show the other information we ended up using in smaller charts. And we were really trying to avoid a traditional step-through navigation. It felt bigger, and we were trying to be ambitious.
 
@@ -38,9 +42,10 @@ We decided to open up the visualization down the page, which gave each section m
 
 ## What technology was used to implement this graphic? 
 
+(imgslide: black-budget-3.gif)
+
 The page is made in a responsive template that uses Bootstrap at its core. I like it because it's basically a blank canvas. So the biggest challenge there is making something that works really well at all screen sizes. We don't like to focus 95% of our effort on the desktop version and then just throw a bit at the mobile view at the end. The template makes that a lot easier, but designing with mobile at the forefront means a lot more testing throughout the design and development process, not just at the end. There is always more we would like to be able to do, but I was happy to have such a full-featured and usable mobile version in the time we had.
 
-(imgslide: black-budget-3.gif)
 
 I used D3.js to create the main visualizations, so the only limitation there was my own clumsiness with the library. I've found the structure of my data to be very important with D3 because the library has a lot of ability to "just work" if your data is formatted in a certain way. I love D3's animation power. It also allowed me to be flexible with the organization of elements like labels and groupings, which was especially important for the interactions.
 

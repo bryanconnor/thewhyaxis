@@ -2,53 +2,53 @@ Title: Google Zeitgeist Misses the Mark for 2011
 ----
 Date: 12/19/2011
 ----
-Hero: zeit-yellow-feature.jpg
+Hero: zeit-in2.jpg
 ----
 Text:
+(imgslide: zeit-in1.jpg link: zeit-in1.jpg)
 
 In case you didn’t catch this being quietly launched on a Friday, Google has released their Zeitgeist report of searches for 2011. Here’s the (link:http://www.googlezeitgeist.com/en/top-lists/global/fastest-rising text:main interactive piece) – a 3D multi-series bar chart.
 
-(imgslide: zeit-in1.jpg link: zeit-in1.jpg)
 
 (link:http://twitter.com/visualisingdata text:Andy Kirk) has already thrown down some pretty (link:http://www.visualisingdata.com/index.php/2011/12/the-worst-visualisation-ive-seen-this-year-google-zeitgeist-2011/ text:salient points) about why this may be the “worst visualization of the year” and he’s not wrong. The bars and graphical plain are in isometric perspective, they’re mainly semi-transparent except for the very top, and they overlap to make a visualization that’s completely unreadable 75% + of the time.
 
 --
+(imgslide: zeit-in2.jpg link: zeit-in2.jpg )
 
 If you want to compare two of the search terms just click on them in succession. Don’t pick ones that are too close to each other though, chances are some part will be obscured by the front-most graph. Try to avoid accidentally hitting the search icon inside the button – that will perform a Google search. In another interaction design nightmare, the only way to deselect the two you are comparing is to click the “back”  button in the upper left of the visualization. Truly “comparing” any two bars is nearly impossible because of the perspective and lack of vertical scale.
 
-(imgslide: zeit-in2.jpg link: zeit-in2.jpg )
 
 --
+(imgslide: zeit-in3.jpg link: zeit-in3.jpg )
 
 But that’s not all. Google has built in a whole series of animated data displays into Zeitgeist that break even more visualization rules. Let’s take a quick tour of them.
 
 The first is a two-item bar chart, still in isometric perspective, that compares searches for a single term in 2010 and 2011. For several of the terms the 2011 bar is an arbitrary 10,000% higher than 2010 because there were no searches for Rebecca Black last year.
 
-(imgslide: zeit-in3.jpg link: zeit-in3.jpg )
 
 --
+(imgslide: zeit-in4.jpg link: zeit-in4.jpg )
 
 Next we have “search volume time lapse” which plots searches by week along a simple horizontal axis. If you can ignore the cylindrical shape you might actually be able to compare these. But on what scale? The Y axis is labelled 0 to 100 and when you select a search term to compare it to, all of the bars change heights, but the scale stays the same.
 
-(imgslide: zeit-in4.jpg link: zeit-in4.jpg )
 
 --
+(imgslide: zeit-in5.jpg link: zeit-in5.jpg )
 
 Next we have another cylindrical visualization that also plots bars on an isometric "3d" plane. "Measuring the Event" compares one search term directly to another by attempting to render and align them in 3D space. Some comparisons are more relevant than others, as you can see.
 
-(imgslide: zeit-in5.jpg link: zeit-in5.jpg )
 
 --
+(imgslide: zeit-in6.jpg link: zeit-in6.jpg )
 
 Further down there is a curious chart that lets users explore related search terms. This “drawer” visualization stacks bars on top of each, occasionally obscuring ones on the bottom. These bars, about half as useful as their text labels, also have some strange striping that I can not explain.
 
-(imgslide: zeit-in6.jpg link: zeit-in6.jpg )
 
 --
 
-And last but not least there’s this beauty. Try to figure out what it is showing.
-
 (imgslide: zeit-in7.jpg link: zeit-in7.jpg )
+
+And last but not least there’s this beauty. Try to figure out what it is showing.
 
 Can you even tell where the baseline of the top row sits? There’s a tiny shadow sticking out to give you a rough idea. Each is labelled with a number from 0 – 100 again completely unexplained. After some digging through the “About Zeitgeist” link at the bottom I found this:
 

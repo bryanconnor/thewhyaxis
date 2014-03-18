@@ -2,13 +2,14 @@ Title: The Reuters Macroscope Visualization You Need a Microscope to Read
 ----
 Date: 5/30/2012
 ----
-Hero: greece-yellow.jpg
+Hero: greece-in1.jpg 
 ----
-Text: 
+Text:
+
+(imgslide: greece-in1.jpg link: http://graphics.thomsonreuters.com/12/05/GR_GreecePolls.html)
 
 For a news source in the top 250 global websites (source: (link:http://www.alexa.com/siteinfo/reuters.com text:Alexa)), (link:http://www.reuters.com/ text:Reuters) is lacking quality data driven journalism and critical thinking about interactive visualizations for their audience.
 
-(imgslide: greece-in1.jpg link: http://graphics.thomsonreuters.com/12/05/GR_GreecePolls.html)
 
 This (link:http://graphics.thomsonreuters.com/12/05/GR_GreecePolls.html text:Greek election tracker) from their Macroscope blog is displayed on its own page yet doesn’t take advantage of the extra space to give the graph more breathing room. The whole visualization takes about 1/4 of the page and the main chart is only a portion of that. (link:http://blogs.reuters.com/macroscope/2012/05/22/greek-political-poll-tracker/ text:Here’s the short article) associated with it (complete with outdated screenshot which includes a pie chart).
 
@@ -20,9 +21,9 @@ The mini-fied version of the line chart along the timeline doesn’t add much to
 
 --
 
-How could this data be displayed in a way that’s easier to read in an interface that’s easier to use? I’d argue for a representation of each party’s graph separated with some simple interactivity baked in.
-
 (imgslide: greece-in3.jpg link: greece-in3.jpg)
+
+How could this data be displayed in a way that’s easier to read in an interface that’s easier to use? I’d argue for a representation of each party’s graph separated with some simple interactivity baked in.
 
 In this format the user can see more data more immediately and more simply. The hover effect on the chart snaps to the data points and displays the percentages for each party as well as the date and poll name at the top. The average poll for each party over the span of time shown is presented to the right of each graph. I didn’t think the ability to select a shorter span of days added much to the visualization so it has been left out here. The end result is much easier to read, decipher and derive insight from.
 

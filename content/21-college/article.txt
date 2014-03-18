@@ -2,7 +2,7 @@ Title: The Chronicle’s College Completion Site Gets Valedictorian
 ----
 Date: 5/3/2012
 ----
-Hero: chronicle-yellow.jpg
+Hero: chronicle-in6.jpg
 ----
 Text: 
 
@@ -14,9 +14,10 @@ It’s damn near perfect. (link:http://collegecompletion.chronicle.com/ text:The
 
 ## Getting an Overview
 
+(imgslide: chronicle-in2.jpg link: chronicle-in2.jpg)
+
 The College completion site has quite a complex hierarchy but they start users out by giving them a sort of executive summary. This is a good way to grab the viewer’s attention and get them interested. Here, this is accomplished with a complex tree-map visualization.
 
-(imgslide: chronicle-in2.jpg link: chronicle-in2.jpg)
 
 Most of its utility comes from the clear visualizations of the proportions of public, community, private, and for-profit institutions. It’s somewhat interesting to hover over the larger schools in each category, but this tree-map wasn’t meant as a navigational tool.
 
@@ -78,9 +79,9 @@ The site is also exceedingly shareable. Each chart on each page can be linked to
 
 ## Interaction and Visual Design
 
-As if that weren’t enough, this site is well supported by the professionally executed interaction and visual design.
-
 (imgslide: chronicle-in10.jpg link: chronicle-in10.jpg)
+
+As if that weren’t enough, this site is well supported by the professionally executed interaction and visual design.
 
 Scrolling navigation, tabs, filters, help buttons and smart interactive charts really enhance the experience and make the site memorable and ridiculously useful.
 

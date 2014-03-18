@@ -2,13 +2,13 @@ Title: U.S. Job Market Shrinkage Visualized in a Sprawling Interactive
 ----
 Date: 7/18/2012
 ----
-Hero: jobs-yellow.jpg
+Hero: jobs-in3.jpg
 ----
 Text: 
 
-Jobs data is perhaps the most oft-cited data in the U.S. in times of a recovering economy leading up to election season. Numbers quoted by politicians seem to directly conflict with each other. As with (link:http://thewhyaxis.info/pollster/ text:polling data), jobs data is probably best explored by an individual with an interactive tool published by a trusted news source e.g. (link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:this visualization) from The Guardian.
-
 (imgslide: jobs-in1.jpg link: http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0)
+
+Jobs data is perhaps the most oft-cited data in the U.S. in times of a recovering economy leading up to election season. Numbers quoted by politicians seem to directly conflict with each other. As with (link:http://thewhyaxis.info/pollster/ text:polling data), jobs data is probably best explored by an individual with an interactive tool published by a trusted news source e.g. (link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:this visualization) from The Guardian.
 
 This piece from the (link:http://www.guardian.co.uk/profile/guardian-in-america-interactive-team text:Guardian in America Interactive team) visualizes the job market broken down by industry. In the same way you zoom to your town on a census map, here you’re probably most interested in the industries that you and your friends work in.
 

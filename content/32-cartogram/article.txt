@@ -2,27 +2,29 @@ Title: Every Single Person in one Cartogram
 ----
 Date: 7/24/2012
 ----
-Hero: cartogram-yellow.gif
+Hero: cartogram-in2.gif
 ----
 Text: 
 
+(imgslide: cartogram-in1.gif link: http://www.latimes.com/news/nationworld/world/population/#maps)
+
 The (link:http://www.latimes.com/ text:LA Times) has published “(link:http://www.latimes.com/news/nationworld/world/population/ text:Beyond 7 Billion),” a rich interactive feature covering the story of the exploding world population. Increasingly the Times has been producing rich content and some data visualizations including the (link:http://thewhyaxis.info/oscars/ text:Oscars Senti-meter which I critiqued) a few months back . The world population site includes stories, videos, photos and (link:http://www.latimes.com/news/nationworld/world/population/#maps text:a world map of sorts), more accurately a cartogram.
 
-(imgslide: cartogram-in1.gif link: http://www.latimes.com/news/nationworld/world/population/#maps)
 
 Even more accurately it’s a (link:http://mbostock.github.com/protovis/ex/cartogram.html text:Dorling cartogram). In a traditional Dorling cartogram (introduced by (link:http://www.sheffield.ac.uk/geography/staff/dorling_danny text:Danny Dorling)) each geographic area is represented by a scaled circle and placed to resemble its true geographic location. The circles are then usually color encoded with another variable. Here they are color coded by their respective continents which actually helps quite a bit in retaining a sense of geography when the circles start moving around.
 
 --
 
+(imgslide: cartogram-in2.gif link:cartogram-in2.gif)
+
 In the main population map you can transform the circles to represent data from 1950, 2010 and project data for 2050 and 2100, each with startling effects. The prominence of Africa’s population explosion wasn’t something I expected to see.
 
-(imgslide: cartogram-in2.gif link:cartogram-in2.gif)
 
 --
 
-The LA Times has also included other maps in the same form that visualize related topics such as world hunger, freshwater, CO2 emissions and contraceptive use, all split out into separate tabs across the top. In some cases the combination of scaling and the data set renders the circles too small to include almost any of the labels forcing us to rely on hover to see any detail.
-
 (imgslide: cartogram-in3.gif link:cartogram-in3.gif)
+
+The LA Times has also included other maps in the same form that visualize related topics such as world hunger, freshwater, CO2 emissions and contraceptive use, all split out into separate tabs across the top. In some cases the combination of scaling and the data set renders the circles too small to include almost any of the labels forcing us to rely on hover to see any detail.
 
 What’s more I think it’s a lost opportunity to have all of these data sets rendered as separate maps. I hope the LA Times team at least explored combining the population variable with any of the others in the same map, using a more complex color scheme to achieve readability and foster insight. As it stands it’s hard to relate any two topics or understand the scale of the issue in relation to population which seems like a central goal of the piece. For instance I think it would be enlightening to see “% of population that is malnourished” encoded by color onto a cartogram scaled by population. With a more complex color scheme you could retain the sense of continents by using a single color family as well as visualize the depth of a second variable by using different values within that family.
 

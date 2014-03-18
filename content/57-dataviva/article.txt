@@ -2,7 +2,7 @@ Title: DataViva, Built in Brazil, Available to All
 ----
 Date: 12/17/2013
 ----
-Hero: dataviva.jpg
+Hero: dataviva-1.jpg
 ----
 Text:
 

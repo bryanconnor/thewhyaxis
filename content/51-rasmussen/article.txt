@@ -2,9 +2,11 @@ Title: Designing Rasmussen's Career Scatter Plot
 ----
 Date: 8/27/2013
 ----
-Hero: rasmussen.gif
+Hero: rasmussen6.jpg
 ----
-Text: 
+Text:
+
+(imgslide: rasmussen1.gif link:http://www.rasmussen.edu/resources/what-career-should-i-choose/) 
 
 Rasmussen has published an (link:http://www.rasmussen.edu/resources/what-career-should-i-choose/ text:interactive scatter plot) aimed at students with the help of (link:http://www.distilled.net/ text:Distilled). I talked to (link:https://twitter.com/epicgraphic text:Mark Johnstone) about the design process behind this visualization. He defines the goal:  
 
@@ -12,7 +14,6 @@ Rasmussen has published an (link:http://www.rasmussen.edu/resources/what-career-
 
 By focusing on occupations that employ at least 10,000 people and have a median salary of at least $40,000 the visualization mostly represents jobs that require a degree. 
 
-(imgslide: rasmussen1.gif link:http://www.rasmussen.edu/resources/what-career-should-i-choose/)
 
 ## Data Display
 
@@ -38,11 +39,13 @@ They also considered using **area** to communicate growth instead of color-codin
 
 --
 
+(imgslide: rasmussen6.jpg)
+
 The team considered **grouping** points together to simplify things, however: 
 
 > numerous iterations of cluster analysis didn't yield any groupings that would be meaningful both conceptually and statistically.
 
-(imgslide: rasmussen6.jpg)
+
 
 They instead used the medians of the values on each axis to divide the scatter plot into conceptual quadrants: _Elite Players, Top Performers, A Good Bet, and A Matter of Taste._ 
 
@@ -50,14 +53,15 @@ To contend with the outliers present in the data the team enlisted the help of t
 
 --
 
-
 ## Layout & Interactivity
+
+(imgslide: rasmussen7.gif)
 
 > The design was refined and simplified with each iteration to optimize the use of the pixel width we were working with and to juggle the numerous functions.
 
 The team had to contend with the placement of detailed information for each job, the quadrant labels, the category selector, and the color key as they worked through different layouts for the piece. Each element was important to the graph's functionality and the user's ability to comprehend it.
 
-(imgslide: rasmussen7.gif)
+
 
 Most crucial was the detailed information for each of the jobs visualized. The information panel started out as a hover state located beneath the graph but: 
 > We ran the risk of it dropping below the fold and being missed by those viewing it on smaller screens.  For this reason we integrated the on-hover info panel inside the graph area, ensuring that it would always be visible to the user.  
@@ -72,11 +76,11 @@ The quadrant labels were also important for comprehension. These went through ma
 
 --
 
+(imgslide: rasmussen2.png)
+
 Originally the team had two drop-down menus to allow users to directly compare two jobs, however:  
 
 > We changed this so that there was only one drop down to select category/s of interest and we displayed all categories not selected on default in light grey.  This simplified usability while still allowing the user to compare selected industries of interest to all other categories.
-
-(imgslide: rasmussen2.png)
 
 The category selector also overlapped the graph in earlier versions but:
 > In the final version it pushes the graph down to allow the user to continue to engage with the graph while being able to select and deselect different fields of interest. 

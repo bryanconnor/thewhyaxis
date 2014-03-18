@@ -2,13 +2,13 @@ Title: Twitter Analytics Platform Gives Data Back to Users
 ----
 Date: 6/18/2013
 ----
-Hero: tw-analytics.jpg
+Hero: tw-analytics-2.jpg
 ----
 Text:
 
-Previously reserved for advertising partners, (link:https://analytics.twitter.com/accounts text:Twitter Analytics) now shows all users an overview of their timeline activity, reveals more detailed information about their followers and lets them download it all as a CSV. 
-
 (imgslide: tw-analytics-1.jpg link:https://analytics.twitter.com/accounts )
+
+Previously reserved for advertising partners, (link:https://analytics.twitter.com/accounts text:Twitter Analytics) now shows all users an overview of their timeline activity, reveals more detailed information about their followers and lets them download it all as a CSV. 
 
 Presented in a month-long timeline of activity, Twitter Analytics visualizes mentions, follows and something previously much harder to track: unfollows. Even this additional context makes Twitter Analytics a useful tool for any user. 
 

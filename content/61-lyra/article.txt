@@ -12,7 +12,7 @@ Collections: <a href="http://thewhyaxis.info/tools">Tools of the Trade</a>
 ----
 Text:
 
-(imgslide: lyra-1.png)
+(imgslide: content/61-lyra/lyra-1.png)
 
 Before the demo session even began, (link:http://www.tapestryconference.com/ text:Tapestry) was humming	 with talk of "(link:http://idl.cs.washington.edu/projects/lyra/ text:Lyra)." A group gathered around (link:https://twitter.com/arvindsatya1 text:Arvind Satyanarayan) as he took us for a spin around the tool he helped developed at (link:http://idl.cs.washington.edu/ text:UW Interactive Data Lab.)
 
@@ -26,7 +26,7 @@ Jim Vallandingham's (link:http://vallandingham.me/make_a_barchart_with_lyra.html
 
 ## Let's Make a Bar Chart with Lyra
 
-(imgslide: lyra-2.gif)
+(imgslide: content/61-lyra/lyra-2.gif)
 
 Using the example data in Lyra, Jim takes us step by step through creating a simple visualization of gold medals by country in the 2014 Sochi Olympics. It's a simple chart but it keeps the tutorial manageable and encourages others to go further. The tutorial is peppered with animated gifs and annotated screenshots that are easy to follow. He leaves us with some "homework" at the end as well: 
 
@@ -40,7 +40,7 @@ Using the example data in Lyra, Jim takes us step by step through creating a sim
 
 ## Comparisons
 
-(imgslide: lyra-3.png blockquote: <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalk">Watch Bret's full talk</a> or <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum">read the notes</a>)
+(imgslide: content/61-lyra/lyra-3.png blockquote: <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalk">Watch Bret's full talk</a> or <a href="http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum">read the notes</a>)
 
 > Lyra’s binding capabilities allow for comparisons to some of what is featured in (link:http://worrydream.com/#!/DrawingDynamicVisualizationsTalkAddendum text:Bret Victor’s Drawing Dynamic Visualizations) tool. If his tool is released, it will be interesting to compare further.
 
@@ -50,7 +50,7 @@ I heard comparisons to Bret Victor's proposed tool at Tapestry as well. Lyra see
 
 ## Finding its place
 
-(imgslide: dd-raw1.gif blockquote: <a href="http://thewhyaxis.info/raw">Read the review of RAW on The Why Axis</a>)
+(imgslide: content/61-lyra/dd-raw1.gif blockquote: <a href="http://thewhyaxis.info/raw">Read the review of RAW on The Why Axis</a>)
 
 > It has some overlap with (link:http://densitydesign.org/ text:Density Design’s) wonderful (link:http://raw.densitydesign.org/ text:RAW) app. While RAW is more polished, I think Lyra might ultimately provide a more powerful feature set for those interested in learning the tool.
 
@@ -66,7 +66,7 @@ Jim has started the ball rolling with his tutorial. I'll be adding new resources
 
 ## Other Demonstrations
 
-(imgslide: lyra-4.gif)
+(imgslide: content/61-lyra/lyra-4.gif)
 
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=playfair text:Wheat v. Wages by William Playfair - reconstructed with Lyra)
 - (link:http://idl.cs.washington.edu/projects/lyra/app/#?example=driving text:Driving Shifts into Reverse by The New York Times - reconstructed with Lyra)

@@ -2,29 +2,33 @@ Title: Dark Money Universe Uncovers Constellations of Political Spending
 ----
 Date: 6/28/2012
 ----
-Hero: universe-yellow.jpg
+Hero: universe-in1.jpg
 ----
 Text: 
 
+(imgslide: universe-in1.jpg link: http://www.motherjones.com/politics/2012/06/interactive-chart-super-pac-election-money)
+
+
 The (link:http://www.motherjones.com/politics/2012/06/interactive-chart-super-pac-election-money text:Dark Money Universe) is a heavily metaphorical and informative visualization produced by (link:http://www.motherjones.com/about text:MotherJones Magazine). This concept first appeared (link:http://www.motherjones.com/politics/2011/12/super-pacs-501-c-groups-chart text:in print) but now has been re-imagined on the web by a talented team.
 
-(imgslide: universe-in1.jpg link: http://www.motherjones.com/politics/2012/06/interactive-chart-super-pac-election-money)
 
 Using D3, (link:http://ejfox.com/ text:EJ Fox) was able to work with the MotherJones team to make this very important data come to life in an interactive format. The piece visualizes political fundraising in a way that reveals previously hidden stories and connections. Displaying the different Super-PACs and 501c groups as identity-less blobs floating in a nebulous space gives you an immediate tone for the data being presented. The team cites the (link:http://developer.nytimes.com/docs/campaign_finance_api/ text:NYT Campaign Finance API) and did a good deal of their own research to get a more complete data set.
 
 --
+(imgslide: universe-in2.jpg link: universe-in2.jpg)
 
 One of the best things about this visualization is the contextual information surrounding the constellations of funding groups. There are details in the lefthand sidebar for the funding group you’ve just rolled over including, in many cases, the individual funding donors.
 
-(imgslide: universe-in2.jpg link: universe-in2.jpg)
 
 --
-
-The grouping filters across the top are also useful for isolating different pieces of information presented and each comes with a longer description of the organizations you’re left with. Users are free to explore the visualization in a non-linear way but the editorial content from MotherJones always contextualizes it and makes the piece a magnitude more useful.
 
 (imgslide: universe-in3.jpg link: universe-in3.jpg)
 
+The grouping filters across the top are also useful for isolating different pieces of information presented and each comes with a longer description of the organizations you’re left with. Users are free to explore the visualization in a non-linear way but the editorial content from MotherJones always contextualizes it and makes the piece a magnitude more useful.
+
+
 --
+(imgslide: universe-in1.jpg link: universe-in1.jpg)
 
 I talked with EJ about the design process and the decisions about how much to show:
 
@@ -34,7 +38,6 @@ I talked with EJ about the design process and the decisions about how much to sh
 
 > Mother Jones went through the trouble of individually writing quick summaries of each of these PACs by hand, which I think go a long way to explaining the more hidden or complex aspects of the story, so we tried to keep that front and center.
 
-(imgslide: universe-in1.jpg link: universe-in1.jpg)
 
 I agree that this piece is somewhat challenged for space. It does a good job if hiding unecessary information (like “Show Total $ Raised”) but the piece itself needs more room to breathe. I think a wirder format would serve the information being presented in the left hand box better and also give a stronger feeling of outer space. The only trouble I had with the left hand box was that occasionally I’d hover over a bubble and then move to the box to show donors or click a link only to accidently hover over a different bubble on the way, changing the info-box. This perhaps is an argument for making that contextual information into a tool-tip, despite the large volume of it.
 
@@ -42,9 +45,10 @@ The force directed D3 visualization seems like a tricky thing to work with and t
 
 --
 
+(imgslide: universe-in4.jpg link: universe-in4.jp)
+
 Things are again thrown into flux when clicking through the different groups filters at the top. I really like how the piece is initially layed out, with the small blue clusters on the left and the larger red clusters dominating the center and right side. This exact distribution is impossible to return to since clicking back to “all groups” uses the last orientation of the bubbles when laying the rest out.
 
-(imgslide: universe-in4.jpg link: universe-in4.jp)
 
 The other issue with this implementation is the labeling. Often the user is forced to actually pick up a dot and shake it around in order to see al the labels associated with a cluster.
 

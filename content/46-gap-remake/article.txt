@@ -2,16 +2,19 @@ Title: Mind the Gap - An Economic Chart Remake
 ----
 Date: 4/9/2013
 ----
-Hero: regap.gif
+Hero: regap-in10.gif
 ----
 Text:
+
+(imgslide: regap-in1.jpg link:http://economix.blogs.nytimes.com/2013/04/02/comparing-the-worlds-glass-ceilings/)
 
 > Guest author Jon Schwabish is an economist with the U.S. federal government and creator of policy-relevant data visualizations. His website, (link:http://policyviz.com/ text:policyviz.com), contains details about his one-day workshops on visualizing and presenting data for people in public policy. You can reach him at (email:jschwabish@gmail.com) or by following him on Twitter (twitter:@jschwabish).
 
 > (link:EmploymentSharesBlogRemake.xlsx text:Download the Excel file) with the data tables and charts covered in this post. 
 
 This chart in a recent (link:http://economix.blogs.nytimes.com/2013/04/02/comparing-the-worlds-glass-ceilings/ text:post by Catherine Rampell) on the New York Times’ Economix blog struck me in need of a redo. Rampell’s post uses the chart to help illustration how there is a greater share of women in high-achieving jobs in the U.S. than in many other countries.
-(imgslide: regap-in1.jpg link:http://economix.blogs.nytimes.com/2013/04/02/comparing-the-worlds-glass-ceilings/)
+
+
 
 Rampell references an (link: http://www.oecd.org/gender/data/proportionofemployedwhoareseniormanagersbysex.htm text:interactive version of the graph) from the Organisation for Economic Co-operation and Development (OECD). The interactive visualization was made in Tableau and is essentially identical to the static version, but uses different colors (orange bars instead of red). The interactivity enables the user to choose any country and any year between 1990 and 2011. (Technically, the data are published by the International Labor Organization, but OECD has visualized the data).
 
@@ -29,19 +32,19 @@ I find the static graph difficult to decipher for five main reasons (and the int
 
 --
 
+(imgslide: regap-in2.jpg )
+
 Okay, so let’s take a tour through some revisions of this chart by trying to address the issues just mentioned.
  
 Just for comparison sake, here is my repeat of the same chart. I’m going to make a series of small changes, but keep the overall chart design the same.
-
-(imgslide: regap-in2.jpg )
 
 Here are the changes I’ve made: different font ((link:http://www.fontsquirrel.com/fonts/cabin text:Cabin)); different color scheme (orange and blue);  fewer and lighter gridlines; top-left aligned legend; title with the “(Percent)” subheader.
 
 --
 
-So now let’s make what may be the easiest and most important change: rotating the chart 90 degrees. When the graph is rotated in this way, the metrics stay the same and how we perceive the data is unchanged, but the x-axis labels are now horizontally oriented, which are much easier to read.
-
 (imgslide: regap-in3.gif )
+
+So now let’s make what may be the easiest and most important change: rotating the chart 90 degrees. When the graph is rotated in this way, the metrics stay the same and how we perceive the data is unchanged, but the x-axis labels are now horizontally oriented, which are much easier to read.
 
 Still, the orange bars overwhelm the blue diamonds and the two series are disconnected from one another. One way to address the visual imbalance of the two series is to create what I call a “stacked broken bar chart.”
 
@@ -73,6 +76,8 @@ Take note of one other important characteristic of this graph: the country label
 
 --
 
+(imgslide: regap-in8.gif)
+
 I’m satisfied with this last chart, but I’ll take it one step further. If you read the Rampell post, you’ll notice at the very end she discusses the ratio of women’s employment rates to men’s employment rates:
 
 > “In the United States, the ratio of the share of women who are in senior management positions to the share of men who are in senior management positions is about 0.85 (13.9/16.3), whereas for all O.E.C.D. countries it is about 0.59 (6.1/10.3). The country with the next highest ratio, behind the United States, is New Zealand, with a ratio of 0.76 (11.7/15.4).”
@@ -81,13 +86,13 @@ I think the ratios are important and really help tell the story—the relative s
 
 There are two ways I try to visualize these ratios. First, I add a bar chart to the right side of the dot plot graph—in this way, the focus of the visual is still on the levels of men and women, but the ratio information is also included. (Alternatively, if you think the bars are distracting, you could just include the numbers of the ratio and not the bar chart).
 
-(imgslide: regap-in8.gif)
+
 
 --
 
-Of course, another option is to take a much simpler and direct approach: visualize the ratios.
-
 (imgslide: regap-in9.gif)
+
+Of course, another option is to take a much simpler and direct approach: visualize the ratios.
 
 This final graph is clearly a departure from the initial graph, but that’s because this graph has a different focus. Here, countries take on different ranks: for example, Italy ranks 12th in the share of women employed as senior managers (9.1%), but the ratio between women and men (75%) puts Italy behind only the United States (85%) and New Zealand (76%).
 

@@ -2,13 +2,13 @@ Title: The 2012 Political Visualization Race – New Hampshire Primaries Edition
 ----
 Date: 1/11/2012
 ----
-Hero: primary-yellow-feature.jpg
+Hero: primary-in7.jpg
 ----
 Text:
 
-This political season all major news and media outlets will be competing in the dynamic visualization race. We’re only at the New Hampshire Primaries and already the (link:http://graphics.latimes.com/2012-election-gop-results-map-new-hampshire/ text:LA Times), (link:http://www.cnn.com/election/2012/primaries/state/nh text:CNN), (link:http://elections.nytimes.com/2012/primaries/states/new-hampshire text:The New York Times), (link:http://elections.msnbc.msn.com/ns/politics/2012/new-hampshire/republican/primary/ text:MSNBC), (link:http://www.washingtonpost.com/wp-srv/special/politics/primary-tracker/New-Hampshire/ text:The Washington Post), (link:http://media.apps.chicagotribune.com/2012-elections/nh-primary.html text:The Chicago Tribune), (link:http://www.foxnews.com/politics/elections/2012/new-hampshire-primary-jan-10/ text:Fox News), (link:http://www.google.com/elections/ed/us/results text:Google), and even (link:http://www.guardian.co.uk/world/interactive/2012/jan/03/gop-nomination-2012-primary-results#state=NH text:The Guardian) all have their own live results trackers as noted by (link:http://flowingdata.com/2012/01/10/new-hampshire-results-trackers/ text:Nathan Yau).
-
 (imgslide: primary-in.jpg link: primary-in.jpg)
+
+This political season all major news and media outlets will be competing in the dynamic visualization race. We’re only at the New Hampshire Primaries and already the (link:http://graphics.latimes.com/2012-election-gop-results-map-new-hampshire/ text:LA Times), (link:http://www.cnn.com/election/2012/primaries/state/nh text:CNN), (link:http://elections.nytimes.com/2012/primaries/states/new-hampshire text:The New York Times), (link:http://elections.msnbc.msn.com/ns/politics/2012/new-hampshire/republican/primary/ text:MSNBC), (link:http://www.washingtonpost.com/wp-srv/special/politics/primary-tracker/New-Hampshire/ text:The Washington Post), (link:http://media.apps.chicagotribune.com/2012-elections/nh-primary.html text:The Chicago Tribune), (link:http://www.foxnews.com/politics/elections/2012/new-hampshire-primary-jan-10/ text:Fox News), (link:http://www.google.com/elections/ed/us/results text:Google), and even (link:http://www.guardian.co.uk/world/interactive/2012/jan/03/gop-nomination-2012-primary-results#state=NH text:The Guardian) all have their own live results trackers as noted by (link:http://flowingdata.com/2012/01/10/new-hampshire-results-trackers/ text:Nathan Yau).
 
 Inevitably some of these news sources do it better than others but the ones leading the pack may surprise you. My picks for the best election results trackers are T(link:http://elections.nytimes.com/2012/primaries/states/new-hampshire text:The New York Times), (link:http://media.apps.chicagotribune.com/2012-elections/nh-primary.html text:The Chicago Tribune), and (link:http://www.foxnews.com/politics/elections/2012/new-hampshire-primary-jan-10/ text:Fox News). What’s interesting is that all of these trackers use the exact same data, provided by the AP, but no two present it to their audience in the same way.
 
@@ -25,10 +25,9 @@ Inevitably some of these news sources do it better than others but the ones lead
 Below the table we have a clear indication of the percentage of polling stations that are reporting and a call to action to (link:http://www.foxnews.com/politics/elections/2012/new-hampshire-primary-jan-10/exit-polls text:see all exit poll results). The map is simple but extremely clear. Hovering on different counties re-sorts the color key by the rankings for that area – a nice touch and easy to detect visually. The ability to (link:http://www.foxnews.com/politics/elections/2012/new-hampshire-primary-jan-10/results-by-town yet:explore the primary results by town) is also a nice added feature and easy to find. Fox News didn’t try to present all the data they have on one screen and instead split it out into separate pages. They did, however, decide to automatically play a video of the winner Mitt Romney when the page loaded but otherwise a job well done by Fox News.
 
 --
+(imgslide: primary-in3.jpg link: primary-in3.jpg )
 
 On the other side of the spectrum, The New York Times has attempted to display (link:http://elections.nytimes.com/2012/primaries/states/new-hampshire text:all of the New Hampshire primary data on the same page).
-
-(imgslide: primary-in3.jpg link: primary-in3.jpg )
 
 The most important candidate information is still clear but there is a lot more clutter on the page to wade through. Some of it is useful and contextual and some could easily be eliminated or hidden in a smart way. It’s a lot harder to find the percent reporting on this page as well.
 
@@ -52,17 +51,17 @@ The New York Times nicely presents a selection of exit poll results, highlightin
 
 --
 
-(link:http://media.apps.chicagotribune.com/2012-elections/nh-primary.html text: This map from the Chicago Tribune) takes the interface of a primary tracker in a different direction.
-
 (imgslide: primary-in7.jpg link: primary-in7.jpg )
+
+(link:http://media.apps.chicagotribune.com/2012-elections/nh-primary.html text: This map from the Chicago Tribune) takes the interface of a primary tracker in a different direction.
 
 The simple page directs your eye to the important information and leaves out all unnecessary clutter and context. It’s obvious how the candidate sidebar relates to the map and the color coding seems simple enough. The strength here is really information architecture and economy of attention. 
 
 --
 
-Clicking on a candidate changes the map to represent the percentage of the vote that candidate has in each area. The color scale changes to a purple range and, as the sidebar text states, “gray indicates a tie.” Clicking on other candidates changes the map’s coloring and takes some cognitive work to keep up with. Some of the colors generated by the purple to gray scale are similar to the color assigned to Romney in the sidebar. The candidate colors in the sidebar no longer reference the active map.
-
 (imgslide: primary-in8.jpg link: primary-in8.jpg )
+
+Clicking on a candidate changes the map to represent the percentage of the vote that candidate has in each area. The color scale changes to a purple range and, as the sidebar text states, “gray indicates a tie.” Clicking on other candidates changes the map’s coloring and takes some cognitive work to keep up with. Some of the colors generated by the purple to gray scale are similar to the color assigned to Romney in the sidebar. The candidate colors in the sidebar no longer reference the active map.
 
 If any of the trackers should have town-level data it should be the one with a map that’s 75% of the page. Instead, this map zooms to arbitrary levels, revealing no new information.
 

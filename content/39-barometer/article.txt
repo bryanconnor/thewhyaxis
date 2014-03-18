@@ -2,13 +2,13 @@ Title: Google Consumer Barometer Promises Insight Through Visualization
 ----
 Date: 10/4/2012
 ----
-Hero: barometer.jpg
+Hero: barometer-in1.jpg
 ----
 Text: 
 
-The (link:http://www.consumerbarometer.com/ text:Consumer Barometer) is a beautiful and immersive visualization presented by Google and produced by (link:http://www.cleverfranke.com/ text:CLEVER°FRANKE). Experience it for yourself.
-
 (imgslide: barometer-in1.jpg link:http://www.consumerbarometer.com/)
+
+The (link:http://www.consumerbarometer.com/ text:Consumer Barometer) is a beautiful and immersive visualization presented by Google and produced by (link:http://www.cleverfranke.com/ text:CLEVER°FRANKE). Experience it for yourself.
 
 The three main sections of the barometer (browse, graph, and data map) are all variations on a theme of visualizing the wealth of data collected by Google and others about how consumers research and make purchases. “Browse” guides you through a selected set of stories that have been pulled from the data. “Graph” lets you selectively compare and contrast all the metrics collected in the barometer. “Data Map” gives you a sense of the organizational structure of these metrics.
 
@@ -18,11 +18,11 @@ The Consumer Barometer does a lot of things right. The interactions are helpful 
 
 ## Browse
 
+(imgslide: barometer-in3.jpg link: barometer-in3.jpg)
+
 Let’s dive into Browse, probably the most complex section of the tool. The four “stories” you’re presented with are top level trends that the collective team has identified and designed specifically for. Within each story you have the ability to select a region (bubble) and/or industry (hexagon) to see more relevant data. The interactions on these elements are so responsive and entertaining that it’s not immediately clear that you can click on these to explore the data further.
 
 As you browse, I think the strangest thing about this section is the lack of consistency between the “stories” as illustrated by the image at right.
-
-(imgslide: barometer-in3.jpg link: barometer-in3.jpg)
 
 No two have the same flow through the different types of visualizations and not all lead to an “insight” screen in the end. It makes navigation more confusing and the metaphor weaker. I’m sure these choices were dictated by the available data but there’s no obvious reason why  ”compare purchase behaviors across countries” can’t start with a country selector like the other three stories.
 
@@ -34,15 +34,17 @@ The other issue here is the navigational labeling. CLEVER°FRANKE and the team h
 
 --
 
+(imgslide: barometer-in5.jpg link: barometer-in5.jpg)
+
 The different types of visualization within these screens are designed quite nicely. I find myself drawn more toward the hexagons despite there being no clear reason to stray from the simple circles (except, perhaps, to avoid the (link:http://www.perceptualedge.com/articles/visual_business_intelligence/our_fascination_with_all_things_circular.pdf text:bubble) (link:http://books.google.com/books?id=xwjhh6Wu-VUC&pg=PT56&lpg=PT56&dq=%22bubble+plague%22&source=bl&ots=nKvPFiLP5a&sig=O7bfJHG0YWTI8MyDW_OITzlutWc&hl=en&sa=X&ei=GvhsULL4Fsjn0gHavoCgBg&ved=0CCIQ6AEwAQ text:plague)). I think this attraction is due to the fact that the hexagons display more data more immediately and are therefore more useful to me. I can scan them quickly and see relative values of areas I might want to explore. In the bubble cartogram these values are hidden in the hover state and the filled circle areas are harder to compare.
 
-(imgslide: barometer-in5.jpg link: barometer-in5.jpg)
 
 --
 
+(imgslide: barometer-in6.jpg link: barometer-in6.jpg)
+
 On of my favorite bits is the care taken in the final “insight” screens. Firstly, the tool automatically compares your selected country to another relevant one and lets you adjust or remove the comparison. What’s more, every element in this screen is interactive in a simple way. Hovers tie the sections of visualization to their labels, making scanning and comprehension even faster. Hovering in one area highlights another element and you’re forced to draw connections between them. These details make the difference in explaining the radar bubble charts which would otherwise fall apart.
 
-(imgslide: barometer-in6.jpg link: barometer-in6.jpg)
 
 --
 
