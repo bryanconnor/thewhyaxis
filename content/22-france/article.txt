@@ -11,7 +11,7 @@ Text:
 
 (imgslide: france-in1.jpg link: http://www.data.gouv.fr/)
 
-> (image: JeromeCukier-thewhyaxis.jpg) The following is a guest article written by Jérôme Cukier ((twitter:@jcukier)), a talented visualization consultant from Paris, France.
+> The following is a guest article written by Jérôme Cukier ((twitter:@jcukier)), a talented visualization consultant from Paris, France.
 
 Government data can be used to inform citizens and is never more relevant than when they are called to express the ultimate political choice. With data, citizens can determine whether they agree with one policy or another, whether they subscribe to one social model or not, and if one proposition is in line with their priorities.
 

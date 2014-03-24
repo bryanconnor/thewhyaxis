@@ -5,6 +5,12 @@ Date: 2/4/2014
 ----
 Hero: bloodshed-1.jpg
 ----
+People: <a href="http://www.anthonydebarros.com/">Anthony DeBarros</a>
+----
+Organizations: <a href="http://gannettdigital.com/">Gannett Digital</a>, <a href="https://source.opennews.org">Source</a>
+----
+Collections: <a href="http://thewhyaxis.info/process">Behind the Scenes</a>, <a href="http://thewhyaxis.info/storytelling">Storytelling with Data</a>
+----
 Text:
 
 (imgslide: bloodshed-1.jpg)

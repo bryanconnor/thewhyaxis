@@ -4,6 +4,8 @@ Date: 1/21/2014
 ----
 Hero: ddos-1.gif
 ----
+Organizations: <a href="http://www.google.com/ideas/">Google</a>, <a href="http://www.arbornetworks.com">Arbor Networks</a>
+----
 Text:
 
 (imgslide: ddos-1.gif)

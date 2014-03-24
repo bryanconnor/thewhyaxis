@@ -1,0 +1,64 @@
+Title: Making Climate Change Visual
+----
+Hero: content/climate-change/hero.jpg
+----
+Description: Visualizations that examine one aspect of the important yet ephemeral issue of climate change.
+----
+
+Text: 
+
+## The Landscape of Climate Finance
+
+(image: http://thewhyaxis.info/content/60-climate-finance/climate-finance-1.jpg)
+
+The Landscape of Climate Finance is a web-based slide deck built by Vizzuality to promote the 2013 report from the Climate Policy Initiative. The slides examine climate change through the lens of money rather than the latest scientific study. This brass tacks approach...
+
+(link:http://www.climatefinancelandscape.org/ text:View The Landscape of Climate Finance)
+(link:http://thewhyaxis.info/climate-finance text:Read the article on The Why Axis)
+
+
+--
+## Trends in global CO2 emissions
+
+(image: content/climate-change/climate-change-1.jpg)			 		
+
+This interactive presentation of a report from PBL Netherlands Environmental Assessment Agency answers the question "Are global CO2 emissions still rising?"
+
+(link: http://infographics.pbl.nl/website/globalco2/ text:View Trends in Global CO2 Emissions)
+
+--
+## Climate Policy Initiative Yearly Report
+
+(image: content/climate-change/climate-change-2.jpg)			 		
+
+Vizzuality worked closely with the Climate Policy Initiative to build an online version of their yearly report, presenting three decades of evidence on emissions trends, emissions drivers, and policy activity from key global economies. Read about (link:http://www.vizzuality.com/projects/thepolicyclimate text:their process)
+
+(link:http://www.thepolicyclimate.org/ text:View the Climate Policy Initiative Yearly Report)
+
+--
+## The Keeling Curve
+
+(image: content/climate-change/climate-change-3.jpg)			 		
+
+An interactive explainer putting 400ppm CO2 in context. Designed by (link:http://kiln.it/ text:Kiln.it) and published by the Guardian.
+
+(link:http://www.theguardian.com/environment/interactive/2013/may/10/climate-warming-gas-carbon-dioxide-levels-interactive text:View The Keeling Curve on The Guardian)
+
+--
+## Climate Central Surging Seas Risk Finder
+
+(image: content/climate-change/climate-change-4.jpg)			 		
+
+Bocoup teamed up with Climate Central to create SSRF, a tool that would allow for displaying the risk of sea level rise across geographies over time. SSRF compares that risk with its impact on critical areas such as infrastructure and education. Read about (link:http://weblog.bocoup.com/launching-ssrf/ text:their process).
+
+(link:http://ssrf.climatecentral.org/#state=New+Jersey&level=5&category=Population_highSV&geo=County&pt=p&target=&p=S&folder=Socioeconomy text:View the SSRF tool)
+
+--
+## This Pulsing Earth
+
+(image: content/climate-change/climate-change-5.jpg)			 		
+
+Covered (link:http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth text:here) on NPR, This Pulsing Earth was created by cartographer and designer John Nelson. It shows us something we intuitively know, that the planet's ice comes and goes with the seasons, but does so in a way that's somehow new. Read about (link:http://uxblog.idvsolutions.com/2013/07/a-breathing-earth.html text:John's process).
+
+(link:http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth text:View This Pulsing Earch on NPR)
+

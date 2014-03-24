@@ -4,21 +4,10 @@
 
   <div class="wrapper head">
     <div class="nav">
-      <h1><span class="gem"></span><a href="http://thewhyaxis.info" id="thewhyaxis" >The Why Axis</a></h1>
+      <h1><span class="gem"></span><a href="<?php $site->url()?>" id="thewhyaxis" >The Why Axis</a></h1>
       <ul>
-        <li class="collections"><a href="<?php $site->url()?>archives">Archives</a></li>
-        <li class="collections"><a href="#">Collections</a>
-          <ul>
-            <li><a href="<?php $site->url()?>process">Behind the Scenes</a></li>
-            <li><a href="<?php $site->url()?>storytelling">Storytelling with Data</a></li>
-            <li><a href="<?php $site->url()?>print-web">Print &amp; Web Companions</a></li>
-            <li><a href="<?php $site->url()?>remakes">Chart Remakes</a></li>
-            <li><a href="<?php $site->url()?>tools">Tools of the Trade</a></li>
-            <li><a href="<?php $site->url()?>open-source">Open Source</a></li>
-            <li><a href="<?php $site->url()?>journalism">Data Journalism</a></li>
-            <li><a href="<?php $site->url()?>climate-change">Climate Change</a></li>
-          </ul>
-        </li>
+        <li class=""><a href="<?php $site->url()?>archives">Archives</a></li>
+        <li class="collections"><a href="<?php $site->url()?>collections">Collections</a></li>
         <li><a href="http://twitter.com/thewhyaxis" target="_blanks"><span aria-hidden="true" class="twa-icotwitter"></span></a></li>
         <li><a href="http://thewhyaxis.info/feed"><span aria-hidden="true" class="twa-icorss"></span></a></li>
       </ul>
@@ -69,6 +58,12 @@
     <div class="content">
 
       <div class="footleft">
+      <?php if($article->reactions() != ''):?>
+      <div class="reactions">
+        <h3>Reactions</h3>
+          <?php echo ($article->reactions()) ?>
+      </div>
+      <?php endif ?>
       <a name="comments"></a>
 
       <div id="disqus_thread"></div>
@@ -90,7 +85,7 @@
      <div class="footright">
 
       <ul class="relatedcontent">
-        <p class="readnext">Read This Next:</p>
+        <h3>Read This Next:</h3>
         <?php foreach(related($article->related()) as $related): ?>
           <li>
             <h2><a href="<?php echo $related->url() ?>"><?php echo html($related->title()) ?></a></h2>
@@ -122,7 +117,13 @@
   <script type="text/javascript" src="assets/js/fixto.min.js"></script>
 
   <script>
-    $('.article .graphic').fixTo('.article>.section', {mind:'.bumpy'});
+    if (document.documentElement.clientWidth >= 930) {
+      $(window).load(function() {
+        $('.article .graphic').fixTo('.article>.section', {mind:'.bumpy'});
+        // $('.relatedcontent').fixTo('body');
+      });
+    }
+    else{}
   </script>
 
 <?php snippet('footer') ?>
