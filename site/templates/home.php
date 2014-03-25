@@ -105,6 +105,7 @@
 
   <script type="text/javascript">
   var disqus_shortname = 'thewhyaxis'; // required: replace example with your forum shortname
+  var disqus_identifier = '<?php echo ($article->uri() ) ?>';
   (function () {
       var s = document.createElement('script'); s.async = true;
       s.type = 'text/javascript';
