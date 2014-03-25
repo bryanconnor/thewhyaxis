@@ -6,7 +6,7 @@ Hero: vizify.gif
 ----
 Text:
 
-(imgslide: vizify-1.gif)
+(imgslide: content/62-vizify/vizify-1.gif)
 
 Yahoo has been on an (link:http://qz.com/184046/yahoo-says-marissa-mayer-has-fixed-its-biggest-problem/ text:acquisition spree) and its latest pick is (link:https://www.vizify.com/yahoo#transition text:Vizify), a service that turns your social media data into a graphical bio. 
 
@@ -17,8 +17,7 @@ I've also noticed other signs of the visualization field maturing in the digital
 ----
 
 related:
-- lyra
-- raw
+- visually
 
 
 
