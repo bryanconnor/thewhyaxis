@@ -115,8 +115,8 @@
 	}());
 	</script>
 
-	<script type="text/javascript" src="<?php $site->url()?>assets/js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="<?php $site->url()?>assets/js/fixto.min.js"></script>
+	<script type="text/javascript" src="<?php echo( $site->url())?>/assets/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="<?php echo( $site->url())?>/assets/js/fixto.min.js"></script>
 
 	<script>
 		if (document.documentElement.clientWidth >= 930) {
