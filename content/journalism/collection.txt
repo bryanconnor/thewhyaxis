@@ -6,73 +6,77 @@ Description: Visualizations that tackle major news stories and make them accessi
 ----
 
 Text: 
-
+(image:http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif)
 
 ## Behind The Black Budget
 
-(image:http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif)
-
 An interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. 
 
-(link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
-(link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget)
+- (link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
+- (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget class:external)
 
 --
-## The New York Times and Tesla Motors Engage in Chart Warfare
 
 (image:http://thewhyaxis.info/content/43-tesla/tesla-5.jpg)
 
+## The New York Times and Tesla Motors Engage in Chart Warfare
+
 New York Times writer John Broder published an account of his test drive experience. The piece includes a graphic depicting the trip, annotating recharges and the eventual breakdown along the way.
 
-(link:http://thewhyaxis.info/tesla text:Read the interview on The Why Axis )
-(link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Read The New York Times article)
+- (link:http://thewhyaxis.info/tesla text:Read the interview on The Why Axis )
+- (link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Read The New York Times article class:external)
 
 --
-## 512 Paths to the White House
 
 (image: http://thewhyaxis.info/content/41-nov-process/whitehouse-in2.jpg)
 
+## 512 Paths to the White House
+
 512 Paths to the White House maps all the possibilities for each candidate to make their way to the oval office. Updated live on election night it's one of the New York Times' most sucessful interactives.
 
-(link:http://thewhyaxis.info/whitehouse text:Read the article on The Why Axis)
-(link:https://source.opennews.org/en-US/articles/nyts-512-paths-white-house/ text:Read making-of on Source)
+- (link:http://thewhyaxis.info/whitehouse text:Read the article on The Why Axis)
+- (link:https://source.opennews.org/en-US/articles/nyts-512-paths-white-house/ text:Read making-of on Source class:external)
 
 
 --
-## U.S. Job Market Shrinkage Visualized in a Sprawling Interactive
 
 (image: http://thewhyaxis.info/content/31-jobs/jobs-in3.jpg)
 
+## U.S. Job Market Shrinkage Visualized in a Sprawling Interactive
+
 This piece from the Guardian in America Interactive team visualizes the job market broken down by industry. 
 
-(link:http://thewhyaxis.info/jobs text: Read the article on The Why Axis)
-(link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:View this visualization on The Guardian)
+- (link:http://thewhyaxis.info/jobs text: Read the article on The Why Axis)
+- (link:http://www.guardian.co.uk/business/interactive/2012/jul/06/jobs-data-interactive-job-market#view/0 text:View this visualization on The Guardian class:external)
 
 --
-## A Bird&rsquo;s Eye View of the Political Landscape from the Pollster API
 
 (image: http://thewhyaxis.info/content/30-pollster/Pollster-in4.jpg)
 
+## A Bird&rsquo;s Eye View of the Political Landscape from the Pollster API
+
  The Huffington Post has come out with the Pollster API which aggregates the many election-related polls put out by a plethora of media organizations and packages them in a tidy API.
 
-(link:http://thewhyaxis.info/pollster text: Read the article on The Why Axis)
-(link:hhttp://elections.huffingtonpost.com/pollster/api text:View the Pollster API)
+- (link:http://thewhyaxis.info/pollster text: Read the article on The Why Axis)
+- (link:hhttp://elections.huffingtonpost.com/pollster/api text:View the Pollster API class:external)
 
 --
-## The 2012 Political Visualization Race &ndash; New Hampshire Primaries Edition
 
 (image: http://thewhyaxis.info/content/17-primaries/primary-in7.jpg)
 
+## The 2012 Political Visualization Race &ndash; New Hampshire Primaries Edition
+
 The LA Times, CNN, The New York Times, MSNBC, The Washington Post, The Chicago Tribune, Fox News, Google, and even The Guardian all have their own live results trackers. Some are better than others.
 
-(link:http://thewhyaxis.info/primaries text: Read the article on The Why Axis)
+- (link:http://thewhyaxis.info/primaries text: Read the article on The Why Axis)
 
 --
-## The Path of Protest
 
 (image:http://thewhyaxis.info/content/03-protest/unrest-large.jpg)
 
+## The Path of Protest
+
 To summarize and centralize The Guardian's many articles about Mid-East unrest, Garry Blight and Sheila Pulham created “The Path to Protest” – an interactive timeline plotting major news events across countries, updated daily.
 
-(link:http://thewhyaxis.info/protest text:Read the interview on The Why Axis )
-(link:http://www.theguardian.com/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text:View the Guardian interactive)
+- (link:http://thewhyaxis.info/protest text:Read the interview on The Why Axis )
+- (link:http://www.theguardian.com/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text:View the Guardian interactive class:external)

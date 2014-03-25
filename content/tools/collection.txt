@@ -5,68 +5,72 @@ Hero: content/tools/hero.jpg
 Description: A collection of the data visualization tools reviewed on The Why Axis.
 ----
 Text: 
-## Lyra Gets its First Visualization Tutorial
 
 (image:http://thewhyaxis.info/content/61-lyra/lyra-1.png)
 
+## Lyra Gets its First Visualization Tutorial
 
  An investigation of Jim Vallandingham's tutorial for Lyra, an open source visualization tool developed by Arvind Satyanarayan at UW Interactive Data Lab.
 
-(link:http://thewhyaxis.info/lyra/ text: Read the article on The Why Axis)
-(link:http://vallandingham.me/make_a_barchart_with_lyra.html text:View Jim's Lyra Tutorial)
+- (link:http://thewhyaxis.info/lyra/ text: Read the article on The Why Axis)
+- (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:View Jim's Lyra Tutorial class:external)
 
 --
-## RAW
-
 
 (image:http://thewhyaxis.info/content/54-raw/dd-raw3.gif)
 
+## RAW
 
  Raw is a new web-based tool developed by Density Design to fill the gap between spreadsheets and vector graphics.
 
-(link:http://thewhyaxis.info/raw/ text: Read the article on The Why Axis)
-(link:http://raw.densitydesign.org/ text:View RAW)
+- (link:http://thewhyaxis.info/raw/ text: Read the article on The Why Axis)
+- (link:http://raw.densitydesign.org/ text:Start using RAW class:external)
 
 --
-## Google Databoard
 
 (image:http://thewhyaxis.info/content/50-databoard/databoard2.jpg)
+
+## Google Databoard
+
 
 
  Google Databoard, the latest in a series of data presentation tools from the company, is focused on sharing the contents of its research reports.
 
-(link:http://thewhyaxis.info/databoard text: Read the article on The Why Axis)
-(link:http://think.withgoogle.com/databoard/ text:View Google databoard)
+- (link:http://thewhyaxis.info/databoard text: Read the article on The Why Axis)
+- (link:http://think.withgoogle.com/databoard/ text:View Google databoard class: external)
 
 --
-## FF Chartwell
 
 (image: http://thewhyaxis.info/content/38-chartwell/chartwell-in2.gif)
 
+## FF Chartwell
 
  Instead of replacing number sets with glyphs using OpenType, FF Chartwell for the web abstracts the idea of a “font” again and renders the charts using a series of javascript libraries.
 
-(link:http://thewhyaxis.info/chartwell text: Read the article on The Why Axis)
-(link:https://www.fontfont.com/how-to-use-ff-chartwell#intro text:View FF Chartwell)
+- (link:http://thewhyaxis.info/chartwell text: Read the article on The Why Axis)
+- (link:https://www.fontfont.com/how-to-use-ff-chartwell#intro text:View FF Chartwell class:external)
 
 --
-## Sigma.js
 
 (image:http://thewhyaxis.info/content/27-hairball/sigma-in2.jpg)
+
+## Sigma.js
+
 
 
  Network visualization is a topic as complex as many of the hairballs it produces but Sigma.JS is designed to break through the clutter and graph networks that are more readable and user-friendly.
 
-(link:http://thewhyaxis.info/hairball text: Read the article on The Why Axis)
-(link:http://sigmajs.org/ text:View Sigma.js)
+- (link:http://thewhyaxis.info/hairball text: Read the article on The Why Axis)
+- (link:http://sigmajs.org/ text:View Sigma.js class: external)
 
 --
+(image:http://thewhyaxis.info/content/09-bubble-tree/tree-in1.gif)
+
 ## Bubble Tree
 
-(image:http://thewhyaxis.info/content/09-bubble-tree/tree-in1.gif)
 
 
 Created originally for the OpenSpending project, Gregor Aisch' developed an open source tool to flexibly visualize data sets with a hierarchical structure.
 
-(link:http://thewhyaxis.info/bubble-tree text: Read the article on The Why Axis)
-(link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:View Bubble Tree source)
+- (link:http://thewhyaxis.info/bubble-tree text: Read the article on The Why Axis)
+- (link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:View Bubble Tree source class:external)

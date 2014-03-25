@@ -5,62 +5,67 @@ Hero: content/storytelling/hero.jpg
 Description: Leading the reader through a visualization to impart knowledge and insight.
 ----
 
-Text: 	
-## Bloomberg's Guided Tour of the October Jobs Report
-
+Text:
 (image: http://thewhyaxis.info/content/56-bloomberg-jobs/bloomberg-jobs-3.gif)
+
+## Bloomberg's Guided Tour of the October Jobs Report
 
 The Bloomberg Visual Data team and Matthew C. Klein have released an interactive walkthrough of the October 2013 job numbers.
 
-(link:http://thewhyaxis.info/bloomberg-jobs text:Read the article on The Why Axis)
-(link:hhttp://www.bloomberg.com/dataview/2013-11-08/what-the-jobs-report-really-means.html text:View the October Jobs Report)
+- (link:http://thewhyaxis.info/bloomberg-jobs text:Read the article on The Why Axis)
+- (link:hhttp://www.bloomberg.com/dataview/2013-11-08/what-the-jobs-report-really-means.html text:View the October Jobs Report class:external) 
 
 --
-## Behind The Black Budget
 
 (image:http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif)
 
+## Behind The Black Budget
+
 An interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. 
 
-(link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
-(link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget)
+- (link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
+- (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget class:external)
 
 --
-## The New York Times and Tesla Motors Engage in Chart Warfare
+
 
 (image:http://thewhyaxis.info/content/43-tesla/tesla-5.jpg)
-
+## The New York Times and Tesla Motors Engage in Chart Warfare
 New York Times writer John Broder published an account of his test drive experience. The piece includes a graphic depicting the trip, annotating recharges and the eventual breakdown along the way.
 
-(link:http://thewhyaxis.info/tesla text:Read the article on The Why Axis )
-(link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Read The New York Times article)
+- (link:http://thewhyaxis.info/tesla text:Read the article on The Why Axis )
+- (link:http://www.nytimes.com/2013/02/10/automobiles/stalled-on-the-ev-highway.html?pagewanted=all&_r=1& text:Read The New York Times article class:external)
 
 --
-## Can Visualization Untangle the Eurozone?
 
 (image:http://thewhyaxis.info/content/14-eurozone/euro-12.gif)
 
+## Can Visualization Untangle the Eurozone?
+
+
  In an effort to explain the Eurozone crisis to readers, the New York Times put out a graphic in its print publication and made an interactive version for the web.
 
-(link:http://thewhyaxis.info/eurozone text:Read the interview on The Why Axis )
-(link:http://www.nytimes.com/interactive/2011/10/23/sunday-review/an-overview-of-the-euro-crisis.html text:View the NYT interactive)
+- (link:http://thewhyaxis.info/eurozone text:Read the interview on The Why Axis )
+- (link:http://www.nytimes.com/interactive/2011/10/23/sunday-review/an-overview-of-the-euro-crisis.html text:View the NYT interactive class:external)
 
 --
+(image:http://thewhyaxis.info/content/03-protest/unrest-large.jpg)
+
 ## The Path of Protest
 
-(image:http://thewhyaxis.info/content/03-protest/unrest-large.jpg)
 
 To summarize and centralize The Guardian's many articles about Mid-East unrest, Garry Blight and Sheila Pulham created “The Path to Protest” – an interactive timeline plotting major news events across countries, updated daily.
 
-(link:http://thewhyaxis.info/protesttext:Read the interview on The Why Axis )
-(link:http://www.theguardian.com/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text:View the Guardian interactive)
+- (link:http://thewhyaxis.info/protesttext:Read the interview on The Why Axis )
+- (link:http://www.theguardian.com/world/interactive/2011/mar/22/middle-east-protest-interactive-timeline text:View the Guardian interactive class:external)
 
 --
+(image: http://thewhyaxis.info/content/59-bloodshed/bloodshed-1.jpg)
+
 ## Lessons From “Behind The Bloodshed”
 
-(image: http://thewhyaxis.info/content/59-bloodshed/bloodshed-1.jpg)
 
 Source has published a fantastic interview with the makers of Behind The Bloodshed, a visual narrative about mass killings produced by USA Today.
 
-(link:http://thewhyaxis.info/bloodshed/ text:Read our highlights and commentary)
-(link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/ text:Read the original article on Source)
+- (link:http://thewhyaxis.info/bloodshed/ text:Read our highlights and commentary)
+- (link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/ text:Read the original article on Source class:external)

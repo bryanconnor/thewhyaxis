@@ -6,79 +6,80 @@ Description: Resources with open source components including visualization libra
 ----
 
 Text: 
-## Lyra Gets its First Visualization Tutorial
 
 (image:http://thewhyaxis.info/content/61-lyra/lyra-1.png)
 
+## Lyra Gets its First Visualization Tutorial
 
  An investigation of Jim Vallandingham's tutorial for Lyra, an open source visualization tool developed by Arvind Satyanarayan at UW Interactive Data Lab.
 
-(link:http://thewhyaxis.info/lyra/ text: Read the article on The Why Axis)
-(link:http://vallandingham.me/make_a_barchart_with_lyra.html text:View Jim's Lyra Tutorial)
+- (link:http://thewhyaxis.info/lyra/ text: Read the article on The Why Axis)
+- (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:View Jim's Lyra Tutorial class:external)
 
 --
-## DataViva, Built in Brazil, Available to All
 
 (image:http://thewhyaxis.info/content/57-dataviva/dataviva-1.jpg)
 
+## DataViva, Built in Brazil, Available to All
 
  DataViva was created for the Brazilian state government of Minas Gerais, but it's just one possible implementation of this completely open source tool.
 
-(link:http://thewhyaxis.info/dataviva text: Read the article on The Why Axis)
-(link:http://dataviva.info/ text:View DataVival)
+- (link:http://thewhyaxis.info/dataviva text: Read the article on The Why Axis)
+- (link:http://dataviva.info/ text:View DataVival class:external)
 
 --
-## Human Progress Pushes Today's Big Issues Forward
 
 (image:http://thewhyaxis.info/content/55-human-progress/humanprogress1.jpg)
 
+## Human Progress Pushes Today's Big Issues Forward
 
  HumanProgress.org is a new research tool from the CATO Institute exploring changes in human well-being across the globe. This article features a video of some of the creators discussing their process.
 
-(link:http://thewhyaxis.info/human-progress/ text: Read "Human Progress Pushes Today's Big Issues Forward" on The Why Axis)
-(link:http://humanprogress.org/ text:View HumanProgress.org)
+= (link:http://thewhyaxis.info/human-progress/ text: Read "Human Progress Pushes Today's Big Issues Forward" on The Why Axis)
+- (link:http://humanprogress.org/ text:View HumanProgress.org class:external)
 
 --
-## RAW
 
 (image:http://thewhyaxis.info/content/54-raw/dd-raw3.gif)
 
+## RAW
 
  Raw is a new web-based tool developed by Density Design to fill the gap between spreadsheets and vector graphics.
 
-(link:http://thewhyaxis.info/raw/ text: Read the article on The Why Axis)
-(link:http://raw.densitydesign.org/ text:View RAW)
+- (link:http://thewhyaxis.info/raw/ text: Read the article on The Why Axis)
+- (link:http://raw.densitydesign.org/ text:Start using RAW  class:external)
 
 --
-## Sigma.js
 
 (image:http://thewhyaxis.info/content/27-hairball/sigma-in2.jpg)
 
+## Sigma.js
 
  Network visualization is a topic as complex as many of the hairballs it produces but Sigma.JS is designed to break through the clutter and graph networks that are more readable and user-friendly.
 
-(link:http://thewhyaxis.info/hairball text: Read the article on The Why Axis)
-(link:http://sigmajs.org/ text:View Sigma.js)
+- (link:http://thewhyaxis.info/hairball text: Read the article on The Why Axis)
+- (link:http://sigmajs.org/ text:View Sigma.js class:external)
 
 
 --
-## Bubble Tree
 
 (image:http://thewhyaxis.info/content/09-bubble-tree/tree-in1.gif)
 
+## Bubble Tree
 
 Created originally for the OpenSpending project, Gregor Aisch' developed an open source tool to flexibly visualize data sets with a hierarchical structure.
 
-(link:http://thewhyaxis.info/bubble-tree text: Read the article on The Why Axis)
-(link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:View Bubble Tree source)
+- (link:http://thewhyaxis.info/bubble-tree text: Read the article on The Why Axis)
+- (link:https://bitbucket.org/okfn/openspendingjs/src/tip/app/bubbletree/ text:View Bubble Tree source class:external)
 
 
 --
-## Planet Labs
 
 (image: /content/open-source/planet-labs.jpg)
 
+## Planet Labs
+
 Open data about our changing planet. Integrate our whole-Earth imagery dataset into your products and connect with fellow builders. Get notified for early API access and be first to build.
 
-(link:http://www.planet-labs.com/ text: View Planet Labs)
+- (link:http://www.planet-labs.com/ text: View Planet Labs class:external)
 

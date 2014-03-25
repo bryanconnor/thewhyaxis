@@ -4,10 +4,10 @@
     <div class="nav">
       <h1><span class="gem"></span><a href="<?php $site->url()?>" >The Why Axis</a></h1>
       <ul>
-        <li class=""><a href="<?php $site->url()?>archives">Archives</a></li>
+        <li class="archives"><a href="<?php $site->url()?>archives">Archives</a></li>
         <li class="collections"><a href="<?php $site->url()?>collections">Collections</a></li>
-        <li><a href="http://twitter.com/thewhyaxis" target="_blanks"><span aria-hidden="true" class="twa-icotwitter"></span></a></li>
-        <li><a href="http://thewhyaxis.info/feed"><span aria-hidden="true" class="twa-icorss"></span></a></li>
+        <li class="twitter"><a href="http://twitter.com/thewhyaxis" target="_blanks"><span aria-hidden="true" class="twa-icotwitter"></span></a></li>
+        <li class="rss"><a href="http://thewhyaxis.info/feed"><span aria-hidden="true" class="twa-icorss"></span></a></li>
       </ul>
     </div>
   </div>
@@ -16,14 +16,14 @@
 
   <div class="wrapper">
 
-    <div class="collection-hero">
-      <img src="<?php $site->url()?><?php echo html($page->hero()) ?>" />
-    </div>
-
-    <div class="collection-description">
+    <div class="collection-hero <?php echo ($site->uri()->path()->last())?>">
+      <div class="collection-description">
           <h1><?php echo html($page->title()) ?></h1>
           <p><?php echo ($page->description()) ?></p>
+      </div>
     </div>
+
+    
 
     <div class="content">
       
@@ -50,7 +50,6 @@
 
 	<script>
 		$('.collection-hero').fixTo('body');
-		$('.collection-description').fixTo('body');
 	</script>
 
 
