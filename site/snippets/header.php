@@ -11,19 +11,16 @@
   
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://thewhyaxis.info/feed/" />
 
-<!--   <?php echo css('assets/styles/styles.css') ?>
- -->  
-  <?php echo css('assets/css/screen.css') ?>
-  <?php echo css('assets/css/ie.css') ?>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
-  <script src="http://thewhyaxis.info/assets/js/underscore-min.js"></script> 
-  <script src="http://thewhyaxis.info/assets/js/jquery.scrollTo-min.js"></script> 
-  <script src="http://thewhyaxis.info/assets/js/init.js"></script> 
-  <script src="http://thewhyaxis.info/assets/js/general.js"></script> 
+  <?php echo css('assets/css/style.css') ?>
+  
+  <!-- <?php echo css('assets/css/screen.css') ?> -->
+
+  <!-- <script src="http://thewhyaxis.info/assets/js/jquery.scrollTo-min.js"></script> -->
   
   <script type="text/javascript" src="http://use.typekit.com/kih2fvc.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   
+
   <script>
   $(window).load(function() {
   	$('#post-1').addClass('currentpost');
@@ -31,6 +28,7 @@
   });
   </script>
   
+
   <script type="text/javascript">
 
     var _gaq = _gaq || [];

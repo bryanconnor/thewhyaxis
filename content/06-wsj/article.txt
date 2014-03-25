@@ -2,38 +2,42 @@ Title: Mixing the Wall Street Journal and Foursquare Produces Mixed Results
 ----
 Date: 6/9/2011
 ----
-Hero: wsj-yellow.gif
+Hero: foursquarein1.jpg
 ----
-Text: Location, location, location makes the jump to journalism with the new partnership between (link:http://online.wsj.com/home-page text:The Wall Street Journal popup:yes) and (link:https://foursquare.com/wsj text:Foursquare popup:yes). The partnership is an interesting mix of old media and new with Foursquare gaining new audiences and The Wall Street Journal getting serious tech cred.
-
-Early results of (link:http://online.wsj.com/public/page/foursquare.html text: the mash-up include popup:yes) the Urban Adventure game (checking in at each of the 5 New York boroughs), the Banker badge (checking in at 3 financial district locations) and the Lunch Box badge (checking in at WSJ-reviewed eateries). More recently the WSJ has published (link:http://graphicsweb.wsj.com/documents/FOURSQUAREWEEK1104/index.php text:A Week on Foursquare popup:yes) which collected and visualized data on Foursquare use in New York and San Francisco.
+Text: 
 
 (imgslide: foursquarein1.jpg link: foursquarein1.jpg)
 
+Location, location, location makes the jump to journalism with the new partnership between (link:http://online.wsj.com/home-page text:The Wall Street Journal popup:yes) and (link:https://foursquare.com/wsj text:Foursquare popup:yes). The partnership is an interesting mix of old media and new with Foursquare gaining new audiences and The Wall Street Journal getting serious tech cred.
+
+Early results of (link:http://online.wsj.com/public/page/foursquare.html text: the mash-up include popup:yes) the Urban Adventure game (checking in at each of the 5 New York boroughs), the Banker badge (checking in at 3 financial district locations) and the Lunch Box badge (checking in at WSJ-reviewed eateries). More recently the WSJ has published (link:http://graphicsweb.wsj.com/documents/FOURSQUAREWEEK1104/index.php text:A Week on Foursquare popup:yes) which collected and visualized data on Foursquare use in New York and San Francisco.
+
+
 The eye immediately travels to the brightly colored heat maps and the intuitive timeline scrubber above it. The scrubber combines functionality with data display and acts simultaneously as a navigation item and as a bar graph of check-ins per hour. The series of heat-maps correspond to each bar on the graph and in addition to previous/next navigation can be played as an animation representing the week the data was recorded.
 --
+(imgslide: foursquarein2.jpg link: foursquarein2.jpg)
 
 Further down the page we see some more basic bar graphs followed by an intelligently interactive line graph. While the side-ways locations are at first hard to read, hovering reveals that locations and their comparative check-in percentages are illuminated in a small panel.
 
-(imgslide: foursquarein2.jpg link: foursquarein2.jpg)
 --
-The Wall Street Journal dives deeper into the data and looks at the distribution of venues world-wide and the number of check-ins each has on average. With some simple but smart interactivity we can quickly see that most global venues only have one or two check-ins.
 
 (imgslide: foursquarein3.jpg link: foursquarein3.jpg)
 
+The Wall Street Journal dives deeper into the data and looks at the distribution of venues world-wide and the number of check-ins each has on average. With some simple but smart interactivity we can quickly see that most global venues only have one or two check-ins.
+
 Further down still we see the gender breakdown and a listing of the top venues for NY and SF. At this point in the experience I almost expected that all graphs would be interactive in some way  but to my dismay there were no more.
 --
+(imgslide: foursquarein4.jpg link: foursquarein4.jpg)
 
 That was until I discovered the link in the gender breakdown section to “(link:http://graphicsweb.wsj.com/documents/FOURSQUAREWEEK1104/bygender.php text:see more detail popup:yes)” and found a new page waiting for me with with a complex interactive scatter plot and a line graph of Foursquare’s gendered data.
 
-(imgslide: foursquarein4.jpg link: foursquarein4.jpg)
 
 The scatter plot allows the user to filter data points, hover for details on each data point and zoom for a more detailed view. The interactivity of dragging a box to zoom is a somewhat surprising when we’re so used to (link:http://maps.google.com/ text:Google Map popup:yes)'s zooming interfaces but it functions well enough to reveal greater detail. It's a very deep and interesting visualization within the larger WSJ Foursquare piece but i doubt many of the viewers managed to find it. 
 --
+(imgslide: foursquarein5.jpg link: foursquarein5.jpg)
 
 This illuminates the area this visualization really begins to fall apart: typography. The top of the page is awash in almost 10 different type styles in three rows of a loose three column system. The situation improves slightly as the page progresses with increased standardization but the chart placement breaks up any grid that was in place and leads to a confusing and frustrating hierarchy.
 
-(imgslide: foursquarein5.jpg link: foursquarein5.jpg)
 
 The page truly feels like a mash-up between the convoluted column organization of a newspaper and the sleek graphic interface of a web app. For a publication with as much journalistic esteem as the WSJ they didn’t give much importance to the words on the page
 
@@ -43,4 +47,3 @@ The core interactivity is solid but for users to really engage with and be enlig
 ----
 related:
 - oscars
-- hurricane

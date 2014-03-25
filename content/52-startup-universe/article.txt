@@ -2,15 +2,15 @@ Title: The Startup Universe: Design Process
 ----
 Date: 9/17/2013
 ----
-Hero: startup.jpg
+Hero: startup1.jpg
 ----
 Text:
+
+(imgslide: startup1.jpg)
 
 > Read the (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:original post on the Visual.ly blog). 
 
 (link:http://visual.ly/vizbox/startup-universe/ text:The Startup Universe) is an visualization created by (link:http://visual.ly/ text:Visual.ly) in partnership with (link:http://www.accurat.it/ text:Accurat) and (link:http://lifeindata.site50.net/ text:Ben Willers). It provides access to TechCrunch's (link:http://www.crunchbase.com/ text:ChrunchBase) of startups and their funding networks. 
-
-(imgslide: startup1.jpg)
 
 (link: http://giorgialupi.net/ text:Giorgia Lupi) of Accurat helped put together (link:http://blog.visual.ly/the-startup-universe-the-design-process/ text:the post on the design process for the visual.ly blog) alongside Ben Willers who talked about his experience working on this project: 
 

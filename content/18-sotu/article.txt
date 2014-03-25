@@ -2,25 +2,28 @@ Title: Infographics for America – Displaying Data in the State of the Union
 ----
 Date: 1/25/2012
 ----
-Hero: sotu-yellow-feature.jpg
+Hero: sotu-in5.jpg
 ----
 Text:
 
-If you were one of the 2 million people that caught the State of the Union (or (link:https://twitter.com/search?q=%23sotu text:#sotu)) last night on the White House website you had the option to watch the “enhanced broadcast” which included contextual information and visualizations along with the speech. Anyone who didn’t watch it can now (link:http://www.youtube.com/watch?v=Zgfi7wnGZlE text:see the whole thing on Youtube).
-
 (youtube:http://www.youtube.com/watch?v=Zgfi7wnGZlE class:graphic)
 
---
+If you were one of the 2 million people that caught the State of the Union (or (link:https://twitter.com/search?q=%23sotu text:#sotu)) last night on the White House website you had the option to watch the “enhanced broadcast” which included contextual information and visualizations along with the speech. Anyone who didn’t watch it can now (link:http://www.youtube.com/watch?v=Zgfi7wnGZlE text:see the whole thing on Youtube).
 
-The (link:http://www.youtube.com/watch?v=kl2g40GoRxg text:2011 State of the Union) included similar visualizations alongside the President’s speech. Most were pretty straightforward, some suffered from issues common to visualization, (link:http://blog.fastfedora.com/2011/01/2011-state-of-the-union-visualizations.html text:as pointed out) by Fast Fedora blogger, Trevor Lohrbeer.
+
+--
 
 (imgslide: sotu-in0.jpg link: sotu-in0.jpg)
 
+The (link:http://www.youtube.com/watch?v=kl2g40GoRxg text:2011 State of the Union) included similar visualizations alongside the President’s speech. Most were pretty straightforward, some suffered from issues common to visualization, (link:http://blog.fastfedora.com/2011/01/2011-state-of-the-union-visualizations.html text:as pointed out) by Fast Fedora blogger, Trevor Lohrbeer.
+
+
 --
+
+(imgslide: sotu-in1.jpg link: sotu-in1.jpg)
 
 This year the graphics were again heavily leveraged to drive home the oratory points in a visual way. These images were seen by millions of Americans and coming from the White House they deserve some scrutiny. While no display of data is completely unbiased, some do a better job at presenting information in a straightforward way. Let’s see how the President’s data and design team did this year.
 
-(imgslide: sotu-in1.jpg link: sotu-in1.jpg)
 
 The first visualization put up in the enhanced section of the screen seems simple enough but when you read the fine print, the bar graphs represent “_percent of households with annual income within 50% of the median_“. This is a complex and confusing metric to show and I think the bar graphs oversimplify it. You understand quickly what the graphic is trying to convey: the middle class is shrinking. What you miss is the definition of that ‘median’ and what the full spectrum of annual income looks like.
 

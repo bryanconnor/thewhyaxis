@@ -1,0 +1,31 @@
+Title: Print & Web Companions
+----
+Hero: content/print-web/hero.jpg
+----
+Description: Visualizations covered on The Why Axis with both print and web components that work together.
+----
+
+Text: 
+(image:http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif)
+
+## Behind The Black Budget
+
+An interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. 
+
+- (link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
+- (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget class:external)
+
+--
+
+(image:http://thewhyaxis.info/content/14-eurozone/euro-12.gif)
+
+## Can Visualization Untangle the Eurozone?
+
+ In an effort to explain the Eurozone crisis to readers, the New York Times put out a graphic in its print publication and made an interactive version for the web.
+
+- (link:http://thewhyaxis.info/eurozone text:Read the interview on The Why Axis )
+- (link:http://www.nytimes.com/interactive/2011/10/23/sunday-review/an-overview-of-the-euro-crisis.html text:View the NYT interactive class:external)
+
+
+
+</ul>

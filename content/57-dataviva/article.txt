@@ -2,7 +2,13 @@ Title: DataViva, Built in Brazil, Available to All
 ----
 Date: 12/17/2013
 ----
-Hero: dataviva.jpg
+Hero: dataviva-1.jpg
+----
+People: <a href="http://www.anthonydebarros.com/">Anthony DeBarros</a>
+----
+Organizations: <a href="http://gannettdigital.com/">Gannett Digital</a>, <a href="https://source.opennews.org">Source</a>
+----
+Collections:
 ----
 Text:
 

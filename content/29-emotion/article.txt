@@ -2,13 +2,13 @@ Title: The Endangered Languages Project and Emotional Data Visualization
 ----
 Date: 7/2/2012
 ----
-Hero: language-yellow.jpg
+Hero: language-in2.jpg
 ----
 Text: 
 
-(link:http://www.endangeredlanguages.com/ text:Endangered Languages) is a brand new community of people across the world who care about the preservation of the knowledge and culture contained in language. The site allows them to collect samples and research about endangered languages in an accessible place on the web.
-
 (imgslide: language-in1.jpg link: http://www.endangeredlanguages.com/)
+
+(link:http://www.endangeredlanguages.com/ text:Endangered Languages) is a brand new community of people across the world who care about the preservation of the knowledge and culture contained in language. The site allows them to collect samples and research about endangered languages in an accessible place on the web.
 
 The project is a collaboration between several organizations and companies including Google, the University of Hawaii and The Linguist List. The main feature of the site is an interactive map of all the endangered languages which you can explore on the homepage.
 
@@ -33,10 +33,10 @@ From a data perspective you can filter to see the most endangered languages but 
 Beyond how the information is visualized I think there is a missed opportunity for emotional impact through design here. Languages are endangered because their native speakers are dying. The site is headlined “The World Through 3054 Lenses” because this is exactly what languages are. The importance of each language is a difficult concept to communicate online but I don’t think this project really attempts to achieve that. Right now the most interesting parts of the site, aside from the map, are video samples of some of the languages. Emotion isn’t something we usually associate with data visualization but it can be a powerful catalyst and call to action.
 
 --
+(vimeo:http://vimeo.com/13768695 class: graphic)
 
 This is a video produced by (link:http://vimeo.com/everynone text:Everynone) in association with the fantastic podcast (link:http://www.radiolab.org/ text:RadioLab). Take a look.
 
-(vimeo:http://vimeo.com/13768695 class: graphic)
 
 In 3 minutes the video begins to scratch the surface of the importance and emotional impact language has. The EL Project site feels like it was designed by engineers and really lacks that emotional piece. I think if this had been a design goal from the beginning of the project we’d see a very different site. The Endangered Languages project utilizes a truly significant dataset which makes communicating the knowledge it contains all the more important
 

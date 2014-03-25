@@ -2,13 +2,17 @@ Title: Making Music Visual: Interact with music history, taxonomy and anatomy.
 ----
 Date: 11/22/2011
 ----
-Hero: music-yellow-feature.gif
+Hero: music-in1.jpg
 ----
-Text: Music doesn’t have to be invisible. The intangible nature of music drives people to add visual and now interactive layers on top of it. We’ll examine how three projects visualize different aspects of musical data. Simple interactions turn static timelines into informative media experiences, maps into a means of dissecting the time and place of musical diversification and graphs into representations of the music itself.
+
+Text: 
+
+(imgslide: music-in1.jpg link: music-in1.jpg)
+
+Music doesn’t have to be invisible. The intangible nature of music drives people to add visual and now interactive layers on top of it. We’ll examine how three projects visualize different aspects of musical data. Simple interactions turn static timelines into informative media experiences, maps into a means of dissecting the time and place of musical diversification and graphs into representations of the music itself.
 
 Produced by the Adobe Experience Design team, (link:http://www.sfsymphony.org/timeline/ text:100 Years with the San Francisco Symphony) is a detailed visualization of the institution’s history all wrapped up in an attractive spiral-shaped timeline. Each colored block represents an important event and has a piece of media associated with it.
 
-(imgslide: music-in1.jpg link: music-in1.jpg)
 
 This simple exploratory tool adds a lot of visual interest to an otherwise dry history of the (link:http://www.sfsymphony.org/ text:San Francisco Symphony). The key on the left also acts as a filter for the spiral visualization. Filtering down to one category reveals an abbreviated timeline of that subject. Although very simple, this feature is powerful because it puts related historical events in the same context and creates a sub-narrative within the larger history that’s easy to follow.
 
@@ -27,10 +31,11 @@ More importantly than that, the modal window covers up most of the main visualiz
 Though unsurprising since it was built by Adobe, it’s slightly disappointing that this visualization was built with Flash. It’s completely functional and good-looking but it seems like an ideological choice rather than a practical one. Web languages have a much better chance of lasting another 100 years than Flash does.
 
 --
+(imgslide: music-in4.jpg link: music-in4.jpg)
+
 
 (link:http://www.thomson.co.uk/blog/wp-content/uploads/infographic/interactive-music-map/index.html text:How Music Travels) is another recently published music visualization which combines history and taxonomy in one complex and compact interactive piece. The data is presented as a flow-chart, on a map, animated over time. Latching on to increased popularity in music tourism, the British travel service (link:http://www.thomson.co.uk/blog/2011/10/how-music-travels-infographic/ text:Thomson) created this graphic to draw in and educate visitors on the evolution of western dance music around the world.
 
-(imgslide: music-in4.jpg link: music-in4.jpg)
 
 This little graphic, completely built with HTML5 and CSS3, packs a tremendous amount in and, of course, leaves even more detail out. It’s no easy feat attempting to sequence the complex evolution and taxonomy of musical genres, much less plot them on a map. The map used is actually genius in how vague it is. By avoiding any actual geography, points on the map can be as general or specific as the data allows. The simple hierarchy used is a quick read and also encodes information about that regions importance based on its relative scale.
 
@@ -47,10 +52,10 @@ For all the complexity and subjectivity involved in talking about music genres I
 The end-state piece is quite visually complex but that complexity is representative of the subject involved. I don’t know if it makes me want to travel to another country for the music but the simple tools help me extract some interesting information about how the travel of music itself.
 
 --
+(imgslide: music-in6.jpg link: music-in6.jpg)
 
 Finally we have (link:http://daftpunk.themaninblue.com/ text:Definitive Daft Punk) which actually visualizes the musical anatomy of a mashup.
 
-(imgslide: music-in6.jpg link: music-in6.jpg)
 
 Designed and developed by Cameron Adams, or (link:http://themaninblue.com/ text:The Man in Blue), this visualization breaks down the individual tracks that make up his mashup and presents them in a combined gantt chart and functional music scrubber along the bottom. The audio waveforms of each track are also visualized in concentric circles and are color coded to the tracks along the bottom. When a new track is added the title appears briefly on its ring. The ring itself disappears when that track is no longer playing.
 

@@ -2,31 +2,35 @@ Title: WIDE Shows the Gaps in Education Equality Around the Globe.
 ----
 Date: 3/7/2013
 ----
-Hero: wide-feature.jpg
+Hero: wide-in12.jpg
 ----
 Text: 
+
+(imgslide: wide-in1.jpg link:http://www.education-inequalities.org/)
 
 After (link:http://interactivethings.com/ text:Interactive Things) (IXT) published their visualization, (link:http://www.education-inequalities.org/ text:World Inequality Database on Education) (WIDE) I decided to sit down with one of the chief architects, (link:http://twitter.com/sigiwara text:Christian Siegrist), to get a look at the design process for this piece. 
 
 Christian told me that WIDE visualizes important data in disparity, deprivation and marginalization in education worldwide. The creation of this visualization stems from the need to make the underlying education data more accessible to researchers, teachers, journalists and policy makers. IXT defined these groups as the visualization’s target audience.
 
-(imgslide: wide-in1.jpg link:http://www.education-inequalities.org/)
+
 
 --
 
 ## Structure
 
+(imgslide: wide-in2.jpg link:wide-in2.jpg)
+
+
 As all creators do, Christian and the IXT team started by exploring the raw materials they were working with. For them, the data exploration process yielded the shape, structure and granularity of the data through a series of interim visualizations. 
 
-(imgslide: wide-in2.jpg link:wide-in2.jpg)
 
 Created with (link:http://www.tableausoftware.com/ text:Tableau), this overarching visualization attempts to show every intersection between the attributes in the dataset. In doing so it reveals patterns repeated across countries, making comparison from a bird’s eye view easy.
 
 --
 
-The structure of these attributes and the results of the initial visualization led the team to create more tableau charts that draw heavily on some of UNESCO’s earlier visualization techniques. The goal of each is to show a more fine grained “spread” that went beyond the broad averages, down into its detailed segments and demographic groups. 
-
 (imgslide: wide-in3.jpg link: wide-in3.jpg)
+
+The structure of these attributes and the results of the initial visualization led the team to create more tableau charts that draw heavily on some of UNESCO’s earlier visualization techniques. The goal of each is to show a more fine grained “spread” that went beyond the broad averages, down into its detailed segments and demographic groups. 
 
 From Christian:
 
@@ -36,77 +40,86 @@ From Christian:
 
 ## Functionality
 
-To determine the functional capabilities any final visualization would have, IXT workshopped the central questions at hand. Together, in the same room, the team wrote down the main questions a user from the target audience might have. 
-
 (imgslide: wide-in4.jpg link: wide-in4.jpg)
+
+To determine the functional capabilities any final visualization would have, IXT workshopped the central questions at hand. Together, in the same room, the team wrote down the main questions a user from the target audience might have. 
 
 They ended up grouping these questions into different uses for the tool, i.e. _find_, _explore_ and _ask_. They also arranged the questions on a continuum from general to specific to help organize their thinking.
 
 --
 
-Once the team had their questions refined and organized, they were free to envision the types of visualizations that might best answer these questions. 
-
 (imgslide: wide-in5.jpg link: wide-in5.jpg)
+
+Once the team had their questions refined and organized, they were free to envision the types of visualizations that might best answer these questions. 
 
 The part of process that’s more or less invisible is the team’s discussion that lead them away from complex parallel sets and radial charts towards sketches in the bottom right that resembled UNESCO’s existing charts.
 
 --
 
-These initial sketches generated a long trail of mockups, prototypes and high fidelity designs by the IXT team. These designs try to illustrate how some visual forms could look and work with the WIDE source data. They explore how the data can be viewed across countries or across WIDE indicators and helped the team tease out how these different cross cuts to the data would be used in the final product.
-
 (imgslide: wide-in6.jpg link: wide-in6.jpg)
+
+These initial sketches generated a long trail of mockups, prototypes and high fidelity designs by the IXT team. These designs try to illustrate how some visual forms could look and work with the WIDE source data. They explore how the data can be viewed across countries or across WIDE indicators and helped the team tease out how these different cross cuts to the data would be used in the final product.
 
 --
 
 ## Visual Design
 
+(imgslide: 	wide-in7.jpg link: wide-in7.jpg)
+
 Besides the original Tableau visualizations, IXT shared that they drew from several visualizations as visual and functional precedents. Chief among them is (link:http://www.janwillemtulp.com/eyeo/ text:Jan Willem Tulp’s Ghost Counties) for its treatment of links and nodes between data points.  
 
-(imgslide: 	wide-in7.jpg link: wide-in7.jpg)
+
 
 --
 
+(imgslide: 	wide-in8.jpg link: wide-in8.jpg)
+
 The structure of the data attributes revealed several tiers of information, each with its own set of functionality. This concept fit nicely with the pattern developed by (link:http://37signals.com/svn/posts/3111-basecamp-next-ui-preview text:37Signals in their recent redesign of Basecamp) and WIDE draws heavily on this layered page metaphor. 
 
-(imgslide: 	wide-in8.jpg link: wide-in8.jpg)
+
 
 --
 
 ## Final Product
 
-The final platform is the culmination of IXT’s design thinking distilled into an interface built for exploration. (link:http://www.education-inequalities.org/ text:The front page of the site) helps explain the information architecture that goes from countries to demographics to individual indicators. There are also many ways on this page to dive into specific stories without starting from scratch. There’s the newly added Popular Views in the righthand column that gives you a sense of what other users are interested in.
-
 (imgslide: 	wide-in9.jpg link: wide-in9.jpg)
 
---
+The final platform is the culmination of IXT’s design thinking distilled into an interface built for exploration. (link:http://www.education-inequalities.org/ text:The front page of the site) helps explain the information architecture that goes from countries to demographics to individual indicators. There are also many ways on this page to dive into specific stories without starting from scratch. There’s the newly added Popular Views in the righthand column that gives you a sense of what other users are interested in.
 
-There’s also an interesting slideshow further down that presents short stories centered around 6 goals of the Education For All initiative and how they're supported by the data being presented. This is a great way to communicate a sense of purpose and entice users to explore some of the most compelling stories presented in the platform. 
+
+
+--
 
 (imgslide: 	wide-in10.jpg link: wide-in10.jpg)
 
---
+There’s also an interesting slideshow further down that presents short stories centered around 6 goals of the Education For All initiative and how they're supported by the data being presented. This is a great way to communicate a sense of purpose and entice users to explore some of the most compelling stories presented in the platform. 
 
-Exploring the data by one of the (link:http://www.education-inequalities.org/indicators/edu4#?sort=mean&dimension=all&group=all&age_group=edu4_23&countries=all text:WIDE indicators) reveals a sorted list of countries with the full disparity between all of their demographic groups laid out on one line. The can be ordered by the average amount or total range of disparity, giving you an interesting ranking that begs further exploration.
+
+
+--
 
 (imgslide: 	wide-in11.jpg link: wide-in11.jpg)
 
---
+Exploring the data by one of the (link:http://www.education-inequalities.org/indicators/edu4#?sort=mean&dimension=all&group=all&age_group=edu4_23&countries=all text:WIDE indicators) reveals a sorted list of countries with the full disparity between all of their demographic groups laid out on one line. The can be ordered by the average amount or total range of disparity, giving you an interesting ranking that begs further exploration.
 
-While exploring (link:http://www.education-inequalities.org/indicators/edu4/countries/kenya#?age_group=|edu4_23&year=|2008&population= text:a country + an indicator) you’re able to see these demographic groups broken out much better. They represent the same line seen in the overall indicator view but paint a much better picture of disparities within countries. Often the greatest disparities are seen in gender and wealth, though some countries have very different patterns. 
+--
 
 (imgslide: 	wide-in12.jpg link: wide-in12.jpg)
 
---
+While exploring (link:http://www.education-inequalities.org/indicators/edu4/countries/kenya#?age_group=|edu4_23&year=|2008&population= text:a country + an indicator) you’re able to see these demographic groups broken out much better. They represent the same line seen in the overall indicator view but paint a much better picture of disparities within countries. Often the greatest disparities are seen in gender and wealth, though some countries have very different patterns. 
 
-(link:http://www.education-inequalities.org/countries/bangladesh text:Countries can also be explored) as top level elements so that you can compare the disparities for all of WIDE’s indicators at the same time. (link:http://www.education-inequalities.org/countries/bangladesh#?dimension=wealth_quintile&group=|Quintile%205|Quintile%201&year=2011 text:This view) becomes particularly powerful when you filter down the results and can see how a single demographic group fairs across the various indicators. 
+--
 
 (imgslide: 	wide-in13.jpg link: wide-in13.jpg)
 
+(link:http://www.education-inequalities.org/countries/bangladesh text:Countries can also be explored) as top level elements so that you can compare the disparities for all of WIDE’s indicators at the same time. (link:http://www.education-inequalities.org/countries/bangladesh#?dimension=wealth_quintile&group=|Quintile%205|Quintile%201&year=2011 text:This view) becomes particularly powerful when you filter down the results and can see how a single demographic group fairs across the various indicators. 
+
+
 --
 
-At its most complex WIDE can (link:http://www.education-inequalities.org/indicators/edu4/countries/nigeria/wealth_quintiles#?dimension=wealth_quintile&group=|Quintile%205|Quintile%201&dimension2=sex&group2=|Male|Female&dimension3=community&age_group=edu4_23&year=2008 text:display disparities) cross cut by multiple demographic groups. This allows you to see the difference between the poorest female rural group and the richest male urban group for any of WIDE’s indicators. 
-
 (imgslide: 	wide-in14.jpg link: wide-in14.jpg)
+
+At its most complex WIDE can (link:http://www.education-inequalities.org/indicators/edu4/countries/nigeria/wealth_quintiles#?dimension=wealth_quintile&group=|Quintile%205|Quintile%201&dimension2=sex&group2=|Male|Female&dimension3=community&age_group=edu4_23&year=2008 text:display disparities) cross cut by multiple demographic groups. This allows you to see the difference between the poorest female rural group and the richest male urban group for any of WIDE’s indicators. 
 
 Because the user has near ultimate control of the way the data is filtered and cross cut it’s crucial that the complex exploratory system is explained. At the top of each page IXT included a help graphic that illustrates how to read the individual lines from most deprived to most privileged. The layered page metaphor also goes a long way to explaining the current view quickly. 
 
@@ -120,18 +133,20 @@ it instead could read:
 
 --
 
-The relationship between the myriad of dimensions could also be explained even more clearly. As it currently stands, the three main representations of the data exist on separate pages. To some extent each is a more detailed breakdown of the last so I wonder if there's a way to actually transition between them. Clicking on a country could animate down a list of the demographic groups and clicking on a group would break it out further by the remaining demographic types. 
-
 (imgslide: 	wide-in15.jpg link: wide-in15.jpg)
+
+The relationship between the myriad of dimensions could also be explained even more clearly. As it currently stands, the three main representations of the data exist on separate pages. To some extent each is a more detailed breakdown of the last so I wonder if there's a way to actually transition between them. Clicking on a country could animate down a list of the demographic groups and clicking on a group would break it out further by the remaining demographic types. 
 
 
 --
 
 ## Social Extensions
 
+(imgslide: 	wide-in16.jpg link: wide-in16.jpg)
+
 Since WIDE was first launched, IXT has added a ‘(link:http://www.education-inequalities.org/popular text:Popular)’ section   showing individual views within the platform that are viewed more often. What's interesting here is that WIDE is essentially publishing its analytics of platform use as a feature and the feature works well. It’s a more social way to deliver interesting stories to the forefront and it lines up nicely with the ability to share or export any page within the report. These social extensions will become more common as larger visual reports like these become easier to produce. 
 
-(imgslide: 	wide-in16.jpg link: wide-in16.jpg)
+
 
 
 --
@@ -139,7 +154,6 @@ Since WIDE was first launched, IXT has added a ‘(link:http://www.education-ine
 ## Insights
 
 (imgslide: 	wide-in17.jpg link: wide-in17.jpg)
-
 
 Thanks to Christian’s insights into the IXT process we are able to get a better understanding of the conditions that went into building the impressively complex WIDE report. Publishing their process is old hat to Christian and the IXT team though. They have a whole series of similar (link:http://datavisualization.ch/inside/ text:‘inside’ posts) on their news site, (link:http://datavisualization.ch/ text:datavisualization.ch). It’s an exercise in self-discipline to write these postmortems for your own projects but IXT believes in the process because it helps them grow as designers. With just a little effort along the way data visualization practitioners can give us a glimpse of their design thinking. And for the visualizations that don’t have detailed postmortems, The Why Axis is at your service. 
 

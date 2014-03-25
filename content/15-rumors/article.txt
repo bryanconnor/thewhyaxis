@@ -2,13 +2,15 @@ Title: Seeing The Spread of (Mis)information on Twitter
 ----
 Date: 12/8/2011
 ----
-Hero: rumor-yellow-feature.jpg
+Hero: rumor-in1.jpg
 ----
 Text:
 
+(imgslide: rumor-in1.jpg link: rumor-in1.jpg)
+
+
 Rumors tend to run rampant on twitter and (link:http://www.guardian.co.uk/ text:The Guardian) just published a (link:http://www.guardian.co.uk/uk/interactive/2011/dec/07/london-riots-twitter text:visualization) to illustrate how these rumors evolve and are corrected in the context of the London riots. The stories featured are framed as either myths or truths and each section takes you through an individual timline of that event.
 
-(imgslide: rumor-in1.jpg link: rumor-in1.jpg)
 
 Designed by the (link:http://www.guardian.co.uk/profile/guardian-interactive-department text:interactive team) at the Guardian, led by (link:https://twitter.com/ajdant text:Alastair Dant), this visualization is functionally advanced and richly detailed in the data it presents. The tools uses a custom physics engine for the twitter circles as well as custom renderers depending on the browser. Read more about the behind the scenes in (link:http://www.guardian.co.uk/news/datablog/2011/dec/08/twitter-riots-interactive text:this post on the Guardian data blog).
 
@@ -16,17 +18,19 @@ Designed by the (link:http://www.guardian.co.uk/profile/guardian-interactive-dep
 
 --
 
+(imgslide: rumor-in2.jpg link: rumor-in2.jpg )
+
 In essence, the tool graphs tweets per hour across the top in a navigational timeline. In different places along the timeline key events are highlighted and explained in the left sidebar. The team then plotted influential tweets and retweets of related stories in an abstract space below, color coding them by the sentiment of the tweet. With much more subtlety, the ‘originating’ tweet is highlighted in blue to match the vertical bar that appears in the timeline.
 
-(imgslide: rumor-in2.jpg link: rumor-in2.jpg )
 
 Users can explore the events in more detail by hovering over individual bubbles to read the contents of a tweet. Doing so replaces the key along the bottom with the tweet while clicking keeps a tweet visible as you move about the piece.
 
 --
 
+(imgslide: rumor-in3.jpg link: rumor-in3.jpg )
+
 The general interface of this tool is functional and makes sense but I think it breaks a lot of the conventions set by similar visualizations from the same team like “(link:http://www.guardian.co.uk/media/interactive/2011/jul/13/news-of-the-world-phone-hacking-twitter text:How Twitter tracked the News of the World scandal.)“
 
-(imgslide: rumor-in3.jpg link: rumor-in3.jpg )
 
 The timeline too seems more thought out in the earlier twitter visualization. The London riots timeline has 4 different types of vertical lines on it, all with a fair amount of contrast and the labels for the dates are awkwardly placed. I do like that there is a stepper in this visualization that snaps to different points on the timeline but its tricky at different points to figure out which blue line the information below is referring to. It may be nit-picky but the rendering of the blue lines is inconsistent and blurry at times, effecting readability.
 

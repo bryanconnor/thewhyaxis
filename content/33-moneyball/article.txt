@@ -2,13 +2,14 @@ Title: Moneyball or Hairball? The Political Donor Visualization from WSJ
 ----
 Date: 7/26/2012
 ----
-Hero: moneyball-yellow.jpg
+Hero: moneyball-in1.jpg
 ----
 Text: 
 
+(imgslide: moneyball-in1.jpg link: http://graphics.wsj.com/political-moneyball/#)
+
 With a slightly less literal outer-space metaphor than the (link:http://thewhyaxis.info/universe/ text:MotherJones piece we looked at previously), Political Moneyball is a robust interactive tool for visualizing the complex universe of political spending. Developed by the Wall Street Journal, (link:http://graphics.wsj.com/political-moneyball/# text:Political Moneyball) seems to present for exploration nearly every available piece of political spending data.
 
-(imgslide: moneyball-in1.jpg link: http://graphics.wsj.com/political-moneyball/#)
 
 In what’s undoubtedly an impressive visual and quantitative display, the visualization’s real purpose is to show relationships between entities in this microcosm of money.
 
@@ -17,10 +18,11 @@ From the Moneyball methodology page:
 > All the money in politics starts with donors — either individuals or groups like companies and unions. Their donations go to Political Action Committees (which represent the interests of companies or groups) or candidate or party committees (which finance campaigns and other political spending). These committees often send money to one another, which tells us a lot about who their friends are.
 
 --
+(imgslide: moneyball-in2.jpg link:moneyball-in2.jpg)
+
 
 The methodology also mentions the data was analyzed with “(link:http://tulip.labri.fr/TulipDrupal/ text:social network software)” which is quite revealing. The rules governing these political bodies are essentially those of a network of friends but dictated by money and power. When money flows between two nodes they are drawn towards each other. When one organization donates more heavily towards one end of the political spectrum it is drawn in that direction. You can see the flow of funds by clicking on an individual node.
 
-(imgslide: moneyball-in2.jpg link:moneyball-in2.jpg)
 
 --
 
@@ -48,10 +50,10 @@ As Andy Kirk noted in (link:http://www.visualisingdata.com/index.php/2012/07/wsj
 By necessity the designers have added a contextual layer by pulling out individual ‘stories’ within the incredibly large feidl of possibilities presented. If you’re not well versed in the world of political spending you really don’t know what to look for. The majority of the WSJ’s audience falls into this camp and so the “see some examples” sidebar is very important.
 
 --
+(imgslide: moneyball-in4.jpg link: moneyball-in4.jpg)
 
 Almost any view in the visualization is accompanied by a grey panel that clearly annotates what you’re seeing. The sentence structure of the panel makes complete intuitive sense. As a result it’s easy to tell the direction money is flowing.
 
-(imgslide: moneyball-in4.jpg link: moneyball-in4.jpg)
 
 The Wall Street Journal also has good examples of important sub-segments embedded in (link:http://blogs.wsj.com/washwire/2012/07/25/political-moneyball-mapping-the-universe-of-cash/ text:their blog post about Moneyball) and plan to add more of these as time goes on.
 
@@ -73,15 +75,18 @@ The core of the app is built around the relationships between the notes, visuali
 
 --
 
+(imgslide: moneyball-in6.jpg link:moneyball-in6.jpg)
+
+
 My absolute favorite detail about this piece is the way the individual donors are visually separated from groups and committees. They are set back in a lighter tone, almost as a watermark, until they are called to the front by the key. This was probably a near requirement in order to make this digestible but the way the layers were separated actually enhances the piece. The lighter watermark of the individual donors illustrates where the money all starts. It bubbles up to the top layer, most directly to the groups and SuperPACs that individual donors are closest too.
 
-(imgslide: moneyball-in6.jpg link:moneyball-in6.jpg)
 
 --
 
+(imgslide: moneyball-in71.jpg link:moneyball-in71.jpg)
+
 Exploring these small segments of the Moneyball field presents more difficulties. The use of (link:http://cartodb.com/ text:Cartodb) is valid and probably solves a lot of technical issues but from an interaction perspective it’s just hard to work with. Zooming slowly loads individual “map” tiles but this visualization looks like a forced direction field of independent nodes. This gap between visual metaphor and behavior is jarring. Whether it’s a limitation of (link:http://cartodb.com/ text:Cartodb) or an intentional design choice, the way new tiles load on zoom is strange and possibly confusing. The old tiles scale up as you would expect and new tiles are loaded on top. The problem is that the circles in the new tiles are the same size they were before. This results in a temporary overlap with the old tiles that makes it seem as though the scale has been changed.
 
-(imgslide: moneyball-in71.jpg link:moneyball-in71.jpg)
 
 The other issue is that the individual donors layer is loaded before the old tiles are removed, amplifying the overlap problem. It ends up being a slow process to explore, and during this process it’s easy to lose your place and difficult to predict how the interface will behave. The other layers of the app are really well executed but to core is just off the mark enough to be a hindrance.
 

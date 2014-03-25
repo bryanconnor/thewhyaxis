@@ -2,7 +2,7 @@ Title: Bloomberg's Guided Tour of the October Jobs Report
 ----
 Date: 12/3/2013
 ----
-Hero: bloomberg-jobs.gif
+Hero: bloomberg-jobs-1.gif
 ----
 Text:
 

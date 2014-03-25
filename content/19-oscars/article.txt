@@ -2,11 +2,14 @@ Title: LA Times’ Senti-meter Inches Towards Oscar Predictions via Twitter
 ----
 Date: 2/23/2012
 ----
-Hero: oscars-yellow-feature.gif
+Hero: oscars-in1.jpg
 ----
-Text: Combining visualization with massive data-producing social networks like Twitter has the potential to be really powerful. We haven’t reached the point where this massive amount of data can reliably be used to predict anything but the LA Times, in partnership with IBM and (link:http://www.annenberglab.com/ text:USC Annenberg Inovation Lab), has taken a first step with the (link:http://graphics.latimes.com/senti-meter/ text:Senti-meter).
+Text: 
 
 (imgslide: oscars-in1.jpg link: oscars-in1.jpg)
+
+Combining visualization with massive data-producing social networks like Twitter has the potential to be really powerful. We haven’t reached the point where this massive amount of data can reliably be used to predict anything but the LA Times, in partnership with IBM and (link:http://www.annenberglab.com/ text:USC Annenberg Inovation Lab), has taken a first step with the (link:http://graphics.latimes.com/senti-meter/ text:Senti-meter).
+
 
 The team built an algorithm and a (link:http://graphics.latimes.com/senti-meter/ text:visualization) to analyze the sentiment of tweets around the timely and popular topic of the Oscars. The ultimate goal is to see how well the public’s sentiment matches up with the results of awards night. The interactive peice allows users to explore a timeline of tweets about movies and actors which are visualized by volume and sentiment of tweets.
 

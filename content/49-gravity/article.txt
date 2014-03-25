@@ -2,13 +2,13 @@ Title: The Ups and Downs of Gravity from Disqus
 ----
 Date: 7/14/2013
 ----
-Hero: gravity.jpg
+Hero: gravity-1.jpg
 ----
 Text:
 
-The popular commenting platform (link:http://disqus.com/ text:Disqus) has released (link:http://disqus.com/gravity/ text:Gravity), a bubbly visualization of trending conversations happening in real time across 500 of its communities. 
-
 (imgslide: gravity-1.jpg link:http://disqus.com/gravity/)
+
+The popular commenting platform (link:http://disqus.com/ text:Disqus) has released (link:http://disqus.com/gravity/ text:Gravity), a bubbly visualization of trending conversations happening in real time across 500 of its communities. 
 
 Built with (link:http://d3js.org/ text:D3), the visualization groups the top 60 trending stories into topics and bubbles new ones up as they experience a spike in commenting volume (rather than a spike views or clicks).  
 

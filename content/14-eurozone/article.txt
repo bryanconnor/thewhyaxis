@@ -2,12 +2,14 @@ Title: Can Visualization Untangle the Eurozone?
 ----
 Date: 11/30/2011
 ----
-Hero: euro-yellow-feature.jpg
+Hero: euro-in2.gif
 ----
 Text:
-Needless to say things are in a bit of a tangled mess in the Eurozone. The only group of people who understand it less clearly than the European public is the America public. In an effort to reverse this the New York Times put out (link:http://www.nytimes.com/imagepages/2011/10/22/opinion/20111023_DATAPOINTS.html?ref=sunday-review text:a graphic in its print publication) to convey the scope and complexity of the issue.
 
 (imgslide: euro-in1.gif link: euro-in1.gif)
+
+Needless to say things are in a bit of a tangled mess in the Eurozone. The only group of people who understand it less clearly than the European public is the America public. In an effort to reverse this the New York Times put out (link:http://www.nytimes.com/imagepages/2011/10/22/opinion/20111023_DATAPOINTS.html?ref=sunday-review text:a graphic in its print publication) to convey the scope and complexity of the issue.
+
 
 This visualization is in part meant to display data and does so with scale and numerical labels but it’s true purpose is illustrating the complexity of the situation. Any other reading of it and you’re looking for a different visualization. The graphic has a tremendous amount of text associated with it necessary for context and explanation. Everything about it – from the numbering of the paragraphs to the small diagrams across the bottom – is dying to be interactive. Fortunately the (link:hhttp://www.nytimes.com/interactive/2011/10/23/sunday-review/an-overview-of-the-euro-crisis.html text:NYT did just that).
 
@@ -30,24 +32,25 @@ The buttons for filtering the graphic on the left make sense instantly. Clicking
 Hover states on the country circles and arrows reveal most of the actual numerical data but only being able to see one at a time leaves the bigger picture slightly murky. Keeping the larger graphic in view would also come in handy for the filtered states on the left. Instead of completely fading out it might help to have the other nations at a reduced opacity in the background.
 
 --
+(imgslide: http://www.perceptualedge.com/blog/wp-content/uploads/2011/11/euro-crisis-redesign.png link: http://www.perceptualedge.com/blog/?p=1106)
 
 Thomas Watkins had quite a few more concerns about the interactive visualization than I do which prompted him to make his own visualization based on the same data. Stephen Few later (link:http://www.perceptualedge.com/blog/?p=1106 text:posted it to his blog).
 
-(imgslide: http://www.perceptualedge.com/blog/wp-content/uploads/2011/11/euro-crisis-redesign.png link: http://www.perceptualedge.com/blog/?p=1106)
 
 I find his visualization useful and informative but in a completely different way. If I was looking for an analysis of dollar relationships between economy size and debt / GDP ratio I would turn to his graphic. If I was looking for an overview of the Eurozone crisis with a bit of helpful contextual information I would look for the NYT piece. I don’t think Watkins’ visualization in any way replaces that of the NYT. Even though it uses the same data it has a completely different set of goals and ultimately a different audience.
 
 --
+(imgslide: euro-in5.jpg link: euro-in5.jpg)
 
 This Eurozone debt crisis has gone on long enough that more visualizations have been created around the issue. One visualization, (link:http://www.bbc.co.uk/news/business-15748696 text:published by the BBC), tackles the issue in a similar way to that of the NYT piece.
 
-(imgslide: euro-in5.jpg link: euro-in5.jpg)
 
 --
 
+(imgslide: euro-in6.jpg link: euro-in6.jpg)
+
 Like the NYT piece, this ring-like network diagram communicates the complexity of the issue along with some contextual information about each piece of the puzzle. Clicking on a country highlights arrows in the network that represent how much money one country owes to others.
 
-(imgslide: euro-in6.jpg link: euro-in6.jpg)
 
 The sidebar on the right of the graphic changes to display more in-depth information about that country including a simple bar graph comparing GDP to foreign debt which looks like it could have come out of Thomas Watkins’ visualization. In many ways this visualization combines elements from both the NYT interactive and Thomas Watkins response. The country names around the ring also update with the amount they are owed from the active country. This activated state is actually a bit visually confusing. There are lots of elements highlighted in orange and not a lot of contrast between the type sizes for active and inactive countries. The sidebar could also be formatted better to allow for an easier skim of information with more whitespace. This visualization does provide a nice piece of perspective about the average foreign debt per person which communicates a broader principle about population size in relation to total debt.
 

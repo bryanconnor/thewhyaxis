@@ -4,37 +4,44 @@ Author: Jérome Cukier
 ----
 Date: 5/3/2012
 ----
-Hero: france-yellow.jpg
+Hero: france-in2.jpg
 ----
 Text: 
 
-> (image: JeromeCukier-thewhyaxis.jpg) The following is a guest article written by Jérôme Cukier ((twitter:@jcukier)), a talented visualization consultant from Paris, France.
+
+(imgslide: france-in1.jpg link: http://www.data.gouv.fr/)
+
+> The following is a guest article written by Jérôme Cukier ((twitter:@jcukier)), a talented visualization consultant from Paris, France.
 
 Government data can be used to inform citizens and is never more relevant than when they are called to express the ultimate political choice. With data, citizens can determine whether they agree with one policy or another, whether they subscribe to one social model or not, and if one proposition is in line with their priorities.
 
 Interestingly, the French presidential campaign launched soon after the release of (link:http://data.gouv.fr/ text:data.gouv.fr), the French public data portal. In its current state it’s a repository of almost every data set previously made available by the central administration, or around 350,000 files. So there is indeed a major amount of data to tap into.
 
-(imgslide: france-in1.jpg link: http://www.data.gouv.fr/)
 
 --
+
+(imgslide: france-in2.gif link: http://www.data.gouv.fr/)
+
 
 And about a year and a half ago, leading left-wing economists Camille Landais, Thomas Piketty and Emmanuel Saez put online (link:http://www.revolution-fiscale.fr/ text:http://www.revolution-fiscale.fr/), a proposition for an alternative tax system complete with a (link:http://www.revolution-fiscale.fr/simuler/irpp/ text:simulator) which lets users try different combinations and let them know their impact on public finance and inequalities.
 
 In that context, I was very much looking forward to see data finally put to good use and use data and visualization to convince voters. Most unfortunately, that did not happen and the use of data has been marginal at best.
 
-(imgslide: france-in2.gif link: http://www.data.gouv.fr/)
 
 --
-
-(link:http://www.parti-socialiste.fr/bilan-sarkozy/ text:Le dépôt de bilan de Sarkozy) represents the acme of the Parti Socialiste efforts on visualization. It is an interactive compilation of their previous infographic work on (link:http://www.parti-socialiste.fr/riposte/infographies text:http://www.parti-socialiste.fr/riposte/infographies).
 
 (imgslide: france-in2.jpg link: france-in2.jpg)
 
+
+(link:http://www.parti-socialiste.fr/bilan-sarkozy/ text:Le dépôt de bilan de Sarkozy) represents the acme of the Parti Socialiste efforts on visualization. It is an interactive compilation of their previous infographic work on (link:http://www.parti-socialiste.fr/riposte/infographies text:http://www.parti-socialiste.fr/riposte/infographies).
+
+
 --
+
+(imgslide: france-in4.jpg link: france-in4.jpg)
 
 Their opponents, Union pour un Mouvement Populaire (UMP), have released (link:http://www.lafranceforte.fr/medias/infographies text:a comparable number of infographics) but their ultimate tool is this (link:http://www.lafranceforte.fr/comparer-programme text:interactive program comparator).
 
-(imgslide: france-in4.jpg link: france-in4.jpg)
 
 So let’s start with the good. Infographics from both side are very sleek and professionally designed. The choice of fonts and color is bold in both cases and consistent with the image the candidates want to project of themselves: the soft raspberry red and the friendly “(link:http://www.parti-socialiste.fr/logo text:Jaurès)” font convey a sense of safety and protection, while the incumbent chose very frank reds and blues, and a wild-west slab font, to suggest determination and courage.
 
@@ -52,32 +59,36 @@ Almost every bar chart scale starts from a value higher than 0. The same goes fo
 
 --
 
-In the same order of thought, when icons are sized according to a variable, it is their radius and not their area which is made proportional to the value, so differences are grossly exaggerated.
-
 (imgslide: france-in7.jpg link: france-in7.jpg)
 
---
+In the same order of thought, when icons are sized according to a variable, it is their radius and not their area which is made proportional to the value, so differences are grossly exaggerated.
 
-I do not think that any of the line charts of the UMP infographics brings any value. I personally never draw more than 3 series for one line chart, although I admit this limit is subjective. But here, virtually all line charts show 5 to 7 series with a thick stroke, which end up as being very difficult to read. What’s more, France isn’t given prominence on these charts although they are made to compare it with other countries.
+
+--
 
 (imgslide: france-in8.jpg link: france-in8.jpg)
 
+I do not think that any of the line charts of the UMP infographics brings any value. I personally never draw more than 3 series for one line chart, although I admit this limit is subjective. But here, virtually all line charts show 5 to 7 series with a thick stroke, which end up as being very difficult to read. What’s more, France isn’t given prominence on these charts although they are made to compare it with other countries.
+
+
 
 --
 
+(imgslide: france-in9.jpg link: france-in9.jpg)
+
 Another problem is the sourcing. Accurate sourcing has two important functions. We’ll come back to the second one later, but at the very least it allows someone to retrieve the underlying data of a chart. But when sources are presented as, for instance: “unemployment: INSEE, 2011″ it’s not very helpful. As of this writing, (link:http://data.gouv.fr/) has 293826 INSEE data sets. In this time and age it is possible to point the reader to exactly where the data has been taken and there is no excuse not to do so.
 
-(imgslide: france-in9.jpg link: france-in9.jpg)
 
 --
 
 ## The Problem
 
+(imgslide: france-in2.jpg link: france-in2.jpg)
+
 None of these charts, none of these infographics has been created to convince voters. There never was an attempt to appeal to their reason and intellect to decide for themselves which is the best choice.
 
 The infographics chose one topic and present figure after figure in isolation. The numbers presented out of context, which makes them difficult to interpret especially as some are rather exotic indicators well beyond the grasp of a profane (I’m looking in your general direction, general government gross financial liabilities). But more significantly, what is shown has no relationship to an actual political decision
 
-(imgslide: france-in2.jpg link: france-in2.jpg)
 
 On each topic, the infographics from the Parti Socialiste try to depict an apocalyptic situation while those on the UMP side argue that things are looking good. But neither side shows that a specific choice from the incumbent president had a positive or a negative impact.
 

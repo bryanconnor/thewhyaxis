@@ -2,9 +2,11 @@ Title: Breaking Excel Defaults – A Government Chart Remake
 ----
 Date: 1/29/2013
 ----
-Hero: bsl.gif
+Hero: bls-in11.gif
 ----
 Text: 
+
+(imgslide:bls-in11.gif link:http://bls.gov/opub/ted/2013/ted_20130111.htm)
 
 > Guest author Jon Schwabish – an economist with the U.S. federal government and creator of policy-relevant data visualizations. You can reach him at (email:jschwabish@gmail.com) or by following him on Twitter (twitter:@jschwabish). 
 
@@ -24,8 +26,6 @@ I don’t claim to have come up with the “correct” answer, but my hope is th
 ## Job Openings in November 2012
 
 In early January, as part of its “The Editor’s Desk” (TED) publication series, the BLS published (link:http://bls.gov/opub/ted/2013/ted_20130111.htm text:this bar chart) of job openings by industry. There are two tabs on the screen shot; one tab has the chart and the other tab has the chart data in a simple table.
-
-(imgslide:bls-in11.gif link:http://bls.gov/opub/ted/2013/ted_20130111.htm)
 
 Let me start with the text that sits below the actual chart. In case it’s not clear in the screen shot, here it is:
 
@@ -58,9 +58,9 @@ Now, here are things I think can be improved:
 
 ## Redesigning the Chart
 
-When I first started thinking about redesigning this chart, I started simple: So what if BLS didn’t mention October 2012 in the text? There’s a whole report that accompanies the graphic and this graph is supposed to act as the teaser. Fine. So, for this exercise, I started by fixing the basic things in my above list: drop the y-axis tick marks, move the legend onto the chart, sort the industries (descending by the November 2012 value), and change the colors and font (lately, I’ve been into the sans serif Cabin font, which is (link:http://www.fontsquirrel.com/fonts/cabin text:available for free here)).
-
 (imgslide:bls-in2.gif link: bls-in2.gif)
+
+When I first started thinking about redesigning this chart, I started simple: So what if BLS didn’t mention October 2012 in the text? There’s a whole report that accompanies the graphic and this graph is supposed to act as the teaser. Fine. So, for this exercise, I started by fixing the basic things in my above list: drop the y-axis tick marks, move the legend onto the chart, sort the industries (descending by the November 2012 value), and change the colors and font (lately, I’ve been into the sans serif Cabin font, which is (link:http://www.fontsquirrel.com/fonts/cabin text:available for free here)).
 
 Two quick notes about this approach:
 
@@ -103,9 +103,9 @@ One other note: Instead of sorting by the value in November 2012, I could have s
 
 --
 
-I mentioned earlier that in the original bar chart the spacing between columns does not accurately reflect the gap between months. This is probably even more of an issue in the line chart, but one that can be easily fixed. I’ve also made the difference columns a bit wider so the graph looks more balanced. (For labeling purposes, I centered the orange columns, but they could be lined up below the November 2012 data points.)
-
 (imgslide: bls-in8.gif link: bls-in8.gif)
+
+I mentioned earlier that in the original bar chart the spacing between columns does not accurately reflect the gap between months. This is probably even more of an issue in the line chart, but one that can be easily fixed. I’ve also made the difference columns a bit wider so the graph looks more balanced. (For labeling purposes, I centered the orange columns, but they could be lined up below the November 2012 data points.)
 
 _Excel note:_ For those who are interested, creating this graph simply required moving the data into a monthly layout. To make the orange “Difference” columns a bit fatter than in the previous graph, I added three bars (with no gap width) instead of one column.
 

@@ -2,13 +2,15 @@ Title: Healthy Apps Bring Visualization to Medical Care
 ----
 Date: 8/8/2012
 ----
-Hero: medviz-feature.jpg
+Hero: medviz-in1.jpg
 ----
-Text: 
+Text:
+
+(youtube:http://www.youtube.com/watch?feature=player_embedded&v=2NsN1f0vXjE class:graphic)
+
 
 It was only a matter of time before your phone was also a heart monitor. In this case it’s a heart monitor for animals, since AliveCor is not (yet) cleared for humans. The (link:http://www.alivecorvet.com/ text:AliveCor Veterinary Monitor) is a iPhone case and app combo that delivers ECGs wirelessly to your phone and desktop computer.
 
-(youtube:http://www.youtube.com/watch?feature=player_embedded&v=2NsN1f0vXjE class:graphic)
 
 Despite the small warning at the bottom of the video it seems AliveCor is definitely developing the app with the intentions of using on human patients as well. (_Update: (link:http://www.alivecor.com/ text:AliveCor) has been FDA approved for human use_). Before long, your doctor could be pressing an iPhone to your chest during exams or, better yet, you’ll be measuring it from home. Talk about an emotional connection to technology.
 
@@ -20,9 +22,11 @@ The nice minimal display seems to take full advantage of screen real-estate for 
 
 --
 
+(imgslide: medviz-in11.jpg link: medviz-in11.jpg)
+
+
 This app demonstrates a larger trend of individualized and technology driven healthcare, in many cases delivered through the iPhone. There’s (link:http://bloodnoteapp.com/ text:Bloodnote) for blood pressure control, (link:http://itunes.apple.com/us/app/istethoscope-pro/id322110006?mt=8 text:iStethascope) that makes phonocardiographs, and (link:http://www.handyscope.net/ text:Handyscope) for dermatalogical diagnosis.
 
-(imgslide: medviz-in11.jpg link: medviz-in11.jpg)
 
 This prevalence of healthcare apps is also a pre-cursor to a change in the role of data and subsequently visualization. Increasingly, these simple, effective, personalized displays of data will show up in our everyday lives. They will become integral to how we understand the world around us, whether it’s our medical condition, energy usage, dietary metrics or financial stability.
 

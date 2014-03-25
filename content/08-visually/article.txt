@@ -2,11 +2,14 @@ Title: Thoughts on the Launch of Visual.ly
 ----
 Date: 7/15/2011
 ----
-Hero: visually-yellow.jpg
+Hero: visually-thumbs.jpg
 ----
-Text: (link:http://visual.ly/ text:Visual.ly popup:yes) is a wildly successful startup promising to connect the public to publishers, designers and data. (link:http://twitter.com/slangille text:Stewart Langille popup:yes), the CEO behind it all, (link:http://telegraphjournal.canadaeast.com/rss/article/1420352 text:launched the company popup:yes) in April and already has a serious roster of (link:http://visual.ly/partners text:partnerships popup:yes) with major media producers. Visually has received a good deal of (link:http://visual.ly/about/investors/ text:funding popup:yes),  65,000 signups for access and has about 18000 (link:http://twitter.com/visually text: twitter followers popup:yes). It’s success proved a little overwhelming during launch when the amount of traffic brought down the site several times over.
+Text: 
 
 (youtube: https://www.youtube.com/watch?v=AiVKfNeRbPQ class: graphic)
+
+(link:http://visual.ly/ text:Visual.ly popup:yes) is a wildly successful startup promising to connect the public to publishers, designers and data. (link:http://twitter.com/slangille text:Stewart Langille popup:yes), the CEO behind it all, (link:http://telegraphjournal.canadaeast.com/rss/article/1420352 text:launched the company popup:yes) in April and already has a serious roster of (link:http://visual.ly/partners text:partnerships popup:yes) with major media producers. Visually has received a good deal of (link:http://visual.ly/about/investors/ text:funding popup:yes),  65,000 signups for access and has about 18000 (link:http://twitter.com/visually text: twitter followers popup:yes). It’s success proved a little overwhelming during launch when the amount of traffic brought down the site several times over.
+
 
 While the current Visual.ly is still only a beta version of what the fully launched site will be, it does give off some strong signals about how it will operate as a community in the data visualization / infographics space. In the future it plans to make one of its main features (link:http://eagereyes.org/blog/2011/visually-the-future-of-data-based-infographics text:a visualization engine popup:yes) that automates a good deal of the process of designing infographics. There isn’t much detail on this yet but it is another in a growing trend of site’s “democratizing” and automating the creation if data visualization (see the upcoming launch of (link:http://vizualize.me/ text:visualize.me popup:yes))
 
@@ -24,4 +27,3 @@ It’s has only been a day since the launch of the site and clearly its influenc
 ----
 related:
 - feltron
-- sotu

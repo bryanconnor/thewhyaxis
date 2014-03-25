@@ -2,17 +2,21 @@ Title: Interactive Hurricane Trackers and Transforming Viewers into Users
 ----
 Date: 10/6/2011
 ----
-Hero: hurricane-yellow.jpg
+Hero: hurricane-in4.jpg
 ----
-Text: A weather map is one of the most abundant forms of complex data visualization in our lives today. Their importance increases dramatically as people need to make preparations and decisions based on the data they display. There’s been a recent trend of a ‘democratization’ of weather maps that are being hosted online, allowing users to interact with them and ultimately make decisions based on them. Two of the best and most recent examples of this come from the (link:http://www.nytimes.com/ text: New York Times popup:yes) and (link:http://www.msnbc.msn.com/ text:MSNBC popup:yes).
 
+Text: 
 (imgslide: hurricane-in1.jpg link: hurricane-in1.jpg)
+
+A weather map is one of the most abundant forms of complex data visualization in our lives today. Their importance increases dramatically as people need to make preparations and decisions based on the data they display. There’s been a recent trend of a ‘democratization’ of weather maps that are being hosted online, allowing users to interact with them and ultimately make decisions based on them. Two of the best and most recent examples of this come from the (link:http://www.nytimes.com/ text: New York Times popup:yes) and (link:http://www.msnbc.msn.com/ text:MSNBC popup:yes).
+
 
 --
 
+(imgslide: hurricane-in2.jpg link: hurricane-in2.jpg)
+
 The New York Times has been putting out maps related to specific storms but now they’ve released a version with a longer shelf-life appropriately named ‘(link:http://www.nytimes.com/projects/hurricanes/ text:Hurricane Tracker. popup:yes)’
 
-(imgslide: hurricane-in2.jpg link: hurricane-in2.jpg)
 
 The interactive map, built by Matthew Bloch, Shan Carter, and Matthew Ericson is a stripped down and simple representation of a lot of data related to active hurricanes. The page is simple and easy on the eyes, inviting you to zoom in on the finer details. Despite it’s simplicity it does a good job of communicating an abundance of crucial information to the user. It quickly answers “Where is the storm going, how fast are the winds, when will it be there?” The key across the bottom immediately explains the coloration on the map and (link:http://en.wikipedia.org/wiki/Saffir-Simpson_Hurricane_Scale text:wind speed chart popup:yes) on the right. Intuitive hovers on the map inform what each shaded area means and helps build a timeline for the storm.
 
@@ -26,15 +30,17 @@ The one advanced feature I’d like to see would be showing the different foreca
 
 --
 
+(imgslide: hurricane-in4.jpg link: hurricane-in4.jpg)
+
 The (link:http://www.msnbc.msn.com/id/26295161#.To4NIZyfBAO text:MSNBC hurricane tracker popup:yes) was designed and built by (link:http://stamen.com/clients/msnbc_hurricane_maps text: Stamen popup:yes), the mapping and data visualization firm hailing from San Francisco. This tracker, which features a nice animation of the storm over time when the page loads, is overall a bit more complex than the NYT tracker, both visually and functionally.
 
-(imgslide: hurricane-in4.jpg link: hurricane-in4.jpg)
 
 --
 
+(imgslide: hurricane-in5.jpg link: hurricane-in5.jpg)
+
 Though the data and display have a similar structure to that of the NYT tracker, the execution is more complex here. The key is broken up into previous, current and forecast with 3 (link:http://en.wikipedia.org/wiki/Saffir-Simpson_Hurricane_Scale text:wind speed popup:yes) colorations for each. I can understand the inclination to break it up that way, especially for unpredictable storms that may double back on themselves but at first glance a simple storm becomes more complex that it needs to be.
 
-(imgslide: hurricane-in5.jpg link: hurricane-in5.jpg)
 
 The most crucial point on the map, the current location of the storm, is also the most complex and difficult to decipher. The hovers explain more with contextual information but getting to that point requires a fair amount of clicks. The key also has the functionality to simplify the display by turning on and off different layers of information but this isn’t always better than optimizing the viewing experience at first glance. To me there is too much information being displayed here at the same time.
 
@@ -44,9 +50,9 @@ Unfortunately the tracker is placed way down on the page, after a very large hea
 
 --
 
-(link:http://stamen.com/clients/msnbc_hurricane_maps text: Stamen popup:yes) recently released another visualization for MSNBC which is a (link:http://www.msnbc.msn.com/id/30072578#.To4OCJyfBAN text:historical hurricane browser popup:yes) of sorts, showing over 1400 storms that have been tracked since 1851 on a single map.
-
 (imgslide: hurricane-in6.jpg link: hurricane-in6.jpg)
+
+(link:http://stamen.com/clients/msnbc_hurricane_maps text: Stamen popup:yes) recently released another visualization for MSNBC which is a (link:http://www.msnbc.msn.com/id/30072578#.To4OCJyfBAN text:historical hurricane browser popup:yes) of sorts, showing over 1400 storms that have been tracked since 1851 on a single map.
 
 Built for a completely different purpose with different data, the visualization is somewhat simplified, showing fewer layers of data and focusing more on browsing and looking at trends. With three different sliders the piece makes it easy to filter and refine your view down to the bare minimum. The ability to search by hurricane name or by location helps users refine even faster.
 
@@ -59,4 +65,3 @@ Whether you’re tracking storms from the past or one bearing down on you now, t
 ----
 related:
 - weather
-- primaries

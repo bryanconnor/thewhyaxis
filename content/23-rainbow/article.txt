@@ -2,13 +2,12 @@ Title: The Guardian’s Gay Rights Rainbow Graph
 ----
 Date: 5/9/2012
 ----
-Hero: rainbow-yellow.jpg
+Hero: rainbow-in3.jpg
 ----
 Text: 
+(imgslide: rainbow-in1.jpg link: http://www.data.gouv.fr/)
 
 The Guardian published this state-by-state (link:http://www.guardian.co.uk/world/interactive/2012/may/08/gay-rights-united-states text:visualization of gay rights laws) in the US and while it certainly captures the user’s attention and encourages them to share, I fear the message gets lost in an overwrought design.
-
-(imgslide: rainbow-in1.jpg link: http://www.data.gouv.fr/)
 
 To start, the circle visualization is visually overwhelming and takes quite a bit of time to digest. Users can share it much faster than they can comprehend the data, and in many cases that’s what they do. The key in the center starts to explain the coloration but just ends up looking a lot like a rainbow. It is not until the user starts hovering over portions of the chart that the color categorizations become a bit more clear.
 
@@ -19,31 +18,31 @@ To start, the circle visualization is visually overwhelming and takes quite a bi
 The chart is also split up into larger sections organized by regions. From this we get a sense that the northeast and southwest are more progressive than other regions. While this is useful, it’s also a conclusion forced upon the user by the design of the chart. Whether intentionally or not, there is also an implied hierarchy to the categories of law since the area of the outermost color block is larger than that of the innermost block.
 
 --
+(imgslide: rainbow-in3.jpg link: rainbow-in3.jpg)
 
 If you can find it, the option to scale states by population provides a different perspective, though one that’s a bit harder to read and interact with. Some states contract quite a bit, making hovering difficult but this does give you a very general sense about how many people live under each set of laws. 
 
-(imgslide: rainbow-in3.jpg link: rainbow-in3.jpg)
 
 --
+(imgslide: rainbow-in4.jpg link: rainbow-in4.jpg)
 
 Below the main chart there are a series of smaller charts, also in circle form, with each main issue in the gay rights legal debate broken out. These are much easier to read and when paired with the supporting text, they illustrate the editorial points quite nicely. They can’t stand on their own though, which is why an aggregated view is necessary.
 
-(imgslide: rainbow-in4.jpg link: rainbow-in4.jpg)
 
 
 --
+(imgslide: rainbow-in6.jpg link: rainbow-in6.jpg)
 
 However, my problem with the large circular chart is that this same data could be presented more simply AND could be more useful in a different form: a color coded table.
 
-(imgslide: rainbow-in6.jpg link: rainbow-in6.jpg)
 
 In this form the uses brain doesn’t have to wrap around the circle to compare two states. Levels of legality almost appear as a heat map, making patterns and comparisons easier to see. You could retain geographic groupings by default but the true power of building this as a simple table is the ability to easily sort rows. For instance, you could sort the states by overall allowance of gay rights or just by the hospital visits row to see states with similar levels of legality. Quite easily you could also add other rows for the ability to sort by population which would reveal the state laws that impact the most people.
 
 --
+(imgslide: rainbow-in5.jpg link: rainbow-in5.jpg)
 
 Going even further, the addition of related data sets could really enrich the story here. Being able to sort the states by recency of a gay rights laws passed could provide an interesting timeline of legislation. Perhaps most enlightening of all would be a way to sort by the public opinion of gay marriage in each state. Maybe then The Guardian chart would approach being as clear and insightful as this one:
 
-(imgslide: rainbow-in5.jpg link: rainbow-in5.jpg)
 
 There are design implications to each of these possible augmentations but principally the same information could be presented in a clearer and more insightful manner. 
 

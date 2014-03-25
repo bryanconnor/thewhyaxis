@@ -1,0 +1,155 @@
+Title: Behind the Scenes
+----
+Hero: content/process/hero.jpg
+----
+Description: Interviews and articles that reveal the design process behind great visualizations.
+----
+
+Text: 
+
+(image: content/process/helpmeviz.png)
+
+## HelpMeViz
+
+Set up by economist and communicator Jon Schwabish, this site helps people get feedback on everyday data visualizations.
+
+- (link:http://helpmeviz.com/ text:Go to HelpMeViz class: external)
+
+--
+
+(image: content/process/line-graph.jpg)
+
+## Redesigning Interactive Line Graphs at Heap
+
+A great process post from a startup called Heap about getting the details right in an interactive line graph.
+
+- (link:http://blog.heapanalytics.com/line-graph-redesign/ text:Read "Redesigning Interactive Line Graphs at Heap" class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/59-bloodshed/bloodshed-1.jpg)
+
+## Lessons From “Behind The Bloodshed”
+
+Source has published a fantastic interview with the makers of Behind The Bloodshed, a visual narrative about mass killings produced by USA Today.
+
+- (link:http://thewhyaxis.info/bloodshed/ text:Read our highlights and commentary)
+- (link:https://source.opennews.org/en-US/articles/how-we-made-behind-bloodshed/ text:Read the original article on Source class: external)
+
+--
+
+(image:http://thewhyaxis.info/content/55-human-progress/humanprogress1.jpg)
+
+## Human Progress Pushes Today's Big Issues Forward
+
+ HumanProgress.org is a new research tool from the CATO Institute exploring changes in human well-being across the globe. This article features a video of some of the creators discussing their process.
+
+- (link:http://thewhyaxis.info/human-progress/ text: "Human Progress Pushes Today's Big Issues Forward" on The Why Axis)
+- (link:http://humanprogress.org/ text:View HumanProgress.org class: external)
+
+
+--
+
+(image:http://thewhyaxis.info/content/53-black-budget/black-budget-1.gif)
+
+## Behind The Black Budget
+
+An interview with Wilson Andrews of The Washington Post about the creation of The Black Budget which visualizes never before seen data about secret funds for national intelligence agencies. 
+
+- (link:http://thewhyaxis.info/black-budget text:Read the interview on The Why Axis )
+- (link:http://www.washingtonpost.com/wp-srv/special/national/black-budget/ text:View The Black Budget class: external)
+
+--
+
+(image: content/process/bees.png)
+
+## Where The Wild Bees Are
+
+Truth and Beauty Operator Moritz Stefaner explains his approach for an infographic published in Scientific American 
+
+- (link:http://well-formed-data.net/archives/972/where-the-wild-bees-are text:Read the process post class: external)
+
+--
+(image: http://thewhyaxis.info/content/52-startup-universe/startup2.jpg)
+
+## The Startup Universe: Design Process
+
+ Giorgia Lupi of Accurat talks about her process crating The Startup Universe, a visualization of TechCrunch's ChrunchBase of startups and their funding networks. 
+
+- (link:http://thewhyaxis.info/startup-universe text:Read The Why Axis Article)
+- (link:http://visual.ly/vizbox/startup-universe/ text:View The Startup Universe class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/51-rasmussen/rasmussen6.jpg)
+
+## Designing Rasmussen's Career Scatter Plot
+
+Rasmussen has published an interactive scatter plot aimed at students with the help of Distilled. I talked to Mark Johnstone about the design process behind this visualization.
+
+- (link:http://thewhyaxis.info/rasmussen text:Read the interview on The Why Axis)
+- (link:http://www.rasmussen.edu/resources/what-career-should-i-choose/ text:View "What Career Should I Choose?" class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/45-life-expectancy/expectancy-7.gif)
+
+## The Washington Post Plots Quality and Quantity of Life
+
+I talked to Emily Chow from the Post Graphics team about a visualization which attempts to answer the question "How long will we live - and how well?" She tells us about the team's design process and I suggest a redesign.
+
+- (link:http://thewhyaxis.info/life-expectancy text:Read The Why Axis Article)
+- (link:http://www.washingtonpost.com/wp-srv/special/health/healthy-life-expectancy/ text:View "How long will we live - and how well?" class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/44-wide/wide-in12.jpg)
+
+## WIDE Shows the Gaps in Education Equality Around the Globe
+
+After Interactive Things (IXT) published their visualization, World Inequality Database on Education (WIDE) I decided to sit down with one of the chief architects, Christian Siegrist, to get a look at the design process for this piece.
+
+- (link:http://thewhyaxis.info/wide text:Read the interview on The Why Axis)
+- (link:http://www.education-inequalities.org/ text:View WIDE class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/41-nov-process/process-in1.jpg)
+
+## Charting Weather Disasters
+
+Juan Velasco works at National Geographic runs a blog called National Infographic. There ge walks us through the design process of "Billion Dollar Weather" showing early versions and explaining design decisions.
+
+- (link:http://juanvelascoblog.com/2012/11/12/charting-weather-disasters/ text:Read "Charting Weather Disasters" class: external)
+
+--
+
+(image: http://thewhyaxis.info/content/41-nov-process/process-in2.jpg)
+
+## Mapbox Blog – How we built USA Today’s Election Night Maps
+
+For the geospatially minded, Mapbox has written up an excellent explanation of their technical process for creating a maps application for USA Today.
+
+- (link:https://www.mapbox.com/blog/election-mapping-usatoday/ text:Read "How We Built USA TODAY’s Election Night Maps" class: external)
+
+--
+(image: http://thewhyaxis.info/content/41-nov-process/whitehouse-in2.jpg)
+
+## Source – The NYT’s Visual Election Outcome Explorer
+
+Shan Carter and Mike Bostock do a write up of their NYT published 512 Paths to the White House, my favorite visualization of the year. 
+
+- (link:https://source.opennews.org/en-US/articles/nyts-512-paths-white-house/ text: Read "The NYT’s Visual Election Outcome Explorer" on Source class: external)
+
+--
+(image: http://thewhyaxis.info/content/07-oecd/OECD-in1.jpg)
+
+## Make Your Own Better Life Index
+
+Hundreds of list posts and rankings are published every day across the Internet. Designers of “infographics” have picked up on this trend and now are creating what amount to visual lists at an alarming rate. In this sea of mediocrity and bullet points the OECD Better Life Index shines like a…
+
+- (link:http://thewhyaxis.info/oecd text:Read The Why Axis Article)
+- (link:http://www.oecdbetterlifeindex.org/ text:View OECD Better Life Index class: external)
+
+
+</ul>
