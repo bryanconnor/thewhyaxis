@@ -7,6 +7,18 @@ Description: Resources with open source components including visualization libra
 
 Text: 
 
+(image: /content/open-source/github.jpg)
+
+## Github showcase for visualization projects
+
+Github has launched showcases that collect projects hosted on the platform around different topics. The data visualization showcase includes projects like D3, Sigma.js and Cubism.  
+
+- (link:https://github.com/showcases/data-visualization text:Visualization Showcase on Github class:external)
+
+
+
+--
+
 (image:http://thewhyaxis.info/content/61-lyra/lyra-1.png)
 
 ## Lyra Gets its First Visualization Tutorial
@@ -35,7 +47,7 @@ Text:
 
  HumanProgress.org is a new research tool from the CATO Institute exploring changes in human well-being across the globe. This article features a video of some of the creators discussing their process.
 
-= (link:http://thewhyaxis.info/human-progress/ text: Read "Human Progress Pushes Today's Big Issues Forward" on The Why Axis)
+- (link:http://thewhyaxis.info/human-progress/ text: Read "Human Progress Pushes Today's Big Issues Forward" on The Why Axis)
 - (link:http://humanprogress.org/ text:View HumanProgress.org class:external)
 
 --

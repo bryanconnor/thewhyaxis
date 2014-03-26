@@ -6,6 +6,21 @@ Description: Leading the reader through a visualization to impart knowledge and 
 ----
 
 Text:
+
+(image: content/storytelling/nomenclature.png)
+
+## Commentary on Nomenclature
+
+A collection of articles discussing issues of "storytelling" with data. Some consensus: storytelling exists on a spectrum with pure exploration. The two are valualbe together and any dichotomy is false. 
+
+- (link:http://well-formed-data.net/archives/1027/worlds-not-stories text:Worlds Not Stories class:external )
+- (link:http://eagereyes.org/blog/2014/stories-are-gateways-into-worlds text:Stories are Gateways into Worlds - Part 1 class:external )
+- (link:http://www.periscopic.com/#/news/2014/03/a-framework-for-talking-about-data-narration/ text:A Framework for Talking About Data Narration class:external )
+- (link:http://blogger.ghostweather.com/2014/03/implied-stories-and-data-vis.html text:Implied Stories and Data Viz class:external )
+
+--
+
+
 (image: http://thewhyaxis.info/content/56-bloomberg-jobs/bloomberg-jobs-3.gif)
 
 ## Bloomberg's Guided Tour of the October Jobs Report

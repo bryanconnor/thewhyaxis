@@ -20,8 +20,8 @@
       <?php $articles = $pages->visible()->flip()->paginate(1) ?>
       <?php foreach($articles as $article): ?>
 
-        <h1><?php echo html($article->title() ) ?></h1>
-        <span class="timestamp"><?php echo $article->date('M j, Y') ?></span>
+        <h1><a href="<?php echo $article->url() ?>" title="Permalink"><?php echo html($article->title() ) ?></a></h1>
+        <a href="<?php echo $article->url() ?>" title="Permalink"><span class="timestamp"><?php echo $article->date('M j, Y') ?></span></a>
       
         <?php $sections = str::split($article->text(), '--') ?>
         <?php $n = 0; foreach($sections as $section): $n++; ?>
@@ -56,73 +56,94 @@
 
   <div class="wrapper footnotes">
     <div class="content">
-
-      <div class="footleft">
-      <?php if($article->reactions() != ''):?>
-      <div class="reactions">
-        <h3>Reactions</h3>
-          <?php echo ($article->reactions()) ?>
+      <div class="article-extension">
+          <a href="<?php echo $article->url() ?>#comments" class="comment-prompt">
+            <span class="twa-icocomment"></span> Add a comment
+          </a>
+      <div class="permalink">
+        <span class="permalabel">Copy Permalink:</span> 
+        <input class="permalinkfield" value="http://thewhyaxis.info/vizify"></input>
       </div>
-      <?php endif ?>
-      <a name="comments"></a>
+    </div>
 
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-          var disqus_shortname = 'thewhyaxis'; // required: replace example with your forum shortname
-          var disqus_url = 'http://thewhyaxis.info/<?php echo ($article->uri() ) ?>';
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <!-- <div class="previously">        
+        <h2><div class="previously-tag">Prevoiusly: </div><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
+        <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
+        <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+    </div> -->
 
-     </div>
-     <div class="footright">
+    <ul class="footgrid">
+      <h3>Previously:</h3>
+      <div class="row">
+      <li>
+        <h2><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
+        <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
+        <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+      </li>
+      <li>
+        <h2><a href="<?php echo $article->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->title()) ?></a></h2>
+        <?php $image = $article->prev()->prev()->images()->find( html($article->prev()->prev()->hero()) ) ?>
+        <a href="<?php echo $article->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+      </li>
+      </div>
+      <div class="row">
+      <li>
+        <h2><a href="<?php echo $article->prev()->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->prev()->title()) ?></a></h2>
+        <?php $image = $article->prev()->prev()->prev()->images()->find( html($article->prev()->prev()->prev()->hero()) ) ?>
+        <a href="<?php echo $article->prev()->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+      </li>
+      <li>
+        <h2><a href="<?php echo $article->prev()->prev()->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->prev()->prev()->title()) ?></a></h2>
+        <?php $image = $article->prev()->prev()->prev()->prev()->images()->find( html($article->prev()->prev()->prev()->prev()->hero()) ) ?>
+        <a href="<?php echo $article->prev()->prev()->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+      </li>
+    </div>
+
+    </ul>
+
+    <!-- <div class="footleft">
+      
+
+    </div>
+    <div class="footright">
 
       <ul class="relatedcontent">
-        <h3>Read This Next:</h3>
-        <?php foreach(related($article->related()) as $related): ?>
+        <h3>Previous Post:</h3>
           <li>
-            <h2><a href="<?php echo $related->url() ?>"><?php echo html($related->title()) ?></a></h2>
-              <?php if($related->hero() !='' && $related->hero() !='0'): ?>
-        <?php $image = $related->images()->find( html($related->hero()) ) ?>
-            <a href="<?php echo $related->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
-        <?php endif ?> 
-              
-            </li>
-        <?php endforeach ?>
+            <h2><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
+            <?php if($article->prev()->hero() !='' && $article->prev()->hero() !='0'): ?>
+            <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
+            <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
+            <?php endif ?>     
+          </li>
       </ul>
-      </div>
+      </div> -->
 
       </div>
     </div>
 
 
-  <script type="text/javascript">
-  var disqus_shortname = 'thewhyaxis'; // required: replace example with your forum shortname
-  (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());
-  </script>
-
   <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="assets/js/fixto.min.js"></script>
 
   <script>
+    
+      $('input').on('focus', function (e) {
+      $(this)
+          .one('mouseup', function () {
+              $(this).select();
+              return false;
+          })
+          .select();
+    
     if (document.documentElement.clientWidth >= 930) {
       $(window).load(function() {
         $('.article .graphic').fixTo('.article>.section', {mind:'.bumpy'});
         // $('.relatedcontent').fixTo('body');
       });
     }
+    
+    });
     else{}
   </script>
 
