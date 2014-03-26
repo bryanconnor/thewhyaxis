@@ -11,7 +11,7 @@ Text:
 
 ## Commentary on Nomenclature
 
-A collection of articles discussing issues of "storytelling" with data. Some consensus: storytelling exists on a spectrum with pure exploration. The two are valualbe together and any dichotomy is false. 
+A collection of articles discussing issues of "storytelling" with data. Some consensus: storytelling exists on a spectrum with pure exploration. The two are valuable together and any dichotomy is false. 
 
 - (link:http://well-formed-data.net/archives/1027/worlds-not-stories text:Worlds Not Stories class:external )
 - (link:http://eagereyes.org/blog/2014/stories-are-gateways-into-worlds text:Stories are Gateways into Worlds - Part 1 class:external )
