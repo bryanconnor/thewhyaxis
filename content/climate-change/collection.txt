@@ -65,5 +65,5 @@ Bocoup teamed up with Climate Central to create SSRF, a tool that would allow fo
 
 Covered (link:http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth text:here) on NPR, This Pulsing Earth was created by cartographer and designer John Nelson. It shows us something we intuitively know, that the planet's ice comes and goes with the seasons, but does so in a way that's somehow new. Read about (link:http://uxblog.idvsolutions.com/2013/07/a-breathing-earth.html text:John's process).
 
-- (link:http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth text:View This Pulsing Earch on NPR class:external)
+- (link:http://www.npr.org/blogs/krulwich/2013/08/12/211364006/this-pulsing-earth text:View This Pulsing Earth on NPR class:external)
 

@@ -21,7 +21,7 @@
       <?php foreach($articles as $article): ?>
 
         <h1><a href="<?php echo $article->url() ?>" title="Permalink"><?php echo html($article->title() ) ?></a></h1>
-        <a href="<?php echo $article->url() ?>" title="Permalink"><span class="timestamp"><?php echo $article->date('M j, Y') ?></span></a>
+        <a href="<?php echo $article->url() ?>" title="Permalink" class="permatimestamp"><span class="timestamp"><?php echo $article->date('M j, Y') ?></span></a>
       
         <?php $sections = str::split($article->text(), '--') ?>
         <?php $n = 0; foreach($sections as $section): $n++; ?>
@@ -100,6 +100,10 @@
     </div>
 
     </ul>
+
+    <a class="view-archives" href="<?php echo( $site->url())?>/archives">
+      View all previous articles
+    </a>
 
     <!-- <div class="footleft">
       
