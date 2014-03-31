@@ -1,0 +1,53 @@
+Title: Visage Automates The Boring Parts of Infographic Design
+----
+Date: 3/31/2014
+----
+Hero: visage1.jpg
+----
+Text:
+
+(imgslide: visage1.jpg)
+
+(link:http://www.visage.co/ text:Visage) is a new tool to help you automate the boring parts of creating infographics and reports. It is a workhorse for the tedious tasks otherwise done by hand in Illustrator - changing color schemes, setting up templates, updating data and revising layouts. 
+
+Visage was incubated at (link:http://www.columnfivemedia.com/ text:Column Five) and spun off as a separate company. Column Five's client work of infographics and visualizations made the need for this tool crystal clear. Their goal was to standardize the creation process and give some control and editing ability directly to their clients. I talked to (link:https://twitter.com/HOGIE_ text:Matt from Visage) about the tool and got a look around at the working product. He echoed the message on the Visage website which states:  
+
+> We believe that beautiful data visualization should be available to anyone, not just organizations that can afford design agency premiums.
+
+--
+
+## Features
+
+(imgslide: visage2.gif)
+
+Visage can create multipage reports with a growing library of standard chart types. It can also support custom chart types on client request as well as custom fields within a chart for things like graphics and styling details. When you really want to fine-tune things you can export your work as a png, pdf, svg or tiff file. Matt told me that in the future Visage will allow you to create interactive charts and embed them anywhere on the web. 
+
+--
+
+## Competition
+
+(imgslide: content/54-raw/dd-raw1.jpg)
+
+The approach of Visage seems unique in an active market of visualization tools. It combines the marketing tact of (link:http://visual.ly/ text:Visual.ly) with the interactive capabilities of (link:http://raw.densitydesign.org/ text:RAW). If it has indeed found the right balance of flexibility and automation it will garner quite a big user base.
+
+--
+
+## Pricing & Roadmap 
+
+(imgslide: visage4.jpg)
+
+For the time being Visage caters to business and enterprises but a self-service version of the tool is coming this summer. Visage's pricing structure is still being formulated but it will be based on per-user access and can be adjusted for specific groups or users.
+
+Visage has big plans to become the central hub for the infographic creation process with sophisticated permission levels and version control on the way. 
+
+As the market for visualization tools heats up we can begin to observe two different types. The first is defined by polished and user friendly tools like Visage complete with revenue models. The second features open source tools like (link:http://raw.densitydesign.org/ text:RAW) and (link:http://idl.cs.washington.edu/projects/lyra/ text:Lyra) that are a little bit harder to pin down and sometimes harder to use. These competing forces are healthy and make for a very interesting time for writing about and creating visualizations.  
+
+
+----
+
+related:
+- raw
+
+
+
+
