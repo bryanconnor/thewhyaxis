@@ -2,7 +2,7 @@ Title: What Yahoo's Latest Acquisition Means for Data Visualization
 ----
 Date: 3/7/2014
 ----
-Hero: vizify.gif
+Hero: vizify-1.gif
 ----
 Text:
 

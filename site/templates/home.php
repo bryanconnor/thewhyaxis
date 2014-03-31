@@ -62,38 +62,32 @@
           </a>
       <div class="permalink">
         <span class="permalabel">Copy Permalink:</span> 
-        <input class="permalinkfield" value="http://thewhyaxis.info/vizify"></input>
+        <input class="permalinkfield" value="http://thewhyaxis.info/visage"></input>
       </div>
     </div>
-
-    <!-- <div class="previously">        
-        <h2><div class="previously-tag">Prevoiusly: </div><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
-        <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
-        <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
-    </div> -->
 
     <ul class="footgrid">
       <h3>Previously:</h3>
       <div class="row">
       <li>
-        <h2><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
+        <h2><a href="<?php echo $article->prev()->url() ?>"><?php echo html($article->prev()->title()) ?></a></h2>
         <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
         <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
       </li>
       <li>
-        <h2><a href="<?php echo $article->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->title()) ?></a></h2>
+        <h2><a href="<?php echo $article->prev()->prev()->url() ?>"><?php echo html($article->prev()->prev()->title()) ?></a></h2>
         <?php $image = $article->prev()->prev()->images()->find( html($article->prev()->prev()->hero()) ) ?>
         <a href="<?php echo $article->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
       </li>
       </div>
       <div class="row">
       <li>
-        <h2><a href="<?php echo $article->prev()->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->prev()->title()) ?></a></h2>
+        <h2><a href="<?php echo $article->prev()->prev()->prev()->url() ?>"><?php echo html($article->prev()->prev()->prev()->title()) ?></a></h2>
         <?php $image = $article->prev()->prev()->prev()->images()->find( html($article->prev()->prev()->prev()->hero()) ) ?>
         <a href="<?php echo $article->prev()->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
       </li>
       <li>
-        <h2><a href="<?php echo $article->prev()->prev()->prev()->prev()->url()?>"><?php echo html($article->prev()->prev()->prev()->prev()->title()) ?></a></h2>
+        <h2><a href="<?php echo $article->prev()->prev()->prev()->prev()->url() ?>"><?php echo html($article->prev()->prev()->prev()->prev()->title()) ?></a></h2>
         <?php $image = $article->prev()->prev()->prev()->prev()->images()->find( html($article->prev()->prev()->prev()->prev()->hero()) ) ?>
         <a href="<?php echo $article->prev()->prev()->prev()->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
       </li>
@@ -104,24 +98,6 @@
     <a class="view-archives" href="<?php echo( $site->url())?>/archives">
       View all previous articles
     </a>
-
-    <!-- <div class="footleft">
-      
-
-    </div>
-    <div class="footright">
-
-      <ul class="relatedcontent">
-        <h3>Previous Post:</h3>
-          <li>
-            <h2><a href="<?php echo $article->prev()->url()?>"><?php echo html($article->prev()->title()) ?></a></h2>
-            <?php if($article->prev()->hero() !='' && $article->prev()->hero() !='0'): ?>
-            <?php $image = $article->prev()->images()->find( html($article->prev()->hero()) ) ?>
-            <a href="<?php echo $article->prev()->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /></a>
-            <?php endif ?>     
-          </li>
-      </ul>
-      </div> -->
 
       </div>
     </div>
