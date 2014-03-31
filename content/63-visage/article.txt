@@ -26,7 +26,7 @@ Visage can create multipage reports with a growing library of standard chart typ
 
 ## Competition
 
-(imgslide: /content/63-visage/content/54-raw/dd-raw1.jpg)
+(imgslide: /content/54-raw/dd-raw1.jpg)
 
 The approach of Visage seems unique in an active market of visualization tools. It combines the marketing tact of (link:http://visual.ly/ text:Visual.ly) with the interactive capabilities of (link:http://raw.densitydesign.org/ text:RAW). If it has indeed found the right balance of flexibility and automation it will garner quite a big user base.
 
