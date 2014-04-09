@@ -1,0 +1,41 @@
+Title: Takeaways from Tapestry 2014
+----
+Date: 5/7/2014
+----
+Hero: tapestry2014.jpg
+----
+Text: 
+
+(imgslide: content/64-tapestry2014/tapestry2014.jpg caption: Arvind Satyanarayan presenting <a href="http://thewhyaxis.info/lyra">Lyra</a> to an eager audience.) 
+
+(link:http://www.tapestryconference.com/ text:Tapestry) had another successful year in 2014. This time around the event was held in the Historic Inns of Annapolis, MD. In its two year life the conference has adopted a signature feel I haven't found anywhere else: single day, single track, a small crowd of around 100, and, of course, a great mix of speakers broken up by plenty of socialization time. Together these elements make the annual conference feel more like a retreat than anything else. 
+
+Some of the other attendees have already written up their thoughts - (link:http://www.visualisingdata.com/index.php/2014/03/a-short-reflection-about-tapestry-conference/ text:Andy Kirk), (link:http://www.chezvoila.com/blog/tapestry14 text:Francis Gagnon), (link:http://wannabeawesomeme.weebly.com/1/post/2014/03/tapestry-takeaways.html text:Emily Kund), - but I wanted to add a few thoughts to the mix and one exciting new idea.
+
+## Discourse
+
+The biggest thing that I took away from tapestry conference this year was the healthy atmosphere of criticism we have managed to foster as a community. 
+
+Presenters were up on stage criticizing or defending the work of visualizers present in the room. This generated plenty of follow-up discussion during breaks. And the best part about it was that people want more of it.
+
+<blockquote class="twitter-tweet" lang="en"><p>What I love about the data visualisation community is that there are many different opinions but no rifts, only debate <a href="https://twitter.com/search?q=%23tapestryconf&amp;src=hash">#tapestryconf</a></p>&mdash; Andy Cotgreave (@acotgreave) <a href="https://twitter.com/acotgreave/statuses/438712858143363072">February 26, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/albertocairo">@albertocairo</a> <a href="https://twitter.com/acotgreave">@acotgreave</a> I think the next viz conf needs to be a round table.</p>&mdash; Kim Rees (@krees) <a href="https://twitter.com/krees/statuses/438715537523089408">February 26, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p>DataViz conf idea: series of innovative &amp; classic graphics. Convo on stage btwn viz creator &amp; a detractor. Much 2 be learned from both sides</p>&mdash; Jen Christiansen (@ChristiansenJen) <a href="https://twitter.com/ChristiansenJen/statuses/438704116240764930">February 26, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The fact that this idea popped up several places suggests there's something to it. I try to achieve a facsimile of this with some of the articles on The Why Axis but I love the idea of live critique with the opportunity for rebuttals. I also can imagine a format where the participants get together in a room and record / live-stream their conversation to a much larger audience on the web. 
+
+If you want to team up and make this idea real then don't hesitate to get in touch. I think it could help provide the next layer of social glue to solidify the data visualization community as one at home with constructive criticism.
+
+----
+
+related:
+- lyra
+
+
+
+
