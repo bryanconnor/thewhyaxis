@@ -2,7 +2,7 @@ Title: Visage Automates The Boring Parts of Infographic Design
 ----
 Date: 3/31/2014
 ----
-Hero: /content/63-visage/visage1.jpg
+Hero: visage1.jpg
 ----
 Text:
 
