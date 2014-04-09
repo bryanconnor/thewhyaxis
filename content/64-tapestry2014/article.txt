@@ -10,7 +10,7 @@ Text:
 
 (link:http://www.tapestryconference.com/ text:Tapestry) had another successful year in 2014. This time around the event was held in the Historic Inns of Annapolis, MD. In its two year life the conference has adopted a signature feel I haven't found anywhere else: single day, single track, a small crowd of around 100, and, of course, a great mix of speakers broken up by plenty of socialization time. Together these elements make the annual conference feel more like a retreat than anything else. 
 
-Some of the other attendees have already written up their thoughts - (link:http://www.visualisingdata.com/index.php/2014/03/a-short-reflection-about-tapestry-conference/ text:Andy Kirk), (link:http://www.chezvoila.com/blog/tapestry14 text:Francis Gagnon), (link:http://wannabeawesomeme.weebly.com/1/post/2014/03/tapestry-takeaways.html text:Emily Kund), - but I wanted to add a few thoughts to the mix and one exciting new idea.
+Some of the other attendees have already written up their thoughts - (link:http://www.visualisingdata.com/index.php/2014/03/a-short-reflection-about-tapestry-conference/ text:Andy Kirk), (link:http://www.chezvoila.com/blog/tapestry14 text:Francis Gagnon), (link:http://wannabeawesomeme.weebly.com/1/post/2014/03/tapestry-takeaways.html text:Emily Kund), (link:http://blogger.ghostweather.com/2014/03/implied-stories-and-data-vis.html text:Lynn Cherny) - but I wanted to add a few thoughts to the mix and one exciting new idea.
 
 ## Discourse
 
