@@ -459,10 +459,10 @@ ul.articles li {
       list-style: disc;
       padding-left: 25px;
       padding-right: 10px;
-      margin-bottom: 1.25em; }
+      margin-bottom: 0.75em; }
       /* line 327, ../sass/style.scss */
       .article .section ul li {
-        padding-bottom: 12px;
+        padding-bottom: 8px;
         line-height: 145%; }
         /* line 330, ../sass/style.scss */
         .article .section ul li a {

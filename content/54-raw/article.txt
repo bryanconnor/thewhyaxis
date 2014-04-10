@@ -41,6 +41,23 @@ In the end, Raw is a research tool, self-funded and built by a research organiza
 
 What features or chart types would you like to see added to Raw next? Are simpler chart types important or are they covered well enough by existing software? 
 
+--
+
+## [Update] Version 1.0
+
+(vimeo: http://vimeo.com/91605650 class:graphic)
+
+(link:https://github.com/densitydesign/raw/ text:Version 1.0 of RAW) has been released with, among other things, more chart types!
+ 
+- Clustered Force Layout
+- Convex Hull
+- Delaunay Triangulation
+- Parallel Coordinates
+- Streamgraph
+- Voronoi Tesselation
+
+See them in action by using (link:http://app.raw.densitydesign.org/ text:the app0. RAW's interface and (link:https://github.com/densitydesign/raw/wiki/Adding-New-Charts text:documentation) also make it easier to add new chart types as well. 
+
 ----
 related:
 - databoard
