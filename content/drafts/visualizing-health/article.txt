@@ -1,0 +1,36 @@
+Title: A Cure for the Common Health Visualization 
+----
+Date: 4/28/2014
+----
+Hero: visualizing-health.jpg
+----
+Text:
+
+(imgslide: visualizing-health.jpg)
+
+Visualizing Health is a gallery of graphics proven to clearly communicate health information to patients. 
+
+The team behind the site built this gallery by testing these graphics with the general public using tools like Google Consumer Surveys, Survey Sampling International and Amazon Mechanical Turk. 
+
+The results were compared and the charts that were easiest to understand and most impactful are marked with a star on the site. The rest of the visualization tested are there too and contribute to a sizable library of risk focused visualizations. In addition, The Wizard helps narrow down the gallery by asking easy to understand questions about your goals in communicating health information. 
+
+--
+
+## Comments 
+
+(imgslide: visualizing-health2.jpg)
+
+Visualizing health has taken a really useful and logical leap by testing which visualizations are best at communicating health information. However, I think they fall short in making these visualization accessible to people who want to use them. The charts are licensed under the Creative Commons but in the end they're un-editable png files. Anyone who wants to use a chart with different data would have to recreate it themselves. 
+
+The (link:http://www.vizhealth.org/using/calculator/ text: risk calculator) is a step in the right direction, generating an image based on inputs of patient data but it's the only recommended chart that does this.
+
+I think the team also missed an opportunity by burying the results of comparison in the research report. There's a lot to be learned from explaining exactly why one chart variation is easier to understand or why one is more impactful. Giving people the information they need to choose a visualization can be more effective than making decisions for them. And most useful of all would be providing editable graphics so people can use the site the way it was intended - as a springboard for better communication with patients. 
+
+----
+
+related:
+- medviz
+
+
+
+

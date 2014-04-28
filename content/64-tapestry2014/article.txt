@@ -16,7 +16,7 @@ Some of the other attendees have already written up their thoughts - (link:http:
 
 The biggest thing that I took away from tapestry conference this year was the healthy atmosphere of criticism we have managed to foster as a community. 
 
-Presenters were up on stage criticizing or defending the work of visualizers present in the room. This generated plenty of follow-up discussion during breaks. And the best part about it was that people want more of it.
+Presenters were up on stage criticizing or defending the work of visualizers present in the room. This generated plenty of follow-up discussion during breaks. And the best part is that people want more of it.
 
 <blockquote class="twitter-tweet" lang="en"><p>What I love about the data visualisation community is that there are many different opinions but no rifts, only debate <a href="https://twitter.com/search?q=%23tapestryconf&amp;src=hash">#tapestryconf</a></p>&mdash; Andy Cotgreave (@acotgreave) <a href="https://twitter.com/acotgreave/statuses/438712858143363072">February 26, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
