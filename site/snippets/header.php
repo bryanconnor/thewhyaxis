@@ -21,11 +21,11 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   
 
-  <script>
-  $(window).load(function() {
-  	$('#post-1').addClass('currentpost');
-  	$('#post-2').addClass('nextpost');
-  });
+  <script type="text/javascript">
+  //$(window).load(function() {
+  	//$('#post-1').addClass('currentpost');
+  	//$('#post-2').addClass('nextpost');
+  //});
   </script>
   
 

@@ -1,0 +1,42 @@
+Title: A Cure for the Common Health Visualization 
+----
+Date: 4/28/2014
+----
+Hero: visualizing-health.jpg
+----
+Text:
+
+(imgslide: content/65-visualizing-health/visualizing-health.jpg)
+
+Today we have better access to health information than ever before but this means little without greater understanding. (link:http://www.vizhealth.org/ text:Visualizing Health) is a weapon in the fight to create a culture of health. The site is primarily gallery of graphics proven to clearly communicate health information to patients. 
+
+Visualizing Health was created by the (link:http://chcr.umich.edu/ text:University of Michigan) in partnership with the (link:http://www.rwjf.org/ text:Robert Wood Johnson Foundation) and was led up by (link:http://www.thomasgoetz.com/ text:Thomas Goetz), Entrepreneur-in-residence at RWJF.
+
+The team proved the efficacy of their graphics by testing them with the general public using services like Google Consumer Surveys, Survey Sampling International and Amazon Mechanical Turk. 
+
+Results were compared and the charts that were easiest to understand and most impactful now feature a star on the Visualizing Health site. The the remaining visualizations are there too and contribute to a sizable library of risk-focused visualizations. In addition, the site's (link:http://www.vizhealth.org/wizard/ text:Wizard) helps narrow down the gallery by asking easy to understand questions about your goals in communicating health information. 
+
+--
+
+## Comments 
+
+(imgslide: content/65-visualizing-health/visualizing-health2.jpg)
+
+Visualizing Health has taken a really useful and logical leap by testing which visualizations are best at communicating confusing health information. However, I think they fall short in making these visualization accessible to people who want to use them. The charts are licensed under the Creative Commons but in the end they're un-editable png files. Anyone who wanted to use a chart with different data would have to recreate it themselves. 
+
+The (link:http://www.vizhealth.org/using/calculator/ text: risk calculator) is a step in the right direction, generating a custom image based on inputs of patient data but it only exists for one recommended chart. 
+
+As the website states, Visualizing Health is meant to be a springboard for others. It would be great to see calculators developed for all the most effective visualizations so anyone could generate a custom image by inputting some simple data. In addition, Illustrator templates or even D3 versions of charts would help people more easily modify and extend this library of research-proven graphics.
+
+Another potential opportunity might lie in developing Visualizing Health into a service, a little like (link:http://helpmeviz.com/ text:HelpMeViz). This service would consult with real physicians, patients and whoever else wanted help visualizing health data. Publishing the results of these consultations would be key. There's a lot to be learned from explaining exactly why one chart variation is easier to understand or why one is more impactful in a given situation. The rigorous testing and research process could also be a part of the service. 
+
+In the end, the specific domain focus of Visualizing Health makes it a valuable resource that, with the continued support of the Robert Wood Johnson Foundation, I hope to see transformed into a thriving ecosystem in the not so distant future. 
+
+----
+
+related:
+- medviz
+
+
+
+
