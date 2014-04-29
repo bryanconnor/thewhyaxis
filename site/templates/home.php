@@ -62,7 +62,7 @@
           </a>
       <div class="permalink">
         <span class="permalabel">Copy Permalink:</span> 
-        <input class="permalinkfield" value="http://thewhyaxis.info/visage"></input>
+        <input class="permalinkfield" value="http://thewhyaxis.info/visualizing-health"></input>
       </div>
     </div>
 
