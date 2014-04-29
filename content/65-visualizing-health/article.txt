@@ -14,7 +14,7 @@ Visualizing Health was created by the (link:http://chcr.umich.edu/ text:Universi
 
 The team proved the efficacy of their graphics by testing them with the general public using services like Google Consumer Surveys, Survey Sampling International and Amazon Mechanical Turk. 
 
-Results were compared and the charts that were easiest to understand and most impactful now feature a star on the Visualizing Health site. The the remaining visualizations are there too and contribute to a sizable library of risk-focused visualizations. In addition, the site's (link:http://www.vizhealth.org/wizard/ text:Wizard) helps narrow down the gallery by asking easy to understand questions about your goals in communicating health information. 
+Results (detailed in (link:http://vizhealth-assets.s3.amazonaws.com/static/Visualizing%20Health%20Report.pdf text:their report)) were compared and the charts that were easiest to understand and most impactful now feature a star on the Visualizing Health site. The the remaining visualizations are there too and contribute to a sizable library of risk-focused visualizations. In addition, the site's (link:http://www.vizhealth.org/wizard/ text:Wizard) helps narrow down the gallery by asking easy to understand questions about your goals in communicating health information. 
 
 --
 
