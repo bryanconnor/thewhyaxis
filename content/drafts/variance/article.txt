@@ -1,21 +1,74 @@
-Title: 
+Title: Variance Charts New Territory for Visualization Libraries
 ----
-Date: 12/17/2013
+Date: 5/6/2014
 ----
-Hero: 
+Hero: variance.gif
 ----
 Text:
 
-(imgslide: img1.jpg)
+(imgslide: variance.gif)
+
+(link:https://twitter.com/ryanlucas text:Ryan Lucas) spells out exactly what makes (link:https://variancecharts.com text:Variance) unique: 
+
+> We created Variance to make a charting library that works the way the web does. Structural, semantic elements of a chart are defined entirely within HTML. Visual aesthetics are handled by CSS, the de facto language for styling the web. Data can be brought in from CSVs and JSON endpoints via link tags. Iterating along any one of these dimensions does not affect the integrity of the others. At no point are you forced to write any JavaScript whatsoever.
+
+Ryan and (link:https://twitter.com/lynaghk text:Kevin Lynagh) created Variance as a tool to speed up production of their work at (link:http://keminglabs.com/ text:Keming Labs). 
+
+> Kevin ported D3.js to Clojure/ClojureScript, but building custom graphics in that style still takes quite a bit of time. On the other end of the spectrum, we found that most "cookie cutter" web charting libraries are over-specialized JavaScript APIs that attempt to do it all: store and transform data, describe a chart structure, define the visual appearance, and manage interactivity. This monolithic approach is difficult to learn and quite at odds with the separation of concerns that characterizes a modern web workflow. We don’t think that changing a color or swapping out some data in a chart should require wading through a cryptic JavaScript syntax. 
 
 --
 
-(imgslide: img2.jpg)
+## Structure
+
+(imgslide: variance3.gif)
+
+The simplicity and flexibility of Variance is revealed in the (link:https://variancecharts.com/docs/getting_started/index.html#visualization-exploration text:getting started tutorial). It shows just how easy it is to create a simple dot plot and transform it into a bar chart using the grammar of the Variance language. 
+
+
+> Variance's HTML tags are based on the “grammar of graphics” concept first conceived of by (link:http://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448 text:Leland Wilkinson) and further refined by Hadley Wickham in his excellent (link:http://docs.ggplot2.org/current/ text:ggplot2 library for R). Rather than picking a fixed chart type (line, bar, etc.), with Variance you compose together basic elements — like geometries, guides, and annotations — using a set of rules, much like a language’s grammar.  
+
+Each of the Variance (link:https://variancecharts.com/examples/ text:examples) has a link to Codepen so anyone can (link:http://codepen.io/variancecharts/pen/cGItq/?editors=110 text:play with Variance) with zero setup. 
+
+--
+
+## Workflow
+
+(imgslide: variance5.gif)
+
+Variance makes a lot of things possible because of its simple structure built on common web languages.
+
+> Using just HTML and CSS makes it lightning fast to prototype. From a prototype, front-end designers and developers can work cooperatively with data scientists and analysts, so modifying the data, structure, and user experience of a chart can always be done by the correct person for the job.
+
+Variance can also take advantage responsive design, CSS animations and easy integration with existing systems, webpages and apps.
+
+--
+
+## Pricing
+
+(imgslide: variance6.gif)
+
+I think the team is taking the right approach by charging a one time license fee for commercial use in order to insure Variance can be sustainable. 
+
+> We wanted to make this power available to a larger market, offer support options, and be able to continue to develop the product. So we’ve released Variance under simple terms. It’s completely free to use for evaluation and non-commercial purposes. Commercial usage only requires a one-time licensing fee per-designer/developer. In our experience, the time-savings more than recoups that fee in just a single project.
+
+--
+
+## Future
+
+(imgslide: variance2.gif)
+
+Ryan and Kevin are waiting to see who picks up Variance and what they build before they commit to a specific roadmap but they mentioned a few potential extensions: 
+
+> Based on our own use, one feature we’d like to see is easier annotations at semantically meaningful locations. At the moment, you can place annotations in terms of the mapped dimensions (e.g. put a note at [year 2003, $10,000]), but it’s more difficult to say “place this annotation at the end of this line” or “at the highest point.” More broadly, this leads to the question: how can we incorporate statistical transformations within the grammar? Should Variance help you filter, summarize, and group data? Or at that point should we tell you to fire up R or JavaScript? 
+
+> In terms of far-future crazy ideas, we've been thinking about doing layout/positioning with an explicit constraint solver (using CSS just for styling). You'd be able to state constraints like "put this axis 20px underneath the data frame" and "the chart and its ordinate axis should always fill this container, but only show the ordinate minor ticks if there is at least 80px of horizontal space". 
+
+Also of interest, friend-of-the-team Carlos Scheidegger has an upcoming (link:http://cscheid.net/2014/01/02/visual_embedding.html text:IEEE Vis paper) this year discussing these issues within an algebraic visualization design framework.
 
 ----
 
 related:
-- article
+- raw
 
 
 

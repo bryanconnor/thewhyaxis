@@ -31,7 +31,7 @@ Kevin ported D3.js to Clojure/ClojureScript, but building custom graphics in tha
 
 So we created Variance to make a charting library that works the way the web does. Structural, semantic elements of a chart are defined entirely within HTML. Visual aesthetics are handled by CSS, the de facto language for styling the web. Data can be brought in from CSVs and JSON endpoints via link tags. Iterating along any one of these dimensions does not affect the integrity of the others. At no point are you forced to write any JavaScript whatsoever. 
 
-Using just HTML and CSS makes it lightning fast to prototype. From a prototype, frontend designers and developers can work cooperatively with data scientists and analysts, so modifying the data, structure, and user experience of a chart can always be done by the correct person for the job. Once iterated, the same code can go straight to production. Changes to HTML structure or CSS presentation are easily and independently version tracked. Reusing custom graphics elsewhere in the site or application — or other projects — is just a matter of copying and pasting or including into template systems. 
+**Using just HTML and CSS makes it lightning fast to prototype. From a prototype, frontend designers and developers can work cooperatively with data scientists and analysts, so modifying the data, structure, and user experience of a chart can always be done by the correct person for the job.** Once iterated, the same code can go straight to production. Changes to HTML structure or CSS presentation are easily and independently version tracked. Reusing custom graphics elsewhere in the site or application — or other projects — is just a matter of copying and pasting or including into template systems. 
 
 Variance's HTML tags are based on the “grammar of graphics” concept first conceived of by Leland Wilkinson and further refined by Hadley Wickham in his excellent ggplot2 library for R. Rather than picking a fixed chart type (line, bar, &c.), with Variance you compose together basic elements — like geometries, guides, and annotations — using a set of rules, much like a language’s grammar. 
 
@@ -87,6 +87,8 @@ In terms of far-future crazy ideas, we've been thinking about doing layout/posit
 
 They can grab their favorite productivity-enhancing beverage and play around with Variance on Codepen! http://codepen.io/variancecharts/
 
+
+--
 
 
 
