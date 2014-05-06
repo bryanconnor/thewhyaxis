@@ -9,7 +9,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@thewhyaxis">
   <meta name="twitter:url" content="http://thewhyaxis.info/<?php echo html($page->uri()) ?>">
   <meta name="twitter:title" content="<?php echo html($page->title() ) ?>">
