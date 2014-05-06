@@ -8,6 +8,13 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@thewhyaxis">
+  <meta name="twitter:url" content="http://thewhyaxis.info/<?php echo html($page->uri()) ?>">
+  <meta name="twitter:title" content="<?php echo html($page->title() ) ?>">
+  <meta name="twitter:description" content="<?php echo excerpt($page->text(), 140) ?>">
+  <meta name="twitter:image" content="<?php if($page->hasImages()): ?><?php echo html($page->images()->first()->url()) ?><?php endif ?>">
   
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://thewhyaxis.info/feed/" />
 

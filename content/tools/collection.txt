@@ -6,9 +6,33 @@ Description: A collection of the data visualization tools reviewed on The Why Ax
 ----
 Text: 
 
+(image:./content/66-variance/variance.gif)
+
+## Variance
+
+ A charting library that works the way the web does. Structural, semantic elements of a chart are defined entirely within HTML. Visual aesthetics are handled by CSS. Data can be brought in from CSVs and JSON endpoints via link tags. At no point are you forced to write any JavaScript whatsoever.
+
+ - (link:http://thewhyaxis.info/variance/ text: Read the article on The Why Axis)
+ - (link:https://variancecharts.com/ text:Start using Variance class:external)
+
+--
+
+
+
+(image:./content/63-visage/visage1.jpg)
+
+## Visage
+
+Visage is a new tool to help you automate the boring parts of creating infographics and reports. It is a workhorse for the tedious tasks otherwise done by hand in Illustrator - changing color schemes, setting up templates, updating data and revising layouts.
+
+ - (link:http://thewhyaxis.info/visage/ text: Read the article on The Why Axis)
+ - (link:http://www.visage.co/ text:Sign up for the Visage platform  class:external)
+
+--
+
 (image:http://thewhyaxis.info/content/61-lyra/lyra-1.png)
 
-## Lyra Gets its First Visualization Tutorial
+## Lyra
 
  An investigation of Jim Vallandingham's tutorial for Lyra, an open source visualization tool developed by Arvind Satyanarayan at UW Interactive Data Lab.
 
