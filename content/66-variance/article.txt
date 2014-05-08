@@ -63,8 +63,6 @@ Ryan and Kevin are waiting to see who picks up Variance and what they build befo
 
 > In terms of far-future crazy ideas, we've been thinking about doing layout/positioning with an explicit constraint solver (using CSS just for styling). You'd be able to state constraints like "put this axis 20px underneath the data frame" and "the chart and its ordinate axis should always fill this container, but only show the ordinate minor ticks if there is at least 80px of horizontal space". 
 
-For the academics out there, a friend-of-the-team (link:http://cscheid.net/ text:Carlos Scheidegger) has an upcoming IEEE Vis paper discussing these issues within an algebraic visualization design framework.
-
 Variance is exciting because it's accessible. I can foresee it being adopted by less specialized developers because it's a natural extension of the way the web works. If it can build a thriving community I think Variance can become the standard for the majority of charting done on the web. 
 
 
