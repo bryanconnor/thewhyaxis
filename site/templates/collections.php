@@ -13,7 +13,7 @@
   </div>  
 
   <div class="wrapper">
-    <div class="flexslider">
+    <div class="content">
       <ul class="slides">
       <li class="collection-hero process">
         <a href="<?php echo( $site->url())?>/process">
@@ -31,7 +31,7 @@
           </div>
         </a>
       </li>
-      <li class=" collection-hero print-web">
+      <li class="collection-hero print-web">
         <a href="<?php echo( $site->url())?>/print-web">
           <div class="scroll-description">
             <h1>Print &amp; Web Companions</h1>

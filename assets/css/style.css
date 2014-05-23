@@ -854,7 +854,7 @@ h3 {
   margin-bottom: 40px; }
 
 /* line 682, ../sass/style.scss */
-.collection-hero {
+.collection-pg .collection-hero {
   width: 100%;
   left: 0;
   z-index: 4;
@@ -863,43 +863,66 @@ h3 {
   -o-background-size: cover;
   background-size: cover; }
   /* line 690, ../sass/style.scss */
-  .collection-hero img {
+  .collection-pg .collection-hero img {
     width: 100%;
     position: absolute; }
 
 /* line 696, ../sass/style.scss */
+.collections-pg .collection-hero {
+  width: 32%;
+  margin-right: 2%;
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 707, ../sass/style.scss */
+  .collections-pg .collection-hero .collection-description {
+    width: inherit; }
+  /* line 710, ../sass/style.scss */
+  .collections-pg .collection-hero img {
+    position: relative; }
+
+/* line 715, ../sass/style.scss */
+ul.slides li:nth-child(3n+3) {
+  margin-right: 0px; }
+
+/* line 719, ../sass/style.scss */
 .collection-hero.process {
   background-image: url("../../content/process/hero-h.jpg"); }
 
-/* line 700, ../sass/style.scss */
+/* line 723, ../sass/style.scss */
 .collection-hero.tools {
   background-image: url("../../content/tools/hero-h.jpg"); }
 
-/* line 704, ../sass/style.scss */
+/* line 727, ../sass/style.scss */
 .collection-hero.storytelling {
   background-image: url("../../content/storytelling/hero-h.jpg"); }
 
-/* line 708, ../sass/style.scss */
+/* line 731, ../sass/style.scss */
 .collection-hero.print-web {
   background-image: url("../../content/print-web/hero-h.jpg"); }
 
-/* line 712, ../sass/style.scss */
+/* line 735, ../sass/style.scss */
 .collection-hero.remakes {
   background-image: url("../../content/remakes/hero-h.jpg"); }
 
-/* line 716, ../sass/style.scss */
+/* line 739, ../sass/style.scss */
 .collection-hero.open-source {
   background-image: url("../../content/open-source/hero-h.jpg"); }
 
-/* line 720, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 .collection-hero.journalism {
   background-image: url("../../content/journalism/hero-h.jpg"); }
 
-/* line 724, ../sass/style.scss */
+/* line 747, ../sass/style.scss */
 .collection-hero.climate-change {
   background-image: url("../../content/climate-change/hero-h.jpg"); }
 
-/* line 728, ../sass/style.scss */
+/* line 751, ../sass/style.scss */
 .collection-description {
   z-index: 5;
   color: #FFF;
@@ -912,24 +935,24 @@ h3 {
   padding-right: 50%;
   padding-top: 60px;
   padding-bottom: 120px; }
-  /* line 738, ../sass/style.scss */
+  /* line 761, ../sass/style.scss */
   .collection-description h1 {
     font-weight: bold;
     font-size: 2em;
     margin-bottom: .75em;
     margin-left: 35px; }
-  /* line 744, ../sass/style.scss */
+  /* line 767, ../sass/style.scss */
   .collection-description p {
     line-height: 135%;
     font-size: 1.1em;
     margin-left: 35px; }
 
-/* line 751, ../sass/style.scss */
+/* line 774, ../sass/style.scss */
 .collection-pg .content {
   z-index: 6;
   background: #FFF;
   width: 100%; }
-  /* line 755, ../sass/style.scss */
+  /* line 778, ../sass/style.scss */
   .collection-pg .content .article {
     width: 1200px;
     margin: 0 auto;
@@ -939,26 +962,26 @@ h3 {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 100px; }
-  /* line 763, ../sass/style.scss */
+  /* line 786, ../sass/style.scss */
   .collection-pg .content .section {
     width: 100%;
     padding-bottom: 40px;
     padding-top: 60px; }
-    /* line 768, ../sass/style.scss */
+    /* line 791, ../sass/style.scss */
     .collection-pg .content .section img {
       margin-bottom: 12px;
       float: left;
       width: 35%;
       margin-right: 3%; }
-    /* line 774, ../sass/style.scss */
+    /* line 797, ../sass/style.scss */
     .collection-pg .content .section h2 {
       margin-bottom: .55em;
       margin-bottom: 10px; }
-    /* line 778, ../sass/style.scss */
+    /* line 801, ../sass/style.scss */
     .collection-pg .content .section p {
       margin: 0;
       padding: 0; }
-    /* line 782, ../sass/style.scss */
+    /* line 805, ../sass/style.scss */
     .collection-pg .content .section ul {
       margin: 0;
       padding: 0;
@@ -966,13 +989,13 @@ h3 {
       margin-top: 15px;
       width: 62%;
       float: right; }
-      /* line 789, ../sass/style.scss */
+      /* line 812, ../sass/style.scss */
       .collection-pg .content .section ul li {
         border-bottom: 1px solid #DFDFDF;
         display: block;
         padding-bottom: 10px;
         padding-top: 10px; }
-        /* line 794, ../sass/style.scss */
+        /* line 817, ../sass/style.scss */
         .collection-pg .content .section ul li a {
           border-bottom: none;
           display: block;
@@ -980,22 +1003,17 @@ h3 {
           padding-right: 30px;
           background: url("../images/gem-small.png") no-repeat right 5px center;
           background-size: 18px 15px; }
-          /* line 801, ../sass/style.scss */
+          /* line 824, ../sass/style.scss */
           .collection-pg .content .section ul li a:hover {
             background-color: none;
             text-decoration: underline; }
-          /* line 805, ../sass/style.scss */
+          /* line 828, ../sass/style.scss */
           .collection-pg .content .section ul li a.external {
             background: url("../images/external.png") no-repeat right 7px center;
             background-size: 14px 14px; }
 
-/* line 821, ../sass/style.scss */
-.flexslider .slides a {
-  text-decoration: none; }
-/* line 828, ../sass/style.scss */
-.flexslider .scroll-description {
-  width: 1200px;
-  margin: 0 auto;
+/* line 842, ../sass/style.scss */
+.scroll-description {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1004,66 +1022,70 @@ h3 {
   padding-bottom: 120px;
   padding-top: 60px;
   color: #FFF; }
-  /* line 837, ../sass/style.scss */
-  .flexslider .scroll-description h1 {
+  /* line 849, ../sass/style.scss */
+  .scroll-description h1 {
     font-weight: bold;
     font-size: 2em;
     margin-bottom: .6em; }
-  /* line 842, ../sass/style.scss */
-  .flexslider .scroll-description p {
+  /* line 854, ../sass/style.scss */
+  .scroll-description p {
     line-height: 125%;
     font-size: 1.1em; }
 
+/* line 861, ../sass/style.scss */
+.slides a {
+  text-decoration: none; }
+
 @media screen and (max-width: 1200px) {
-  /* line 852, ../sass/style.scss */
+  /* line 871, ../sass/style.scss */
   .wrapper .content {
     width: 100%; }
-  /* line 857, ../sass/style.scss */
+  /* line 876, ../sass/style.scss */
   .wrapper.head .nav {
     width: 100%; }
 
-  /* line 863, ../sass/style.scss */
+  /* line 882, ../sass/style.scss */
   .flexslider .scroll-description {
     width: 100%; }
 
-  /* line 868, ../sass/style.scss */
+  /* line 887, ../sass/style.scss */
   .collection-pg .collection-description {
     margin-left: 0;
     width: inherit;
     left: 0;
     padding-right: 0px; }
-  /* line 875, ../sass/style.scss */
+  /* line 894, ../sass/style.scss */
   .collection-pg .content .article {
     padding-left: 0%;
     width: 100%;
     padding-right: 0%; }
 
-  /* line 882, ../sass/style.scss */
+  /* line 901, ../sass/style.scss */
   .collection-hero {
     width: 100%; } }
 @media screen and (max-width: 930px) {
-  /* line 889, ../sass/style.scss */
+  /* line 908, ../sass/style.scss */
   .wrapper .content {
     padding-left: 80px;
     padding-right: 80px; }
-  /* line 893, ../sass/style.scss */
+  /* line 912, ../sass/style.scss */
   .wrapper.head .nav {
     padding-right: 70px;
     padding-left: 70px; }
 
-  /* line 900, ../sass/style.scss */
+  /* line 919, ../sass/style.scss */
   .flexslider .scroll-description {
     padding-left: 80px;
     padding-right: 80px; }
 
-  /* line 906, ../sass/style.scss */
+  /* line 925, ../sass/style.scss */
   .article h1 {
     width: inherit;
     margin-bottom: 8px; }
-  /* line 912, ../sass/style.scss */
+  /* line 931, ../sass/style.scss */
   .article .permatimestamp {
     text-decoration: none; }
-  /* line 915, ../sass/style.scss */
+  /* line 934, ../sass/style.scss */
   .article .timestamp {
     position: relative;
     font-weight: bold;
@@ -1072,71 +1094,71 @@ h3 {
     margin-bottom: 40px;
     display: block;
     text-decoration: none; }
-  /* line 925, ../sass/style.scss */
+  /* line 944, ../sass/style.scss */
   .article .section {
     width: 100%; }
-    /* line 927, ../sass/style.scss */
+    /* line 946, ../sass/style.scss */
     .article .section .graphic {
       width: 100%;
       float: none;
       margin-right: 0;
       margin-bottom: 30px; }
 
-  /* line 938, ../sass/style.scss */
+  /* line 957, ../sass/style.scss */
   .article-meta {
     width: 100%;
     padding-right: 0px; }
 
-  /* line 943, ../sass/style.scss */
+  /* line 962, ../sass/style.scss */
   .footleft {
     width: 100%;
     padding-right: 0px; }
-    /* line 946, ../sass/style.scss */
+    /* line 965, ../sass/style.scss */
     .footleft #disqus_thread {
       padding-bottom: 0px; }
 
-  /* line 950, ../sass/style.scss */
+  /* line 969, ../sass/style.scss */
   .footright {
     width: 100%; }
 
-  /* line 955, ../sass/style.scss */
+  /* line 974, ../sass/style.scss */
   .archives .archive-item h2 {
     display: block; }
-  /* line 958, ../sass/style.scss */
+  /* line 977, ../sass/style.scss */
   .archives .archive-item .date {
     float: left;
     margin-top: -10px;
     margin-bottom: 25px; }
 
-  /* line 966, ../sass/style.scss */
+  /* line 985, ../sass/style.scss */
   .collection-description h1 {
     margin-left: 75px;
     padding-right: 75px; }
-  /* line 970, ../sass/style.scss */
+  /* line 989, ../sass/style.scss */
   .collection-description p {
     margin-left: 75px;
     padding-right: 75px; }
 
-  /* line 977, ../sass/style.scss */
+  /* line 996, ../sass/style.scss */
   .footgrid .row {
     width: 100%;
     display: block;
     margin-bottom: 20px; }
-    /* line 981, ../sass/style.scss */
+    /* line 1000, ../sass/style.scss */
     .footgrid .row:after {
       content: ".";
       display: block;
       height: 0;
       clear: both;
       visibility: hidden; }
-  /* line 989, ../sass/style.scss */
+  /* line 1008, ../sass/style.scss */
   .footgrid li {
     width: 48%;
     margin-right: 2%; }
-    /* line 992, ../sass/style.scss */
+    /* line 1011, ../sass/style.scss */
     .footgrid li:nth-child(3) {
       background: #000; }
-      /* line 994, ../sass/style.scss */
+      /* line 1013, ../sass/style.scss */
       .footgrid li:nth-child(3):after {
         content: ".";
         display: block;
@@ -1144,91 +1166,104 @@ h3 {
         clear: both;
         visibility: hidden; }
 
-  /* line 1004, ../sass/style.scss */
+  /* line 1023, ../sass/style.scss */
   .break {
     display: block;
     width: 100%;
     height: 10px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+
+  /* line 1030, ../sass/style.scss */
+  .collections-pg .collection-hero {
+    width: 49%;
+    margin-right: 2%; }
+
+  /* line 1035, ../sass/style.scss */
+  ul.slides li:nth-child(3n+3) {
+    margin-right: 2%; }
+
+  /* line 1039, ../sass/style.scss */
+  ul.slides li:nth-child(2n+2) {
+    margin-right: 0px; } }
 @media screen and (max-width: 680px) {
-  /* line 1014, ../sass/style.scss */
+  /* line 1046, ../sass/style.scss */
   .wrapper .content {
     padding-left: 20px;
     padding-right: 20px; }
-  /* line 1019, ../sass/style.scss */
+  /* line 1051, ../sass/style.scss */
   .wrapper.head .nav {
     padding-left: 17px;
     padding-right: 12px; }
 
-  /* line 1027, ../sass/style.scss */
+  /* line 1059, ../sass/style.scss */
   .collection-description h1 {
     margin-left: 20px;
     padding-right: 20px; }
-  /* line 1031, ../sass/style.scss */
+  /* line 1063, ../sass/style.scss */
   .collection-description p {
     margin-left: 20px;
     padding-right: 20px; }
 
-  /* line 1040, ../sass/style.scss */
+  /* line 1072, ../sass/style.scss */
   .home-pg .wrapper .content, .article-pg .wrapper .content {
     padding-left: 0px;
     padding-right: 0px; }
-  /* line 1045, ../sass/style.scss */
+  /* line 1077, ../sass/style.scss */
   .home-pg .wrapper.head .nav, .article-pg .wrapper.head .nav {
     padding-left: 5.3%;
     padding-right: 5.3%; }
 
-  /* line 1052, ../sass/style.scss */
+  /* line 1084, ../sass/style.scss */
   .footnotes {
     padding-left: 6%;
     padding-right: 6%; }
 
-  /* line 1056, ../sass/style.scss */
+  /* line 1088, ../sass/style.scss */
   .article-meta {
     width: 100%;
     padding-right: 6%;
     padding-left: 6%; }
 
-  /* line 1062, ../sass/style.scss */
+  /* line 1094, ../sass/style.scss */
   .article h1 {
     padding-left: 6%;
     padding-right: 6%; }
-  /* line 1066, ../sass/style.scss */
+  /* line 1098, ../sass/style.scss */
   .article .timestamp {
     padding-left: 6%; }
-  /* line 1069, ../sass/style.scss */
+  /* line 1101, ../sass/style.scss */
   .article .section {
     width: 100%;
     padding-left: 6%;
     padding-right: 6%; }
-    /* line 1073, ../sass/style.scss */
+    /* line 1105, ../sass/style.scss */
     .article .section .graphic {
       width: 114%;
       float: none;
       margin-left: -7%;
       margin-bottom: 20px; }
-      /* line 1078, ../sass/style.scss */
+      /* line 1110, ../sass/style.scss */
       .article .section .graphic .blockquote {
         padding-left: 6.5%; }
 
-  /* line 1089, ../sass/style.scss */
+  /* line 1121, ../sass/style.scss */
   .collection-pg .content .article .section {
     padding-left: 0px;
     padding-right: 0px; } }
 @media screen and (max-width: 600px) {
-  /* line 1101, ../sass/style.scss */
+  /* line 1133, ../sass/style.scss */
   .wrapper.head .nav {
     padding-top: 25px;
     padding-bottom: 15px; }
-    /* line 1107, ../sass/style.scss */
+    /* line 1139, ../sass/style.scss */
     .wrapper.head .nav ul {
       float: left;
       width: 100%;
       margin-top: 18px; }
-      /* line 1112, ../sass/style.scss */
+      /* line 1144, ../sass/style.scss */
       .wrapper.head .nav ul li a {
         font-size: .8em; }
-      /* line 1115, ../sass/style.scss */
+      /* line 1147, ../sass/style.scss */
       .wrapper.head .nav ul li.archives {
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
@@ -1237,7 +1272,7 @@ h3 {
         padding-bottom: 10px;
         padding-left: 0px;
         text-align: center; }
-      /* line 1124, ../sass/style.scss */
+      /* line 1156, ../sass/style.scss */
       .wrapper.head .nav ul li.collections {
         border-bottom: 1px solid #eee;
         display: block;
@@ -1245,26 +1280,26 @@ h3 {
         padding-bottom: 10px;
         padding-left: 0px;
         text-align: center; }
-      /* line 1132, ../sass/style.scss */
+      /* line 1164, ../sass/style.scss */
       .wrapper.head .nav ul li.twitter {
         position: absolute;
         right: 48px;
         top: 27px;
         font-size: 1.25em; }
-      /* line 1138, ../sass/style.scss */
+      /* line 1170, ../sass/style.scss */
       .wrapper.head .nav ul li.rss {
         position: absolute;
         right: 20px;
         top: 27px;
         font-size: 1.1em; }
-      /* line 1145, ../sass/style.scss */
+      /* line 1177, ../sass/style.scss */
       .wrapper.head .nav ul:after {
         content: ".";
         display: block;
         height: 0;
         clear: both;
         visibility: hidden; }
-    /* line 1153, ../sass/style.scss */
+    /* line 1185, ../sass/style.scss */
     .wrapper.head .nav:after {
       content: ".";
       display: block;
@@ -1272,63 +1307,63 @@ h3 {
       clear: both;
       visibility: hidden; }
 
-  /* line 1166, ../sass/style.scss */
+  /* line 1198, ../sass/style.scss */
   .archives .archive-item .cover img {
     display: none; }
-  /* line 1169, ../sass/style.scss */
+  /* line 1201, ../sass/style.scss */
   .archives .archive-item .cover img:first-child {
     display: block;
     width: 100%; }
 
-  /* line 1177, ../sass/style.scss */
+  /* line 1209, ../sass/style.scss */
   .flexslider .scroll-description {
     padding-right: 20px;
     padding-left: 20px; }
 
-  /* line 1184, ../sass/style.scss */
+  /* line 1216, ../sass/style.scss */
   .collection-pg .content {
     padding-top: 0px; }
-    /* line 1187, ../sass/style.scss */
+    /* line 1219, ../sass/style.scss */
     .collection-pg .content .article .section {
       padding-left: 0px;
       padding-right: 0px; }
-      /* line 1190, ../sass/style.scss */
+      /* line 1222, ../sass/style.scss */
       .collection-pg .content .article .section img {
         width: 100%;
         float: none; }
-      /* line 1194, ../sass/style.scss */
+      /* line 1226, ../sass/style.scss */
       .collection-pg .content .article .section ul {
         width: 100%; }
 
-  /* line 1202, ../sass/style.scss */
+  /* line 1234, ../sass/style.scss */
   .collection-description {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px; }
-    /* line 1204, ../sass/style.scss */
+    /* line 1236, ../sass/style.scss */
     .collection-description h1 {
       margin-left: 0px; }
-    /* line 1207, ../sass/style.scss */
+    /* line 1239, ../sass/style.scss */
     .collection-description p {
       margin-left: 0px;
       padding-right: 20px;
       line-height: 125%; }
 
-  /* line 1216, ../sass/style.scss */
+  /* line 1248, ../sass/style.scss */
   .article-extension {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-right: 0px; }
 
-  /* line 1221, ../sass/style.scss */
+  /* line 1253, ../sass/style.scss */
   .comment-prompt {
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-  /* line 1227, ../sass/style.scss */
+  /* line 1259, ../sass/style.scss */
   .permalink {
     width: 100%;
     padding-top: 12px;
@@ -1336,7 +1371,7 @@ h3 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 1234, ../sass/style.scss */
+    /* line 1266, ../sass/style.scss */
     .permalink input {
       display: block;
       width: 96%;
@@ -1344,11 +1379,25 @@ h3 {
       margin-left: 0px;
       margin-top: 10px; }
 
-  /* line 1245, ../sass/style.scss */
+  /* line 1277, ../sass/style.scss */
   .footgrid .row {
     margin-bottom: 0px; }
-  /* line 1248, ../sass/style.scss */
+  /* line 1280, ../sass/style.scss */
   .footgrid li {
     width: 100%;
     margin: 0;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  /* line 1287, ../sass/style.scss */
+  .collections-pg .collection-hero {
+    width: 100%;
+    margin-right: 0%;
+    height: 350px; }
+
+  /* line 1293, ../sass/style.scss */
+  ul.slides li:nth-child(3n+3) {
+    margin-right: 0%; }
+
+  /* line 1297, ../sass/style.scss */
+  ul.slides li:nth-child(2n+2) {
+    margin-right: 0px; } }
