@@ -15,6 +15,14 @@
   <div class="wrapper">
     <div class="content">
       <ul class="slides">
+      <li class="collection-hero conferences">
+        <a href="<?php echo( $site->url())?>/conferences">
+          <div class="scroll-description">
+            <h1>Conferences</h1>
+            <p>Talks and slides and reflections from data visualization conference speakers and attendees.</p>
+          </div>
+        </a>
+      </li>
       <li class="collection-hero process">
         <a href="<?php echo( $site->url())?>/process">
           <div class="scroll-description">

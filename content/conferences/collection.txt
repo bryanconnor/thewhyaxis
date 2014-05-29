@@ -1,0 +1,33 @@
+Title: Conferences
+----
+Hero: content/conferences/hero.jpg
+----
+Description: Talks and slides and reflections from data visualization conference speakers and attendees.
+----
+
+Text: 
+(image:openvis.jpg)
+
+## OpenVis Conference - 2014
+
+OpenVis Conference, organized and hosted by (link:http://www.bocoup.com/ text:Boucoup), is in its second year. The conference focuses on creating visualizations for the web and openly sharing technologies and techniques. 
+
+- (link:http://openvisconf.com/ text:All OpenVis Conf Videos class:external)
+- (link:http://www.samselikoff.com/blog/2014/04/26/epilogue-for-ember-at-openvisconf/ text: An epilogue from Sam Selikoff's talk on Ember.js and D3.js class:external)
+- (link:http://www.visualisingdata.com/index.php/2014/04/talk-slides-from-openvisconf-2014-the-design-of-nothing/ text:Andy Kirk's slides from "The Design of Nothing" class:external)
+- (link:http://blogs.scientificamerican.com/sa-visual/2014/05/12/a-look-under-the-hood-of-online-data-visualization/ text: Jen Christiansen's reflections on OpenVis and her talk class:external)
+
+--
+
+(image:http://thewhyaxis.info/content/64-tapestry2014/tapestry2014.jpg)
+
+## Tapestry Conference - 2014
+
+(link:http://www.tapestryconference.com/ text:Tapestry Conference) also had its second event this year. Organized by (link:http://www.tableausoftware.com/ text:Tableau), this conference has a focus on storytelling and features a great mix of talks from speakers inside and outside of the visualization world.
+
+- (link:https://www.youtube.com/user/TapestryConference text: All Tapestry 2014 Videos class:external)
+- (link:http://thewhyaxis.info/tapestry2014/ text:Takeaways from Tapestry Conference on The Why Axis)
+- (link: http://www.visualisingdata.com/index.php/2014/03/a-short-reflection-about-tapestry-conference/ text: Andy Kirk's reflection on this year's conference class:external)
+- (link: http://www.chezvoila.com/blog/tapestry14 text:Tapestry 2014: A New Language by Francis Gagnon class:external)
+- (link: http://wannabeawesomeme.weebly.com/viz-a-viz/tapestry-takeaways text: Tapestry Takeaways from Emily Kund class:external)
+- (link: http://blogger.ghostweather.com/2014/03/implied-stories-and-data-vis.html text: Lynn Cherny's Tapestry wrap-up post class:external)
