@@ -16,6 +16,7 @@ OpenVis Conference, organized and hosted by (link:http://www.bocoup.com/ text:Bo
 - (link:http://www.samselikoff.com/blog/2014/04/26/epilogue-for-ember-at-openvisconf/ text: An epilogue from Sam Selikoff's talk on Ember.js and D3.js class:external)
 - (link:http://www.visualisingdata.com/index.php/2014/04/talk-slides-from-openvisconf-2014-the-design-of-nothing/ text:Andy Kirk's slides from "The Design of Nothing" class:external)
 - (link:http://blogs.scientificamerican.com/sa-visual/2014/05/12/a-look-under-the-hood-of-online-data-visualization/ text: Jen Christiansen's reflections on OpenVis and her talk class:external)
+- (link:https://speakerdeck.com/mgiraldo/nypl-labs-building-inspector-extracting-data-from-historic-maps text:Slides from Mauricio Giraldo's talk on extracting data from historic maps class:external)
 
 --
 
