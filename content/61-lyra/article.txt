@@ -64,7 +64,7 @@ Jim has started the ball rolling with his tutorial. I'll be adding new resources
 
 --
 
-## Other Demonstrations
+## Other Demos
 
 (imgslide: content/61-lyra/lyra-4.gif)
 
@@ -73,6 +73,14 @@ Jim has started the ball rolling with his tutorial. I'll be adding new resources
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=bertin text:Hotel Analysis by Jaques Bertin - reconstructed with Lyra)
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=napoleon text:Napoleon's March to Moscow by Charles Minard - reconstructed with Lyra)
 - (link: http://idl.cs.washington.edu/projects/lyra/app/#?example=les-mis text:Les Mis Character Co-occurence constructed with Lyra)
+
+--
+
+## Presentation
+
+(youtube: https://www.youtube.com/watch?v=io7BSu6RIYM class:graphic)
+
+Arvind also presented Lyra on stage at OpenVis Conference this year. He walked through some of the static examples above and talked about the future of Lyra for creating interactive visualizations.
 
 ## Reactions
 

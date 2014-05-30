@@ -38,6 +38,7 @@ Visage is a new tool to help you automate the boring parts of creating infograph
 
 - (link:http://thewhyaxis.info/lyra/ text: Read the article on The Why Axis)
 - (link:http://vallandingham.me/make_a_barchart_with_lyra.html text:View Jim's Lyra Tutorial class:external)
+- (link:https://www.youtube.com/watch?v=io7BSu6RIYM text:Arvind Satyanarayan presenting Lyra at OpenVis Conference class:external)
 
 --
 
