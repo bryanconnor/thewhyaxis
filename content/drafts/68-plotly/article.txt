@@ -1,0 +1,36 @@
+Title: Plotly.js Powers the Tool that has Cracked Community
+----
+Date: 5/16/2014
+----
+Hero: content/67-plotly/plotly1.png
+----
+Text:
+
+(imgslide: content/67-plotly/plotly1.png)
+
+After looking at (link:http://thewhyaxis.info/variance/ text:Variance) I wanted to examine other graphing tools that don't require a signup and can be licensed directly by individuals. A charting library with a business model suggests sustainability and makes for a strong candidate for your next project. 
+
+(link:https://plot.ly/plotly.js/ text:Plotly.js) is the library that powers the web tool of the same name but can be downloaded and hosted separately. They don't publish prices but an email to (email:sales@plot.ly) will give you a better picture (and individual service). 
+
+Plotly.js features many standard graph types but prides itself on their chart types geared towards scientists such as box plots, histograms, error bars, log scales, multiple y-axes and more. It also features a grammar similar to that used in Variance - you encode attributes of the graph in the "data" and "layout" objects, then plotly.js builds the graph from there.
+
+--
+
+(imgslide: content/67-plotly/plotly3.gif)
+
+I think the thing that sets Plotly apart from other charting libraries is the community that has been set up around it. The (link:https://plot.ly/feed text:Plotly feed) catalogs a huge amount of charts created with the tool. 
+
+Jack Parmer, Plotly's CEO, told me: 
+
+> We created the feed because we thought there should be a place where you can see what everybody else using Plotly is up to. We designed it to promote more conversation, more constructive criticism, and more collaboration.
+
+Each item can be (link:https://plot.ly/10/~NYT-Upshot text:forked and edited) with Plotly, making it incredibly easy to see how each is built. Each poster to the feed has a (link:https://plot.ly/~Dreamshot/ text:public profile page) and every graph can be commented on or improved by other members of the community. All this goes a long way to making the community and the library seem friendly and easy to use which I'm sure wins it many converts.
+
+----
+
+related:
+- article
+
+
+
+

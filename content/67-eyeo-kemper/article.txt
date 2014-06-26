@@ -1,0 +1,35 @@
+Title: Eyeo 2014 Recap from Kemper Smith
+----
+Date: 6/26/2014
+----
+Hero: content/67-eyeo-kemper/eyeo-kemper.jpg
+----
+Text: 
+
+(imgslide: content/67-eyeo-kemper/eyeo-kemper.jpg)
+
+> The following is a report from our Eyeo correspondent (link:https://twitter.com/kemper text:Kemper Smith).
+
+The fourth annual (link:http://eyeofestival.com/ text:Eyeo Festival) concluded on Friday with two disparate but inspiring presentations from (link:http://codact.ch/gb/home.html text:Cod.Act) and (link:http://roberthodgin.com/ text:Robert Hodgin) at Minneapolis's impressive Orchestra Hall. The space and the talks were indicative of Eyeo's increasing success as a conference merging the fields of data art, visualization, and speculative technology. (link:http://inst-int.com/ text:INST-INT)—the recently created conference on interactive installation from the same organizers—provided a little more room for Eyeo to focus on data and data art. But, thankfully, interactive art remained.
+
+Like previous years, Eyeo organizers limited the number of session tracks and therefore decisions to two. However, they did add more instructive sessions from sponsors during the middle of the day like "Animated Transitions in D3" and "Creative Coding and the New Kinect." I felt this was a great compromise that limited the tough decisions yet provided talks for people looking to dive deep into particular software.
+
+The thread of surveillance and data collection's ambiguous benefits spanned several talks throughout the conference. (link:https://twitter.com/katecrawford text:Kate Crawford)'s critical talk focused on the effects of surveillance on our behavior. She spoke about the disconnect between the public's fear of excessive data collection, and the surveillant's fear that they aren't collecting enough data. Other talks expressed more optimism about society’s ability to collect and capitalize on data. In (link:https://twitter.com/krees text:Kim Rees)’s talk on the future of data, she argued that the benefits of an increasing role for data in our lives might outweigh the potential for its misuse.
+
+(link:http://jklabs.net/ text:Jesse Kriss) and (link:http://scottdavidoff.com/research text:Scott Davidoff) of NASA's JPL both spoke about their experience helping scientists explore their data differently at JPL resulting in an improved scientific process. They discussed their design reasoning behind a dashboard for scientists monitoring SETI radio dish signals. Their design led to the increased efficiency for the scientists monitoring this complex system. Their work was a clear demonstration of how close collaboration and a focus on design can change they way people work and do science.
+
+(link:http://moebio.com/ text:Santiago Ortiz) gave a candid summary of the beginning months of his independent data visualization practice. He ran through several projects while showing how each one helped him complete his self-imposed goals. One example was (link:http://intuitionanalytics.com/other/lostalgic/ text:Lostalgic), a personal project visualizing character frequency and interactions from the LOST the television show. He was able to repurpose the interface for future client work. While Santiago went through several individual visualization projects, his point was to demonstrate that concerted effort and thoughtful work can lead to success.
+
+(link:http://bost.ocks.org/mike/ text:Mike Bostock) gave a more detailed presentation on his recent work. He stepped through different algorithms for sampling, sorting, and maze creation. He rendered both static sequences and animations of different sampling algorithms such as Uniform Random, Mitchell’s Best-Candidate, and Poisson Disc. He demonstrated that animations were not always the best method for conceptualizing sorting algorithms. Some sorting methods were easier to understand rendered as a single static image or a series of images showing each sort step. The visuals he presented were impressive both for their simplicity and efficiency of communication.
+
+Talks at Eyeo spanned the spectrum from philosophical to instructive. Watching (link:http://lillian.com/ text:Lillian Schwartz)'s seizure-inducing abstract films did not teach me how to design and implement a better bar chart. And I didn’t think to question technology’s role in culture while (link:https://twitter.com/mflux text:Michael Chang) was demonstrating how to parse CSV files for use with (link:http://threejs.org/ text:three.js). But participating in both helped me to frame my work and will inform my future decisions. This is what makes Eyeo great.
+
+
+----
+
+related:
+- article
+
+
+
+

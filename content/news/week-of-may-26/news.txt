@@ -4,8 +4,11 @@ Date: 5/30/2014
 ----
 Text:
 
+- (link:https://twitter.com/albertocairo/status/472078531674247168 text:Alberto Cairo hired by ProPublica)
+
 - (link:http://openvisconf.com/ text: OpenVis Conference Talks are Online)
 - (link:http://www.snd.org/2014/05/infographic-case-study-boston-globes-energetic-interactive-and-print-graphics/ text: SND: "Boston Globe’s energetic interactive and print graphics")
+
 - (link:http://www.fastcolabs.com/3030447/how-highcharts-won-the-enterprise-data-viz-market?partner=rss text: How Highcharts Won the Enterprise Data Viz Market)
 - (link:http://blogs.scientificamerican.com/sa-visual/2014/05/12/a-look-under-the-hood-of-online-data-visualization/ text: A Look under the Hood of Online Data Visualization)
 
