@@ -28,7 +28,7 @@ Talks at Eyeo spanned the spectrum from philosophical to instructive. Watching (
 ----
 
 related:
-- article
+- tapestry2014
 
 
 
