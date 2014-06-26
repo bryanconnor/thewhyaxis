@@ -6,6 +6,19 @@ Description: Talks and slides and reflections from data visualization conference
 ----
 
 Text: 
+
+(image:http://thewhyaxis.info/content/67-eyeo-kemper/eyeo-kemper.jpg)
+
+## Eyeo Festival - 2014
+
+(link:http://eyeofestival.com/ text:Eyeo)'s fourth event continued the conference’s success at bring people together around the merging fields of data art, visualization, and speculative technology.
+
+- (link:http://thewhyaxis.info/eyeo-kemper/ text:Eyeo 2014 Recap from Kemper Smith)
+
+
+--
+
+
 (image:openvis.jpg)
 
 ## OpenVis Conference - 2014
