@@ -2,7 +2,7 @@ Title: Eyeo 2014 Recap from Kemper Smith
 ----
 Date: 6/26/2014
 ----
-Hero: content/67-eyeo-kemper/eyeo-kemper.jpg
+Hero: eyeo-kemper.jpg
 ----
 Text: 
 

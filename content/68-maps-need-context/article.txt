@@ -1,0 +1,49 @@
+Title: Maps Need Context
+----
+Date: 7/2/2014
+----
+Hero: maps4.jpg
+----
+Text:
+
+> Co-authored by (link:https://twitter.com/jschwabish text:Jon Schwabish) and (link:https://twitter.com/thewhyaxis text:Bryan Connor). This post originally appeared on the Urban Institute’s (link:http://blog.metrotrends.org/2014/07/maps-context/? Metrotrends blog text:Metrotrends blog)
+
+(imgslide: content/68-maps-need-context/maps1.gif)
+
+It might be the case that maps are the most data-dense visualizations. Consider your basic roadmap: it includes road types (highways, toll roads), directions (one-way, two-way), geography (rivers, lakes), cities, types of cities (capitals), points of interest (schools, parks), and distance. Maps that encode statistical data, such as (link:http://www.urban.org/center/liwf/race-place-poverty.cfm text:bubble plots) or (link:http://www.urban.org/health_policy/health_care_reform/localmedicaidexpansion.cfm text:choropleth maps), are also data-dense and replace some of these geographic characteristics with different types of data encodings. But lately we’ve been wondering if most maps fail to convey enough context.
+
+As an example, consider this (link:http://datastories.in/blog/2013/04/09/what-would-a-poverty-map-of-india-look-like/ text:map of poverty rates by districts in India). It’s a fairly simple choropleth map and you can immediately discern different patterns: high poverty rates are concentrated in the districts in the northernmost part of the country, on part of the southeast border, and in a stretch across the middle of the country. Another set of high-poverty areas can be found in the land mass in the northeast part of the map. But here’s the thing: we don’t know much about India’s geography. Without some context—plotting cities or population centers—we can only just guess what this map is telling me.
+
+--
+
+(imgslide: content/68-maps-need-context/maps2.gif)
+
+Many readers will be more familiar with the geography of the United States. So when maps like (link:http://www.censusscope.org/us/map_poverty.html text:this one) from the Census Bureau show up, we are better equipped to understand it because we’re familiar with areas such as the high-poverty South and around the Texas-Mexico border. But then again, what about readers familiar with basic U.S. geography, but not familiar with patterns of poverty? How useful is this map for them?
+
+
+--
+
+(imgslide: content/68-maps-need-context/maps-bnia.jpg)
+
+To more completely understand data encoded to maps, context is important. Where are the city centers? What are the patterns of population or income or other metrics that may be important?
+
+For example, a team (including Bryan Connor) from this year’s civic hack day in Baltimore built something to directly address this problem. (link:http://anandthakker.github.io/baltimore-neighborhood-vitalsigns/#/i//c// text:This mapping tool) lets you build and compare every map possibly generated from the city data (as collected and published by the (link:http://bniajfi.org/ text:Baltimore Neighborhood Indicators Alliance)). Poverty can be placed next to population, racial diversity next to education data, and so on.
+
+--
+
+(imgslide: content/68-maps-need-context/maps4.jpg)
+
+The data visualization studio (link:http://www.interactivethings.com/ text:Interactive Things) provides us with another good example with their (link:http://work.interactivethings.com/nzz-swiss-maps/ text:Daily Swiss Maps) project for NZZ. Over several months, they worked with an editorial team to build maps that reveal new insights about Switzerland. Some feature (link:http://work.interactivethings.com/nzz-swiss-maps/konfessionslose-und-bevoelkerung.html text:small multiples), others highlight (link:http://work.interactivethings.com/nzz-swiss-maps/bevoelkerungsverhaeltnisse.html text:population distribution), and all of them link to a corresponding (link:http://www.nzz.ch/aktuell/inland-sommerserie-schweizer-karten-interaktiv/vergleich-kantone-staedte-bevoelkerungszahl-1.18126693 text:editorial explanation on nzz.ch).
+
+Maps are some of the most popular visualization types—and not just those that map (link:http://www.slate.com/blogs/business_insider/2013/10/16/map_america_s_favorite_beers_by_state.html text:favorite beer) types or (link:http://www.nytimes.com/interactive/2013/12/20/sunday-review/dialect-quiz-map.html?_r=0 text:accents)—but also those maps that provide dense levels of data in a familiar format. It’s just that sometimes those maps leave out a level of context that will help us better understand the information being shown.
+
+Are we suggesting that every single map needs several other maps to give context? Well, maybe. Or perhaps single maps need more and better annotation in order to highlight regions and patterns of relevance.
+
+----
+
+related:
+- dataviva
+
+
+
+
