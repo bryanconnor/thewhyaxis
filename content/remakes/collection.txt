@@ -7,9 +7,11 @@ Description: Articles on The Why Axis and elsewhere that seek to redesign or imp
 
 Text: 
 
+(image: content/remakes/periscopic-syria.gif)
+
 ## Removing Confusion from Complexity - Periscopic
 
-(image: content/remakes/periscopic-syria.gif)
+
 
 A thoughtful remake of a network diagram from (link:http://thinkprogress.org/world/2014/06/12/3447800/iraq-syria-chart/ text:ThinkProgress.org). Periscopic's redesign offers an alternative approach to visualizing a very complex situation with a very complex graphic.
 
