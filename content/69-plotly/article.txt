@@ -1,6 +1,6 @@
 Title: Plotly.js Powers the Tool that has Cracked Community
 ----
-Date: 5/16/2014
+Date: 7/9/2014
 ----
 Hero: plotly1.png
 ----
